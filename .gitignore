@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Credentials — never commit your AACT login
+.env
+*.pgpass
+config.yaml
+
+# Mac
+.DS_Store
+
+# DataGrip / JetBrains project settings
+.idea/
+
+# Big data files — too large for GitHub, and anyone can download them from AACT
+*.dmp
+*.zip
+data/raw/
