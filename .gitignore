@@ -1,0 +1,26 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases and raw AACT dumps (too large; see README for how to get them)
+*.duckdb
+*.db
+*.sqlite
+*.dump
+*.backup
+aact_*/
+raw/
+
+# Secrets / local config
+.env
+*.env

@@ -1,0 +1,939 @@
+drug_name,n_trials,first_pass,canonical_drug
+glp-1 receptor antagonist exendin[9-39],2,exclude: GLP-1 blocker,
+glp-1 receptor antagonist,2,exclude: GLP-1 blocker,
+(glp-1 receptor antagonist),1,exclude: GLP-1 blocker,
+glp-1 and exendin(9-39) 600,1,exclude: GLP-1 blocker,
+glp-1 and exendin(9-39) 300,1,exclude: GLP-1 blocker,
+glp-1 and exendin(9-39) 900,1,exclude: GLP-1 blocker,
+glp-1r antagonist,1,exclude: GLP-1 blocker,
+glp-1 and gip antagonism,1,exclude: GLP-1 blocker,
+exendin-9 is a 30 amino acid peptide that is an established competitive antagonist of the glp-1 receptor. subjects will receive exendin-9 by intravenous infusion at a rate of 600 pmol/kg/min,1,exclude: GLP-1 blocker,
+glp-1 antagonism,1,exclude: GLP-1 blocker,
+glucagon-like peptide 1 (glp-1) receptor antagonist,1,exclude: GLP-1 blocker,
+glp-1 antagonist,1,exclude: GLP-1 blocker,
+glp-1 and exendin(9-39) 1200,1,exclude: GLP-1 blocker,
+exenatide + exendin (9-39),1,exclude: GLP-1 blocker,exenatide
+teduglutide,34,exclude: GLP-2 drug,
+apraglutide,9,exclude: GLP-2 drug,
+glepaglutide,8,exclude: GLP-2 drug,
+elsiglutide,2,exclude: GLP-2 drug,
+glucagon-like peptide 2,2,exclude: GLP-2 drug,
+teduglutide 0.05 mg/kg/d,2,exclude: GLP-2 drug,
+teduglutide (alx-0600),2,exclude: GLP-2 drug,
+teduglutide 0.05 dose,2,exclude: GLP-2 drug,
+teduglutide 0.05,1,exclude: GLP-2 drug,
+human glp-2 (glucagon-like peptide-2),1,exclude: GLP-2 drug,
+glucagon like peptide 2,1,exclude: GLP-2 drug,
+teduglutide 0.10 mg/kg/d,1,exclude: GLP-2 drug,
+glepaglutide 10 mg,1,exclude: GLP-2 drug,
+glucagon like peptide-2,1,exclude: GLP-2 drug,
+"glucose-dependent insulinotropic polypeptide (gip), glucagon-like peptide-1 (glp-1) and glucagon-like peptide-2 (glp-2)",1,exclude: GLP-2 drug,
+teduglutide 0.1 mg dose,1,exclude: GLP-2 drug,
+tedguglutide,1,exclude: GLP-2 drug,
+glucagon-like peptide-2 (lot: ic-115) mfg. university of calgary,1,exclude: GLP-2 drug,
+glucagon-like peptide-2 (glp-2) analogue,1,exclude: GLP-2 drug,
+glucagon-like peptide 2 (glp-2) analogue,1,exclude: GLP-2 drug,
+glucagon-like peptide-2 (glp-2),1,exclude: GLP-2 drug,
+teduglutide + l-nmma,1,exclude: GLP-2 drug,
+teduglutide 0.05mg/kg,1,exclude: GLP-2 drug,
+teduglutide 0.1 mg/kg/d,1,exclude: GLP-2 drug,
+teduglutide 0.2 mg,1,exclude: GLP-2 drug,
+teduglutide + normal saline,1,exclude: GLP-2 drug,
+teduglutide control,1,exclude: GLP-2 drug,
+teduglutide 0.025 mg/kg,1,exclude: GLP-2 drug,
+glp-1 infusion,5,exclude: native GLP-1,
+glp-1 (7-36) amide,4,exclude: native GLP-1,
+increasing doses of glp-1,1,exclude: native GLP-1,
+infusion of native hormones from the pancreas and gut (glp-1),1,exclude: native GLP-1,
+glp-1 peptide,1,exclude: native GLP-1,
+microinjection of glp-1 (native glp-1),1,exclude: native GLP-1,
+glp-1 mid-range dose,1,exclude: native GLP-1,
+intradermal injections of glp-1 and its analogues,1,exclude: native GLP-1,
+glp-1(7-36)nh2,1,exclude: native GLP-1,
+glp-1 low dose,1,exclude: native GLP-1,
+"glp-1 infusion (clinalfa, laeufelingen, switzerland)",1,exclude: native GLP-1,
+"1,5 nmol/kg,glp-1 sc injection",1,exclude: native GLP-1,
+glp-1 hormone,1,exclude: native GLP-1,
+glp-1 high dose,1,exclude: native GLP-1,
+native glp-1,1,exclude: native GLP-1,
+native glp-1 (7-36),1,exclude: native GLP-1,
+"native glp-1(7,36)",1,exclude: native GLP-1,
+glucagon like peptide-1 (7-36),1,exclude: native GLP-1,
+glp-1 and glucagon infusion,1,exclude: native GLP-1,
+glucagon-like peptide- 1 (glp-1) infusion,1,exclude: native GLP-1,
+glp-1 and gip,1,exclude: native GLP-1,
+glp-1 + saline,1,exclude: native GLP-1,
+glp-1 + neurotensin,1,exclude: native GLP-1,
+native human glucagon-like peptide-1 ( glp-1(7-36)),1,exclude: native GLP-1,
+glp-1 (7-36)amide,1,exclude: native GLP-1,
+"1,5 nmol/kg glp-1 9-36amide, sc injection",1,exclude: native GLP-1,
+last 5 amino acids of glp-1,1,exclude: native GLP-1,
+synthetic glp-1 (1.5 pmol/kg/min) dissolved in 500 ml 0.9% saline,1,exclude: native GLP-1,
+no other names for glp-1 and gip.,1,exclude: native GLP-1,
+human glp-1 (7-36) amide,1,exclude: native GLP-1,
+human glp-1 (glucagon-like peptide-1),1,exclude: native GLP-1,
+human glucagon-like peptide 1 (7-36)amide,1,exclude: native GLP-1,
+human glucagon-like peptide 1 (9-36)amide,1,exclude: native GLP-1,
+"glp-1-9,36 infusion",1,exclude: native GLP-1,
+hyperglycemic clamp with concurrent glp-1 infusion,1,exclude: native GLP-1,
+"hyperglycemic clamp with infusion of saline, glp-1 or gip",1,exclude: native GLP-1,
+iigi+gip+glp-1,1,exclude: native GLP-1,
+iigi+glp-1,1,exclude: native GLP-1,
+glp-1(7-36)amide,1,exclude: native GLP-1,
+non-glp-1 ra based glucose lowering drugs,1,exclude: no GLP-1,
+"standard of care (basal insulin or premixed insulin, excluding any glp-1 receptor agonist-containing drugs)",1,exclude: no GLP-1,
+other hypoglycemic agents not including glp-1 receptor agonists,1,exclude: no GLP-1,
+"new initiation of ""standard of care"" (sgl2i, 2nd generation su, dpp-4i and glp-1 ra except for semaglutide inj or oral)",1,exclude: no GLP-1,semaglutide
+na-931 150 mg + no tirzepatide,1,exclude: no GLP-1,tirzepatide
+all standard of care to diabetic patient besides tirzepatide,1,exclude: no GLP-1,tirzepatide
+blood no treated glp1,1,exclude: not a treatment,
+gut-brain axis (glp-1)-activating food carbohydrate,1,exclude: not a treatment,
+plasma glp-1,1,exclude: not a treatment,
+plasma glucagon-like peptide-1 levels,1,exclude: not a treatment,
+glp-1-activating carbohydrate,1,exclude: not a treatment,
+resm™ glp-1 postbiotic,1,exclude: not a treatment,
+analysis of glp-1 receptor expression,1,exclude: not a treatment,
+blood glp1,1,exclude: not a treatment,
+evolv glp-1 group,1,exclude: not a treatment,
+glp-1 booster (gb),1,exclude: not a treatment,
+glp-1 cellbeads,1,exclude: not a treatment,
+glp-1 formula,1,exclude: not a treatment,
+glp-1 formula group,1,exclude: not a treatment,
+glp-1 formula liquid drink,1,exclude: not a treatment,
+"arm 2 (low dose): 125mg dim and 525mg perilla oil in guardcap™ colon-targeted capsules, activating gpr84 and ffa4 to stimulate pyy and glp-1 release.",1,exclude: not a treatment,
+glp-1 receptor pet/ct,1,exclude: not a treatment,
+[68ga] ga-do3a-vs-cys40-exendin-4 (glp-1 receptor tracer),1,exclude: not a treatment,
+glp-1r pet,1,exclude: not a treatment,
+"arm 1 (medium dose): 250mg dim and 1050mg perilla oil in guardcap™ colon-targeted capsules, activating gpr84 and ffa4 to stimulate pyy and glp-1 release.",1,exclude: not a treatment,
+determination of plasma glp-1 level,1,exclude: not a treatment,
+analyze basal expression incretin for immunolabeling and mrna expression glucagon-like secretion peptide-1 (glp-1) and peptide yy (pyy 3-36) incretins by l cells.,1,exclude: not a treatment,
+placebo (semaglutide),27,exclude: placebo,semaglutide
+placebo semaglutide,15,exclude: placebo,semaglutide
+semaglutide placebo,7,exclude: placebo,semaglutide
+tirzepatide placebo,5,exclude: placebo,tirzepatide
+liraglutide 3 mg placebo,5,exclude: placebo,liraglutide
+exenatide placebo,3,exclude: placebo,exenatide
+placebo matched to cagrisema (cagrilintide b and semaglutide i),3,exclude: placebo,semaglutide
+placebo matching survodutide,3,exclude: placebo,survodutide
+placebo (matched to semaglutide),2,exclude: placebo,semaglutide
+mazdutide placebo,2,exclude: placebo,mazdutide
+placebo for liraglutide,2,exclude: placebo,liraglutide
+liraglutide - placebo,2,exclude: placebo,liraglutide
+exenatide matching placebo,2,exclude: placebo,exenatide
+placebo cagrisema,2,exclude: placebo,semaglutide
+albiglutide matching placebo,2,exclude: placebo,albiglutide
+tirzepatide-placebo,2,exclude: placebo,tirzepatide
+liraglutide placebo,2,exclude: placebo,liraglutide
+placebo (semaglutide c),1,exclude: placebo,semaglutide
+semaglutide 2.4 mg (placebo),1,exclude: placebo,semaglutide
+semaglutide 1.34 mg/ml placebo,1,exclude: placebo,semaglutide
+semaglutide 1.34 mg/ml (placebo),1,exclude: placebo,semaglutide
+placebo-liraglutide,1,exclude: placebo,liraglutide
+placebo to match albiglutide,1,exclude: placebo,albiglutide
+placebo semaglutide pen injector,1,exclude: placebo,semaglutide
+placebo semaglutide 1mg,1,exclude: placebo,semaglutide
+efsubaglutide alfa placebo,1,exclude: placebo,
+placebo saxenda,1,exclude: placebo,liraglutide
+placebo ozempic,1,exclude: placebo,semaglutide
+placebo matching mazdutide,1,exclude: placebo,mazdutide
+placebo liraglutide pen injector,1,exclude: placebo,liraglutide
+cotadutide-placebo,1,exclude: placebo,cotadutide
+placebo liraglutide 3 mg,1,exclude: placebo,liraglutide
+liraglutide placebo (novo nordisk),1,exclude: placebo,liraglutide
+liraglutide-placebo,1,exclude: placebo,liraglutide
+exenatide placebo (saline),1,exclude: placebo,exenatide
+lixisenatide placebo,1,exclude: placebo,lixisenatide
+lixisenatide-placebo,1,exclude: placebo,lixisenatide
+placebo ii (semaglutide),1,exclude: placebo,semaglutide
+exenatide vehicle,1,exclude: placebo,exenatide
+placebo i (semaglutide),1,exclude: placebo,semaglutide
+placebo for saxenda (liraglutide),1,exclude: placebo,liraglutide
+lyophilized albiglutide dcc pen injector matching placebo,1,exclude: placebo,albiglutide
+placebo for maridebart cafraglutide,1,exclude: placebo,maridebart cafraglutide
+matching albiglutide placebo,1,exclude: placebo,albiglutide
+matching liraglutide-placebo pre-filled pens,1,exclude: placebo,liraglutide
+albiglutide liquid auto-injector matching placebo,1,exclude: placebo,albiglutide
+placebo for glp-1,1,exclude: placebo,
+placebo exenatide,1,exclude: placebo,exenatide
+placebo albiglutide,1,exclude: placebo,albiglutide
+noiiglutide placebo,1,exclude: placebo,
+placebo (semaglutide 3 mg/ml),1,exclude: placebo,semaglutide
+placebo (semaglutide 2.4 mg),1,exclude: placebo,semaglutide
+placebo (semaglutide 1.0 mg),1,exclude: placebo,semaglutide
+placebo (semaglutide 0.5 mg),1,exclude: placebo,semaglutide
+placebo (oral semaglutide),1,exclude: placebo,semaglutide
+placebo (matching taspoglutide),1,exclude: placebo,taspoglutide
+sleeve gastrectomy followed with early mazdutide placebo initation,1,exclude: placebo,mazdutide
+placebo - exenatide - exenatide,1,exclude: placebo,exenatide
+placebo ( semaglutide d),1,exclude: placebo,semaglutide
+placebo (for liraglutide),1,exclude: placebo,liraglutide
+placebo (liraglutide 3.0 mg),1,exclude: placebo,liraglutide
+placebo (liraglutide),1,exclude: placebo,liraglutide
+semaglutide-placebo,1,exclude: placebo,semaglutide
+semaglutide placebo 1.0 mg,1,exclude: placebo,semaglutide
+semaglutide placebo 0.5 mg,1,exclude: placebo,semaglutide
+semaglutide placebo (group b),1,exclude: placebo,semaglutide
+semaglutide placebo (group a),1,exclude: placebo,semaglutide
+semaglutide,370,keep,semaglutide
+liraglutide,331,keep,liraglutide
+tirzepatide,223,keep,tirzepatide
+exenatide,175,keep,exenatide
+byetta,109,keep,exenatide
+dulaglutide,97,keep,dulaglutide
+victoza,96,keep,liraglutide
+ozempic,51,keep,semaglutide
+orforglipron,36,keep,orforglipron
+wegovy,36,keep,semaglutide
+oral semaglutide,33,keep,semaglutide
+saxenda,32,keep,liraglutide
+bydureon,31,keep,exenatide
+maridebart cafraglutide,28,keep,maridebart cafraglutide
+lixisenatide (ave0010),27,keep,lixisenatide
+mounjaro,25,keep,tirzepatide
+survodutide,25,keep,survodutide
+insulin degludec/liraglutide,24,keep,liraglutide
+albiglutide,20,keep,albiglutide
+zepbound,20,keep,tirzepatide
+retatrutide,19,keep,retatrutide
+exenatide once weekly,16,keep,exenatide
+mazdutide,15,keep,mazdutide
+semaglutide pen injector,15,keep,semaglutide
+rybelsus,14,keep,semaglutide
+lixisenatide,13,keep,lixisenatide
+victoza®,13,keep,liraglutide
+lyxumia,13,keep,lixisenatide
+semaglutide injection,12,keep,semaglutide
+taspoglutide,12,keep,taspoglutide
+semaglutide injectable product,11,keep,semaglutide
+ideglira,11,keep,liraglutide
+trulicity,11,keep,dulaglutide
+semaglutide 1.0 mg,10,keep,semaglutide
+semaglutide (rybelsus®),10,keep,semaglutide
+ozempic®,10,keep,semaglutide
+polyethylene glycol loxenatide,9,keep,loxenatide
+iglarlixi,9,keep,lixisenatide
+semaglutide 2.4 mg,9,keep,semaglutide
+pemvidutide,8,keep,pemvidutide
+wegovy®,8,keep,semaglutide
+"semaglutide, 1.34 mg/ml",8,keep,semaglutide
+insulin glargine/lixisenatide (hoe901/ave0010),7,keep,lixisenatide
+semaglutide 0.5 mg,7,keep,semaglutide
+dulaglutide injection,7,keep,dulaglutide
+liraglutide injection,7,keep,liraglutide
+efinopegdutide,6,keep,efinopegdutide
+semaglutide (sema),6,keep,semaglutide
+semaglutide pen injector [ozempic],6,keep,semaglutide
+semaglutide (wegovy) weekly injection,6,keep,semaglutide
+liraglutide 3 mg (saxenda),6,keep,liraglutide
+semaglutide weekly injection,6,keep,semaglutide
+saxenda®,5,keep,liraglutide
+exenatide injection,5,keep,exenatide
+liraglutide 3.0 mg,5,keep,liraglutide
+lixisenatide ave0010,5,keep,lixisenatide
+"semaglutide, 1.0 mg/ml",5,keep,semaglutide
+cotadutide,5,keep,cotadutide
+liraglutide pen injector [saxenda],4,keep,liraglutide
+exenatide twice daily,4,keep,exenatide
+semaglutide (administered by pds290 pen-injector),4,keep,semaglutide
+"semaglutide, 0.5 mg/ml",4,keep,semaglutide
+liraglutide (saxenda) 6mg/ml inj pen 3ml,4,keep,liraglutide
+semaglutide (1 mg dose),4,keep,semaglutide
+victoza 6 mg/ml solution for injection in pre-filled pen,4,keep,liraglutide
+cagrisema (cagrilintide b and semaglutide i),4,keep,semaglutide
+liraglutide pen injector,4,keep,liraglutide
+byetta®,4,keep,exenatide
+bydureon®,4,keep,exenatide
+cagrisema,4,keep,semaglutide
+danuglipron,4,keep,danuglipron
+semaglutide (administered by dv3396 pen),3,keep,semaglutide
+semaglutide (wegovy®),3,keep,semaglutide
+semaglutide 0.25 mg,3,keep,semaglutide
+ecnoglutide,3,keep,ecnoglutide
+ecnoglutide injection,3,keep,ecnoglutide
+semaglutide 1.34 mg/ml,3,keep,semaglutide
+semaglutide 14 mg [rybelsus],3,keep,semaglutide
+benaglutide,3,keep,beinaglutide
+beinaglutide,3,keep,beinaglutide
+insulin glargine/lixisenatide,3,keep,lixisenatide
+eloralintide and tirzepatide,3,keep,tirzepatide
+semaglutide 2.4 mg/0.75 ml subcutaneous solution [wegovy],3,keep,semaglutide
+iglarlixi (insulin glargine/lixisenatide),3,keep,lixisenatide
+semaglutide 7 mg,3,keep,semaglutide
+semaglutide pill,3,keep,semaglutide
+oral ecnoglutide,3,keep,ecnoglutide
+semaglutide 2.4mg,3,keep,semaglutide
+soliqua,3,keep,lixisenatide
+semaglutide pen,3,keep,semaglutide
+semaglutide oral tablet,3,keep,semaglutide
+semaglutide j,3,keep,semaglutide
+semaglutide 3 mg,3,keep,semaglutide
+semaglutide (administered by pds290 pen),3,keep,semaglutide
+byetta (exenatide),3,keep,exenatide
+wegovy ®,3,keep,semaglutide
+liraglutide + metformin,3,keep,liraglutide
+exenatide 2 mg [bydureon],3,keep,exenatide
+liraglutide pen injector [victoza],3,keep,liraglutide
+semaglutide or tirzepatide,2,keep,semaglutide
+dulaglutide 0.75mg/0.5ml inj pen,2,keep,dulaglutide
+survodutide formulation b2,2,keep,survodutide
+efpeglenatide sar439977,2,keep,efpeglenatide
+dulaglutide 1.5 mg/ml,2,keep,dulaglutide
+semaglutide d dose 3,2,keep,semaglutide
+rybelsus 7 mg,2,keep,semaglutide
+rybelsus tablet,2,keep,semaglutide
+insulin glargine /lixisenatide fixed ratio combination,2,keep,lixisenatide
+"semaglutide, 2.0 mg/ml",2,keep,semaglutide
+insulin glargine/lixisenatide fixed ratio combination,2,keep,lixisenatide
+exenatide (byetta),2,keep,exenatide
+efpeglenatide (sar439977),2,keep,efpeglenatide
+semaglutide 3 mg/ml,2,keep,semaglutide
+cagrilintide and semaglutide,2,keep,semaglutide
+itca 650 (exenatide in duros),2,keep,exenatide
+semaglutide subcutaneous injection,2,keep,semaglutide
+semaglutide b,2,keep,semaglutide
+trulicity®,2,keep,dulaglutide
+metformin and liraglutide,2,keep,liraglutide
+dulaglutide 0.75mg subcutaneous injection,2,keep,dulaglutide
+"semaglutide b, 1.34 mg/ml",2,keep,semaglutide
+xultophy®,2,keep,liraglutide
+mazdutide(dual glp-1r/gcgr agonist),2,keep,mazdutide
+bydureon bcise,2,keep,exenatide
+"semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",2,keep,semaglutide
+semaglutide 1.7mg subcutaneous,2,keep,semaglutide
+ecnoglutide low dosage,2,keep,ecnoglutide
+ecnoglutide high dosage,2,keep,ecnoglutide
+benaglutide injection,2,keep,beinaglutide
+liraglutide 3mg,2,keep,liraglutide
+"wegovy, ozempic",2,keep,semaglutide
+trade name: victoza,2,keep,liraglutide
+liraglutide 6 mg/ml,2,keep,liraglutide
+liraglutide 6 mg/ml [saxenda],2,keep,liraglutide
+exenatide-byetta,2,keep,exenatide
+exenatide extended-release,2,keep,exenatide
+semaglutide 1 mg,2,keep,semaglutide
+albiglutide 50 mg,2,keep,albiglutide
+albiglutide liquid auto-injector,2,keep,albiglutide
+semaglutide d dose 1,2,keep,semaglutide
+exenatide twice daily (bid),2,keep,exenatide
+exenatide once weekly suspension,2,keep,exenatide
+"byetta (lilly, exenatide)",2,keep,exenatide
+semaglutide d dose 2,2,keep,semaglutide
+xultophy,2,keep,liraglutide
+exenatide lar,2,keep,exenatide
+exenatide sc,2,keep,exenatide
+soliqua 100/33,2,keep,lixisenatide
+"byetta, bydureon",2,keep,exenatide
+ozempic injectable product,2,keep,semaglutide
+glucophage tablets and victoza 6 mg/ml solution for injection in pre-filled pen,2,keep,liraglutide
+glucagon-like peptide-1 receptor agonist：semaglutide,2,keep,semaglutide
+tirzepatide 2.5mg weekly,2,keep,tirzepatide
+survodutide formulation a,2,keep,survodutide
+victoza (liraglutide),2,keep,liraglutide
+exenatide 2 mg,2,keep,exenatide
+semaglutide (ozempic®),2,keep,semaglutide
+tirzepatide (flexible titration),2,keep,tirzepatide
+cotadutide solution for injection,1,keep,cotadutide
+- exenatide extended-release (bydureon®).,1,keep,exenatide
+- liraglutide (victoza®),1,keep,liraglutide
+- lixisenatide (lyxumia®),1,keep,lixisenatide
+"""liraglutide"" and ""mitiglinide""",1,keep,liraglutide
+[3h]-liraglutide,1,keep,liraglutide
+• bydureon,1,keep,exenatide
+0.6 mg liraglutide,1,keep,liraglutide
+12 weeks of weekly subcutaneous semaglutide injection,1,keep,semaglutide
+14c tirzepatide,1,keep,tirzepatide
+ac2993 (exenatide),1,keep,exenatide
+"acei / arb, sglt2i, finerenone, semaglutide, pentoxifylline, hydrochlorthiazide, baricitinib",1,keep,semaglutide
+active semaglutide,1,keep,semaglutide
+active substance: liraglutide,1,keep,liraglutide
+actos and bydureon,1,keep,exenatide
+albiglutide (gsk716155),1,keep,albiglutide
+albiglutide (gsk716155) or exenatide,1,keep,exenatide
+"albiglutide (tanzeum) or , dulaglutide (trulicity)",1,keep,dulaglutide
+albiglutide + insulin glargine,1,keep,albiglutide
+albiglutide 15mg weekly,1,keep,albiglutide
+albiglutide 30 mg,1,keep,albiglutide
+albiglutide 30 mg weekly,1,keep,albiglutide
+albiglutide 30mg every other week,1,keep,albiglutide
+albiglutide 30mg weekly,1,keep,albiglutide
+albiglutide 50 mg weekly,1,keep,albiglutide
+albiglutide 50mg,1,keep,albiglutide
+albiglutide lyophilized dcc pen injector,1,keep,albiglutide
+albiglutide uptitration,1,keep,albiglutide
+albiglutide weekly injection,1,keep,albiglutide
+ampk charge+® with semaglutide,1,keep,semaglutide
+and its analogues such as exenatide(byetta),1,keep,exenatide
+and liraglutide (victoza),1,keep,liraglutide
+"antiobesity drugs ,liraglutide or orlistat",1,keep,liraglutide
+apo-semaglutide,1,keep,semaglutide
+arm 2 - dehydratech-semaglutide alone,1,keep,semaglutide
+arm 3 - dehydratech-cbd in combination with dehydratech-semaglutide,1,keep,semaglutide
+arm 4 - rybelsus medication (semaglutide) alone,1,keep,semaglutide
+arm 5- tirzepatide,1,keep,tirzepatide
+asc47 +semaglutide,1,keep,semaglutide
+auto-injector with exenatide suspension,1,keep,exenatide
+b - exenatide 10 mcg twice daily,1,keep,exenatide
+basal insulin and exenatide,1,keep,exenatide
+basal insulin glargine and lixisenatide,1,keep,lixisenatide
+basal treatment + exenatide,1,keep,exenatide
+bimagrumab + tirzepatide coformulation,1,keep,tirzepatide
+brand name: victoza,1,keep,liraglutide
+bydureon bcise (exenatide extended release),1,keep,exenatide
+"bydureon pen, 2 mg, extended release",1,keep,exenatide
+bydureon plus farxiga,1,keep,exenatide
+"bydureon, victoza",1,keep,liraglutide
+bydureon™,1,keep,exenatide
+byetta 5mcg pen injection,1,keep,exenatide
+byetta plus dapagliflozin,1,keep,exenatide
+byetta treatment,1,keep,exenatide
+"byetta, bydureon/bydureon bcise",1,keep,exenatide
+"byetta, exenatide",1,keep,exenatide
+"byetta, exendin-4",1,keep,exenatide
+byetta.lilly,1,keep,exenatide
+byetta®(eli lilly and company),1,keep,exenatide
+c - exenatide 10 mcg once daily,1,keep,exenatide
+cagrilintide + semaglutide,1,keep,semaglutide
+cagrisema (cagrilintide b + semaglutide i),1,keep,semaglutide
+cagrisema a,1,keep,semaglutide
+"cinnagen-liraglutide, victoza",1,keep,liraglutide
+"closed loop with sensor, insulin and liraglutide",1,keep,liraglutide
+co-formulation nnc0480 0389+semaglutide a 10/1 mg/ml,1,keep,semaglutide
+cotadutide 100 micrograms,1,keep,cotadutide
+cotadutide 300 micrograms,1,keep,cotadutide
+cotadutide 600 micrograms,1,keep,cotadutide
+cotadutide high dose,1,keep,cotadutide
+cotadutide low dose,1,keep,cotadutide
+cotadutide multidose pen injection,1,keep,cotadutide
+- exenatide (byetta®),1,keep,exenatide
+dapiglutide,1,keep,dapiglutide
+dapiglutide 7.5 mg,1,keep,dapiglutide
+"day 1 : 0.9% saline solution, day 2 exenatide",1,keep,exenatide
+day 1 exenatide; day 2 : 0.9% saline solution,1,keep,exenatide
+dietary advice plus liraglutide pen injector,1,keep,liraglutide
+"dietary, semaglutide or/and metformin",1,keep,semaglutide
+digoxin plus albiglutide,1,keep,albiglutide
+dose escalation to 2 mg semaglutide weekly then no semaglutide,1,keep,semaglutide
+dose escalation to 2 mg semaglutide weekly then semaglutide microdosing at 0.5 mg weekly,1,keep,semaglutide
+drug: semaglutide administered sc,1,keep,semaglutide
+dual gip/glp-1 receptor agonist tirzepatide,1,keep,tirzepatide
+dual glp-1/glp-2 receptor agonists,1,keep,
+dual glp-1r/glp-2r agonist,1,keep,
+dulaglutide (reference),1,keep,dulaglutide
+dulaglutide (test),1,keep,dulaglutide
+dulaglutide (trulicity),1,keep,dulaglutide
+dulaglutide (trulicity®) 1.5 mg,1,keep,dulaglutide
+dulaglutide 1.5 mg,1,keep,dulaglutide
+dulaglutide pen,1,keep,dulaglutide
+"dulaglutide,qw",1,keep,dulaglutide
+"dulaglutide,subcutaneous injection,qw",1,keep,dulaglutide
+"duragtide, semaglutide, losenatide, tirzepatide, ebenatide, etc",1,keep,semaglutide
+ecnoglutide medium dosage,1,keep,ecnoglutide
+ecnoglutide tablets,1,keep,ecnoglutide
+efinopegdutide 20 mg/ml,1,keep,efinopegdutide
+efpeglenatide,1,keep,efpeglenatide
+empagliflozin 10mg oral tablet / semaglutide 1mg pen injector,1,keep,semaglutide
+empagliflozin 25 mg + liraglutide 1.8 mg,1,keep,liraglutide
+empagliflozin and dulaglutide,1,keep,dulaglutide
+ethinyl estradiol and levonorgestrel; exenatide,1,keep,exenatide
+exenatide (50ng/min for 30 minutes loading followed by 25ng/min maintenance) and glucagon 12.5ng/kg/min,1,keep,exenatide
+exenatide (ac2993),1,keep,exenatide
+exenatide (bydureon®),1,keep,exenatide
+exenatide (byeta),1,keep,exenatide
+exenatide (byetta®),1,keep,exenatide
+exenatide (glp-1ra),1,keep,exenatide
+exenatide (glp-1ra) or liraglutide (glp-1ra),1,keep,liraglutide
+exenatide (ly2148568),1,keep,exenatide
+exenatide = byetta (r),1,keep,exenatide
+exenatide 0.27 ng/kg/min,1,keep,exenatide
+exenatide 0.41 ng/kg/min,1,keep,exenatide
+exenatide 10 mcg,1,keep,exenatide
+exenatide 10microgram,1,keep,exenatide
+exenatide 2 mg injection,1,keep,exenatide
+exenatide 2 milligram (mg) injection,1,keep,exenatide
+exenatide 20 mcg once daily,1,keep,exenatide
+exenatide 5 and 10 mcg 2 times a day,1,keep,exenatide
+exenatide 5 mcg,1,keep,exenatide
+exenatide administration,1,keep,exenatide
+exenatide and dapagliflozin,1,keep,exenatide
+exenatide and sitagliptin,1,keep,exenatide
+exenatide byetta® (amylin-lilly),1,keep,exenatide
+exenatide circular rna-lipid nanoparticle injection（ cr059））,1,keep,exenatide
+exenatide er,1,keep,exenatide
+exenatide extended release,1,keep,exenatide
+exenatide extended release 2mg (bydureon),1,keep,exenatide
+exenatide extended release for inj susp 2 mg,1,keep,exenatide
+exenatide extended-release (er),1,keep,exenatide
+exenatide implant,1,keep,exenatide
+exenatide infusion,1,keep,exenatide
+exenatide injection (before the first fsigt),1,keep,exenatide
+exenatide injection before the second fsigt),1,keep,exenatide
+exenatide injection(byetta),1,keep,exenatide
+exenatide iv,1,keep,exenatide
+exenatide microspheres,1,keep,exenatide
+exenatide microspheres for injection,1,keep,exenatide
+exenatide once monthly suspension,1,keep,exenatide
+exenatide once weekly (bydureon™),1,keep,exenatide
+exenatide once weekly (eqw ),1,keep,exenatide
+exenatide once weekly (qw),1,keep,exenatide
+exenatide once-weekly suspension,1,keep,exenatide
+exenatide or metformin hydrochloride,1,keep,exenatide
+exenatide pen injector [bydureon],1,keep,exenatide
+exenatide sr,1,keep,exenatide
+exenatide treatment,1,keep,exenatide
+exenatide-bayetta,1,keep,exenatide
+exenatide-byetta; sitagliptin-januvia,1,keep,exenatide
+exenatide-lar plus dapagliflozin,1,keep,exenatide
+"exenatide, liraglutide",1,keep,liraglutide
+"exenatide, long acting release",1,keep,exenatide
+exenatide/exenatide extended release,1,keep,exenatide
+exenatide/insulin glargine,1,keep,exenatide
+"exendin-4, byetta",1,keep,exenatide
+experimental: cotadutide,1,keep,cotadutide
+experimental: glp1-ra (exenatide) administration,1,keep,exenatide
+extended-release exenatide,1,keep,exenatide
+finerenone and semaglutide,1,keep,semaglutide
+generic semaglutide,1,keep,semaglutide
+glargine + exenatide,1,keep,exenatide
+glargine insulin / lixisenatide,1,keep,lixisenatide
+glp-1 (liraglutide),1,keep,liraglutide
+glp-1 analogue - semaglutide,1,keep,semaglutide
+glp-1 receptor agonist ; byetta,1,keep,exenatide
+glp-1 receptor agonist (liraglutide),1,keep,liraglutide
+glp-1/glp-2 agonist,1,keep,
+glp1-ra (semaglutide),1,keep,semaglutide
+glucophage and victoza,1,keep,liraglutide
+glucophage tablets and victoza,1,keep,liraglutide
+growth hormone and lirglutide,1,keep,liraglutide
+injectable semaglutide or injectable tirzepatide,1,keep,semaglutide
+insulin + semaglutide treatment,1,keep,semaglutide
+insulin degludec / liraglutide,1,keep,liraglutide
+insulin degludec / liraglutide injectable product,1,keep,liraglutide
+insulin degludec + liraglutide,1,keep,liraglutide
+insulin degludec and liraglutide (ideglira),1,keep,liraglutide
+insulin degludec/liraglutide injection,1,keep,liraglutide
+insulin degludec/liraglutide*,1,keep,liraglutide
+insulin glargine + exenatide + preexisting metformin,1,keep,exenatide
+"insulin glargine, human recombinant analog/lixisenatide*",1,keep,lixisenatide
+insulin glargine/ lixisenatide fixed-ratio combination hoe901/ave0010,1,keep,lixisenatide
+insulin glargine/exenatide,1,keep,exenatide
+insulin glargine/lixisenatide hoe901/ave0010,1,keep,lixisenatide
+"insulin lispro injection, exenatide injection",1,keep,exenatide
+insulin-levemir and exenatide-bayetta,1,keep,exenatide
+intervention 2: semaglutide,1,keep,semaglutide
+intervention period 1: semaglutide + empagliflozin,1,keep,semaglutide
+islet cell transplant + etanercept + exenatide,1,keep,exenatide
+itca 650 (exenatide in osmotic mini pump),1,keep,exenatide
+jardiance and trulicity,1,keep,dulaglutide
+"jardiance(r), ozempic(r)",1,keep,semaglutide
+lae102 +tirzepatide,1,keep,tirzepatide
+levemir+exenatide,1,keep,exenatide
+liraglutide (glp-1ra),1,keep,liraglutide
+"liraglutide (novo nordisk, bagsværd, denmark)",1,keep,liraglutide
+liraglutide (vicotza),1,keep,liraglutide
+liraglutide (victoza),1,keep,liraglutide
+liraglutide [3h],1,keep,liraglutide
+liraglutide / semaglutide,1,keep,semaglutide
+liraglutide + exercise training,1,keep,liraglutide
+liraglutide + oads,1,keep,liraglutide
+liraglutide + orlistat,1,keep,liraglutide
+liraglutide 0.6 mg,1,keep,liraglutide
+liraglutide 0.9 mg daily,1,keep,liraglutide
+liraglutide 1.2 mg,1,keep,liraglutide
+liraglutide 1.8 mg + empagliflozin 25 mg,1,keep,liraglutide
+liraglutide 1.8mg,1,keep,liraglutide
+liraglutide 3 mg (saxenda®) once-daily,1,keep,liraglutide
+liraglutide 3 mg/0.5 ml (18 mg/3 ml) sub-q pen injector (ml),1,keep,liraglutide
+liraglutide 3.0,1,keep,liraglutide
+liraglutide 3.0mg,1,keep,liraglutide
+liraglutide 6 mg,1,keep,liraglutide
+liraglutide 6 mg solution for injection,1,keep,liraglutide
+liraglutide 6 mg/ml [victoza],1,keep,liraglutide
+liraglutide 6 mg/ml pen injector,1,keep,liraglutide
+liraglutide 6 mg/ml subcutaneously,1,keep,liraglutide
+liraglutide acetate,1,keep,liraglutide
+liraglutide and cpap,1,keep,liraglutide
+liraglutide and metformin,1,keep,liraglutide
+liraglutide combined with metformin,1,keep,liraglutide
+liraglutide combined with orlistat,1,keep,liraglutide
+"liraglutide daily (0.6-3.0mg, highest tolerable dose) additional to dietological measures and lifestyle optimization suggestions",1,keep,liraglutide
+liraglutide for 26 weeks,1,keep,liraglutide
+"liraglutide injection,rd12014",1,keep,liraglutide
+"liraglutide injection,victoza",1,keep,liraglutide
+liraglutide injection(victoza®),1,keep,liraglutide
+liraglutide monotherapy,1,keep,liraglutide
+liraglutide or semaglutide / dapagliflozin,1,keep,semaglutide
+liraglutide or semaglutide / dapagliflozin plus intensive weight loss nutrition,1,keep,semaglutide
+liraglutide plus insulin detemir,1,keep,liraglutide
+liraglutide plus upstream risk factors modification advice and consultation,1,keep,liraglutide
+liraglutide treatment,1,keep,liraglutide
+liraglutide treatment 12 weeks,1,keep,liraglutide
+liraglutide-depot,1,keep,liraglutide
+liraglutide-metformin vs insulin-metformin,1,keep,liraglutide
+"liraglutide, victoza or exenatide, byetta.",1,keep,liraglutide
+liraglutide;metformin,1,keep,liraglutide
+liraglutide+standard-of-care treatment,1,keep,liraglutide
+liroglutide,1,keep,liraglutide
+lixisenatide + glargine,1,keep,lixisenatide
+lixisenatide 10 micrograms (50 micrograms/ml in 3 ml) pen injector,1,keep,lixisenatide
+lng-iud plus tirzepatide,1,keep,tirzepatide
+"locally available low-dose semaglutide (0.25 mg, 0.5 mg, 1 mg)",1,keep,semaglutide
+long acting insulin + rapid acting + 1.25 mcg exenatide,1,keep,exenatide
+long-acting exenatide,1,keep,exenatide
+loxenatide group,1,keep,loxenatide
+lsg-mazdutide group,1,keep,mazdutide
+lsg-semaglutide group,1,keep,semaglutide
+lsg-tirzepatide group,1,keep,tirzepatide
+lyophilized albiglutide dcc pen injector,1,keep,albiglutide
+lyxumia®,1,keep,lixisenatide
+lyxumia® pen injection,1,keep,lixisenatide
+mazdutide injection,1,keep,mazdutide
+metformin with semaglutide,1,keep,semaglutide
+metformin xr plus liraglutide,1,keep,liraglutide
+metformin-exenatide/liraglutide therapy,1,keep,liraglutide
+"metformin, exenatide or combined (metformin & exenatide )",1,keep,exenatide
+metformin\pioglitazone\exenatide,1,keep,exenatide
+microdose semaglutide,1,keep,semaglutide
+microdose tirzepatide,1,keep,tirzepatide
+"monjouro, zepbound",1,keep,tirzepatide
+mounjaro (brand name in certain regions),1,keep,tirzepatide
+mounjaro; zepbound,1,keep,tirzepatide
+"nex-22a, a prolonged release formulation of liraglutide",1,keep,liraglutide
+nnc0194-0499/semaglutide a (40/0.33mg/ml),1,keep,semaglutide
+nnc0194-0499/semaglutide a (40/3.20 mg/ml),1,keep,semaglutide
+noom standard dose semaglutide,1,keep,semaglutide
+noom standard dose tirzepatide,1,keep,tirzepatide
+obesity medication with liraglutide or semaglutide,1,keep,semaglutide
+oral ecnoglutide tablet,1,keep,ecnoglutide
+oral semaglutide/rybelsus,1,keep,semaglutide
+other name- victoza,1,keep,liraglutide
+"ozempic, apo-semaglutide",1,keep,semaglutide
+"ozempic, wegovy",1,keep,semaglutide
+ozempic; wegovy,1,keep,semaglutide
+peg-rhgh injection + semaglutide injection,1,keep,semaglutide
+pegylated loxenatide injection mimetics,1,keep,loxenatide
+pioglitazone and exenatide,1,keep,exenatide
+pioglitazone plus exenatide,1,keep,exenatide
+polyethylene glycol losenatide,1,keep,loxenatide
+polythylene glycol loxenatide injection,1,keep,loxenatide
+prednisolone and exenatide,1,keep,exenatide
+retatrutide (ly3437943),1,keep,retatrutide
+rybelsus 14 mg,1,keep,semaglutide
+rybelsus 3 mg,1,keep,semaglutide
+rybelsus oral product,1,keep,semaglutide
+rybelsus®,1,keep,semaglutide
+saxenda ampoules,1,keep,liraglutide
+semaglutide (administered by dv3396 pen-injector),1,keep,semaglutide
+"semaglutide (glp-1ra), empagliflozin (sglt-2i)",1,keep,semaglutide
+semaglutide (ozempic),1,keep,semaglutide
+semaglutide (rybelsus®) combined with other interventions,1,keep,semaglutide
+semaglutide (wegovy and/or ozempic),1,keep,semaglutide
+semaglutide + tau,1,keep,semaglutide
+semaglutide 1 mg weekly injection,1,keep,semaglutide
+semaglutide 1.34 mg/ml [ozempic],1,keep,semaglutide
+semaglutide 14 mg,1,keep,semaglutide
+semaglutide 14 mg oral tablet,1,keep,semaglutide
+semaglutide 1mg,1,keep,semaglutide
+semaglutide 1mg injection [ozempic],1,keep,semaglutide
+semaglutide 2 mg/1.5 ml subcutaneous solution,1,keep,semaglutide
+semaglutide 2.0 mg,1,keep,semaglutide
+semaglutide 2.4 mg and nnc0165-1875 1.0 mg,1,keep,semaglutide
+semaglutide 2.4 mg and nnc0165-1875 2.0 mg,1,keep,semaglutide
+"semaglutide 2.4 mg, total diet replacement, behavioural intervention",1,keep,semaglutide
+semaglutide 3 mg [rybelsus],1,keep,semaglutide
+"semaglutide 3,2 mg/ml",1,keep,semaglutide
+semaglutide 3.0 mg/ml,1,keep,semaglutide
+semaglutide 3.2 mg/ml,1,keep,semaglutide
+semaglutide 3mg and 7mg [rybelsus],1,keep,semaglutide
+semaglutide 50 mg,1,keep,semaglutide
+semaglutide 6 mg liquid emulsion formulation,1,keep,semaglutide
+semaglutide 7 mg [rybelsus],1,keep,semaglutide
+semaglutide 7 mg oral tablet,1,keep,semaglutide
+semaglutide administered sc,1,keep,semaglutide
+semaglutide administration plus dietary counselling and physical activity encouragement,1,keep,semaglutide
+semaglutide and behavioral program,1,keep,semaglutide
+semaglutide and lifestyle counseling,1,keep,semaglutide
+semaglutide auto-injector,1,keep,semaglutide
+semaglutide b 3 mg,1,keep,semaglutide
+semaglutide b 7 mg,1,keep,semaglutide
+"semaglutide b, 0.68 mg/ml",1,keep,semaglutide
+semaglutide c,1,keep,semaglutide
+semaglutide c 3 mg,1,keep,semaglutide
+semaglutide c 7 mg,1,keep,semaglutide
+semaglutide c dose 4,1,keep,semaglutide
+semaglutide c dose 5 (50 mg),1,keep,semaglutide
+semaglutide combined with metformin,1,keep,semaglutide
+semaglutide d,1,keep,semaglutide
+semaglutide d 3 mg,1,keep,semaglutide
+semaglutide d 7 mg,1,keep,semaglutide
+"semaglutide d, 1.0 mg/ml",1,keep,semaglutide
+semaglutide dose 4,1,keep,semaglutide
+semaglutide dose 5,1,keep,semaglutide
+semaglutide dose 6,1,keep,semaglutide
+"semaglutide extended-release for injectable suspension, 1 mg",1,keep,semaglutide
+"semaglutide extended-release for injectable suspension, 4 mg",1,keep,semaglutide
+"semaglutide extended-release for injectable suspension, 8 mg",1,keep,semaglutide
+semaglutide g,1,keep,semaglutide
+semaglutide h,1,keep,semaglutide
+semaglutide i,1,keep,semaglutide
+semaglutide implant (npm-139),1,keep,semaglutide
+semaglutide in combination with a healthy lifestyle intervention (diet and exercise),1,keep,semaglutide
+semaglutide injectable product (wegovy and/or ozempic),1,keep,semaglutide
+semaglutide injection (hd1916),1,keep,semaglutide
+semaglutide injection (ozempic®),1,keep,semaglutide
+semaglutide injection(ozempic®),1,keep,semaglutide
+semaglutide l,1,keep,semaglutide
+semaglutide m,1,keep,semaglutide
+semaglutide maintenance-dose regimen,1,keep,semaglutide
+semaglutide n,1,keep,semaglutide
+semaglutide nasal spray,1,keep,semaglutide
+semaglutide oral product,1,keep,semaglutide
+semaglutide pen injector 2.4mg weekly,1,keep,semaglutide
+semaglutide pen without ada,1,keep,semaglutide
+semaglutide plus a personalised and supervised program of resistance and endurance training,1,keep,semaglutide
+semaglutide plus il-2,1,keep,semaglutide
+semaglutide plus lifestyle and cardiovascular risk factor management,1,keep,semaglutide
+semaglutide plus personalised and supervised resistance and endurance training program,1,keep,semaglutide
+semaglutide sc,1,keep,semaglutide
+semaglutide tablets,1,keep,semaglutide
+semaglutide treatment,1,keep,semaglutide
+semaglutide use,1,keep,semaglutide
+semaglutide with 4 meal strategies,1,keep,semaglutide
+semaglutide with dietary counselling and physical activity encouragement,1,keep,semaglutide
+semaglutide with lifestyle modification,1,keep,semaglutide
+"semaglutide, 0.25 mg",1,keep,semaglutide
+"semaglutide, 0.5 mg",1,keep,semaglutide
+"semaglutide, 1.0 mg",1,keep,semaglutide
+"semaglutide, 1.34 mg/ml and metformin hydrochloride 500 mg",1,keep,semaglutide
+"semaglutide, empagliflozin",1,keep,semaglutide
+semaglutide(wegovy® ),1,keep,semaglutide
+semaglutide/dapagliflozin,1,keep,semaglutide
+semaglutide®️,1,keep,semaglutide
+semaglutide+exercise,1,keep,semaglutide
+simvastatin plus albiglutide,1,keep,albiglutide
+"soliqua, insulin glargine/lixisenatide fixed ratio combination",1,keep,lixisenatide
+soliqua®,1,keep,lixisenatide
+"soliqua®, solostar®",1,keep,lixisenatide
+sr exenatide (pt302),1,keep,exenatide
+sr-exenatide,1,keep,exenatide
+sub cutaneous liraglutide,1,keep,liraglutide
+subcutaneous semaglutide,1,keep,semaglutide
+survodutide (bi 456906),1,keep,survodutide
+syringe with exenatide suspension,1,keep,exenatide
+tanzeum,1,keep,albiglutide
+tanzeum in us,1,keep,albiglutide
+taspoglutide 20mg,1,keep,taspoglutide
+taspoglutide 20mg-30mg,1,keep,taspoglutide
+taspoglutide 20mg-40mg,1,keep,taspoglutide
+the brand name of exenatide is byetta.,1,keep,exenatide
+tirzepatide (lipoless de laboratorio de productos eticos c.e.i.s.a.),1,keep,tirzepatide
+tirzepatide (mounjaro),1,keep,tirzepatide
+tirzepatide (per-label titration),1,keep,tirzepatide
+tirzepatide (t.g.),1,keep,tirzepatide
+tirzepatide + standard therapy (intervention group),1,keep,tirzepatide
+tirzepatide 5 mg,1,keep,tirzepatide
+tirzepatide 5、10、15mg,1,keep,tirzepatide
+tirzepatide as an adjunct to lifestyle intervention,1,keep,tirzepatide
+tirzepatide dose 1,1,keep,tirzepatide
+tirzepatide dose 2,1,keep,tirzepatide
+tirzepatide injection 15mg,1,keep,tirzepatide
+tirzepatide prehabilitation,1,keep,tirzepatide
+tirzepatide with lifestyle modification,1,keep,tirzepatide
+tirzepatide+exercise,1,keep,tirzepatide
+tqf3510 (semaglutide injection),1,keep,semaglutide
+training and liraglutide,1,keep,liraglutide
+trulicity 0.75mg subcutaneous injection,1,keep,dulaglutide
+trulicity™,1,keep,dulaglutide
+victoza (liraglutide) with dietician monitoring,1,keep,liraglutide
+victoza 6 mg/ml solution and glucophage tablets,1,keep,liraglutide
+victoza injection,1,keep,liraglutide
+"victoza, novo nordisk a/s in dk-2880 bagsvaerd",1,keep,liraglutide
+"victoza,novo nordisk",1,keep,liraglutide
+victoza;glucophage,1,keep,liraglutide
+victoza® (liraglutide),1,keep,liraglutide
+victoza® + oads,1,keep,liraglutide
+"victoza®, liraglutide",1,keep,liraglutide
+"victoza®, novo nordisk",1,keep,liraglutide
+victoza®.,1,keep,liraglutide
+victozaa,1,keep,liraglutide
+vtx3232 30 mg in combination with semaglutide,1,keep,semaglutide
+warfarin plus albiglutide,1,keep,albiglutide
+wegovy (2.4 mg dose) + exercise & nutrition,1,keep,semaglutide
+wegovy (2.4 mg dose) + usual care,1,keep,semaglutide
+wegovy and glucophage,1,keep,semaglutide
+wegovy® (semaglutide) tablet,1,keep,semaglutide
+wegovy® (semaglutide) tablet 25 mg,1,keep,semaglutide
+xultophy 100/3.6,1,keep,liraglutide
+xultophy® (insulin degludec/liraglutide),1,keep,liraglutide
+zepbound (brand name in certain regions),1,keep,tirzepatide
+"zepbound, ly3298176",1,keep,tirzepatide
+zepbound®,1,keep,tirzepatide
+glp-1 receptor agonist,36,keep: class wording,
+glp-1 receptor agonists,12,keep: class wording,
+glp-1ra,7,keep: class wording,
+glp-1 analogue,6,keep: class wording,
+glp-1 agonist,6,keep: class wording,
+glp1 receptor agonist,6,keep: class wording,
+glucagon-like peptide-1 receptor agonists (glp 1 ra),4,keep: class wording,
+glp-1 receptor agonist therapy,4,keep: class wording,
+glp-1 agonists,3,keep: class wording,
+dual gip/glp-1 receptor agonist,3,keep: class wording,
+glucagon-like peptide-1 receptor agonist,3,keep: class wording,
+glp-1 analogs,3,keep: class wording,
+glucagon-like peptide-1 agonist (glp-1),3,keep: class wording,
+glp-1 therapy,2,keep: class wording,
+glp-1 analog,2,keep: class wording,
+glp-1 ra,2,keep: class wording,
+glucagon like peptide 1 receptor agonist,2,keep: class wording,
+glp-1 ras,2,keep: class wording,
+glp-1 receptor analogue,2,keep: class wording,
+met + glp-1ra,1,keep: class wording,
+"combination of glp1ra, sglt2i and intensive weight loss nutrition",1,keep: class wording,
+gip/glp-1 ra,1,keep: class wording,
+long-acting glp-1ra,1,keep: class wording,
+long_acting glucagon-like peptide-1 receptor agonist,1,keep: class wording,
+long acting glp1 agonist plus sglt2 inhibitor,1,keep: class wording,
+glp-1 receptor agonists + behavioral modification,1,keep: class wording,
+glp 1 ra,1,keep: class wording,
+glp-1 / gip receptor agonist,1,keep: class wording,
+short-acting glucagon-like peptide-1 receptor agonist,1,keep: class wording,
+injected glp-1 receptor agonists and dual agonists,1,keep: class wording,
+gip/glp-1a,1,keep: class wording,
+short-acting glp-1ra,1,keep: class wording,
+human-based glp-1ra,1,keep: class wording,
+sglt2i or glp-1ra,1,keep: class wording,
+"sglt2 inhibitor, glp-1 ra",1,keep: class wording,
+exendin-based glp-1ra,1,keep: class wording,
+glp-1 medication,1,keep: class wording,
+glucagon-like polypeptide-1-agonist (glp-1-agonist),1,keep: class wording,
+• long acting glucagon like peptide 1 (glp1) agonist,1,keep: class wording,
+receptor agonists (glp1ra),1,keep: class wording,
+glp-1-ra,1,keep: class wording,
+glp-1/gip dual agonists,1,keep: class wording,
+glp-1/gip receptor dual agonist,1,keep: class wording,
+glucagon-like peptide-1 receptor agonists,1,keep: class wording,
+glucagon-like peptide-1 (glp-1) analogue,1,keep: class wording,
+glucagon-like peptide-1 (glp-1) agonist,1,keep: class wording,
+bs-glp1ra group,1,keep: class wording,
+glp-1 receptor agonist or dual gip/glp-1 receptor agonist,1,keep: class wording,
+glp-1r agonist,1,keep: class wording,
+glucagon-like peptide 1 receptor agonist,1,keep: class wording,
+glucagon-like peptide 1 agonist,1,keep: class wording,
+glp-1 analogues,1,keep: class wording,
+glp-1r and gcgr dual agonist,1,keep: class wording,
+glp-1ras,1,keep: class wording,
+glp1 analogues,1,keep: class wording,
+glp1ra alone,1,keep: class wording,
+glp1-ra,1,keep: class wording,
+subcutaneous glp1-ra,1,keep: class wording,
+oral glp-1,1,keep: class wording,
+fixed ratio bi/glp-1ra combination,1,keep: class wording,
+flexible bi/glp-1ra combination,1,keep: class wording,
+glp 1 analogues,1,keep: class wording,
+metformin-glp-1 receptor agonist,1,keep: class wording,
+glucagon-like peptide-1 analog,1,keep: class wording,
+selective glp-1 agonist,1,keep: class wording,
+gip/glp-1ra,1,keep: class wording,
+glucagon-like peptide-1 receptor agonist therapy,1,keep: class wording,
+glp-1a,1,keep: class wording,
+combination of glp1ra and sglt2i,1,keep: class wording,
+glucagon-like peptide-1 receptor (glp1-r) agonist,1,keep: class wording,
+"glp-1 analogues and receptor agonists,",1,keep: class wording,
+glp-1 stop for 1 week,2,review: background use,
+"tirzepatide is administered as part of routine clinical care for obesity management, according to standard prescribing practices. dosing and treatment duration are determined by the treating physician",2,review: background use,tirzepatide
+new use of semaglutide injection,2,review: background use,semaglutide
+glp-1 ra users with standard npo instructions,1,review: background use,
+glp-1 ra users with prolonged fasting instructions,1,review: background use,
+glp-1 ra discontinuation interval,1,review: background use,
+glp-1 ra cessation interval,1,review: background use,
+glp-1 not stop for 1 week,1,review: background use,
+glp-1 non stop,1,review: background use,
+glp-1 medication initiation,1,review: background use,
+on glp1 plus hrt,1,review: background use,
+on glp1 only,1,review: background use,
+new use of oral semaglutide,1,review: background use,semaglutide
+maintenance of glp-1 dose,1,review: background use,
+maintain dual therapy (sulf/pio) as comparator to liraglutide,1,review: background use,liraglutide
+initiation of tirzepatide,1,review: background use,tirzepatide
+gut motility quantification using a capsule after initiating glp-1ra therapy,1,review: background use,
+gradual dose reduction of semaglutide,1,review: background use,semaglutide
+glp-1 dose reduction,1,review: background use,
+the glp-1 receptor agonist users,1,review: background use,
+time since last glp-1 ra dose,1,review: background use,
+2 ogtts with and without glp-1 analogue,1,review: background use,
+application of glp-1ras drugs,1,review: background use,
+"angiotensin converting enzyme inhibitors, angiotensin ii receptor blockers, dpp-4 inhibitors, glp-1 receptor agonists, sglt2 inhibitors, calcium channel blockers, β receptor blocker",1,review: background use,
+sleeve gastrectomy plus early mazdutide initiation,1,review: background use,mazdutide
+add glp-1 receptor agonist,1,review: background use,
+structured weight loss program including behavioral support and optional meal re-placement or pharmacotherapy with glucagon-like peptide-1 receptor agonists (glp1-ra),1,review: background use,
+to utilize the freestyle libre 3 continuous glucose monitoring system (fsl3) to help prolong the length of time people with diabetes maintain adherence to glp-1 and dual gip/glp-1 agonists,1,review: background use,
+"glp-1 receptor agonist (e.g., semaglutide, tirzepatide) - prescribed by the treating physician as standard care; the study does not assign or alter treatment.",1,review: background use,semaglutide
+abrupt cessation of semaglutide,1,review: background use,semaglutide
+semaglutide dose-tapering regimen,1,review: background use,semaglutide
+discontinuation and reinitiation of tirzepatide,1,review: background use,tirzepatide
+comparator: exenatide,1,review: background use,exenatide
+semaglutide injectable product (not provided by the study),1,review: background use,semaglutide
+exenatide and placebo,2,review: placebo + active,exenatide
+exenatide-lar plus dapagliflozin placebo,1,review: placebo + active,exenatide
+semaglutide 2.4 mg and placebo 2.0 mg,1,review: placebo + active,semaglutide
+placebo in combination with semaglutide,1,review: placebo + active,semaglutide
+placebo+semaglutide,1,review: placebo + active,semaglutide
+semaglutide 2.4 mg and placebo 1.0 mg,1,review: placebo + active,semaglutide
+intervention period 2: semaglutide + empagliflozin placebo,1,review: placebo + active,semaglutide
+liraglutide or placebo,1,review: placebo + active,liraglutide
+empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,1,review: placebo + active,semaglutide
+intervention period 3: semaglutide placebo + empagliflozin,1,review: placebo + active,semaglutide
+exenatide - exenatide - placebo,1,review: placebo + active,exenatide
+polyethylene glycol loxenatide or placebo,1,review: placebo + active,loxenatide
+intervention period 4: semaglutide placebo + empagliflozin placebo,1,review: placebo + active,semaglutide
+exenatide - placebo - exenatide,1,review: placebo + active,exenatide
+liraglutide (saxenda) 6mg/ml inj pen 3ml or placebo,1,review: placebo + active,liraglutide
+"lae102 placebo,+tirzepatide",1,review: placebo + active,tirzepatide
+cagrilintide b and placebo semaglutide i,1,review: placebo + active,semaglutide
+placebo matching empagliflozin and placebo pen injector matching semaglutide,1,review: placebo + active,semaglutide
+glp-1,43,review: unclear,
+glucagon-like peptide-1,10,review: unclear,
+glucagon-like peptide 1,5,review: unclear,
+glucagon like peptide-1,3,review: unclear,
+glucagon-like peptide-1 (glp-1),3,review: unclear,
+incretin-based therapies (glp-1 and glp-1/gip),1,review: unclear,
+glp-1 plus basal insulin,1,review: unclear,
+"glucose-insulinotropic peptide, glucagon-like peptide-1",1,review: unclear,
+glp 1,1,review: unclear,
+glucagon like peptide -1,1,review: unclear,
+glp-1 control,1,review: unclear,
+"glucagon-like peptide-1,",1,review: unclear,
+berobenatide,8,review: unfamiliar drug,
+efsubaglutide alfa injection,3,review: unfamiliar drug,
+supaglutide injection,3,review: unfamiliar drug,
+efsubaglutide alfa 20 mg qw,2,review: unfamiliar drug,
+supaglutide,2,review: unfamiliar drug,
+noiiglutide injection,2,review: unfamiliar drug,
+rexenatide-4,2,review: unfamiliar drug,
+efsubaglutide alfa 40 mg q2w,1,review: unfamiliar drug,
+rhglp-1(7-36),1,review: unfamiliar drug,
+efsubaglutide alfa 10 mg qw,1,review: unfamiliar drug,
+efsubaglutide alfa 5 mg qw,1,review: unfamiliar drug,
+zovaglutide arm 1,1,review: unfamiliar drug,
+glp-1/fgf21 dual agonist (hec88473),1,review: unfamiliar drug,
+bofanglutide,1,review: unfamiliar drug,
+zovaglutide arm 2,1,review: unfamiliar drug,
+"hec88473, placebo, dulaglutide",1,review: unfamiliar drug,dulaglutide
+froniglutide,1,review: unfamiliar drug,
+vurolenatide 100mg/pbo,1,review: unfamiliar drug,
+efsubaglutide alfa,1,review: unfamiliar drug,
+sonefpeglutide,1,review: unfamiliar drug,
+zovaglutide dose 1,1,review: unfamiliar drug,
+zovaglutide dose 2,1,review: unfamiliar drug,
+phase iib：efsubaglutide alfa 10 mg qw,1,review: unfamiliar drug,
+phase iib：efsubaglutide alfa 20 mg q2w,1,review: unfamiliar drug,
+phase iib：efsubaglutide alfa 20 mg qw,1,review: unfamiliar drug,
+vurolenatide 50/50 mg,1,review: unfamiliar drug,
+supaglutide injection+metformin,1,review: unfamiliar drug,
+phase iib：efsubaglutide alfa 5 mg qw,1,review: unfamiliar drug,
+efsubaglutide alfa 80 mg q4w,1,review: unfamiliar drug,
+efsubaglutide alfa 80 mg qw,1,review: unfamiliar drug,
+vurolenatide 50mg/pbo,1,review: unfamiliar drug,
+efsubaglutide alfa 1mg qw and 3mg q2w,1,review: unfamiliar drug,
+zovaglutide,1,review: unfamiliar drug,
+efsubaglutide alfa 3mg q2w and 1mg qw,1,review: unfamiliar drug,
+efsubaglutide alfa 40 mg qw,1,review: unfamiliar drug,

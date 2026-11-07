@@ -1,0 +1,973 @@
+drug_name,src,n_trials
+semaglutide,interventions,350
+liraglutide,interventions,307
+tirzepatide,interventions,217
+exenatide,interventions,155
+byetta,other_names,106
+victoza,other_names,91
+dulaglutide,interventions,77
+ozempic,other_names,49
+orforglipron,interventions,36
+wegovy,other_names,35
+glp-1,interventions,34
+oral semaglutide,interventions,33
+teduglutide,interventions,33
+glp-1 receptor agonist,interventions,29
+placebo (semaglutide),interventions,27
+lixisenatide (ave0010),interventions,27
+saxenda,other_names,26
+bydureon,other_names,25
+mounjaro,other_names,24
+maridebart cafraglutide,interventions,24
+liraglutide,other_names,24
+insulin degludec/liraglutide,interventions,22
+dulaglutide,other_names,20
+exenatide,other_names,20
+semaglutide,other_names,20
+albiglutide,interventions,19
+retatrutide,interventions,19
+zepbound,other_names,19
+survodutide,interventions,17
+exenatide once weekly,interventions,16
+mazdutide,interventions,15
+semaglutide pen injector,interventions,15
+placebo semaglutide,interventions,14
+lyxumia,other_names,13
+taspoglutide,interventions,12
+rybelsus,other_names,12
+trulicity,other_names,11
+semaglutide injection,interventions,11
+glp-1 receptor agonists,interventions,11
+lixisenatide,interventions,11
+ideglira,interventions,10
+semaglutide 1.0 mg,interventions,10
+semaglutide (rybelsus®),interventions,10
+semaglutide injectable product,interventions,10
+apraglutide,interventions,9
+victoza®,other_names,9
+glp-1,other_names,9
+"semaglutide, 1.34 mg/ml",interventions,8
+glepaglutide,interventions,8
+semaglutide 2.4 mg,interventions,8
+berobenatide,interventions,8
+survodutide,other_names,8
+polyethylene glycol loxenatide,other_names,8
+semaglutide placebo,interventions,7
+liraglutide injection,interventions,7
+insulin glargine/lixisenatide (hoe901/ave0010),interventions,7
+dulaglutide injection,interventions,7
+wegovy®,other_names,7
+tirzepatide,other_names,7
+semaglutide 0.5 mg,interventions,7
+glp-1 receptor agonist,other_names,7
+ozempic®,interventions,6
+saxenda,interventions,6
+liraglutide 3 mg (saxenda),interventions,6
+semaglutide (sema),interventions,6
+bydureon,interventions,6
+semaglutide (wegovy) weekly injection,interventions,6
+semaglutide pen injector [ozempic],interventions,6
+semaglutide weekly injection,interventions,6
+iglarlixi,interventions,6
+efinopegdutide,interventions,6
+"semaglutide, 1.0 mg/ml",interventions,5
+exenatide injection,interventions,5
+glp-1 agonist,other_names,5
+liraglutide 3 mg placebo,interventions,5
+pemvidutide,interventions,5
+glp1 receptor agonist,interventions,5
+liraglutide 3.0 mg,interventions,5
+lixisenatide ave0010,interventions,5
+glp-1 infusion,interventions,5
+victoza,interventions,5
+liraglutide (saxenda) 6mg/ml inj pen 3ml,interventions,4
+exenatide twice daily,interventions,4
+glucagon-like peptide-1 receptor agonists (glp 1 ra),interventions,4
+"semaglutide, 0.5 mg/ml",interventions,4
+victoza 6 mg/ml solution for injection in pre-filled pen,other_names,4
+cagrisema (cagrilintide b and semaglutide i),interventions,4
+victoza®,interventions,4
+ozempic®,other_names,4
+maridebart cafraglutide,other_names,4
+glp-1ra,interventions,4
+danuglipron,interventions,4
+glp-1 analogue,other_names,4
+liraglutide pen injector,interventions,4
+byetta®,other_names,4
+semaglutide (1 mg dose),interventions,4
+semaglutide (administered by pds290 pen-injector),interventions,4
+bydureon®,other_names,4
+tirzepatide placebo,interventions,4
+cotadutide,interventions,4
+cagrisema,interventions,4
+glp-1 receptor agonist therapy,interventions,4
+liraglutide pen injector [saxenda],interventions,4
+semaglutide 2.4 mg/0.75 ml subcutaneous solution [wegovy],interventions,3
+semaglutide (administered by pds290 pen),interventions,3
+semaglutide 14 mg [rybelsus],interventions,3
+glp-1ra,other_names,3
+semaglutide 2.4mg,interventions,3
+placebo matching survodutide,interventions,3
+saxenda®,interventions,3
+semaglutide pill,interventions,3
+exenatide placebo,interventions,3
+iglarlixi,other_names,3
+semaglutide oral tablet,interventions,3
+exenatide 2 mg [bydureon],interventions,3
+liraglutide + metformin,interventions,3
+efsubaglutide alfa injection,interventions,3
+insulin glargine/lixisenatide,interventions,3
+glp-1 (7-36) amide,interventions,3
+pemvidutide,other_names,3
+wegovy ®,interventions,3
+semaglutide (wegovy®),interventions,3
+placebo matched to cagrisema (cagrilintide b and semaglutide i),interventions,3
+liraglutide pen injector [victoza],interventions,3
+glucagon-like peptide-1 agonist (glp-1),interventions,3
+semaglutide 0.25 mg,interventions,3
+beinaglutide,interventions,3
+soliqua,other_names,3
+supaglutide injection,interventions,3
+semaglutide pen,interventions,3
+glp-1 analogs,interventions,3
+oral ecnoglutide,other_names,3
+byetta (exenatide),interventions,3
+semaglutide 1.34 mg/ml,interventions,3
+semaglutide (administered by dv3396 pen),interventions,3
+byetta,interventions,3
+eloralintide and tirzepatide,interventions,3
+iglarlixi (insulin glargine/lixisenatide),interventions,3
+semaglutide j,interventions,3
+elsiglutide,interventions,2
+semaglutide 1 mg,interventions,2
+"byetta (lilly, exenatide)",interventions,2
+benaglutide,interventions,2
+insulin glargine /lixisenatide fixed ratio combination,interventions,2
+liraglutide - placebo,interventions,2
+semaglutide 1.7mg subcutaneous,interventions,2
+albiglutide 50 mg,interventions,2
+efsubaglutide alfa 20 mg qw,interventions,2
+"semaglutide b, 1.34 mg/ml",interventions,2
+"semaglutide 2 mg/1.5 ml (1.34 mg/ml), prefilled pen-injector for subcutaneous injection solution",interventions,2
+glp-1 ras,interventions,2
+mazdutide placebo,interventions,2
+exenatide extended-release,interventions,2
+mazdutide(dual glp-1r/gcgr agonist),interventions,2
+new use of semaglutide injection,interventions,2
+glp-1 therapy,interventions,2
+metformin and liraglutide,interventions,2
+semaglutide b,interventions,2
+"wegovy, ozempic",other_names,2
+insulin glargine/lixisenatide fixed ratio combination,interventions,2
+glp-1 stop for 1 week,interventions,2
+glp-1 receptor antagonist exendin[9-39],interventions,2
+xultophy,other_names,2
+xultophy®,interventions,2
+semaglutide 3 mg,interventions,2
+exenatide and placebo,interventions,2
+albiglutide matching placebo,interventions,2
+semaglutide 3 mg/ml,interventions,2
+dual gip/glp-1 receptor agonist,other_names,2
+dulaglutide 0.75mg/0.5ml inj pen,interventions,2
+semaglutide subcutaneous injection,interventions,2
+glucagon-like peptide-1 receptor agonist：semaglutide,interventions,2
+glucagon-like peptide-1 (glp-1),interventions,2
+placebo cagrisema,interventions,2
+semaglutide 7 mg,interventions,2
+placebo (matched to semaglutide),interventions,2
+albiglutide liquid auto-injector,interventions,2
+"semaglutide, 2.0 mg/ml",interventions,2
+placebo for liraglutide,interventions,2
+exenatide once weekly suspension,interventions,2
+dulaglutide 1.5 mg/ml,interventions,2
+glucophage tablets and victoza 6 mg/ml solution for injection in pre-filled pen,other_names,2
+dulaglutide 0.75mg subcutaneous injection,interventions,2
+liraglutide placebo,interventions,2
+soliqua 100/33,other_names,2
+glp-1 analogue,interventions,2
+cagrilintide and semaglutide,interventions,2
+ecnoglutide,other_names,2
+exenatide twice daily (bid),interventions,2
+ecnoglutide high dosage,interventions,2
+liraglutide 6 mg/ml [saxenda],interventions,2
+ecnoglutide injection,interventions,2
+liraglutide 6 mg/ml,interventions,2
+glp-1 analog,interventions,2
+survodutide formulation a,interventions,2
+survodutide formulation b2,interventions,2
+liraglutide 3mg,other_names,2
+lixisenatide,other_names,2
+semaglutide or tirzepatide,interventions,2
+itca 650 (exenatide in duros),interventions,2
+exenatide-byetta,other_names,2
+"byetta, bydureon",other_names,2
+teduglutide (alx-0600),interventions,2
+rybelsus,interventions,2
+glp-1 agonists,interventions,2
+ecnoglutide low dosage,interventions,2
+teduglutide 0.05 dose,interventions,2
+teduglutide 0.05 mg/kg/d,interventions,2
+rybelsus 7 mg,other_names,2
+exenatide 2 mg,interventions,2
+exenatide matching placebo,interventions,2
+ozempic,interventions,2
+tirzepatide (flexible titration),interventions,2
+saxenda®,other_names,2
+exenatide lar,interventions,2
+tirzepatide 2.5mg weekly,interventions,2
+efpeglenatide (sar439977),interventions,2
+efpeglenatide sar439977,interventions,2
+"tirzepatide is administered as part of routine clinical care for obesity management, according to standard prescribing practices. dosing and treatment duration are determined by the treating physician",interventions,2
+semaglutide (ozempic®),interventions,2
+bydureon bcise,other_names,2
+tirzepatide-placebo,interventions,2
+semaglutide d dose 3,interventions,2
+trade name: victoza,other_names,2
+semaglutide d dose 2,interventions,2
+insulin degludec/liraglutide,other_names,2
+trulicity®,other_names,2
+glp-1 receptor analogue,other_names,2
+semaglutide d dose 1,interventions,2
+glp 1,interventions,1
+glp 1 analogues,other_names,1
+glp 1 ra,other_names,1
+glp-1 (7-36) amide,other_names,1
+glp-1 (7-36)amide,interventions,1
+glp-1 (liraglutide),interventions,1
+glp-1 / gip receptor agonist,interventions,1
+glp-1 + neurotensin,interventions,1
+glp-1 + saline,interventions,1
+glp-1 agonist,interventions,1
+glp-1 agonists,other_names,1
+glp-1 analogue - semaglutide,interventions,1
+glp-1 analogues,other_names,1
+"glp-1 analogues and receptor agonists,",other_names,1
+glp-1 and exendin(9-39) 1200,interventions,1
+glp-1 and exendin(9-39) 300,interventions,1
+glp-1 and exendin(9-39) 600,interventions,1
+glp-1 and exendin(9-39) 900,interventions,1
+glp-1 and gip,interventions,1
+glp-1 and gip antagonism,interventions,1
+glp-1 and glucagon infusion,interventions,1
+glp-1 antagonism,interventions,1
+glp-1 antagonist,other_names,1
+glp-1 booster (gb),interventions,1
+glp-1 cellbeads,interventions,1
+glp-1 control,interventions,1
+glp-1 dose reduction,interventions,1
+glp-1 formula,other_names,1
+glp-1 formula group,interventions,1
+glp-1 formula liquid drink,interventions,1
+glp-1 high dose,interventions,1
+glp-1 hormone,interventions,1
+"glp-1 infusion (clinalfa, laeufelingen, switzerland)",other_names,1
+glp-1 low dose,interventions,1
+glp-1 medication,interventions,1
+glp-1 medication initiation,interventions,1
+glp-1 mid-range dose,interventions,1
+glp-1 non stop,interventions,1
+glp-1 not stop for 1 week,interventions,1
+glp-1 peptide,interventions,1
+glp-1 plus basal insulin,other_names,1
+glp-1 ra,interventions,1
+glp-1 ra,other_names,1
+glp-1 ra cessation interval,interventions,1
+glp-1 ra discontinuation interval,other_names,1
+glp-1 ra users with prolonged fasting instructions,interventions,1
+glp-1 ra users with standard npo instructions,interventions,1
+glp-1 receptor agonist ; byetta,other_names,1
+"glp-1 receptor agonist (e.g., semaglutide, tirzepatide) - prescribed by the treating physician as standard care; the study does not assign or alter treatment.",interventions,1
+glp-1 receptor agonist (liraglutide),interventions,1
+glp-1 receptor agonist or dual gip/glp-1 receptor agonist,interventions,1
+glp-1 receptor agonists,other_names,1
+glp-1 receptor agonists + behavioral modification,interventions,1
+glp-1 receptor antagonist,interventions,1
+glp-1 receptor antagonist,other_names,1
+glp-1 receptor pet/ct,other_names,1
+"glp-1-9,36 infusion",interventions,1
+glp-1-activating carbohydrate,other_names,1
+glp-1-ra,interventions,1
+glp-1(7-36)amide,other_names,1
+glp-1(7-36)nh2,interventions,1
+glp-1/fgf21 dual agonist (hec88473),interventions,1
+glp-1/gip dual agonists,other_names,1
+glp-1/gip receptor dual agonist,other_names,1
+glp-1/glp-2 agonist,other_names,1
+glp-1a,interventions,1
+glp-1r agonist,other_names,1
+glp-1r and gcgr dual agonist,other_names,1
+glp-1r antagonist,interventions,1
+glp-1r pet,interventions,1
+glp-1ras,other_names,1
+glp1 analogues,interventions,1
+glp1 receptor agonist,other_names,1
+glp1-ra,interventions,1
+glp1-ra (semaglutide),interventions,1
+glp1ra alone,other_names,1
+glucagon-like peptide 1 (glp-1) receptor antagonist,other_names,1
+glucagon-like peptide- 1 (glp-1) infusion,interventions,1
+glucagon-like peptide-1 (glp-1),other_names,1
+glucagon-like peptide-1 (glp-1) agonist,interventions,1
+glucagon-like peptide-1 (glp-1) analogue,other_names,1
+glucagon-like peptide-1 receptor (glp1-r) agonist,other_names,1
+glucagon-like polypeptide-1-agonist (glp-1-agonist),other_names,1
+glucophage and victoza,other_names,1
+glucophage tablets and victoza,interventions,1
+"glucose-dependent insulinotropic polypeptide (gip), glucagon-like peptide-1 (glp-1) and glucagon-like peptide-2 (glp-2)",interventions,1
+gradual dose reduction of semaglutide,interventions,1
+growth hormone and lirglutide,interventions,1
+gut motility quantification using a capsule after initiating glp-1ra therapy,interventions,1
+gut-brain axis (glp-1)-activating food carbohydrate,interventions,1
+"hec88473, placebo, dulaglutide",interventions,1
+human glp-1 (7-36) amide,interventions,1
+human glp-1 (glucagon-like peptide-1),other_names,1
+human-based glp-1ra,interventions,1
+hyperglycemic clamp with concurrent glp-1 infusion,interventions,1
+"hyperglycemic clamp with infusion of saline, glp-1 or gip",interventions,1
+ideglira,other_names,1
+iigi+gip+glp-1,interventions,1
+iigi+glp-1,interventions,1
+increasing doses of glp-1,interventions,1
+incretin-based therapies (glp-1 and glp-1/gip),interventions,1
+infusion of native hormones from the pancreas and gut (glp-1),interventions,1
+initiation of tirzepatide,interventions,1
+injectable semaglutide or injectable tirzepatide,interventions,1
+injected glp-1 receptor agonists and dual agonists,interventions,1
+insulin + semaglutide treatment,interventions,1
+insulin degludec / liraglutide,other_names,1
+insulin degludec / liraglutide injectable product,interventions,1
+insulin degludec + liraglutide,interventions,1
+insulin degludec and liraglutide (ideglira),interventions,1
+insulin degludec/liraglutide injection,interventions,1
+insulin degludec/liraglutide*,other_names,1
+insulin glargine + exenatide + preexisting metformin,interventions,1
+"insulin glargine, human recombinant analog/lixisenatide*",other_names,1
+insulin glargine/ lixisenatide fixed-ratio combination hoe901/ave0010,interventions,1
+insulin glargine/exenatide,interventions,1
+insulin glargine/lixisenatide hoe901/ave0010,interventions,1
+"insulin lispro injection, exenatide injection",interventions,1
+insulin-levemir and exenatide-bayetta,interventions,1
+intervention 2: semaglutide,interventions,1
+intervention period 1: semaglutide + empagliflozin,interventions,1
+intervention period 2: semaglutide + empagliflozin placebo,interventions,1
+intervention period 3: semaglutide placebo + empagliflozin,interventions,1
+intervention period 4: semaglutide placebo + empagliflozin placebo,interventions,1
+intradermal injections of glp-1 and its analogues,interventions,1
+islet cell transplant + etanercept + exenatide,other_names,1
+itca 650 (exenatide in osmotic mini pump),interventions,1
+jardiance and trulicity,other_names,1
+"jardiance(r), ozempic(r)",other_names,1
+lae102 +tirzepatide,interventions,1
+"lae102 placebo,+tirzepatide",interventions,1
+last 5 amino acids of glp-1,interventions,1
+levemir+exenatide,other_names,1
+liraglutide (glp-1ra),interventions,1
+"liraglutide (novo nordisk, bagsværd, denmark)",interventions,1
+liraglutide (saxenda) 6mg/ml inj pen 3ml or placebo,interventions,1
+liraglutide (vicotza),other_names,1
+liraglutide (victoza),other_names,1
+liraglutide [3h],interventions,1
+liraglutide / semaglutide,interventions,1
+liraglutide + exercise training,interventions,1
+liraglutide + oads,interventions,1
+liraglutide + orlistat,interventions,1
+liraglutide 0.6 mg,interventions,1
+liraglutide 0.9 mg daily,interventions,1
+liraglutide 1.2 mg,interventions,1
+liraglutide 1.8 mg + empagliflozin 25 mg,interventions,1
+liraglutide 1.8mg,interventions,1
+liraglutide 3 mg (saxenda®) once-daily,interventions,1
+liraglutide 3 mg/0.5 ml (18 mg/3 ml) sub-q pen injector (ml),interventions,1
+liraglutide 3.0,other_names,1
+liraglutide 3.0mg,interventions,1
+liraglutide 6 mg,interventions,1
+liraglutide 6 mg solution for injection,interventions,1
+liraglutide 6 mg/ml [victoza],interventions,1
+liraglutide 6 mg/ml pen injector,interventions,1
+liraglutide 6 mg/ml subcutaneously,other_names,1
+liraglutide acetate,other_names,1
+liraglutide and cpap,interventions,1
+liraglutide and metformin,interventions,1
+liraglutide combined with metformin,interventions,1
+liraglutide combined with orlistat,interventions,1
+"liraglutide daily (0.6-3.0mg, highest tolerable dose) additional to dietological measures and lifestyle optimization suggestions",interventions,1
+liraglutide for 26 weeks,interventions,1
+"liraglutide injection,rd12014",interventions,1
+"liraglutide injection,victoza",interventions,1
+liraglutide injection(victoza®),interventions,1
+liraglutide monotherapy,interventions,1
+liraglutide or placebo,interventions,1
+liraglutide or semaglutide / dapagliflozin,interventions,1
+liraglutide or semaglutide / dapagliflozin plus intensive weight loss nutrition,interventions,1
+liraglutide placebo (novo nordisk),interventions,1
+liraglutide plus insulin detemir,interventions,1
+liraglutide plus upstream risk factors modification advice and consultation,interventions,1
+liraglutide treatment,interventions,1
+liraglutide treatment 12 weeks,interventions,1
+liraglutide-depot,interventions,1
+liraglutide-metformin vs insulin-metformin,interventions,1
+liraglutide-placebo,interventions,1
+"liraglutide, victoza or exenatide, byetta.",other_names,1
+liraglutide;metformin,interventions,1
+liraglutide+standard-of-care treatment,interventions,1
+liroglutide,other_names,1
+lixisenatide + glargine,interventions,1
+lixisenatide 10 micrograms (50 micrograms/ml in 3 ml) pen injector,interventions,1
+lixisenatide placebo,interventions,1
+lixisenatide-placebo,interventions,1
+lng-iud plus tirzepatide,interventions,1
+"locally available low-dose semaglutide (0.25 mg, 0.5 mg, 1 mg)",interventions,1
+long acting glp1 agonist plus sglt2 inhibitor,other_names,1
+long acting insulin + rapid acting + 1.25 mcg exenatide,interventions,1
+long-acting exenatide,other_names,1
+long-acting glp-1ra,interventions,1
+loxenatide group,interventions,1
+lsg-mazdutide group,interventions,1
+lsg-semaglutide group,interventions,1
+lsg-tirzepatide group,interventions,1
+lyophilized albiglutide dcc pen injector,interventions,1
+lyophilized albiglutide dcc pen injector matching placebo,interventions,1
+lyxumia®,other_names,1
+lyxumia® pen injection,other_names,1
+maintain dual therapy (sulf/pio) as comparator to liraglutide,interventions,1
+maintenance of glp-1 dose,interventions,1
+matching albiglutide placebo,interventions,1
+matching liraglutide-placebo pre-filled pens,interventions,1
+mazdutide injection,interventions,1
+met + glp-1ra,interventions,1
+metformin with semaglutide,interventions,1
+metformin xr plus liraglutide,interventions,1
+metformin-exenatide/liraglutide therapy,other_names,1
+metformin-glp-1 receptor agonist,interventions,1
+"metformin, exenatide or combined (metformin & exenatide )",interventions,1
+metformin\pioglitazone\exenatide,interventions,1
+microdose semaglutide,interventions,1
+microdose tirzepatide,interventions,1
+microinjection of glp-1 (native glp-1),other_names,1
+"monjouro, zepbound",other_names,1
+mounjaro,interventions,1
+mounjaro (brand name in certain regions),other_names,1
+mounjaro; zepbound,other_names,1
+na-931 150 mg + no tirzepatide,interventions,1
+native glp-1,other_names,1
+native glp-1 (7-36),interventions,1
+"native glp-1(7,36)",other_names,1
+native human glucagon-like peptide-1 ( glp-1(7-36)),interventions,1
+"new initiation of ""standard of care"" (sgl2i, 2nd generation su, dpp-4i and glp-1 ra except for semaglutide inj or oral)",interventions,1
+new use of oral semaglutide,interventions,1
+"nex-22a, a prolonged release formulation of liraglutide",interventions,1
+nnc0194-0499/semaglutide a (40/0.33mg/ml),interventions,1
+nnc0194-0499/semaglutide a (40/3.20 mg/ml),interventions,1
+no other names for glp-1 and gip.,other_names,1
+noiiglutide injection,interventions,1
+noiiglutide injection,other_names,1
+noiiglutide placebo,interventions,1
+non-glp-1 ra based glucose lowering drugs,interventions,1
+noom standard dose semaglutide,other_names,1
+noom standard dose tirzepatide,other_names,1
+obesity medication with liraglutide or semaglutide,interventions,1
+on glp1 only,interventions,1
+on glp1 plus hrt,interventions,1
+oral ecnoglutide tablet,interventions,1
+oral glp-1,interventions,1
+oral semaglutide/rybelsus,interventions,1
+other hypoglycemic agents not including glp-1 receptor agonists,other_names,1
+other name- victoza,other_names,1
+ozempic injectable product,interventions,1
+ozempic injectable product,other_names,1
+"ozempic, apo-semaglutide",other_names,1
+"ozempic, wegovy",other_names,1
+ozempic; wegovy,other_names,1
+peg-rhgh injection + semaglutide injection,interventions,1
+pegylated loxenatide injection mimetics,other_names,1
+phase iib：efsubaglutide alfa 10 mg qw,interventions,1
+phase iib：efsubaglutide alfa 20 mg q2w,interventions,1
+phase iib：efsubaglutide alfa 20 mg qw,interventions,1
+phase iib：efsubaglutide alfa 5 mg qw,interventions,1
+pioglitazone and exenatide,interventions,1
+pioglitazone plus exenatide,interventions,1
+placebo - exenatide - exenatide,interventions,1
+placebo ( semaglutide d),interventions,1
+placebo (for liraglutide),interventions,1
+placebo (liraglutide 3.0 mg),interventions,1
+placebo (liraglutide),interventions,1
+placebo (matching taspoglutide),interventions,1
+placebo (oral semaglutide),interventions,1
+placebo (semaglutide 0.5 mg),interventions,1
+placebo (semaglutide 1.0 mg),interventions,1
+placebo (semaglutide 2.4 mg),interventions,1
+placebo (semaglutide 3 mg/ml),interventions,1
+placebo (semaglutide c),interventions,1
+placebo albiglutide,interventions,1
+placebo exenatide,interventions,1
+placebo for glp-1,other_names,1
+placebo for maridebart cafraglutide,interventions,1
+placebo for saxenda (liraglutide),other_names,1
+placebo i (semaglutide),interventions,1
+placebo ii (semaglutide),interventions,1
+placebo in combination with semaglutide,interventions,1
+placebo liraglutide 3 mg,other_names,1
+placebo liraglutide pen injector,interventions,1
+placebo matching empagliflozin and placebo pen injector matching semaglutide,interventions,1
+placebo matching mazdutide,interventions,1
+placebo ozempic,other_names,1
+placebo saxenda,other_names,1
+placebo semaglutide,other_names,1
+placebo semaglutide 1mg,other_names,1
+placebo semaglutide pen injector,interventions,1
+placebo to match albiglutide,interventions,1
+placebo-liraglutide,interventions,1
+placebo+semaglutide,interventions,1
+plasma glp-1,interventions,1
+polyethylene glycol losenatide,interventions,1
+polyethylene glycol loxenatide,interventions,1
+polyethylene glycol loxenatide or placebo,other_names,1
+polythylene glycol loxenatide injection,other_names,1
+prednisolone and exenatide,interventions,1
+receptor agonists (glp1ra),interventions,1
+resm™ glp-1 postbiotic,other_names,1
+retatrutide (ly3437943),interventions,1
+rexenatide-4,interventions,1
+rexenatide-4,other_names,1
+rhglp-1(7-36),other_names,1
+rybelsus 14 mg,other_names,1
+rybelsus 3 mg,other_names,1
+rybelsus oral product,interventions,1
+rybelsus tablet,interventions,1
+rybelsus tablet,other_names,1
+rybelsus®,interventions,1
+saxenda ampoules,other_names,1
+selective glp-1 agonist,other_names,1
+semaglutide (administered by dv3396 pen-injector),interventions,1
+"semaglutide (glp-1ra), empagliflozin (sglt-2i)",other_names,1
+semaglutide (ozempic),other_names,1
+semaglutide (rybelsus®) combined with other interventions,interventions,1
+semaglutide (wegovy and/or ozempic),other_names,1
+semaglutide + tau,interventions,1
+semaglutide 1 mg weekly injection,interventions,1
+semaglutide 1.34 mg/ml (placebo),interventions,1
+semaglutide 1.34 mg/ml [ozempic],interventions,1
+semaglutide 1.34 mg/ml placebo,interventions,1
+semaglutide 14 mg,other_names,1
+semaglutide 14 mg oral tablet,interventions,1
+semaglutide 1mg,other_names,1
+semaglutide 1mg injection [ozempic],interventions,1
+semaglutide 2 mg/1.5 ml subcutaneous solution,interventions,1
+semaglutide 2.0 mg,interventions,1
+semaglutide 2.4 mg,other_names,1
+semaglutide 2.4 mg (placebo),interventions,1
+semaglutide 2.4 mg and nnc0165-1875 1.0 mg,interventions,1
+semaglutide 2.4 mg and nnc0165-1875 2.0 mg,interventions,1
+semaglutide 2.4 mg and placebo 1.0 mg,interventions,1
+semaglutide 2.4 mg and placebo 2.0 mg,interventions,1
+"semaglutide 2.4 mg, total diet replacement, behavioural intervention",interventions,1
+semaglutide 3 mg,other_names,1
+semaglutide 3 mg [rybelsus],interventions,1
+"semaglutide 3,2 mg/ml",interventions,1
+semaglutide 3.0 mg/ml,interventions,1
+semaglutide 3.2 mg/ml,interventions,1
+semaglutide 3mg and 7mg [rybelsus],interventions,1
+semaglutide 50 mg,interventions,1
+semaglutide 6 mg liquid emulsion formulation,interventions,1
+semaglutide 7 mg,other_names,1
+semaglutide 7 mg [rybelsus],interventions,1
+semaglutide 7 mg oral tablet,interventions,1
+semaglutide administered sc,interventions,1
+semaglutide administration plus dietary counselling and physical activity encouragement,interventions,1
+semaglutide and behavioral program,interventions,1
+semaglutide and lifestyle counseling,other_names,1
+semaglutide auto-injector,interventions,1
+semaglutide b 3 mg,interventions,1
+semaglutide b 7 mg,interventions,1
+"semaglutide b, 0.68 mg/ml",interventions,1
+semaglutide c,interventions,1
+semaglutide c 3 mg,interventions,1
+semaglutide c 7 mg,interventions,1
+semaglutide c dose 4,interventions,1
+semaglutide c dose 5 (50 mg),interventions,1
+semaglutide combined with metformin,interventions,1
+semaglutide d,interventions,1
+semaglutide d 3 mg,interventions,1
+semaglutide d 7 mg,interventions,1
+"semaglutide d, 1.0 mg/ml",interventions,1
+semaglutide dose 4,interventions,1
+semaglutide dose 5,interventions,1
+semaglutide dose 6,interventions,1
+semaglutide dose-tapering regimen,interventions,1
+"semaglutide extended-release for injectable suspension, 1 mg",interventions,1
+"semaglutide extended-release for injectable suspension, 4 mg",interventions,1
+"semaglutide extended-release for injectable suspension, 8 mg",interventions,1
+semaglutide g,interventions,1
+semaglutide h,interventions,1
+semaglutide i,interventions,1
+semaglutide implant (npm-139),interventions,1
+semaglutide in combination with a healthy lifestyle intervention (diet and exercise),interventions,1
+semaglutide injectable product,other_names,1
+semaglutide injectable product (not provided by the study),interventions,1
+semaglutide injectable product (wegovy and/or ozempic),interventions,1
+semaglutide injection,other_names,1
+semaglutide injection (hd1916),interventions,1
+semaglutide injection (ozempic®),interventions,1
+semaglutide injection(ozempic®),interventions,1
+semaglutide l,interventions,1
+semaglutide m,interventions,1
+semaglutide maintenance-dose regimen,interventions,1
+semaglutide n,interventions,1
+semaglutide nasal spray,interventions,1
+semaglutide oral product,interventions,1
+semaglutide pen injector 2.4mg weekly,interventions,1
+semaglutide pen without ada,other_names,1
+semaglutide placebo (group a),interventions,1
+semaglutide placebo (group b),interventions,1
+semaglutide placebo 0.5 mg,interventions,1
+semaglutide placebo 1.0 mg,interventions,1
+semaglutide plus a personalised and supervised program of resistance and endurance training,interventions,1
+semaglutide plus il-2,interventions,1
+semaglutide plus lifestyle and cardiovascular risk factor management,other_names,1
+semaglutide plus personalised and supervised resistance and endurance training program,other_names,1
+semaglutide sc,interventions,1
+semaglutide tablets,interventions,1
+semaglutide treatment,interventions,1
+semaglutide use,interventions,1
+semaglutide with 4 meal strategies,interventions,1
+semaglutide with dietary counselling and physical activity encouragement,other_names,1
+semaglutide with lifestyle modification,interventions,1
+semaglutide-placebo,interventions,1
+"semaglutide, 0.25 mg",interventions,1
+"semaglutide, 0.5 mg",interventions,1
+"semaglutide, 1.0 mg",interventions,1
+"semaglutide, 1.34 mg/ml and metformin hydrochloride 500 mg",interventions,1
+"semaglutide, empagliflozin",interventions,1
+semaglutide(wegovy® ),interventions,1
+semaglutide/dapagliflozin,interventions,1
+semaglutide®️,other_names,1
+semaglutide+exercise,interventions,1
+"sglt2 inhibitor, glp-1 ra",interventions,1
+sglt2i or glp-1ra,interventions,1
+short-acting glp-1ra,interventions,1
+simvastatin plus albiglutide,interventions,1
+sleeve gastrectomy followed with early mazdutide placebo initation,interventions,1
+sleeve gastrectomy plus early mazdutide initiation,interventions,1
+"soliqua, insulin glargine/lixisenatide fixed ratio combination",other_names,1
+soliqua®,other_names,1
+"soliqua®, solostar®",other_names,1
+sonefpeglutide,other_names,1
+sr exenatide (pt302),interventions,1
+sr-exenatide,interventions,1
+"standard of care (basal insulin or premixed insulin, excluding any glp-1 receptor agonist-containing drugs)",interventions,1
+structured weight loss program including behavioral support and optional meal re-placement or pharmacotherapy with glucagon-like peptide-1 receptor agonists (glp1-ra),interventions,1
+sub cutaneous liraglutide,interventions,1
+subcutaneous glp1-ra,interventions,1
+subcutaneous semaglutide,interventions,1
+supaglutide,interventions,1
+supaglutide,other_names,1
+supaglutide injection+metformin,interventions,1
+survodutide (bi 456906),interventions,1
+synthetic glp-1 (1.5 pmol/kg/min) dissolved in 500 ml 0.9% saline,interventions,1
+syringe with exenatide suspension,interventions,1
+tanzeum,other_names,1
+tanzeum in us,other_names,1
+taspoglutide 20mg,interventions,1
+taspoglutide 20mg-30mg,interventions,1
+taspoglutide 20mg-40mg,interventions,1
+tedguglutide,interventions,1
+teduglutide,other_names,1
+teduglutide + l-nmma,interventions,1
+teduglutide + normal saline,interventions,1
+teduglutide 0.025 mg/kg,interventions,1
+teduglutide 0.05,interventions,1
+teduglutide 0.05mg/kg,interventions,1
+teduglutide 0.1 mg dose,interventions,1
+teduglutide 0.1 mg/kg/d,interventions,1
+teduglutide 0.10 mg/kg/d,interventions,1
+teduglutide 0.2 mg,interventions,1
+teduglutide control,other_names,1
+the brand name of exenatide is byetta.,other_names,1
+the glp-1 receptor agonist users,interventions,1
+time since last glp-1 ra dose,other_names,1
+tirzepatide (lipoless de laboratorio de productos eticos c.e.i.s.a.),interventions,1
+tirzepatide (mounjaro),interventions,1
+tirzepatide (per-label titration),interventions,1
+tirzepatide (t.g.),interventions,1
+tirzepatide + standard therapy (intervention group),interventions,1
+tirzepatide 5 mg,other_names,1
+tirzepatide 5、10、15mg,other_names,1
+tirzepatide as an adjunct to lifestyle intervention,interventions,1
+tirzepatide dose 1,interventions,1
+tirzepatide dose 2,interventions,1
+tirzepatide injection 15mg,interventions,1
+tirzepatide placebo,other_names,1
+tirzepatide prehabilitation,interventions,1
+tirzepatide with lifestyle modification,interventions,1
+tirzepatide+exercise,interventions,1
+to utilize the freestyle libre 3 continuous glucose monitoring system (fsl3) to help prolong the length of time people with diabetes maintain adherence to glp-1 and dual gip/glp-1 agonists,interventions,1
+tqf3510 (semaglutide injection),interventions,1
+training and liraglutide,interventions,1
+trulicity 0.75mg subcutaneous injection,other_names,1
+trulicity™,other_names,1
+victoza (liraglutide),interventions,1
+victoza (liraglutide),other_names,1
+victoza (liraglutide) with dietician monitoring,interventions,1
+victoza 6 mg/ml solution and glucophage tablets,other_names,1
+victoza injection,other_names,1
+"victoza, novo nordisk a/s in dk-2880 bagsvaerd",other_names,1
+"victoza,novo nordisk",other_names,1
+victoza;glucophage,other_names,1
+victoza® (liraglutide),interventions,1
+victoza® + oads,other_names,1
+"victoza®, liraglutide",other_names,1
+"victoza®, novo nordisk",other_names,1
+victoza®.,interventions,1
+victozaa,other_names,1
+vtx3232 30 mg in combination with semaglutide,interventions,1
+vurolenatide 100mg/pbo,interventions,1
+vurolenatide 50/50 mg,interventions,1
+vurolenatide 50mg/pbo,interventions,1
+warfarin plus albiglutide,interventions,1
+wegovy,interventions,1
+wegovy (2.4 mg dose) + exercise & nutrition,interventions,1
+wegovy (2.4 mg dose) + usual care,interventions,1
+wegovy and glucophage,other_names,1
+wegovy®,interventions,1
+wegovy® (semaglutide) tablet,interventions,1
+wegovy® (semaglutide) tablet 25 mg,other_names,1
+xultophy 100/3.6,other_names,1
+xultophy® (insulin degludec/liraglutide),interventions,1
+zepbound,interventions,1
+zepbound (brand name in certain regions),other_names,1
+"zepbound, ly3298176",other_names,1
+zepbound®,other_names,1
+zovaglutide,interventions,1
+zovaglutide arm 1,interventions,1
+zovaglutide arm 2,interventions,1
+zovaglutide dose 1,interventions,1
+- exenatide (byetta®),other_names,1
+zovaglutide dose 2,interventions,1
+- exenatide extended-release (bydureon®).,other_names,1
+- liraglutide (victoza®),other_names,1
+- lixisenatide (lyxumia®),other_names,1
+"""liraglutide"" and ""mitiglinide""",interventions,1
+(glp-1 receptor antagonist),other_names,1
+[3h]-liraglutide,other_names,1
+[68ga] ga-do3a-vs-cys40-exendin-4 (glp-1 receptor tracer),interventions,1
+• bydureon,other_names,1
+• long acting glucagon like peptide 1 (glp1) agonist,other_names,1
+0.6 mg liraglutide,interventions,1
+"1,5 nmol/kg glp-1 9-36amide, sc injection",interventions,1
+"1,5 nmol/kg,glp-1 sc injection",interventions,1
+12 weeks of weekly subcutaneous semaglutide injection,interventions,1
+14c tirzepatide,interventions,1
+2 ogtts with and without glp-1 analogue,interventions,1
+abrupt cessation of semaglutide,interventions,1
+ac2993 (exenatide),interventions,1
+"acei / arb, sglt2i, finerenone, semaglutide, pentoxifylline, hydrochlorthiazide, baricitinib",interventions,1
+active semaglutide,other_names,1
+active substance: liraglutide,other_names,1
+actos and bydureon,other_names,1
+add glp-1 receptor agonist,interventions,1
+albiglutide,other_names,1
+albiglutide (gsk716155),interventions,1
+albiglutide (gsk716155) or exenatide,interventions,1
+"albiglutide (tanzeum) or , dulaglutide (trulicity)",other_names,1
+albiglutide + insulin glargine,interventions,1
+albiglutide 15mg weekly,other_names,1
+albiglutide 30 mg,interventions,1
+albiglutide 30 mg weekly,interventions,1
+albiglutide 30mg every other week,other_names,1
+albiglutide 30mg weekly,other_names,1
+albiglutide 50 mg weekly,interventions,1
+albiglutide 50mg,interventions,1
+albiglutide liquid auto-injector matching placebo,interventions,1
+albiglutide lyophilized dcc pen injector,interventions,1
+albiglutide uptitration,interventions,1
+albiglutide weekly injection,interventions,1
+all standard of care to diabetic patient besides tirzepatide,interventions,1
+ampk charge+® with semaglutide,interventions,1
+analysis of glp-1 receptor expression,interventions,1
+analyze basal expression incretin for immunolabeling and mrna expression glucagon-like secretion peptide-1 (glp-1) and peptide yy (pyy 3-36) incretins by l cells.,interventions,1
+and its analogues such as exenatide(byetta),other_names,1
+and liraglutide (victoza),other_names,1
+"angiotensin converting enzyme inhibitors, angiotensin ii receptor blockers, dpp-4 inhibitors, glp-1 receptor agonists, sglt2 inhibitors, calcium channel blockers, β receptor blocker",interventions,1
+"antiobesity drugs ,liraglutide or orlistat",other_names,1
+apo-semaglutide,other_names,1
+application of glp-1ras drugs,interventions,1
+"arm 1 (medium dose): 250mg dim and 1050mg perilla oil in guardcap™ colon-targeted capsules, activating gpr84 and ffa4 to stimulate pyy and glp-1 release.",interventions,1
+arm 2 - dehydratech-semaglutide alone,interventions,1
+"arm 2 (low dose): 125mg dim and 525mg perilla oil in guardcap™ colon-targeted capsules, activating gpr84 and ffa4 to stimulate pyy and glp-1 release.",interventions,1
+arm 3 - dehydratech-cbd in combination with dehydratech-semaglutide,interventions,1
+arm 4 - rybelsus medication (semaglutide) alone,interventions,1
+arm 5- tirzepatide,interventions,1
+asc47 +semaglutide,interventions,1
+auto-injector with exenatide suspension,interventions,1
+b - exenatide 10 mcg twice daily,interventions,1
+basal insulin and exenatide,interventions,1
+basal insulin glargine and lixisenatide,interventions,1
+basal treatment + exenatide,other_names,1
+benaglutide,other_names,1
+benaglutide injection,interventions,1
+benaglutide injection,other_names,1
+bimagrumab + tirzepatide coformulation,interventions,1
+blood glp1,interventions,1
+blood no treated glp1,interventions,1
+bofanglutide,interventions,1
+brand name: victoza,other_names,1
+bs-glp1ra group,interventions,1
+bydureon bcise (exenatide extended release),interventions,1
+"bydureon pen, 2 mg, extended release",other_names,1
+bydureon plus farxiga,other_names,1
+"bydureon, victoza",other_names,1
+bydureon™,other_names,1
+byetta 5mcg pen injection,interventions,1
+byetta plus dapagliflozin,other_names,1
+byetta treatment,interventions,1
+"byetta, bydureon/bydureon bcise",other_names,1
+"byetta, exenatide",interventions,1
+"byetta, exendin-4",other_names,1
+byetta.lilly,other_names,1
+byetta®(eli lilly and company),other_names,1
+c - exenatide 10 mcg once daily,interventions,1
+cagrilintide + semaglutide,interventions,1
+cagrilintide b and placebo semaglutide i,interventions,1
+cagrisema (cagrilintide b + semaglutide i),interventions,1
+cagrisema a,interventions,1
+"cinnagen-liraglutide, victoza",other_names,1
+"closed loop with sensor, insulin and liraglutide",interventions,1
+co-formulation nnc0480 0389+semaglutide a 10/1 mg/ml,interventions,1
+combination of glp1ra and sglt2i,other_names,1
+"combination of glp1ra, sglt2i and intensive weight loss nutrition",other_names,1
+comparator: exenatide,interventions,1
+cotadutide,other_names,1
+cotadutide 100 micrograms,interventions,1
+cotadutide 300 micrograms,interventions,1
+cotadutide 600 micrograms,interventions,1
+cotadutide high dose,other_names,1
+cotadutide low dose,other_names,1
+cotadutide multidose pen injection,interventions,1
+cotadutide solution for injection,interventions,1
+cotadutide-placebo,interventions,1
+dapiglutide,interventions,1
+dapiglutide 7.5 mg,interventions,1
+"day 1 : 0.9% saline solution, day 2 exenatide",other_names,1
+day 1 exenatide; day 2 : 0.9% saline solution,other_names,1
+determination of plasma glp-1 level,interventions,1
+dietary advice plus liraglutide pen injector,interventions,1
+"dietary, semaglutide or/and metformin",interventions,1
+digoxin plus albiglutide,interventions,1
+discontinuation and reinitiation of tirzepatide,interventions,1
+dose escalation to 2 mg semaglutide weekly then no semaglutide,interventions,1
+dose escalation to 2 mg semaglutide weekly then semaglutide microdosing at 0.5 mg weekly,interventions,1
+drug: semaglutide administered sc,interventions,1
+dual gip/glp-1 receptor agonist,interventions,1
+dual gip/glp-1 receptor agonist tirzepatide,interventions,1
+dual glp-1/glp-2 receptor agonists,interventions,1
+dual glp-1r/glp-2r agonist,other_names,1
+dulaglutide (reference),interventions,1
+dulaglutide (test),interventions,1
+dulaglutide (trulicity),other_names,1
+dulaglutide (trulicity®) 1.5 mg,interventions,1
+dulaglutide 1.5 mg,interventions,1
+dulaglutide pen,interventions,1
+"dulaglutide,qw",interventions,1
+"dulaglutide,subcutaneous injection,qw",other_names,1
+"duragtide, semaglutide, losenatide, tirzepatide, ebenatide, etc",interventions,1
+ecnoglutide,interventions,1
+ecnoglutide injection,other_names,1
+ecnoglutide medium dosage,interventions,1
+ecnoglutide tablets,interventions,1
+efinopegdutide 20 mg/ml,interventions,1
+efpeglenatide,interventions,1
+efsubaglutide alfa,interventions,1
+efsubaglutide alfa 10 mg qw,interventions,1
+efsubaglutide alfa 1mg qw and 3mg q2w,interventions,1
+efsubaglutide alfa 3mg q2w and 1mg qw,interventions,1
+efsubaglutide alfa 40 mg q2w,interventions,1
+efsubaglutide alfa 40 mg qw,interventions,1
+efsubaglutide alfa 5 mg qw,interventions,1
+efsubaglutide alfa 80 mg q4w,interventions,1
+efsubaglutide alfa 80 mg qw,interventions,1
+efsubaglutide alfa placebo,interventions,1
+empagliflozin 10mg oral tablet / semaglutide 1mg pen injector,interventions,1
+empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,interventions,1
+empagliflozin 25 mg + liraglutide 1.8 mg,interventions,1
+empagliflozin and dulaglutide,interventions,1
+ethinyl estradiol and levonorgestrel; exenatide,interventions,1
+evolv glp-1 group,interventions,1
+exenatide - exenatide - placebo,interventions,1
+exenatide - placebo - exenatide,interventions,1
+exenatide (50ng/min for 30 minutes loading followed by 25ng/min maintenance) and glucagon 12.5ng/kg/min,interventions,1
+exenatide (ac2993),interventions,1
+exenatide (bydureon®),interventions,1
+exenatide (byeta),other_names,1
+exenatide (byetta),interventions,1
+exenatide (byetta),other_names,1
+exenatide (byetta®),other_names,1
+exenatide (glp-1ra),interventions,1
+exenatide (glp-1ra) or liraglutide (glp-1ra),interventions,1
+exenatide (ly2148568),interventions,1
+exenatide + exendin (9-39),interventions,1
+exenatide = byetta (r),other_names,1
+exenatide 0.27 ng/kg/min,interventions,1
+exenatide 0.41 ng/kg/min,interventions,1
+exenatide 10 mcg,interventions,1
+exenatide 10microgram,interventions,1
+exenatide 2 mg injection,interventions,1
+exenatide 2 milligram (mg) injection,interventions,1
+exenatide 20 mcg once daily,interventions,1
+exenatide 5 and 10 mcg 2 times a day,interventions,1
+exenatide 5 mcg,interventions,1
+exenatide administration,other_names,1
+exenatide and dapagliflozin,interventions,1
+exenatide and sitagliptin,interventions,1
+exenatide byetta® (amylin-lilly),interventions,1
+exenatide circular rna-lipid nanoparticle injection（ cr059））,interventions,1
+exenatide er,interventions,1
+exenatide extended release,other_names,1
+exenatide extended release 2mg (bydureon),interventions,1
+exenatide extended release for inj susp 2 mg,interventions,1
+exenatide extended-release (er),interventions,1
+exenatide implant,interventions,1
+exenatide infusion,interventions,1
+exenatide injection (before the first fsigt),interventions,1
+exenatide injection before the second fsigt),interventions,1
+exenatide injection(byetta),interventions,1
+exenatide iv,interventions,1
+exenatide microspheres,other_names,1
+exenatide microspheres for injection,interventions,1
+exenatide once monthly suspension,interventions,1
+exenatide once weekly (bydureon™),interventions,1
+exenatide once weekly (eqw ),interventions,1
+exenatide once weekly (qw),interventions,1
+exenatide once-weekly suspension,interventions,1
+exenatide or metformin hydrochloride,interventions,1
+exenatide pen injector [bydureon],interventions,1
+exenatide placebo (saline),interventions,1
+exenatide sc,interventions,1
+exenatide sc,other_names,1
+exenatide sr,interventions,1
+exenatide treatment,interventions,1
+exenatide vehicle,interventions,1
+exenatide-bayetta,interventions,1
+exenatide-byetta; sitagliptin-januvia,other_names,1
+exenatide-lar plus dapagliflozin,interventions,1
+exenatide-lar plus dapagliflozin placebo,interventions,1
+"exenatide, liraglutide",interventions,1
+"exenatide, long acting release",interventions,1
+exenatide/exenatide extended release,interventions,1
+exenatide/insulin glargine,interventions,1
+"exendin-4, byetta",other_names,1
+exendin-9 is a 30 amino acid peptide that is an established competitive antagonist of the glp-1 receptor. subjects will receive exendin-9 by intravenous infusion at a rate of 600 pmol/kg/min,interventions,1
+exendin-based glp-1ra,interventions,1
+experimental: cotadutide,interventions,1
+experimental: glp1-ra (exenatide) administration,interventions,1
+extended-release exenatide,interventions,1
+finerenone and semaglutide,interventions,1
+fixed ratio bi/glp-1ra combination,interventions,1
+flexible bi/glp-1ra combination,interventions,1
+froniglutide,interventions,1
+generic semaglutide,other_names,1
+gip/glp-1 ra,other_names,1
+gip/glp-1a,interventions,1
+gip/glp-1ra,other_names,1
+glargine + exenatide,interventions,1
+glargine insulin / lixisenatide,other_names,1
+glepaglutide 10 mg,interventions,1

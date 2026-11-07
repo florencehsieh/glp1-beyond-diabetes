@@ -1,0 +1,8 @@
+nct_id,decision,canonical_drug,reason
+NCT01954147,keep,liraglutide,"Generic name 'glp-1'; experimental arms give liraglutide alone and with stem cells"
+NCT02094183,keep,liraglutide,"Generic name 'glp-1'; 52-week weight maintenance with liraglutide 1.2 mg (matching Copenhagen publication)"
+NCT02577848,keep,liraglutide,"Generic name 'glp-1'; liraglutide for 7 days in NSTEMI"
+NCT02650596,keep,liraglutide,"Generic name 'glp-1'; liraglutide daily for 3 months in heart failure"
+NCT02507128,keep,liraglutide,"Generic name 'glucagon like peptide-1'; liraglutide 30 min before PCI"
+NCT03500484,keep,liraglutide,"Generic name 'glucagon-like peptide 1'; liraglutide titrated to 3.0 mg for 12 weeks"
+NCT07092605,keep,semaglutide,"Generic name 'glp-1'; microdosed semaglutide, sublingual and subcutaneous, 6 months. Verify experimental arm in Phase 2"

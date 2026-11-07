@@ -1,0 +1,9 @@
+pandas>=3.1
+numpy>=2.5
+sqlalchemy>=2.1
+psycopg[binary]>=3.2
+ipykernel>=7.4
+jupyter
+
+# Needed once notebooks/charts.ipynb exists (not installed in the venv yet):
+matplotlib

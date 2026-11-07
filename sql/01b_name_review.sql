@@ -1,0 +1,111 @@
+-- sql/01b_name_review.sql  (v3, 7 Nov 2026)
+-- v3: rule 0 for Review 1 (unclear names)
+-- Purpose: give every GLP-1-looking drug name a first-pass label
+--          (keep / exclude / review) and a canonical_drug, so only
+--          the "review" rows need a human decision.
+-- Rules are checked top to bottom: the FIRST rule that matches wins.
+WITH names AS (
+    SELECT nct_id, LOWER(name) AS drug_name FROM interventions
+    UNION ALL
+    SELECT nct_id, LOWER(name) FROM intervention_other_names
+),
+counted AS (
+    SELECT drug_name, COUNT(DISTINCT nct_id) AS n_trials
+    FROM names
+    WHERE drug_name ~* '(glutide|enatide|dutide|tirzepatide|retatrutide|orforglipron|danuglipron|glp[- ]?1|glucagon[- ]like peptide|ozempic|wegovy|rybelsus|mounjaro|zepbound|victoza|saxenda|trulicity|byetta|bydureon|lyxumia|adlyxin|tanzeum|soliqua|xultophy|cagrisema|iglarlixi|ideglira)'
+    GROUP BY drug_name
+),
+labelled AS (
+    SELECT
+        drug_name,
+        n_trials,
+        CASE
+            -- 0. hand-decided names from Review 1 (unclear names, 7 Nov 2026)
+            --    exact match only; real-drug trials behind generic names are
+            --    rescued in data/reference/glp1_trial_overrides.csv
+            WHEN drug_name IN ('glp 1', 'glp-1',
+                               'glucagon like peptide -1', 'glucagon like peptide-1',
+                               'glucagon-like peptide 1', 'glucagon-like peptide-1',
+                               'glucagon-like peptide-1 (glp-1)')
+                THEN 'exclude: generic name'
+            WHEN drug_name IN ('glucagon-like peptide-1,',
+                               'glucose-insulinotropic peptide, glucagon-like peptide-1')
+                THEN 'exclude: native GLP-1'
+            WHEN drug_name = 'glp-1 control'
+                THEN 'exclude: GLP-1 blocker'
+            WHEN drug_name = 'glp-1 plus basal insulin'
+                THEN 'keep'
+            WHEN drug_name = 'incretin-based therapies (glp-1 and glp-1/gip)'
+                THEN 'keep: class wording'
+            -- 1. text says the GLP-1 is NOT given
+            WHEN drug_name ~ '(non-glp|not including|excluding|except for|besides|\+ no )'
+                THEN 'exclude: no GLP-1'
+            -- 2. drug names to look up by hand
+            WHEN drug_name ~ '(rhglp|hec88473|rexenatide|berobenatide|vurolenatide)'
+                THEN 'review: unfamiliar drug'
+            -- 3. GLP-1/GLP-2 duals ARE GLP-1 drugs (must come before the GLP-2 rule)
+            WHEN drug_name ~ '(glp-1/glp-2|glp-1r/glp-2r|dapiglutide)'
+                THEN 'keep'
+            -- 4. GLP-2 drugs
+            WHEN drug_name ~ '(teduglutide|tedguglutide|glepaglutide|apraglutide|elsiglutide|glp-?2|peptide[- ]?2)'
+                THEN 'exclude: GLP-2 drug'
+            -- 5. receptor blockers
+            WHEN drug_name ~ '(antagonis|exendin ?[(\[]?9|exendin-9)'
+                THEN 'exclude: GLP-1 blocker'
+            -- 6. measurements, imaging, food products
+            WHEN drug_name ~ '(plasma|blood|level|expression|\mpet\M|tracer|activating|postbiotic|formula\M|booster|cellbeads|perilla|evolv)'
+                THEN 'exclude: not a treatment'
+            -- 7. native / synthetic human GLP-1 (physiology studies)
+            WHEN drug_name ~ '(7-36|7,36|9-36|9,36|native|human glp|human glucagon|synthetic glp|glp-1 infusion|glp-1 hormone|glp-1 peptide|clamp|iigi|increasing doses|last 5 amino|intradermal|glp-1 (high|low|mid-range) dose|glp-1 \+ |glp-1 and gip\M|glp-1 and glucagon|peptide- 1 \(glp-1\) infusion|nmol/kg)'
+                THEN 'exclude: native GLP-1'
+            -- 8. placebo AND a real drug in the same name
+            WHEN drug_name ~ '(placebo|vehicle|pbo)'
+             AND drug_name ~ '( or placebo|and placebo|placebo ?\+|placebo,\+|placebo in combination|/pbo|- placebo -|- exenatide - placebo|dapagliflozin placebo|empagliflozin placebo$)'
+                THEN 'review: placebo + active'
+            -- 9. placebo only
+            WHEN drug_name ~ '(placebo|vehicle)'
+                THEN 'exclude: placebo'
+            -- 10. GLP-1 is background, not the tested treatment
+            WHEN drug_name ~ '(users|cessation|discontinu|stop|time since|dose reduction|maintenance of|prescribed by|routine clinical care|not provided by|standard of care|initiation|new use|on glp1|tapering|freestyle|motility|ogtt|npo|fasting|comparator|application of|add glp|optional|angiotensin)'
+                THEN 'review: background use'
+            -- 11. known GLP-1 drugs and brands
+            WHEN drug_name ~ '(semaglutide|tirzepatide|liraglutide|liroglutide|lirglutide|\mexenatide|dulaglutide|lixisenatide|albiglutide|taspoglutide|efpeglenatide|retatrutide|survodutide|mazdutide|cotadutide|pemvidutide|efinopegdutide|orforglipron|danuglipron|maridebart|ecnoglutide|loxenatide|losenatide|beinaglutide|benaglutide|ozempic|wegovy|rybelsus|mounjaro|monjouro|zepbound|victoza|vicotza|saxenda|trulicity|byetta|bayetta|byeta|bydureon|lyxumia|tanzeum|soliqua|xultophy|ideglira|iglarlixi|cagrisema)'
+                THEN 'keep'
+            -- 12. other -glutide / -enatide / -dutide names
+            WHEN drug_name ~ '(glutide|enatide|dutide)'
+                THEN 'review: unfamiliar drug'
+            -- 13. class wording, no drug named
+            WHEN drug_name ~ '(agonist|analog|glp-?1 ?-?ras?\M|glp1-?ra|glp 1 ra|glp-1a\M|glp-1 medication|glp-1 therapy|oral glp-1)'
+                THEN 'keep: class wording'
+            ELSE 'review: unclear'
+        END AS first_pass,
+        CASE
+            WHEN drug_name = 'glp-1 plus basal insulin'                                   THEN 'lixisenatide'
+            WHEN drug_name ~ '(semaglutide|ozempic|wegovy|rybelsus|cagrisema)'            THEN 'semaglutide'
+            WHEN drug_name ~ '(tirzepatide|mounjaro|monjouro|zepbound)'                   THEN 'tirzepatide'
+            WHEN drug_name ~ '(liraglutide|liroglutide|lirglutide|victoza|vicotza|saxenda|xultophy|ideglira)' THEN 'liraglutide'
+            WHEN drug_name ~ '(\mexenatide|byetta|bayetta|byeta|bydureon|itca 650)'       THEN 'exenatide'
+            WHEN drug_name ~ '(dulaglutide|trulicity)'                                    THEN 'dulaglutide'
+            WHEN drug_name ~ '(lixisenatide|lyxumia|soliqua|iglarlixi)'                   THEN 'lixisenatide'
+            WHEN drug_name ~ '(albiglutide|tanzeum)'                                      THEN 'albiglutide'
+            WHEN drug_name ~ 'taspoglutide'    THEN 'taspoglutide'
+            WHEN drug_name ~ 'efpeglenatide'   THEN 'efpeglenatide'
+            WHEN drug_name ~ 'retatrutide'     THEN 'retatrutide'
+            WHEN drug_name ~ 'survodutide'     THEN 'survodutide'
+            WHEN drug_name ~ 'mazdutide'       THEN 'mazdutide'
+            WHEN drug_name ~ 'cotadutide'      THEN 'cotadutide'
+            WHEN drug_name ~ 'pemvidutide'     THEN 'pemvidutide'
+            WHEN drug_name ~ 'efinopegdutide'  THEN 'efinopegdutide'
+            WHEN drug_name ~ 'orforglipron'    THEN 'orforglipron'
+            WHEN drug_name ~ 'danuglipron'     THEN 'danuglipron'
+            WHEN drug_name ~ 'maridebart'      THEN 'maridebart cafraglutide'
+            WHEN drug_name ~ 'ecnoglutide'     THEN 'ecnoglutide'
+            WHEN drug_name ~ '(loxenatide|losenatide)'   THEN 'loxenatide'
+            WHEN drug_name ~ '(beinaglutide|benaglutide)' THEN 'beinaglutide'
+            WHEN drug_name ~ 'dapiglutide'     THEN 'dapiglutide'
+        END AS canonical_drug
+    FROM counted
+)
+SELECT drug_name, n_trials, first_pass, canonical_drug
+FROM labelled
+ORDER BY first_pass, n_trials DESC;
