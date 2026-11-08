@@ -1,0 +1,19 @@
+drug_name,n_trials,first_pass,canonical_drug,pattern
+exenatide and placebo,2,review: placebo + active,exenatide,A
+empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide,1,review: placebo + active,semaglutide,B
+exenatide - exenatide - placebo,1,review: placebo + active,exenatide,C
+exenatide - placebo - exenatide,1,review: placebo + active,exenatide,C
+exenatide-lar plus dapagliflozin placebo,1,review: placebo + active,exenatide,A
+intervention period 2: semaglutide + empagliflozin placebo,1,review: placebo + active,semaglutide,A
+intervention period 3: semaglutide placebo + empagliflozin,1,review: placebo + active,semaglutide,B
+intervention period 4: semaglutide placebo + empagliflozin placebo,1,review: placebo + active,semaglutide,B
+"lae102 placebo,+tirzepatide",1,review: placebo + active,tirzepatide,A
+liraglutide (saxenda) 6mg/ml inj pen 3ml or placebo,1,review: placebo + active,liraglutide,C
+liraglutide or placebo,1,review: placebo + active,liraglutide,C
+placebo in combination with semaglutide,1,review: placebo + active,semaglutide,A
+placebo matching empagliflozin and placebo pen injector matching semaglutide,1,review: placebo + active,semaglutide,B
+placebo+semaglutide,1,review: placebo + active,semaglutide,A
+polyethylene glycol loxenatide or placebo,1,review: placebo + active,loxenatide,C
+semaglutide 2.4 mg and placebo 1.0 mg,1,review: placebo + active,semaglutide,A
+cagrilintide b and placebo semaglutide i,1,review: placebo + active,semaglutide,B
+semaglutide 2.4 mg and placebo 2.0 mg,1,review: placebo + active,semaglutide,A

@@ -1,11 +1,12 @@
--- sql/01b_name_review.sql  (v4, 8 Nov 2026)
--- v2 (6 Nov): fixed v1 mislabels and split "review" into 4 types (unclear names, unfamiliar drugs, background use, placebo + active)
--- v3: rule 0 for Review 1 (unclear names)
--- v4: rule 0b for Review 2 (unfamiliar drugs)
+-- sql/01b_name_review.sql  (v5, 8 Nov 2026)
 -- Purpose: give every GLP-1-looking drug name a first-pass label
 --          (keep / exclude / review) and a canonical_drug, so only
 --          the "review" rows need a human decision.
 -- Rules are checked top to bottom: the FIRST rule that matches wins.
+-- v2 (6 Nov): fixed v1 mislabels and split "review" into 4 types (unclear names, unfamiliar drugs, background use, placebo + active)
+-- v3: rule 0 for Review 1 (unclear names)
+-- v4: rule 0b for Review 2 (unfamiliar drugs)
+-- v5: rule 0c for Review 3 (placebo + active)
 WITH names AS (
     SELECT nct_id, LOWER(name) AS drug_name FROM interventions
     UNION ALL
@@ -57,6 +58,30 @@ labelled AS (
                                'vurolenatide 100mg/pbo', 'vurolenatide 50/50 mg', 'vurolenatide 50mg/pbo', 
                                'zovaglutide', 'zovaglutide arm 1', 'zovaglutide arm 2', 'zovaglutide dose 1', 
                                'zovaglutide dose 2')
+                THEN 'keep'
+            -- 0c. hand-decided names from Review 3 (placebo + active, 8 Nov 2026)
+            --     pattern B: the GLP-1 itself is the placebo -> exclude
+            --     patterns A and C: a real GLP-1 is given -> keep
+            --     evidence: notebooks/review_active_placebo.csv
+            WHEN drug_name IN ('cagrilintide b and placebo semaglutide i',
+                               'empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide',
+                               'intervention period 3: semaglutide placebo + empagliflozin',
+                               'intervention period 4: semaglutide placebo + empagliflozin placebo',
+                               'placebo matching empagliflozin and placebo pen injector matching semaglutide')
+                THEN 'exclude: placebo'
+            WHEN drug_name IN ('exenatide and placebo',
+                               'exenatide - exenatide - placebo',
+                               'exenatide - placebo - exenatide',
+                               'exenatide-lar plus dapagliflozin placebo',
+                               'intervention period 2: semaglutide + empagliflozin placebo',
+                               'lae102 placebo,+tirzepatide',
+                               'liraglutide (saxenda) 6mg/ml inj pen 3ml or placebo',
+                               'liraglutide or placebo',
+                               'placebo in combination with semaglutide',
+                               'placebo+semaglutide',
+                               'polyethylene glycol loxenatide or placebo',
+                               'semaglutide 2.4 mg and placebo 1.0 mg',
+                               'semaglutide 2.4 mg and placebo 2.0 mg')
                 THEN 'keep'
             -- 1. text says the GLP-1 is NOT given
             WHEN drug_name ~ '(non-glp|not including|excluding|except for|besides|\+ no )'
