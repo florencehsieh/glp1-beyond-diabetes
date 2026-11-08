@@ -1,4 +1,4 @@
--- sql/01b_name_review.sql  (v6, 8 Nov 2026)
+-- sql/01b_name_review.sql  (v7, 8 Nov 2026)
 -- Purpose: give every GLP-1-looking drug name a first-pass label
 --          (keep / exclude / review) and a canonical_drug, so only
 --          the "review" rows need a human decision.
@@ -8,6 +8,7 @@
 -- v4: rule 0b for Review 2 (unfamiliar drugs)
 -- v5: rule 0c for Review 3 (placebo + active)
 -- v6: rule 0d for Review 4 (background use)
+-- v7: canonical_drug for 3 GLP-1/GLP-2 duals (ZP7570 = dapiglutide); 4 Review 4 names -> keep: class wording
 WITH names AS (
     SELECT nct_id, LOWER(name) AS drug_name FROM interventions
     UNION ALL
@@ -88,16 +89,17 @@ labelled AS (
             --     keep: the protocol assigns or sets the GLP-1 dose (A, taper D)
             --     exclude: own GLP-1 only, observational, stop arm, or pre-procedure stop (B, D)
             --     evidence: data/review/01d_background_use_decided.csv
-            WHEN drug_name IN ('add glp-1 receptor agonist',
-                               'application of glp-1ras drugs',
-                               'comparator: exenatide',
+            WHEN drug_name IN ('comparator: exenatide',
                                'discontinuation and reinitiation of tirzepatide',
-                               'glp-1 dose reduction',
                                'gradual dose reduction of semaglutide',
-                               'maintenance of glp-1 dose',
                                'semaglutide dose-tapering regimen',
                                'sleeve gastrectomy plus early mazdutide initiation')
                 THEN 'keep'
+            WHEN drug_name IN ('add glp-1 receptor agonist',
+                               'application of glp-1ras drugs',
+                               'glp-1 dose reduction',
+                               'maintenance of glp-1 dose')
+                THEN 'keep: class wording'
             WHEN drug_name IN ('2 ogtts with and without glp-1 analogue',
                                'abrupt cessation of semaglutide',
                                'angiotensin converting enzyme inhibitors, angiotensin ii receptor blockers, dpp-4 inhibitors, glp-1 receptor agonists, sglt2 inhibitors, calcium channel blockers, β receptor blocker',
@@ -167,6 +169,9 @@ labelled AS (
             ELSE 'review: unclear'
         END AS first_pass,
         CASE
+            WHEN drug_name IN ('dual glp-1/glp-2 receptor agonists',
+                               'dual glp-1r/glp-2r agonist',
+                               'glp-1/glp-2 agonist')      THEN 'dapiglutide'   -- ZP7570 in the trial text
             WHEN drug_name ~ 'hec88473'                    THEN 'hec88473'
             WHEN drug_name ~ '(efsubaglutide|supaglutide)' THEN 'efsubaglutide alfa'
             WHEN drug_name ~ 'rexenatide'                  THEN 'exenatide'
@@ -197,12 +202,15 @@ labelled AS (
             WHEN drug_name ~ 'danuglipron'     THEN 'danuglipron'
             WHEN drug_name ~ 'maridebart'      THEN 'maridebart cafraglutide'
             WHEN drug_name ~ 'ecnoglutide'     THEN 'ecnoglutide'
-            WHEN drug_name ~ '(loxenatide|losenatide)'   THEN 'loxenatide'
+            WHEN drug_name ~ '(loxenatide|losenatide)'    THEN 'loxenatide'
             WHEN drug_name ~ '(beinaglutide|benaglutide)' THEN 'beinaglutide'
-            WHEN drug_name ~ 'dapiglutide'     THEN 'dapiglutide'
+            WHEN drug_name ~ 'dapiglutide|zp7570'         THEN 'dapiglutide'
         END AS canonical_drug
     FROM counted
 )
-SELECT drug_name, n_trials, first_pass, canonical_drug
+SELECT drug_name,
+       SPLIT_PART(first_pass, ':', 1)               AS decision,
+       canonical_drug,
+       NULLIF(TRIM(SPLIT_PART(first_pass, ':', 2)), '') AS reason
 FROM labelled
-ORDER BY first_pass, n_trials DESC;
+ORDER BY decision DESC, drug_name;
