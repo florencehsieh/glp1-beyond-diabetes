@@ -1,4 +1,4 @@
--- sql/01b_name_review.sql  (v5, 8 Nov 2026)
+-- sql/01b_name_review.sql  (v6, 8 Nov 2026)
 -- Purpose: give every GLP-1-looking drug name a first-pass label
 --          (keep / exclude / review) and a canonical_drug, so only
 --          the "review" rows need a human decision.
@@ -7,6 +7,7 @@
 -- v3: rule 0 for Review 1 (unclear names)
 -- v4: rule 0b for Review 2 (unfamiliar drugs)
 -- v5: rule 0c for Review 3 (placebo + active)
+-- v6: rule 0d for Review 4 (background use)
 WITH names AS (
     SELECT nct_id, LOWER(name) AS drug_name FROM interventions
     UNION ALL
@@ -62,7 +63,7 @@ labelled AS (
             -- 0c. hand-decided names from Review 3 (placebo + active, 8 Nov 2026)
             --     pattern B: the GLP-1 itself is the placebo -> exclude
             --     patterns A and C: a real GLP-1 is given -> keep
-            --     evidence: notebooks/review_active_placebo.csv
+            --     evidence: data/review/01c_placebo_active_decided.csv
             WHEN drug_name IN ('cagrilintide b and placebo semaglutide i',
                                'empagliflozin 10mg oral tablet and placebo pen injector matching semaglutide',
                                'intervention period 3: semaglutide placebo + empagliflozin',
@@ -83,6 +84,46 @@ labelled AS (
                                'semaglutide 2.4 mg and placebo 1.0 mg',
                                'semaglutide 2.4 mg and placebo 2.0 mg')
                 THEN 'keep'
+            -- 0d. hand-decided names from Review 4 (background use, 8 Nov 2026)
+            --     keep: the protocol assigns or sets the GLP-1 dose (A, taper D)
+            --     exclude: own GLP-1 only, observational, stop arm, or pre-procedure stop (B, D)
+            --     evidence: data/review/01d_background_use_decided.csv
+            WHEN drug_name IN ('add glp-1 receptor agonist',
+                               'application of glp-1ras drugs',
+                               'comparator: exenatide',
+                               'discontinuation and reinitiation of tirzepatide',
+                               'glp-1 dose reduction',
+                               'gradual dose reduction of semaglutide',
+                               'maintenance of glp-1 dose',
+                               'semaglutide dose-tapering regimen',
+                               'sleeve gastrectomy plus early mazdutide initiation')
+                THEN 'keep'
+            WHEN drug_name IN ('2 ogtts with and without glp-1 analogue',
+                               'abrupt cessation of semaglutide',
+                               'angiotensin converting enzyme inhibitors, angiotensin ii receptor blockers, dpp-4 inhibitors, glp-1 receptor agonists, sglt2 inhibitors, calcium channel blockers, β receptor blocker',
+                               'glp-1 medication initiation',
+                               'glp-1 non stop',
+                               'glp-1 not stop for 1 week',
+                               'glp-1 ra cessation interval',
+                               'glp-1 ra discontinuation interval',
+                               'glp-1 ra users with prolonged fasting instructions',
+                               'glp-1 ra users with standard npo instructions',
+                               'glp-1 receptor agonist (e.g., semaglutide, tirzepatide) - prescribed by the treating physician as standard care; the study does not assign or alter treatment.',
+                               'glp-1 stop for 1 week',
+                               'gut motility quantification using a capsule after initiating glp-1ra therapy',
+                               'initiation of tirzepatide',
+                               'maintain dual therapy (sulf/pio) as comparator to liraglutide',
+                               'new use of oral semaglutide',
+                               'new use of semaglutide injection',
+                               'on glp1 only',
+                               'on glp1 plus hrt',
+                               'semaglutide injectable product (not provided by the study)',
+                               'structured weight loss program including behavioral support and optional meal re-placement or pharmacotherapy with glucagon-like peptide-1 receptor agonists (glp1-ra)',
+                               'the glp-1 receptor agonist users',
+                               'time since last glp-1 ra dose',
+                               'tirzepatide is administered as part of routine clinical care for obesity management, according to standard prescribing practices. dosing and treatment duration are determined by the treating physician',
+                               'to utilize the freestyle libre 3 continuous glucose monitoring system (fsl3) to help prolong the length of time people with diabetes maintain adherence to glp-1 and dual gip/glp-1 agonists')
+                THEN 'exclude: background use'
             -- 1. text says the GLP-1 is NOT given
             WHEN drug_name ~ '(non-glp|not including|excluding|except for|besides|\+ no )'
                 THEN 'exclude: no GLP-1'
