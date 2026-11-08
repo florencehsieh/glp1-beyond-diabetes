@@ -1,5 +1,7 @@
--- sql/01b_name_review.sql  (v3, 7 Nov 2026)
+-- sql/01b_name_review.sql  (v4, 8 Nov 2026)
+-- v2 (6 Nov): fixed v1 mislabels and split "review" into 4 types (unclear names, unfamiliar drugs, background use, placebo + active)
 -- v3: rule 0 for Review 1 (unclear names)
+-- v4: rule 0b for Review 2 (unfamiliar drugs)
 -- Purpose: give every GLP-1-looking drug name a first-pass label
 --          (keep / exclude / review) and a canonical_drug, so only
 --          the "review" rows need a human decision.
@@ -37,6 +39,25 @@ labelled AS (
                 THEN 'keep'
             WHEN drug_name = 'incretin-based therapies (glp-1 and glp-1/gip)'
                 THEN 'keep: class wording'
+            -- 0b. hand-decided names from Review 2 (unfamiliar drugs, 8 Nov 2026)
+            --     evidence: AACT intervention descriptions first, web only if silent
+            WHEN drug_name = 'sonefpeglutide'
+                THEN 'exclude: GLP-2 drug'
+            WHEN drug_name IN ('berobenatide', 'bofanglutide', 'efsubaglutide alfa', 
+                               'efsubaglutide alfa 10 mg qw', 'efsubaglutide alfa 1mg qw and 3mg q2w', 
+                               'efsubaglutide alfa 20 mg qw', 'efsubaglutide alfa 3mg q2w and 1mg qw', 
+                               'efsubaglutide alfa 40 mg q2w', 'efsubaglutide alfa 40 mg qw', 
+                               'efsubaglutide alfa 5 mg qw', 'efsubaglutide alfa 80 mg q4w', 
+                               'efsubaglutide alfa 80 mg qw', 'efsubaglutide alfa injection', 'froniglutide', 
+                               'glp-1/fgf21 dual agonist (hec88473)', 'hec88473, placebo, dulaglutide', 
+                               'noiiglutide injection', 'phase iib：efsubaglutide alfa 10 mg qw', 
+                               'phase iib：efsubaglutide alfa 20 mg q2w', 'phase iib：efsubaglutide alfa 20 mg qw', 
+                               'phase iib：efsubaglutide alfa 5 mg qw', 'rexenatide-4', 'rhglp-1(7-36)', 
+                               'supaglutide', 'supaglutide injection', 'supaglutide injection+metformin', 
+                               'vurolenatide 100mg/pbo', 'vurolenatide 50/50 mg', 'vurolenatide 50mg/pbo', 
+                               'zovaglutide', 'zovaglutide arm 1', 'zovaglutide arm 2', 'zovaglutide dose 1', 
+                               'zovaglutide dose 2')
+                THEN 'keep'
             -- 1. text says the GLP-1 is NOT given
             WHEN drug_name ~ '(non-glp|not including|excluding|except for|besides|\+ no )'
                 THEN 'exclude: no GLP-1'
@@ -80,6 +101,16 @@ labelled AS (
             ELSE 'review: unclear'
         END AS first_pass,
         CASE
+            WHEN drug_name ~ 'hec88473'                    THEN 'hec88473'
+            WHEN drug_name ~ '(efsubaglutide|supaglutide)' THEN 'efsubaglutide alfa'
+            WHEN drug_name ~ 'rexenatide'                  THEN 'exenatide'
+            WHEN drug_name ~ 'rhglp'                       THEN 'beinaglutide'
+            WHEN drug_name ~ 'berobenatide'  THEN 'berobenatide'
+            WHEN drug_name ~ 'zovaglutide'   THEN 'zovaglutide'
+            WHEN drug_name ~ 'noiiglutide'   THEN 'noiiglutide'
+            WHEN drug_name ~ 'bofanglutide'  THEN 'bofanglutide'
+            WHEN drug_name ~ 'froniglutide'  THEN 'froniglutide'
+            WHEN drug_name ~ 'vurolenatide'  THEN 'vurolenatide'
             WHEN drug_name = 'glp-1 plus basal insulin'                                   THEN 'lixisenatide'
             WHEN drug_name ~ '(semaglutide|ozempic|wegovy|rybelsus|cagrisema)'            THEN 'semaglutide'
             WHEN drug_name ~ '(tirzepatide|mounjaro|monjouro|zepbound)'                   THEN 'tirzepatide'
