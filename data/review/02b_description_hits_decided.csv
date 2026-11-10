@@ -116,13 +116,13 @@ NCT02370745,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, foo
 NCT03414333,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
 NCT04133922,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
 NCT07368855,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
-NCT01298830,glp-1 cellbeads,review,A,,,Pending: judgment call
+NCT01298830,glp-1 cellbeads,review,A,exclude,,"Cell therapy secreting native GLP-1, not a GLP-1 RA drug; industry trial in stroke, note it if stroke makes the shortlist (02b)"
 NCT01607450,glp-1 high dose,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
 NCT01607450,glp-1 low dose,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
 NCT07736911,glp-1 non stop,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
 NCT04347252,glucagon,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
-NCT07635953,group a (triple combination intensive therapy group),review,A,,,Pending: judgment call
-NCT06946628,group a (triple combination therapy group),review,A,,,Pending: judgment call
+NCT07635953,group a (triple combination intensive therapy group),review,A,keep,tirzepatide,"Tested arm gets tirzepatide from day one, protocol-titrated, + empagliflozin + pioglitazone: combo rule, not a strategy (02b)"
+NCT06946628,group a (triple combination therapy group),review,A,keep,semaglutide,"Tested arm gets semaglutide from day one, protocol-titrated, + empagliflozin + pioglitazone: combo rule, not a strategy (02b)"
 NCT06946628,group b (standard therapy group),review,B,exclude,,Standard-therapy comparator steps up to tirzepatide; comparator arm only. Trial gets in through Group A (pattern A)
 NCT07635953,group b (standard therapy group),review,B,exclude,,Standard-therapy comparator steps up to tirzepatide; comparator arm only. Trial gets in through Group A (pattern A)
 NCT00537719,gsk716155,review,A,keep,albiglutide,Name map addition: development code: description says albiglutide (02b)

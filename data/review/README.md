@@ -72,7 +72,7 @@ Step 2, hand patterns for the `review` rows:
 
 | Pattern | Meaning | Test | Likely call | Trials |
 |---|---|---|---|---|
-| A | A GLP-1 drug the name search missed: code, new formulation, typo (VK2735, ITCA 650, "semagludtide") | Does the AACT description call it a GLP-1 receptor agonist? | **Decided 10 Nov: keep**, split by name type (below). 3 names pending: "group a (triple combination…)" ×2, "glp-1 cellbeads" | ~52 |
+| A | A GLP-1 drug the name search missed: code, new formulation, typo (VK2735, ITCA 650, "semagludtide") | Does the AACT description call it a GLP-1 receptor agonist? | **Decided 10 Nov: keep**, split by name type (below). Last 3 decided 10 Nov: "group a (triple combination…)" ×2 keep (overrides), "glp-1 cellbeads" exclude (cell therapy) | ~52 |
 | B | Treatment bundle ("best medical treatment", "weight loss medications such as…") | Does the protocol give a named GLP-1 in the tested arm? Same test as Review 4 | **Decided 10 Nov: 1 keep, 19 exclude** (20 trials, 21 rows). Named GLP-1 with a dose → keep; "could include" / doctor's choice / background → exclude. A GLP-1 that is only one option or a later step in a tested *strategy* → exclude: the trial tests the strategy, not the GLP-1 (NCT01974544, NCT07223242) | 20 |
 | C | Not a GLP-1, or a physiology tool (blood test, metformin, saline, native GLP-1 arm) | Is the named drug a GLP-1 at all? | **Decided 10 Nov: exclude** (25 rows). Two names first sorted here were moved to A after reading the full text: "cs0159" (gives semaglutide) and "degludec insulin" (IDegLira) | ~23 |
 
@@ -90,3 +90,6 @@ Found outside 02b (no GLP-1 wording anywhere in AACT): HEC88473 ("hec88473 injec
 
 Result: headline 1,754 → 1,845 interventional trials (+91). Includes EVOKE (NCT04777396, semaglutide in Alzheimer's,
 missed through the typo "semagludtide") and Parkinson's trials of NLY01 and PT320.
+
+Then 1,845 → 1,848 (10 Nov): BMS-686117 (NCT00508287, code-only GLP-1 RA, added to the name additions) and the 2 "group a"
+trials (NCT07635953 tirzepatide, NCT06946628 semaglutide, added to the overrides). Backbone stays 49.

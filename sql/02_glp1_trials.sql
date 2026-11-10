@@ -1,9 +1,9 @@
 -- sql/02_glp1_trials.sql  (Phase 2)
 -- Needs sql/02a_load_reference.sql loaded first; run with search_path = ctgov, public.
 -- Builds glp1_trials: one row per interventional trial that gives a GLP-1 in a tested arm.
---   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,140 trials)
+--   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,142 trials)
 --   Step 3     glp1_arm_check: arm rule Option B (decided 9 Nov), one row per trial + arm_rule label
---   Step 4     glp1_trials: interventional only; headline count 1,845 (10 Nov, after the 02b review)
+--   Step 4     glp1_trials: interventional only; headline count 1,848 (10 Nov: 1,845 after the 02b review, +3 from BMS-686117 and the 2 "group a" trials)
 --   Step 5     glp1_backbone: is_backbone flag (Option C, drug add-ons only), a limitation count
 -- The Step 3b drop-out breakdown of the strict rule lives in git history (f27a302).
 
