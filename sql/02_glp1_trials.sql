@@ -1,9 +1,10 @@
--- sql/02_glp1_trials.sql  (Phase 2, work in progress)
+-- sql/02_glp1_trials.sql  (Phase 2)
 -- Needs sql/02a_load_reference.sql loaded first; run with search_path = ctgov, public.
--- Status 9 Nov: Steps 1-2 (glp1_interventions: 2,050 trials) and the strict Step 3
--- (glp1_experimental: 1,485 trials) done; final SELECT = Step 3b drop-out breakdown
--- (190 not interventional, 14 no arm data, 361 GLP-1 only in non-experimental arms).
--- Next: replace glp1_experimental with glp1_arm_check (Option B), then Step 4.
+-- Builds glp1_trials: one row per interventional trial that gives a GLP-1 in a tested arm.
+--   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,050 trials)
+--   Step 3     glp1_arm_check: arm rule Option B (decided 9 Nov), one row per trial + arm_rule label
+--   Step 4     glp1_trials: interventional only; headline count
+-- The Step 3b drop-out breakdown of the strict rule lives in git history (f27a302).
 
 WITH glp1_interventions AS (
     -- Piece 1: GLP-1 names in interventions
@@ -29,33 +30,39 @@ WITH glp1_interventions AS (
     WHERE i.name ~* 'glp-1'
       AND t.decision = 'keep'
 ),
-glp1_experimental AS (
-    -- Step 3: keep trials where the GLP-1 itself sits in an EXPERIMENTAL arm
-    SELECT DISTINCT gi.nct_id
+glp1_arm_check AS (
+    -- Step 3, arm rule Option B. Two pieces, disjoint by construction:
+    -- Piece A: the GLP-1 itself sits in an EXPERIMENTAL arm (the strict rule = sensitivity check)
+    SELECT DISTINCT gi.nct_id, 'experimental arm' AS arm_rule
     FROM glp1_interventions gi
     JOIN design_group_interventions dgi ON gi.intervention_id = dgi.intervention_id  -- drug → bridge
     JOIN design_groups dg               ON dgi.design_group_id = dg.id               -- bridge → arm
     WHERE dg.group_type = 'EXPERIMENTAL'
+
+    UNION
+
+    -- Piece B: the trial has no EXPERIMENTAL arm at all, and the GLP-1 sits in some arm.
+    -- Sponsors label arms loosely (e.g. Exenatide-PD3). Comparator-only trials stay out:
+    -- they have an EXPERIMENTAL arm, just not one with the GLP-1.
+    SELECT DISTINCT gi.nct_id, 'no experimental arm' AS arm_rule
+    FROM glp1_interventions gi
+    JOIN design_group_interventions dgi ON gi.intervention_id = dgi.intervention_id
+    WHERE NOT EXISTS (SELECT 1
+                      FROM design_groups dg
+                      WHERE dg.nct_id = gi.nct_id
+                        AND dg.group_type = 'EXPERIMENTAL')
 ),
-dropped AS (
-    -- trials in glp1_interventions but NOT in glp1_experimental
-    SELECT DISTINCT nct_id FROM glp1_interventions
-    EXCEPT
-    SELECT nct_id FROM glp1_experimental
+glp1_trials AS (
+    -- Step 4: one row per interventional GLP-1 trial
+    SELECT s.nct_id, a.arm_rule, s.start_date, s.phase, s.overall_status, s.source_class
+    FROM studies s
+    JOIN glp1_arm_check a ON a.nct_id = s.nct_id
+    WHERE s.study_type = 'INTERVENTIONAL'
 )
-SELECT
-    CASE
-        WHEN s.study_type <> 'INTERVENTIONAL'               THEN '1 not interventional'
-        WHEN NOT EXISTS (SELECT 1 FROM design_groups dg
-                         WHERE dg.nct_id = d.nct_id)        THEN '2 no arm data'
-        WHEN NOT EXISTS (SELECT 1
-                         FROM glp1_interventions gi
-                         JOIN design_group_interventions dgi  ON dgi.intervention_id = gi.intervention_id
-                         WHERE gi.nct_id = d.nct_id)        THEN '3 GLP-1 not linked to an arm'
-        ELSE '4 GLP-1 only in non-experimental arms'
-    END AS reason,
-    COUNT(*) AS n_trials
-FROM dropped d
-JOIN studies s ON s.nct_id = d.nct_id
-GROUP BY 1
-ORDER BY 1;
+-- Headline count, split by arm rule (the NULL row is the total)
+SELECT arm_rule,
+       COUNT(*)               AS n_rows,
+       COUNT(DISTINCT nct_id) AS n_trials
+FROM glp1_trials
+GROUP BY ROLLUP (arm_rule)
+ORDER BY arm_rule NULLS LAST;
