@@ -1,0 +1,192 @@
+nct_id,drug_name,first_pass,pattern,decision,canonical_drug,clue
+NCT07127354,continue glp/gip,exclude: background use,,exclude,,SQL first_pass rule (background use)
+NCT04627025,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04699032,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04964986,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT05018286,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT05415410,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT05706623,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT07742735,apraglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04178447,glepaglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04881825,glepaglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04991311,glepaglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT00819468,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT01209351,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT02099084,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT02889393,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03268811,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03422666,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03442972,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03571516,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03596164,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03663582,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03716115,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03953170,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04290429,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT04465396,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT05027308,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT06973304,teduglutide,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT07400783,teduglutide (alx-0600),exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03534661,teduglutide + l-nmma,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT03534661,teduglutide + normal saline,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT07537686,teduglutide 0.05 dose,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT00081458,teduglutide 0.05 mg/kg/d,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT00081458,teduglutide 0.1 mg/kg/d,exclude: GLP-2,,exclude,,SQL first_pass rule (GLP-2)
+NCT00882492,glp 1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00588380,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00859079,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01176890,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01347801,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01760772,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01795144,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01851694,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT02127996,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT02731664,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT07398300,glp-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00966654,glp-1 (7-36) amide,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT02128022,glp-1 (7-36) amide,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00393445,glp-1 control,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00856700,glp-1 infusion,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT02550548,glp-1 infusion,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00609154,glucagon like peptide-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01858896,glucagon-like peptide- 1 (glp-1) infusion,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00612625,glucagon-like peptide-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00798590,glucagon-like peptide-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT03081676,glucagon-like peptide-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT04355832,glucagon-like peptide-1,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00612950,"glucagon-like peptide-1,",exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT00285896,glucagon-like-peptide-1 (7-36) amide,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01507597,native human glucagon-like peptide-1 ( glp-1(7-36)),exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01507597,native human glucagon-like peptide-1 ( glp-1(7-36)),exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT01507597,native human glucagon-like peptide-1 ( glp-1(7-36)),exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT02130778,synthetic glp-1 (1.5 pmol/kg/min) dissolved in 500 ml 0.9% saline,exclude: native GLP-1,,exclude,,SQL first_pass rule (native GLP-1)
+NCT04652479,avexitide,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT06747468,avexitide,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT01803451,exendin -(9-39),exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT03241303,exendin (9-39),exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT03246451,exendin (9-39),exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT01795144,exendin 9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT02336659,exendin 9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT03373435,exendin 9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT06967558,exendin 9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT06972407,exendin 9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT01843881,"exendin 9, 39",exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT01843855,"exendin 9,39",exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT00992901,exendin-(9-39),exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT02823665,exendin-(9-39),exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT02128581,"exendin-9,39",exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT04459338,"exendin-9,39",exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT07373236,exendin(9-39)amide,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT00393445,glp-1 and exendin(9-39) 1200,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT00393445,glp-1 and exendin(9-39) 300,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT00393445,glp-1 and exendin(9-39) 600,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT00393445,glp-1 and exendin(9-39) 900,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT06872060,glucagon+exendin9-39,exclude: receptor blocker,,exclude,,SQL first_pass rule (receptor blocker)
+NCT04128995,advanced medical therapy,review,B,exclude,,"Menu: ""could include metformin, GLP-1 agonist, SGLT-2 inhibitor, or basal insulin"""
+NCT00072839,alx-0600,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07027969,anti-obesity medication (aom) treatment,review,B,exclude,,Anti-obesity drugs chosen stepwise by the doctor; non-surgical comparison group
+NCT07728812,anti-obesity medication (aom) treatment,review,B,exclude,,A test picks the drug from a menu (semaglutide or tirzepatide among 4); the test is what is tested
+NCT02015780,antihyperglycemic therapy,review,B,exclude,,"Background: ""any of the following ... acceptable by local practice guidelines"""
+NCT06143423,ap026 (tqa2226) for injection,review,A,keep,ap026,Name map addition: development code: GLP-1-FGF21-Fc fusion; same rule as HEC88473 (02b)
+NCT03804411,automatic system guided treatment,review,B,exclude,,"A system picks 1 of 8 add-on drugs (liraglutide, exenatide among them); the picking system is tested"
+NCT06101667,best medical management,review,B,exclude,,"Stroke trial; ""GLP-1 analogs"" is one item in a best-medical-care list"
+NCT01974544,best medical treatment,review,B,exclude,,"Judgment call: liraglutide 0.6-1.8 mg only if HbA1c stays above 7% after metformin; tests a medical strategy vs surgery, not the GLP-1"
+NCT04626323,best medical treatment,review,B,exclude,,"Standard of care: GLP-1 analogs ""if necessary"""
+NCT05570435,blood collection,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07337707,blood test,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07336862,bs-glp group,review,B,keep,semaglutide,"Tested arm gets semaglutide 0.25 to 2.4 mg weekly, months 1-6 after sleeve gastrectomy; title ""Bariatric Surgery Combined With GLP-1 RA"""
+NCT01021527,comparator: treatment b,review,A,keep,exenatide,Trial override: Vague label (02b); single dose exenatide 5 ug
+NCT01021527,comparator: treatment c,review,A,keep,exenatide,Trial override: Vague label (02b); single dose exenatide 10 ug
+NCT01700075,conventional treatment,review,B,exclude,,"""Metformin ... or Exenatide"" in a conventional-care comparator arm"
+NCT06492330,cs0159,review,A,keep,semaglutide,Trial override: Vague label (02b); CS0159 4 mg + semaglutide 0.5 mg weekly in MASH. The name 'cs0159' alone is linafexor (FXR agonist) in 9 other trials
+NCT06953063,da-302168s,review,A,keep,da-302168s,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT07629544,da-302168s,review,A,keep,da-302168s,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT07629544,da-302168s,review,A,keep,da-302168s,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT07755150,da-302168s,review,A,keep,da-302168s,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT07877038,da-302168s,review,A,keep,da-302168s,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT06410924,dd01,review,A,keep,dd01,Name map addition: development code: GLP-1/glucagon dual agonist (02b)
+NCT06925334,degludec insulin,review,A,keep,liraglutide,Trial override: Vague label (02b); switch to insulin degludec/liraglutide (IDegLira)
+NCT04027023,diabetes mellitus type 2 de-escalation treatment (det),review,B,exclude,,"Combination drawn from a list incl. liraglutide and exenatide; no arm data, so the arm check drops it anyway"
+NCT07539415,dwc202503,review,A,keep,semaglutide,Name map addition: development code: description says semaglutide (02b)
+NCT07539415,dwrx5003,review,A,keep,semaglutide,Name map addition: new formulation: semaglutide microneedle patch (02b)
+NCT07407348,formulation a,review,A,keep,survodutide,Trial override: Vague label (02b); formulation A of survodutide
+NCT07407348,formulation b6,review,A,keep,survodutide,Trial override: Vague label (02b); formulation B6 of survodutide
+NCT02370745,gip,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT02370745,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT03414333,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT04133922,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07368855,glp-1,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT01298830,glp-1 cellbeads,review,A,,,Pending: judgment call
+NCT01607450,glp-1 high dose,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT01607450,glp-1 low dose,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07736911,glp-1 non stop,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT04347252,glucagon,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07635953,group a (triple combination intensive therapy group),review,A,,,Pending: judgment call
+NCT06946628,group a (triple combination therapy group),review,A,,,Pending: judgment call
+NCT06946628,group b (standard therapy group),review,B,exclude,,Standard-therapy comparator steps up to tirzepatide; comparator arm only. Trial gets in through Group A (pattern A)
+NCT07635953,group b (standard therapy group),review,B,exclude,,Standard-therapy comparator steps up to tirzepatide; comparator arm only. Trial gets in through Group A (pattern A)
+NCT00537719,gsk716155,review,A,keep,albiglutide,Name map addition: development code: description says albiglutide (02b)
+NCT00354536,gsk716155 subcutaneous injections,review,A,keep,albiglutide,Name map addition: development code: description says albiglutide (02b)
+NCT07823452,gut-brain axis (glp-1)-activating food carbohydrate,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT02075281,hm11260c,review,A,keep,efpeglenatide,Name map addition: development code: LAPS-exendin (titles); HM11260C is Hanmi's code for efpeglenatide (02b)
+NCT06825182,inpatient newly diagnosed type 2 diabetes subjects,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT02370745,insulin actrapid,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT01429506,intensive medical management,review,A,keep,exenatide,Trial override: Vague label (02b); exenatide 10 mcg BD + metformin + 800 kcal diet
+NCT01455857,itca 650,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT01455922,itca 650,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT02641899,itca 650 20/60 mcg/day,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT03060980,itca 650 20/60 mcg/day,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT01455870,itca 650 60 mcg/day,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT01455883,itca 650 60 mcg/day,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT01455909,itca 650 60 mcg/day,review,A,keep,exenatide,Name map addition: new formulation: exenatide in an implanted DUROS pump (02b)
+NCT07171723,liver-expressed antimicrobial peptide 2 (leap2),review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07550621,mdr-001,review,A,keep,mdr-001,Name map addition: development code: oral small-molecule GLP-1 RA (02b)
+NCT05812183,medical weight loss,review,B,exclude,,"""Some patients may receive"" 1 of 7 weight-loss drugs"
+NCT03799198,medication for chronic weight management (rx),review,B,exclude,,"1 of 5 weight-loss drugs ""as prescribed by the study doctor"""
+NCT06712836,met097,review,A,keep,met097,Name map addition: development code: ultra-long-acting GLP-1 analogue; also PF-08653944 (02b)
+NCT06897202,met097 injection,review,A,keep,met097,Name map addition: development code: ultra-long-acting GLP-1 analogue (02b)
+NCT04009603,metformin,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT04114136,metformin,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07100691,metoclopramide,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT02606617,mosapride,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT06564753,"na-931 dose 3, daily and orally",review,A,keep,na-931,Name map addition: development code: GLP-1/IGF-1/GIP/glucagon quadruple agonist (02b)
+NCT06564753,"na-931 dose 4, daily and orally",review,A,keep,na-931,Name map addition: development code: GLP-1/IGF-1/GIP/glucagon quadruple agonist (02b)
+NCT06564753,"na-931, dose 1, daily and orally",review,A,keep,na-931,Name map addition: development code: GLP-1/IGF-1/GIP/glucagon quadruple agonist (02b)
+NCT06564753,"na-931, dose2, daily and orally",review,A,keep,na-931,Name map addition: development code: GLP-1/IGF-1/GIP/glucagon quadruple agonist (02b)
+NCT01185119,native glp-1 (7-36),review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT03672604,nly01,review,A,keep,exenatide,Name map addition: new formulation: PEGylated exenatide (02b)
+NCT04154072,nly01,review,A,keep,exenatide,Name map addition: new formulation: PEGylated exenatide (02b)
+NCT04159766,nly01,review,A,keep,exenatide,Name map addition: new formulation: PEGylated exenatide (02b)
+NCT07497399,nly01,review,A,keep,exenatide,Name map addition: new formulation: PEGylated exenatide (02b)
+NCT04379856,nm-002,review,A,keep,nm-002,Name map addition: development code: fusion protein whose active part has exenatide's sequence (02b)
+NCT02738151,non-insulin anti-diabetic treatment,review,B,exclude,,"Description says ""Background therapy"""
+NCT06135584,other drugs,review,B,exclude,,"Drugs ""other than ... GLP1"": excludes it outright"
+NCT06825182,outpatient newly diagnosed type 2 diabetes subjects,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT06203275,paroxetine,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT06309667,pg-102(mg12),review,A,keep,pg-102,Name map addition: development code: GLP-1/GLP-2 fusion; same rule as dapiglutide (02b)
+NCT03430284,pharmacotherapy,review,B,exclude,,"""Pharmacological therapy is individualized""; GLP-1 RA one class in a list"
+NCT04269642,pt320 2.0 mg,review,A,keep,exenatide,Name map addition: new formulation: sustained-release exenatide (02b)
+NCT04269642,pt320 2.5 mg,review,A,keep,exenatide,Name map addition: new formulation: sustained-release exenatide (02b)
+NCT05297045,rgt001-075,review,A,keep,rgt001-075,Name map addition: development code: oral GLP-1 RA (02b)
+NCT06867718,rgt001-075,review,A,keep,rgt001-075,Name map addition: development code: oral GLP-1 RA (02b)
+NCT06726577,saline,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT04777396,semagludtide,review,A,keep,semaglutide,Name map addition: typo (02b)
+NCT07907965,"standard antihypertensive, antidiabetic, and lipid-lowering regimen",review,B,exclude,,Standard antidiabetic regimen list
+NCT03804411,standard treatment,review,B,exclude,,"A system picks 1 of 8 add-on drugs (liraglutide, exenatide among them); the picking system is tested"
+NCT00642538,subcutaneous injection,review,A,keep,exenatide,"Trial override: Vague label (02b); 10 ug exenatide, prandial"
+NCT03860688,ted + glucose,review,C,exclude,,"Not a GLP-1, a physiology tool, a test, food, or background use"
+NCT07327281,tqf3250 capsule,review,A,keep,tqf3250,Name map addition: development code: oral biased GLP-1 RA (02b)
+NCT07747857,tqf3250 capsules,review,A,keep,tqf3250,Name map addition: development code: oral biased GLP-1 RA (02b)
+NCT07798284,tqf3250 capsules,review,A,keep,tqf3250,Name map addition: development code: oral biased GLP-1 RA (02b)
+NCT07354880,treatment with tirzapatide,review,A,keep,tirzepatide,Name map addition: typo (02b)
+NCT06569355,vct220,review,A,keep,vct220,Name map addition: development code: oral small-molecule GLP-1 RA; also tested as CX11 (02b)
+NCT06938529,vct220,review,A,keep,vct220,Name map addition: development code: oral small-molecule GLP-1 RA; also tested as CX11 (02b)
+NCT06939296,vct220,review,A,keep,vct220,Name map addition: development code: oral small-molecule GLP-1 RA; also tested as CX11 (02b)
+NCT06068946,vk2735,review,A,keep,vk2735,Name map addition: development code: GLP-1/GIP dual agonist (02b)
+NCT07104383,vk2735,review,A,keep,vk2735,Name map addition: development code: GLP-1/GIP dual agonist (02b)
+NCT07104500,vk2735,review,A,keep,vk2735,Name map addition: development code: GLP-1/GIP dual agonist (02b)
+NCT07868835,vk2735,review,A,keep,vk2735,Name map addition: development code: GLP-1/GIP dual agonist (02b)
+NCT07868939,vk2735 oral,review,A,keep,vk2735,Name map addition: development code: GLP-1/GIP dual agonist (02b)
+NCT07223242,weight loss,review,B,exclude,,"Judgment call: ""weight loss medications, such as semaglutide or tirzepatide""; the protocol assigns a weight-loss drug, the GLP-1 is only an example"
+NCT07205432,xtl6001,review,A,keep,xtl6001,Name map addition: development code: triple agonist incl. GLP-1R (02b)
+NCT07697846,zt002 injection,review,A,keep,zovaglutide,Name map addition: development code: description says Zovaglutide (ZT002 Injection) (02b)

@@ -1,9 +1,9 @@
 -- sql/02_glp1_trials.sql  (Phase 2)
 -- Needs sql/02a_load_reference.sql loaded first; run with search_path = ctgov, public.
 -- Builds glp1_trials: one row per interventional trial that gives a GLP-1 in a tested arm.
---   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,050 trials)
+--   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,140 trials)
 --   Step 3     glp1_arm_check: arm rule Option B (decided 9 Nov), one row per trial + arm_rule label
---   Step 4     glp1_trials: interventional only; headline count
+--   Step 4     glp1_trials: interventional only; headline count 1,845 (10 Nov, after the 02b review)
 --   Step 5     glp1_backbone: is_backbone flag (Option C, drug add-ons only), a limitation count
 -- The Step 3b drop-out breakdown of the strict rule lives in git history (f27a302).
 
@@ -24,12 +24,12 @@ WITH glp1_interventions AS (
 
     UNION
 
-    -- Piece 3: the 7 hand-rescued trials (overrides)
+    -- Piece 3: trials rescued by hand (overrides), matched on the exact intervention
     SELECT t.nct_id, i.id AS intervention_id, t.canonical_drug
     FROM glp1.trial_overrides t
     JOIN interventions i ON t.nct_id = i.nct_id
-    WHERE i.name ~* 'glp-1'
-      AND t.decision = 'keep'
+                        AND LOWER(i.name) = t.drug_name
+    WHERE t.decision = 'keep'
 ),
 glp1_arm_check AS (
     -- Step 3, arm rule Option B. Two pieces, disjoint by construction:
