@@ -47,7 +47,7 @@ NCT00529204,Home base,mesh
 NCT00529204,MASLD,mesh
 NCT00537719,Home base,mesh
 NCT00546728,Home base,mesh
-NCT00551343,Hypothalamic obesity,addition
+NCT00551343,Prader-Willi syndrome,addition+mesh
 NCT00566813,Type 1 diabetes,mesh
 NCT00577824,Home base,mesh
 NCT00603239,Home base,mesh
@@ -241,6 +241,7 @@ NCT01432938,Home base,mesh
 NCT01435980,Home base,mesh
 NCT01436201,Home base,mesh
 NCT01444898,Home base,mesh
+NCT01444898,Prader-Willi syndrome,mesh
 NCT01451905,Psoriasis,addition
 NCT01452451,Home base,mesh
 NCT01455441,Home base,mesh
@@ -300,6 +301,7 @@ NCT01536665,Home base,mesh
 NCT01536665,Type 1 diabetes,mesh
 NCT01541215,Home base,mesh
 NCT01542242,Home base,mesh
+NCT01542242,Prader-Willi syndrome,mesh
 NCT01550653,Drug study,addition
 NCT01554618,Home base,mesh
 NCT01557166,Home base,mesh
@@ -586,6 +588,7 @@ NCT02507128,ASCVD,addition
 NCT02516657,Type 1 diabetes,mesh
 NCT02518945,Type 1 diabetes,mesh
 NCT02527200,Home base,mesh
+NCT02527200,Prader-Willi syndrome,addition
 NCT02527993,Home base,mesh
 NCT02527993,Post-bariatric hypoglycemia,addition
 NCT02533453,Home base,mesh
@@ -1619,6 +1622,7 @@ NCT06897202,Home base,mesh
 NCT06900075,Home base,mesh
 NCT06901245,Home base,mesh
 NCT06901245,Hypothalamic obesity,mesh
+NCT06901245,Prader-Willi syndrome,mesh
 NCT06903923,Home base,mesh
 NCT06908694,Cancer therapy-induced metabolic toxicity,addition
 NCT06909006,Home base,mesh

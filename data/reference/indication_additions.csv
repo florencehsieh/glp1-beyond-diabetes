@@ -48,7 +48,7 @@ NCT05419856,Drug study,drug-study review 03d (11 Nov): Phase 1 safety/PK of an i
 NCT05668936,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
 NCT05766709,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
 NCT06052566,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
-NCT00551343,Hypothalamic obesity,"drug-study review 03d (11 Nov): Prader-Willi: genetic hypothalamic obesity, same logic as craniopharyngioma"
+NCT00551343,Prader-Willi syndrome,"drug-study review 03d (11 Nov): Prader-Willi; moved from Hypothalamic obesity 11 Nov (Review 9: PWS patients are different from acquired HO patients)"
 NCT00672399,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
 NCT00744224,Home base,drug-study review 03d (11 Nov): steroid-induced glucose problems
 NCT00782418,Drug study,drug-study review 03d (11 Nov): insulin-secretion method study in healthy people
@@ -243,3 +243,4 @@ NCT00993720,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): title: pa
 NCT06411210,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): obesity in type 1 diabetes"
 NCT06762314,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): overweight/obese type 1 on insulin; primary = HbA1c"
 NCT07096908,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): obesity in type 1 diabetes"
+NCT02527200,Prader-Willi syndrome,"title keyword pass v2 (11 Nov, Review 9): Novo liraglutide Phase 3 for weight in paediatric Prader-Willi; tagged obesity only"

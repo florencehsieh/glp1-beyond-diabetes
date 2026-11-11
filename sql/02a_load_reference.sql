@@ -76,7 +76,7 @@ CREATE TABLE glp1.indication_additions (
 );
 \copy glp1.indication_additions FROM 'data/reference/indication_additions.csv' WITH (FORMAT csv, HEADER true)
 
--- Checks: tag counts (75 terms, 1 untagged: renal insufficiency); every real term has an
+-- Checks: tag counts (76 terms, 1 untagged: renal insufficiency); every real term has an
 -- indication (0 rows); every addition is a trial in glp1.trials (0 rows; run after 02)
 SELECT COALESCE(tag, '(untagged)') AS tag, COUNT(*) FROM glp1.mesh_tags GROUP BY 1 ORDER BY 2 DESC;
 SELECT downcase_mesh_term FROM glp1.mesh_tags WHERE tag = 'real' AND indication IS NULL;

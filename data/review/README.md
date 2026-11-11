@@ -244,7 +244,7 @@ Review 7), and the patterns re-find almost every trial each indication already h
 | no: a measure, not the target | Blood pressure as a safety or physiology outcome | 5 |
 | no: population or prevention | Cognition in depression, SELECT (stroke prevention → ASCVD), CV risk in T2D, joint-replacement wounds, food addiction, early T2D | 11 |
 | no action | Addiction trials already labelled with their own substance | 11 |
-| parked | Prader-Willi ×5: genetic obesity, home base or new, decided later | 5 |
+| yes: Prader-Willi syndrome | Own label (decided after the first sort, below); 4 by the MeSH tag `prader-willi syndrome`, Novo's Phase 3 by hand | 5 |
 
 **Rules set in this review**
 - **A second target in the official title counts.** NCT06409130 (Novo, alcohol-related liver disease) names alcohol use
@@ -256,10 +256,16 @@ Review 7), and the patterns re-find almost every trial each indication already h
   real drug label is a stage of Alzheimer's (lecanemab, donanemab), so MCI without an Alzheimer's diagnosis is its own
   area. LIGHT-COG was a close call: Alzheimer's-style criteria and endpoints (CDR 0.5–1, iADRS, CDR-SB), but no
   diagnosis or amyloid test at entry. LIGHT-MCI and LIGHT-COG come from one group (Nanjing Drum Tower Hospital).
+- **Prader-Willi syndrome is its own indication**, split from Hypothalamic obesity: PWS patients are different from
+  acquired HO patients (a neurodevelopmental disorder vs tumour or surgery damage with pituitary hormone replacement),
+  and PWS has its own approved drug (diazoxide choline for hyperphagia, FDA 2025). NCT00551343 moves out of
+  Hypothalamic obesity; NCT06901245 enrols both, so it keeps both. Novo's Phase 3 (NCT02527200) completed in 2015, so
+  it doesn't count as an active industry Phase 3. Cost: the two hypothalamic obesity labels now hold 8 and 5 trials,
+  both thin.
 - **Weight loss in a disease population counts as that disease**, as for breast cancer (FITWISE) and PCOS: the same
   precedent as the breast cancer trials already labelled.
 
-Result: 1,804 of 1,809 trials labelled, 2,088 trial × indication rows, 68 labels. Known-trials check still 4 of 4.
+Result: 1,804 of 1,809 trials labelled, 2,092 trial × indication rows, 69 labels. Known-trials check still 4 of 4.
 Industry trials the tags had missed: STEP 9 and retatrutide in knee osteoarthritis (Phase 3 ×2), orforglipron in
 sleep apnoea (Phase 3), mirikizumab + tirzepatide in ulcerative colitis (Phase 3b), TOGETHER-PsA (Phase 3b) and a
 Lilly Phase 4 in psoriatic arthritis, Novo in alcohol use disorder (Phase 2). All were tagged obesity or liver only.
@@ -287,6 +293,8 @@ What the pass changed, per indication (all years; Phase 4 uses the 2023–2025 w
 | Cognitive impairment in diabetes (new) | 0 → 3 | – → 0% | 0 → 0 |
 | Male hypogonadism (new) | 0 → 2 | – → 0% | 0 → 0 |
 | Stimulant use disorder (new) | 0 → 1 | – → 0% | 0 → 0 |
+| Prader-Willi syndrome (new) | 0 → 5 | – → 20% | 0 → 1 (completed 2015) |
+| Hypothalamic obesity | 9 → 8 | 0% → 0% | 0 → 0 |
 
 Read: osteoarthritis, IBD and psoriatic arthritis would have looked more open to industry than they are; PCOS and
 infertility stay all academic after the pass, so their openness isn't a tagging artefact.
@@ -304,7 +312,7 @@ Every indication that joins or splits MeSH terms or trials. The plan's rule: wri
 | 11 Nov | Stroke / ASCVD | Split by target: stroke prevention → ASCVD, acute treatment → Stroke | Different patients and endpoints (cardiology vs neurology) | Decided table, Review 7 |
 | 11 Nov | Obstructive sleep apnoea, Smoking cessation, Osteoarthritis, Stroke | Two terms each merged | One disease each | Review 6 |
 | 11 Nov | Endometrial cancer and atypical hyperplasia | Merge the two terms | One treatment setting | Review 6 |
-| 11 Nov | Hypothalamic obesity | `sexual infantilism` + `craniopharyngioma`; Prader-Willi trial added | Obesity from hypothalamic damage, tumour or genetic | Reviews 6, 8 |
+| 11 Nov | Hypothalamic obesity | `sexual infantilism` + `craniopharyngioma`; a Prader-Willi trial added in Review 8, moved out in Review 9 | Acquired obesity from hypothalamic damage or tumour | Reviews 6, 8, 9 |
 | 11 Nov | Antipsychotic-induced weight gain | `schizophrenia` + `bipolar disorder`; olanzapine and antipsychotic glucose trials added | A drug causes the metabolic harm | Reviews 6, 8, measure check |
 | 11 Nov | Home base | `weight loss`, `body weight`, `body weight changes` retagged from measure | Weight loss is what those trials treat | measure check |
 | 11 Nov | Inflammatory bowel disease | Merge `crohn disease` + `inflammatory bowel diseases`; ileal pouch trials added | One disease spectrum | B, Review 8 |
@@ -315,3 +323,4 @@ Every indication that joins or splits MeSH terms or trials. The plan's rule: wri
 | 11 Nov | Male hypogonadism | New: NCT03619330, NCT06489457 (the second also Infertility) | Functional, obesity-related hypogonadism; testosterone is approved for it, so a real label indication | Review 9 |
 | 11 Nov | Stimulant use disorder | New: NCT07693608, not merged into Methamphetamine | "Stimulant" covers meth or cocaine: one would misstate it, both would double count | Review 9 |
 | 11 Nov | Psoriasis / Psoriatic arthritis | Kept separate; PsA trials added by title (TOGETHER-PsA and 2 more) | Joint disease with its own endpoints (ACR50, HAQ-DI) | Review 9 |
+| 11 Nov | Prader-Willi syndrome | New: MeSH `prader-willi syndrome` tagged real (4 trials) + NCT02527200 by hand; split from Hypothalamic obesity | PWS patients are different from acquired HO patients; PWS has its own approved drug | Review 9 |

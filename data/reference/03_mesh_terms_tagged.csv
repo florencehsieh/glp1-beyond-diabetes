@@ -74,3 +74,4 @@ osteoporosis,3,0,3,0,0.0,real,Osteoporosis,"tail tag (11 Nov, option B): term he
 breast neoplasms,4,0,4,0,0.0,real,Breast cancer,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; cost: both in patients with obesity, may target weight"
 prostatic neoplasms,4,0,4,0,0.0,broad,,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; mixed targets, split by hand in indication_additions.csv: tumour vs ADT side effects (like antipsychotic-induced weight gain)"
 "lymphoma, follicular",4,1,3,0,25.0,error,,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; MeSH error: on opioid, cannabis and PK trials, none lymphoma"
+prader-willi syndrome,4,0,4,0,0,real,Prader-Willi syndrome,"genetic obesity with hyperphagia, split from Hypothalamic obesity: PWS patients are different from acquired HO patients; PWS has its own approved drug (diazoxide choline, 2025) (11 Nov, Review 9)"
