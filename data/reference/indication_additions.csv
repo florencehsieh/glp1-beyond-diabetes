@@ -81,7 +81,7 @@ NCT02641899,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence
 NCT02650479,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
 NCT02685852,Post-bariatric hypoglycemia,drug-study review 03d (11 Nov): hyperinsulinemic hypoglycemia after gastric bypass (RYGB)
 NCT02770885,Primary polydipsia,drug-study review 03d (11 Nov): fluid intake in patients
-NCT02847403,Alzheimer's,drug-study review 03d (11 Nov): cognitive decline in mild cognitive impairment with dysglycaemia
+NCT02847403,Cognitive impairment in diabetes,drug-study review 03d (11 Nov): cognitive decline in mild cognitive impairment with dysglycaemia; moved from Alzheimer's 11 Nov (Review 9: no AD diagnosis -> Cognitive impairment in diabetes)
 NCT02930265,ASCVD,drug-study review 03d (11 Nov): ischaemic cardiomyopathy (record title is just the hospital name)
 NCT03141632,Drug study,drug-study review 03d (11 Nov): fluid intake in healthy volunteers
 NCT03160261,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
@@ -204,3 +204,42 @@ NCT07874971,Home base,drug-study review 03d (11 Nov): muscle loss during GLP-1 w
 NCT07878494,Post-bariatric hypoglycemia,drug-study review 03d (11 Nov): treats post-bariatric hypoglycemia
 NCT07879612,Cannabis use disorder,drug-study review 03d (11 Nov): treats cannabis use disorder
 NCT02838589,Drug study,"brain blood flow in healthy non-stroke volunteers: physiology; its Stroke MeSH tag is wrong (11 Nov, keyword review)"
+NCT06409130,Alcohol use disorder,"title keyword pass v2 (11 Nov, Review 9): AUD too: Novo names alcohol use in the official title, and measures it twice (PEth, TLFB); enrols 5+ yrs heavy drinkers. Primary is liver (ELF), so also stays ALD. Cost: AUD looks less open if Novo only tracks drinking as a side effect"
+NCT05313529,Cognitive impairment in diabetes,"title keyword pass v2 (11 Nov, Review 9): LIGHT-MCI. Enrols T2D + MCI by cognitive tests only, 'absence of dementia', no AD diagnosis or amyloid at entry; primary = MCI remission (MoCA). Not Alzheimer's. Same group as LIGHT-COG (Nanjing Drum Tower)"
+NCT07083154,Cognitive impairment in diabetes,"title keyword pass v2 (11 Nov, Review 9): LIGHT-COG. Close call: AD-style design (CDR 0.5-1, MMSE 21-26, excludes non-AD neurodegeneration, iADRS primary, CDR-SB/ADAS-Cog13/ADCS-iADL) but no AD diagnosis or amyloid needed at entry; never names Alzheimer's in title, conditions or MeSH; T2D required; enrols MCI or mild dementia. Rule: Alzheimer's only if named or enrolled by AD diagnosis. Cost: if it is really early AD, Alzheimer's misses one academic Ph3. Same group as LIGHT-MCI"
+NCT03619330,Male hypogonadism,"title keyword pass v2 (11 Nov, Review 9): new indication 'Male hypogonadism' (functional, obesity-related): primary = hypogonadism symptoms + testosterone, not fertility. Testosterone is approved for hypogonadism, so it's a real label indication. Pairs with NCT06489457"
+NCT06489457,Male hypogonadism,"title keyword pass v2 (11 Nov, Review 9): BOTH 'Male hypogonadism' and Infertility: title names functional hypogonadism AND sperm quality; primary = semen volume, sperm concentration and motility. Same reasoning as NCT07179120 (male infertility, sperm concentration) = yes"
+NCT06489457,Infertility,"title keyword pass v2 (11 Nov, Review 9): BOTH 'Male hypogonadism' and Infertility: title names functional hypogonadism AND sperm quality; primary = semen volume, sperm concentration and motility. Same reasoning as NCT07179120 (male infertility, sperm concentration) = yes"
+NCT07693608,Stimulant use disorder,"title keyword pass v2 (11 Nov, Review 9): new label 'Stimulant use disorder', not Methamphetamine: stimulant = meth OR cocaine, so folding it into one would misstate the target, and splitting it into both would double count. 1 trial = too early to call. Note: same design as NCT06745128 (tirzepatide, obesity + meth)"
+NCT07221214,Alcohol use disorder,"title keyword pass v2 (11 Nov, Review 9): GLP-1 RA to decrease ethanol use in HIV; primary = drinks/week"
+NCT07046819,Alcohol-related liver disease,"title keyword pass v2 (11 Nov, Review 9): MetALD (metabolic + alcohol-related liver disease) with AUD; primary includes liver steatosis (already AUD)"
+NCT05333003,Antipsychotic-induced weight gain,"title keyword pass v2 (11 Nov, Review 9): schizophrenia spectrum + obesity, outcome weight: schizophrenia -> AIWG (11 Nov rule)"
+NCT06754163,Antipsychotic-induced weight gain,"title keyword pass v2 (11 Nov, Review 9): atypical antipsychotic-treated patients, outcome weight"
+NCT06518837,Breast cancer,"title keyword pass v2 (11 Nov, Review 9): FITWISE: weight loss during adjuvant treatment for HR+ breast cancer; same as 4 of the 5 trials already labelled breast cancer (weight loss in breast cancer patients)"
+NCT02503943,Hypertension,"title keyword pass v2 (11 Nov, Review 9): masked hypertension in obese diabetes; primary = blood pressure change"
+NCT05702905,Infertility,"title keyword pass v2 (11 Nov, Review 9): obese infertile women with PCOS; title: improves fertility (already PCOS)"
+NCT05952882,Infertility,"title keyword pass v2 (11 Nov, Review 9): PCOS + obesity + infertility; title names pregnancy rate (already PCOS)"
+NCT07179120,Infertility,"title keyword pass v2 (11 Nov, Review 9): male infertility in obese men; primary = sperm concentration"
+NCT07811895,Infertility,"title keyword pass v2 (11 Nov, Review 9): obese women before frozen embryo transfer; primary = good birth outcome"
+NCT06937086,Inflammatory bowel disease,"title keyword pass v2 (11 Nov, Review 9): Lilly Ph3b: mirikizumab +/- tirzepatide in ulcerative colitis with obesity; primary = clinical remission AND 10% weight loss. Industry Ph3 the tags missed (false lead)"
+NCT06649045,Obstructive sleep apnoea,"title keyword pass v2 (11 Nov, Review 9): Lilly orforglipron Ph3 in OSA; primary = AHI. Industry Ph3 the tags missed (false lead)"
+NCT05064735,Osteoarthritis,"title keyword pass v2 (11 Nov, Review 9): STEP 9 (Novo Ph3), knee OA; primary includes WOMAC pain. Industry Ph3 the tags missed (false lead)"
+NCT05931367,Osteoarthritis,"title keyword pass v2 (11 Nov, Review 9): Lilly retatrutide Ph3, knee OA; primary = WOMAC pain. Industry Ph3 the tags missed (false lead)"
+NCT06745128,Methamphetamine use disorder,"title keyword pass v2 (11 Nov, Review 9): obesity + methamphetamine use disorder; primary = meth use"
+NCT01899430,PCOS,"title keyword pass v2 (11 Nov, Review 9): obese women with PCOS"
+NCT01911468,PCOS,"title keyword pass v2 (11 Nov, Review 9): obese women with PCOS"
+NCT02187250,PCOS,"title keyword pass v2 (11 Nov, Review 9): obese women with PCOS"
+NCT02483299,PCOS,"title keyword pass v2 (11 Nov, Review 9): women with PCOS"
+NCT03034941,PCOS,"title keyword pass v2 (11 Nov, Review 9): infertile obese PCOS before IVF (already Infertility)"
+NCT03383068,PCOS,"title keyword pass v2 (11 Nov, Review 9): PCOS before pregnancy; primary = pregnancy rate; Infertility too: primary = pregnancy rate"
+NCT03383068,Infertility,"title keyword pass v2 (11 Nov, Review 9): PCOS before pregnancy; primary = pregnancy rate; Infertility too: primary = pregnancy rate"
+NCT03642600,PCOS,"title keyword pass v2 (11 Nov, Review 9): women with PCOS"
+NCT03919929,PCOS,"title keyword pass v2 (11 Nov, Review 9): title: treating PCOS"
+NCT06588296,Psoriatic arthritis,"title keyword pass v2 (11 Nov, Review 9): TOGETHER-PsA, Lilly Ph3b: ixekizumab +/- tirzepatide; primary = ACR50 AND 10% weight loss. Industry Ph3 the tags missed (false lead)"
+NCT06864026,Psoriatic arthritis,"title keyword pass v2 (11 Nov, Review 9): Lilly Ph4: tirzepatide after ixekizumab in PsA; primary = HAQ-DI"
+NCT07443956,Psoriatic arthritis,"title keyword pass v2 (11 Nov, Review 9): biologic + anti-obesity therapy in PsA"
+NCT07059377,Smoking cessation,"title keyword pass v2 (11 Nov, Review 9): semaglutide for smoking cessation in diabetes"
+NCT00993720,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): title: patients with type 1 diabetes"
+NCT06411210,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): obesity in type 1 diabetes"
+NCT06762314,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): overweight/obese type 1 on insulin; primary = HbA1c"
+NCT07096908,Type 1 diabetes,"title keyword pass v2 (11 Nov, Review 9): obesity in type 1 diabetes"

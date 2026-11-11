@@ -225,6 +225,72 @@ with one trial ("too early to call"). Industry trials found unlabelled: EVOKE Pl
 orforglipron in stress urinary incontinence (Phase 3), alcohol-related liver disease ×2 (Phase 2), froniglutide in
 inflammatory myopathy (Phase 2).
 
+## Review 9: title keyword pass for the 19 other indications with 5+ trials (11 Nov 2026)
+
+Query `sql/03c_keyword_pass.sql` (pass 2) · rows `03c_keyword_hits_v2.csv` · evidence
+`03c_keyword_hits_v2_decided.csv` (76 new rows: `proposed`, `my_decision`, `add_indication`, `reason`, with title and
+primary outcomes). Keyword lists written and expanded before looking at any hits. Each indication has `match` terms
+(pre-sorted likely yes), `look` terms (always hand review) and `block` terms (removed from the title first, e.g.
+"non-smoking", "stroke volume", "non-alcoholic"). Short abbreviations match case-sensitively (AD, AF, OA) and
+pharmacodynamics' PD was dropped. From this pass on, **both** titles are searched (official and brief).
+
+Check: the brief titles found nothing new for heart failure, MASLD, CKD or ASCVD (all 57 hits already decided in
+Review 7), and the patterns re-find almost every trial each indication already holds (e.g. 69 of 75 type 1).
+
+| Group | Meaning | Rows |
+|---|---|---|
+| yes | The trial targets the indication its title names (39 labels from 37 rows) | 37 |
+| no: drug study | Oral contraceptive interaction studies (levonorgestrel), lisinopril interaction | 7 |
+| no: a measure, not the target | Blood pressure as a safety or physiology outcome | 5 |
+| no: population or prevention | Cognition in depression, SELECT (stroke prevention → ASCVD), CV risk in T2D, joint-replacement wounds, food addiction, early T2D | 11 |
+| no action | Addiction trials already labelled with their own substance | 11 |
+| parked | Prader-Willi ×5: genetic obesity, home base or new, decided later | 5 |
+
+**Rules set in this review**
+- **A second target in the official title counts.** NCT06409130 (Novo, alcohol-related liver disease) names alcohol use
+  in its official title and measures it twice (PEth, TLFB), so it also gets Alcohol use disorder, although its primary
+  outcome is liver fibrosis. Cost: AUD looks less open if Novo only tracks drinking as a side effect.
+- **Alzheimer's needs Alzheimer's.** A trial goes to Alzheimer's only if it names Alzheimer's (title, conditions,
+  MeSH) or enrols by an Alzheimer's diagnosis. Cognitive impairment or MCI in diabetes without that goes to the new
+  indication Cognitive impairment in diabetes: LIGHT-MCI, LIGHT-COG and NCT02847403 (moved from Alzheimer's). MCI on a
+  real drug label is a stage of Alzheimer's (lecanemab, donanemab), so MCI without an Alzheimer's diagnosis is its own
+  area. LIGHT-COG was a close call: Alzheimer's-style criteria and endpoints (CDR 0.5–1, iADRS, CDR-SB), but no
+  diagnosis or amyloid test at entry. LIGHT-MCI and LIGHT-COG come from one group (Nanjing Drum Tower Hospital).
+- **Weight loss in a disease population counts as that disease**, as for breast cancer (FITWISE) and PCOS: the same
+  precedent as the breast cancer trials already labelled.
+
+Result: 1,804 of 1,809 trials labelled, 2,088 trial × indication rows, 68 labels. Known-trials check still 4 of 4.
+Industry trials the tags had missed: STEP 9 and retatrutide in knee osteoarthritis (Phase 3 ×2), orforglipron in
+sleep apnoea (Phase 3), mirikizumab + tirzepatide in ulcerative colitis (Phase 3b), TOGETHER-PsA (Phase 3b) and a
+Lilly Phase 4 in psoriatic arthritis, Novo in alcohol use disorder (Phase 2). All were tagged obesity or liver only.
+
+What the pass changed, per indication (all years; Phase 4 uses the 2023–2025 window). Industry = lead sponsor
+`INDUSTRY`. Only indications that changed are listed.
+
+| Indication | Trials | Industry-led share | Industry-led Phase 3 |
+|---|---|---|---|
+| Osteoarthritis | 12 → 14 | 42% → 50% | 3 → 5 |
+| Inflammatory bowel disease | 6 → 7 | 17% → 29% | 1 → 2 |
+| Psoriatic arthritis | 1 → 4 | 0% → 50% | 0 → 1 |
+| Obstructive sleep apnoea | 14 → 15 | 64% → 67% | 9 → 10 |
+| Alcohol use disorder | 22 → 24 | 9% → 12% | 0 → 0 |
+| PCOS | 25 → 33 | 0% → 0% | 0 → 0 |
+| Infertility | 6 → 12 | 0% → 0% | 0 → 0 |
+| Type 1 diabetes | 75 → 79 | 17% → 16% | 5 → 5 |
+| Antipsychotic-induced weight gain | 13 → 15 | 0% → 0% | 0 → 0 |
+| Hypertension | 11 → 12 | 36% → 33% | 3 → 3 |
+| Smoking cessation | 11 → 12 | 0% → 0% | 0 → 0 |
+| Alzheimer's | 11 → 10 | 27% → 30% | 3 → 3 |
+| Breast cancer | 5 → 6 | 0% → 0% | 0 → 0 |
+| Methamphetamine use disorder | 3 → 4 | 0% → 0% | 0 → 0 |
+| Alcohol-related liver disease | 2 → 3 | 100% → 67% | 0 → 0 |
+| Cognitive impairment in diabetes (new) | 0 → 3 | – → 0% | 0 → 0 |
+| Male hypogonadism (new) | 0 → 2 | – → 0% | 0 → 0 |
+| Stimulant use disorder (new) | 0 → 1 | – → 0% | 0 → 0 |
+
+Read: osteoarthritis, IBD and psoriatic arthritis would have looked more open to industry than they are; PCOS and
+infertility stay all academic after the pass, so their openness isn't a tagging artefact.
+
 ## Merge and split log (Phase 3)
 
 Every indication that joins or splits MeSH terms or trials. The plan's rule: write down every merge.
@@ -245,3 +311,7 @@ Every indication that joins or splits MeSH terms or trials. The plan's rule: wri
 | 11 Nov | Opioid / Cocaine / Cannabis / Methamphetamine use disorder | Kept separate, not one "substance use" row | A label names the substance (as for alcohol) | B, Review 8 |
 | 11 Nov | Prostate cancer / Cancer therapy-induced metabolic toxicity | `prostatic neoplasms` split by target: tumour → Prostate cancer; ADT side effects → toxicity row; lorlatinib weight gain merged into the toxicity row | Same logic as antipsychotic-induced weight gain | B, Review 8 |
 | 11 Nov | Post-bariatric hypoglycemia | New, from hand additions (3 trials) | `hypoglycemia` stays measure: a safety outcome in most trials | measure check, Review 8 |
+| 11 Nov | Cognitive impairment in diabetes | New: LIGHT-MCI, LIGHT-COG, NCT02847403 (moved from Alzheimer's) | MCI or mild dementia in diabetes without an Alzheimer's diagnosis; MCI on a drug label is an Alzheimer's stage | Review 9 |
+| 11 Nov | Male hypogonadism | New: NCT03619330, NCT06489457 (the second also Infertility) | Functional, obesity-related hypogonadism; testosterone is approved for it, so a real label indication | Review 9 |
+| 11 Nov | Stimulant use disorder | New: NCT07693608, not merged into Methamphetamine | "Stimulant" covers meth or cocaine: one would misstate it, both would double count | Review 9 |
+| 11 Nov | Psoriasis / Psoriatic arthritis | Kept separate; PsA trials added by title (TOGETHER-PsA and 2 more) | Joint disease with its own endpoints (ACR50, HAQ-DI) | Review 9 |

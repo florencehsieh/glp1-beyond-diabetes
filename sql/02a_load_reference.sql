@@ -35,7 +35,7 @@ CREATE TABLE glp1.trial_overrides (
 );
 \copy glp1.trial_overrides FROM 'data/reference/glp1_trial_overrides.csv' WITH (FORMAT csv, HEADER true)
 
--- Checks: 979 names (938 + 41 additions; 763 keep, 216 exclude); 16 overrides, 14 trials
+-- Checks: 980 names (938 + 42 additions; 764 keep, 216 exclude); 18 overrides, 16 trials
 SELECT decision, COUNT(*) FROM glp1.name_map GROUP BY decision;
 SELECT COUNT(*) AS n_overrides, COUNT(DISTINCT nct_id) AS n_trials FROM glp1.trial_overrides;
 -- Every override must match exactly one intervention row in its trial (0 rows = a typo)
@@ -76,7 +76,7 @@ CREATE TABLE glp1.indication_additions (
 );
 \copy glp1.indication_additions FROM 'data/reference/indication_additions.csv' WITH (FORMAT csv, HEADER true)
 
--- Checks: tag counts (62 terms, 1 untagged: renal insufficiency); every real term has an
+-- Checks: tag counts (75 terms, 1 untagged: renal insufficiency); every real term has an
 -- indication (0 rows); every addition is a trial in glp1.trials (0 rows; run after 02)
 SELECT COALESCE(tag, '(untagged)') AS tag, COUNT(*) FROM glp1.mesh_tags GROUP BY 1 ORDER BY 2 DESC;
 SELECT downcase_mesh_term FROM glp1.mesh_tags WHERE tag = 'real' AND indication IS NULL;
