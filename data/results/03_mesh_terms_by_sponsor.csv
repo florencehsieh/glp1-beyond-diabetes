@@ -1,0 +1,268 @@
+downcase_mesh_term,n_trials,n_industry,n_academic,n_unclassified,pct_industry
+"diabetes mellitus, type 2",750,496,254,0,66.1
+obesity,576,299,277,0,51.9
+diabetes mellitus,308,223,85,0,72.4
+overweight,267,186,81,0,69.7
+weight loss,81,19,62,0,23.5
+"diabetes mellitus, type 1",72,13,59,0,18.1
+non-alcoholic fatty liver disease,59,31,28,0,52.5
+insulin resistance,50,6,44,0,12.0
+nutrition disorders,32,32,0,0,100.0
+"renal insufficiency, chronic",29,11,18,0,37.9
+glucose intolerance,24,0,24,0,0.0
+polycystic ovary syndrome,24,0,24,0,0.0
+alcoholism,22,2,20,0,9.1
+body weight,21,12,9,0,57.1
+cardiovascular diseases,21,5,16,0,23.8
+hyperglycemia,20,10,10,0,50.0
+metabolic syndrome,19,0,19,0,0.0
+"obesity, morbid",18,0,18,0,0.0
+prediabetic state,18,4,14,0,22.2
+metabolic diseases,17,14,3,0,82.4
+glucose metabolism disorders,16,12,4,0,75.0
+fatty liver,15,3,12,0,20.0
+pediatric obesity,15,0,15,0,0.0
+hypoglycemia,14,3,11,0,21.4
+endocrine system diseases,13,12,1,0,92.3
+heart failure,13,2,11,0,15.4
+inflammation,13,1,12,0,7.7
+atrial fibrillation,12,0,12,0,0.0
+diabetic nephropathies,11,1,10,0,9.1
+hypertension,11,4,7,0,36.4
+ischemic stroke,11,0,11,0,0.0
+motor activity,11,2,9,0,18.2
+"sleep apnea, obstructive",11,8,3,0,72.7
+"behavior, addictive",10,0,10,0,0.0
+coronary artery disease,10,1,9,0,10.0
+parkinson disease,10,2,8,0,20.0
+alzheimer disease,9,2,7,0,22.2
+body weight changes,9,4,5,0,44.4
+endometrial neoplasms,9,0,9,0,0.0
+atherosclerosis,8,2,6,0,25.0
+endometrial hyperplasia,8,0,8,0,0.0
+osteoarthritis,8,2,6,0,25.0
+sexual infantilism,8,0,8,0,0.0
+weight gain,8,1,7,0,12.5
+myocardial infarction,7,0,7,0,0.0
+psoriasis,7,2,5,0,28.6
+renal insufficiency,7,5,2,0,71.4
+schizophrenia,7,0,7,0,0.0
+smoking cessation,7,0,7,0,0.0
+stroke,7,1,6,0,14.3
+albuminuria,6,0,6,0,0.0
+"diabetes, gestational",6,0,6,0,0.0
+infertility,6,0,6,0,0.0
+"osteoarthritis, knee",6,4,2,0,66.7
+substance-related disorders,6,0,6,0,0.0
+bipolar disorder,5,0,5,0,0.0
+craniopharyngioma,5,0,5,0,0.0
+kidney diseases,5,4,1,0,80.0
+mental disorders,5,0,5,0,0.0
+overnutrition,5,4,1,0,80.0
+sleep apnea syndromes,5,2,3,0,40.0
+smoking,5,0,5,0,0.0
+"arthritis, psoriatic",4,2,2,0,50.0
+breast neoplasms,4,0,4,0,0.0
+cigarette smoking,4,0,4,0,0.0
+cognitive dysfunction,4,0,4,0,0.0
+"depressive disorder, major",4,0,4,0,0.0
+disease,4,1,3,0,25.0
+"infertility, female",4,0,4,0,0.0
+"kidney failure, chronic",4,2,2,0,50.0
+liver cirrhosis,4,2,2,0,50.0
+liver diseases,4,4,0,0,100.0
+"lymphoma, follicular",4,1,3,0,25.0
+muscular atrophy,4,3,1,0,75.0
+"obesity, abdominal",4,1,3,0,25.0
+opioid-related disorders,4,0,4,0,0.0
+peripheral arterial disease,4,3,1,0,75.0
+prader-willi syndrome,4,0,4,0,0.0
+prostatic neoplasms,4,0,4,0,0.0
+reperfusion injury,4,0,4,0,0.0
+acquired immunodeficiency syndrome,3,0,3,0,0.0
+acute coronary syndrome,3,1,2,0,33.3
+alcohol drinking,3,0,3,0,0.0
+autoimmune diseases,3,0,3,0,0.0
+binge-eating disorder,3,0,3,0,0.0
+cerebrovascular disorders,3,1,2,0,33.3
+coronary disease,3,0,3,0,0.0
+crohn disease,3,1,2,0,33.3
+dementia,3,0,3,0,0.0
+fasting,3,2,1,0,66.7
+"heart failure, diastolic",3,0,3,0,0.0
+hiv infections,3,0,3,0,0.0
+inflammatory bowel diseases,3,0,3,0,0.0
+osteoporosis,3,0,3,0,0.0
+pseudotumor cerebri,3,0,3,0,0.0
+"pulmonary disease, chronic obstructive",3,0,3,0,0.0
+sarcopenia,3,0,3,0,0.0
+short bowel syndrome,3,2,1,0,66.7
+st elevation myocardial infarction,3,0,3,0,0.0
+tobacco use disorder,3,0,3,0,0.0
+"angina, stable",2,0,2,0,0.0
+apnea,2,2,0,0,100.0
+arthritis,2,1,1,0,50.0
+behavior,2,1,1,0,50.0
+body-weight trajectory,2,0,2,0,0.0
+"bone diseases, metabolic",2,0,2,0,0.0
+brain injuries,2,0,2,0,0.0
+cocaine-related disorders,2,0,2,0,0.0
+cognition disorders,2,0,2,0,0.0
+colorectal neoplasms,2,0,2,0,0.0
+combined pituitary hormone deficiency,2,0,2,0,0.0
+cystic fibrosis,2,0,2,0,0.0
+depression,2,0,2,0,0.0
+diabetes complications,2,0,2,0,0.0
+diabetic neuropathies,2,0,2,0,0.0
+digestive system diseases,2,2,0,0,100.0
+feeding and eating disorders,2,0,2,0,0.0
+feeding behavior,2,1,1,0,50.0
+fibrosis,2,0,2,0,0.0
+food preferences,2,0,2,0,0.0
+gastroparesis,2,0,2,0,0.0
+genetic predisposition to disease,2,0,2,0,0.0
+heart diseases,2,2,0,0,100.0
+hepatic insufficiency,2,2,0,0,100.0
+"ischemic attack, transient",2,0,2,0,0.0
+lipid metabolism disorders,2,0,2,0,0.0
+marijuana abuse,2,0,2,0,0.0
+multiple sclerosis,2,0,2,0,0.0
+nausea,2,2,0,0,100.0
+nutritional and metabolic diseases,2,2,0,0,100.0
+platelet glycoprotein iv deficiency,2,1,1,0,50.0
+post-acute covid-19 syndrome,2,0,2,0,0.0
+psychotic disorders,2,0,2,0,0.0
+sleep wake disorders,2,2,0,0,100.0
+spinal cord injuries,2,0,2,0,0.0
+"ventricular dysfunction, left",2,0,2,0,0.0
+acromegaly,1,1,0,0,100.0
+"acth syndrome, ectopic",1,0,1,0,0.0
+adrenal incidentaloma,1,0,1,0,0.0
+adrenal insufficiency,1,0,1,0,0.0
+agnosia,1,1,0,0,100.0
+alcohol-related disorders,1,0,1,0,0.0
+alopecia,1,0,1,0,0.0
+aortic valve disease,1,0,1,0,0.0
+aortic valve stenosis,1,0,1,0,0.0
+appetitive behavior,1,0,1,0,0.0
+asthma,1,0,1,0,0.0
+autism spectrum disorder,1,0,1,0,0.0
+autonomic nervous system diseases,1,0,1,0,0.0
+brain death,1,0,1,0,0.0
+brain diseases,1,0,1,0,0.0
+"carcinoma, hepatocellular",1,0,1,0,0.0
+cardiomyopathies,1,0,1,0,0.0
+cerebral hemorrhage,1,0,1,0,0.0
+cerebral small vessel diseases,1,0,1,0,0.0
+chemically-induced disorders,1,0,1,0,0.0
+"colitis, ulcerative",1,1,0,0,100.0
+coma,1,0,1,0,0.0
+congenital hyperinsulinism,1,0,1,0,0.0
+constipation,1,0,1,0,0.0
+covid-19,1,0,1,0,0.0
+cushing syndrome,1,0,1,0,0.0
+death,1,1,0,0,100.0
+dermatomyositis,1,1,0,0,100.0
+diabesity,1,0,1,0,0.0
+diabetes insipidus,1,0,1,0,0.0
+"diabetes insipidus, neurogenic",1,0,1,0,0.0
+"diabetes mellitus, insulin-dependent, 2",1,0,1,0,0.0
+diabetic foot,1,0,1,0,0.0
+diabetic ketoacidosis,1,0,1,0,0.0
+disordered eating behavior,1,0,1,0,0.0
+disorders of excessive somnolence,1,1,0,0,100.0
+"dwarfism, pituitary",1,0,1,0,0.0
+dysgeusia,1,0,1,0,0.0
+dyslipidemias,1,0,1,0,0.0
+dyspnea,1,1,0,0,100.0
+emergence delirium,1,0,1,0,0.0
+exocrine pancreatic insufficiency,1,0,1,0,0.0
+gastroesophageal reflux,1,0,1,0,0.0
+gastrointestinal neoplasms,1,0,1,0,0.0
+glaucoma,1,0,1,0,0.0
+"glaucoma, open-angle",1,0,1,0,0.0
+gout,1,0,1,0,0.0
+headache,1,0,1,0,0.0
+heart arrest,1,0,1,0,0.0
+"heart defects, congenital",1,0,1,0,0.0
+"heart failure, systolic",1,0,1,0,0.0
+hot flashes,1,0,1,0,0.0
+hyperinsulinism,1,0,1,0,0.0
+hyperkalemia,1,0,1,0,0.0
+hyperlipidemias,1,0,1,0,0.0
+hyperplasia,1,0,1,0,0.0
+"hypertension, portal",1,0,1,0,0.0
+"hypertension, pulmonary",1,0,1,0,0.0
+hypertriglyceridemia,1,0,1,0,0.0
+hyperuricemia,1,0,1,0,0.0
+hypogonadism,1,0,1,0,0.0
+hypopituitarism,1,0,1,0,0.0
+hypothalamic diseases,1,0,1,0,0.0
+ichthyosis bullosa of siemens,1,0,1,0,0.0
+"infertility, male",1,0,1,0,0.0
+intermittent claudication,1,0,1,0,0.0
+intestinal failure,1,0,1,0,0.0
+intracranial arteriosclerosis,1,0,1,0,0.0
+irritable bowel syndrome,1,0,1,0,0.0
+isolated systolic hypertension,1,0,1,0,0.0
+joint diseases,1,1,0,0,100.0
+ketosis,1,0,1,0,0.0
+klinefelter syndrome,1,0,1,0,0.0
+"lipodystrophy, partial, acquired",1,0,1,0,0.0
+low back pain,1,0,1,0,0.0
+"lung diseases, interstitial",1,0,1,0,0.0
+lung neoplasms,1,0,1,0,0.0
+lymphedema,1,0,1,0,0.0
+masked hypertension,1,0,1,0,0.0
+mason-type diabetes,1,0,1,0,0.0
+"maturity-onset diabetes of the young, type 3",1,0,1,0,0.0
+menstruation disturbances,1,0,1,0,0.0
+microvascular angina,1,0,1,0,0.0
+multiple system atrophy,1,0,1,0,0.0
+"muscular dystrophy, duchenne",1,0,1,0,0.0
+musculoskeletal abnormalities,1,0,1,0,0.0
+musculoskeletal diseases,1,1,0,0,100.0
+myocardial ischemia,1,0,1,0,0.0
+myositis,1,1,0,0,100.0
+narcotic-related disorders,1,0,1,0,0.0
+neoplasms,1,0,1,0,0.0
+"osteoporosis, postmenopausal",1,0,1,0,0.0
+osteoporotic fractures,1,0,1,0,0.0
+pancreatic neoplasms,1,0,1,0,0.0
+pancreatitis,1,0,1,0,0.0
+"pancreatitis, chronic",1,0,1,0,0.0
+papilledema,1,0,1,0,0.0
+parasomnias,1,1,0,0,100.0
+"pathological conditions, signs and symptoms",1,1,0,0,100.0
+patient preference,1,1,0,0,100.0
+peripheral vascular diseases,1,0,1,0,0.0
+pituitary acth hypersecretion,1,1,0,0,100.0
+pituitary diseases,1,0,1,0,0.0
+"plaque, amyloid",1,0,1,0,0.0
+"polycystic kidney, autosomal dominant",1,0,1,0,0.0
+"polydipsia, psychogenic",1,0,1,0,0.0
+polymyositis,1,1,0,0,100.0
+pouchitis,1,0,1,0,0.0
+precursor cell lymphoblastic leukemia-lymphoma,1,0,1,0,0.0
+prehypertension,1,1,0,0,100.0
+psychological well-being,1,0,1,0,0.0
+puerperal disorders,1,0,1,0,0.0
+pulmonary arterial hypertension,1,0,1,0,0.0
+recurrence,1,0,1,0,0.0
+"sarcoidosis, pulmonary",1,0,1,0,0.0
+sarcoma,1,0,1,0,0.0
+schizophrenia spectrum and other psychotic disorders,1,0,1,0,0.0
+"scleroderma, systemic",1,0,1,0,0.0
+"shock, cardiogenic",1,0,1,0,0.0
+signs and symptoms,1,1,0,0,100.0
+small fiber neuropathy,1,0,1,0,0.0
+snoring,1,1,0,0,100.0
+social isolation,1,0,1,0,0.0
+sweat gland diseases,1,0,1,0,0.0
+tobacco use,1,0,1,0,0.0
+treatment adherence and compliance,1,0,1,0,0.0
+trichotillomania,1,0,1,0,0.0
+uremia,1,0,1,0,0.0
+"urinary incontinence, stress",1,1,0,0,100.0
+water-electrolyte imbalance,1,0,1,0,0.0
+wolfram syndrome,1,0,1,0,0.0
