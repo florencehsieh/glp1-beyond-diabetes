@@ -1,0 +1,206 @@
+nct_id,indication,reason
+NCT02527993,Post-bariatric hypoglycemia,MeSH tag is only hypoglycemia (measure); title: treatment of hypoglycemia after gastric bypass (11 Nov measure check)
+NCT00845507,Antipsychotic-induced weight gain,MeSH tag is only weight gain (measure); title: weight gain with olanzapine (11 Nov measure check)
+NCT07727473,Prostate cancer,"Primary outcomes are tumour markers (Ki-67, Gleason, Decipher); prostatic neoplasms split by target (11 Nov, option ii)"
+NCT07202247,Cancer therapy-induced metabolic toxicity,Primary outcome is 10-year CV risk during androgen deprivation therapy; split by target like antipsychotic-induced weight gain (11 Nov); renamed from ADT-induced metabolic toxicity when merged with lorlatinib (11 Nov)
+NCT06908694,Cancer therapy-induced metabolic toxicity,"Primary outcomes mostly weight, BP, HbA1c, lipids during ADT (PSA one of many); split by target (11 Nov); renamed from ADT-induced metabolic toxicity when merged with lorlatinib (11 Nov)"
+NCT01147250,Home base,"keyword pass 03c (11 Nov): ELIXA; no: heart-outcome trial in type 2 diabetes, stays home base (exception). Has no label at all, so add Home base"
+NCT02001363,ASCVD,keyword pass 03c (11 Nov): treats acute MI (reperfusion injury); ASCVD includes acute MI
+NCT02507128,ASCVD,keyword pass 03c (11 Nov): treats STEMI (no-reflow); ASCVD includes acute MI
+NCT03574597,ASCVD,keyword pass 03c (11 Nov): SELECT: heart-outcome trial without diabetes (known-trials check)
+NCT03948347,ASCVD,"keyword pass 03c (11 Nov): target = preventing new strokes after minor stroke/TIA: prevention -> ASCVD (stroke split); academic, not a regulatory CVOT"
+NCT04146155,ASCVD,keyword pass 03c (11 Nov): targets peripheral artery disease (claudication); not a regulatory CVOT
+NCT04560998,ASCVD,keyword pass 03c (11 Nov): STRIDE: targets peripheral artery disease (walking distance); gave semaglutide a PAD label
+NCT04881110,ASCVD,keyword pass 03c (11 Nov): targets peripheral artery disease (limb perfusion)
+NCT07090343,ASCVD,"keyword pass 03c (11 Nov): target = heart events (MI, stroke, CV death) after TAVR; Heart failure stays"
+NCT07223593,ASCVD,keyword pass 03c (11 Nov): industry Phase 3: orforglipron in peripheral artery disease; currently unlabelled
+NCT07241390,ASCVD,"keyword pass 03c (11 Nov): industry Phase 3: orforglipron MACE in established ASCVD and/or CKD, no diabetes required, like SELECT"
+NCT04032197,ASCVD,"keyword pass 03c (11 Nov): target = atherosclerosis itself (artery inflammation imaging); not a regulatory CVOT, but mechanism-like"
+NCT05669755,ASCVD,"keyword pass 03c (11 Nov): REDEFINE 3: CagriSema heart-outcome trial in established CVD, no diabetes required, like SELECT; currently unlabelled"
+NCT06077864,ASCVD,"keyword pass 03c (11 Nov): SYNCHRONIZE-CVOT: survodutide heart-outcome trial in obesity, no diabetes required; a safety CVOT, not superiority like SELECT"
+NCT03819153,CKD,keyword pass 03c (11 Nov): FLOW: primary outcome is kidney failure/eGFR decline (known-trials check)
+NCT04061200,CKD,keyword pass 03c (11 Nov): primary outcome is albuminuria; currently unlabelled
+NCT05390892,CKD,keyword pass 03c (11 Nov): PRECIDENTD: prevention of diabetic kidney disease is in the target and the composite
+NCT05936151,CKD,keyword pass 03c (11 Nov): retatrutide; primary outcome is measured GFR (kidney function)
+NCT00799435,Heart failure,keyword pass 03c (11 Nov): diabetes + HF with normal ejection fraction (HFpEF)
+NCT01800968,Heart failure,keyword pass 03c (11 Nov): FIGHT: treats heart failure; currently unlabelled
+NCT04788511,Heart failure,keyword pass 03c (11 Nov): STEP-HFpEF: primary outcome KCCQ (known-trials check)
+NCT04847557,Heart failure,"keyword pass 03c (11 Nov): SUMMIT: tirzepatide in HFpEF, KCCQ"
+NCT04916470,Heart failure,keyword pass 03c (11 Nov): STEP-HFpEF DM: KCCQ
+NCT05371496,Heart failure,keyword pass 03c (11 Nov): CAMEO-HFpEF: wedge pressure
+NCT06423599,Heart failure,"keyword pass 03c (11 Nov): obesity + heart failure, cardiac performance"
+NCT07178145,Heart failure,keyword pass 03c (11 Nov): HFpEF heart-fat imaging; mostly a methods study
+NCT07554638,Heart failure,keyword pass 03c (11 Nov): HFpEF mechanisms
+NCT07738276,Heart failure,"keyword pass 03c (11 Nov): tirzepatide in HFrEF, walk distance"
+NCT02721888,MASLD,keyword pass 03c (11 Nov): primary outcome is liver fat
+NCT06492330,MASLD,"keyword pass 03c (11 Nov): CS0159 + semaglutide in MASH (primary outcome weight, but MASH is the target)"
+NCT06632444,MASLD,keyword pass 03c (11 Nov): industry Phase 3 survodutide in MASH (resolution); currently unlabelled
+NCT06632457,MASLD,"keyword pass 03c (11 Nov): industry Phase 3 survodutide, MASH liver outcomes; currently unlabelled"
+NCT06764056,MASLD,"keyword pass 03c (11 Nov): MAFLD management, liver steatosis/stiffness"
+NCT06934642,MASLD,keyword pass 03c (11 Nov): MASLD markers
+NCT07466017,MASLD,keyword pass 03c (11 Nov): liver fat (MRI-PDFF)
+NCT07718126,MASLD,keyword pass 03c (11 Nov): MASLD resolution in liver donors (README named it)
+NCT07795164,MASLD,"keyword pass 03c (11 Nov): industry Phase 3 MASH (resolution, fibrosis); currently unlabelled"
+NCT01146678,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
+NCT04829123,Drug study,drug-study review 03d (11 Nov): SAD/MAD in healthy subjects (MeSH says NASH) (drug study label added; its indication is ignored in Phase 4)
+NCT04972396,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
+NCT05419856,Drug study,drug-study review 03d (11 Nov): Phase 1 safety/PK of an injection into the knee; still in patients (drug study label added; its indication is ignored in Phase 4)
+NCT05668936,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
+NCT05766709,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
+NCT06052566,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment (drug study label added; its indication is ignored in Phase 4)
+NCT00551343,Hypothalamic obesity,"drug-study review 03d (11 Nov): Prader-Willi: genetic hypothalamic obesity, same logic as craniopharyngioma"
+NCT00672399,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT00744224,Home base,drug-study review 03d (11 Nov): steroid-induced glucose problems
+NCT00782418,Drug study,drug-study review 03d (11 Nov): insulin-secretion method study in healthy people
+NCT00822003,Drug study,drug-study review 03d (11 Nov): oral GLP-1 glucose physiology (README waiting list)
+NCT01021527,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT01056107,Irritable bowel syndrome,drug-study review 03d (11 Nov): ROSE-010 in constipation-predominant IBS
+NCT01056549,Drug study,drug-study review 03d (11 Nov): lipoprotein production physiology (basic science)
+NCT01093729,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT01451905,Psoriasis,drug-study review 03d (11 Nov): GLP-1 receptors in psoriasis skin (basic science)
+NCT01550653,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT01592279,Type 1 diabetes,drug-study review 03d (11 Nov): uncontrolled type 1 diabetes
+NCT01845259,Antipsychotic-induced weight gain,drug-study review 03d (11 Nov): glucose tolerance in antipsychotic-treated patients (metabolic harm of the drug)
+NCT01934816,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT01969149,Home base,drug-study review 03d (11 Nov): perioperative glucose control (stress hyperglycaemia): hyperglycaemia is home
+NCT02016846,Home base,drug-study review 03d (11 Nov): prevents steroid-induced hyperglycaemia in people at high risk of diabetes
+NCT02058940,Acute brain injury,drug-study review 03d (11 Nov): critically ill; neuroprotection
+NCT02089256,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02140983,Home base,drug-study review 03d (11 Nov): prediabetes; brain outcomes but the population target is dysglycaemia
+NCT02320045,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02349802,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02403284,Drug study,drug-study review 03d (11 Nov): insulin-resistance physiology (README waiting list)
+NCT02432976,Home base,drug-study review 03d (11 Nov): perioperative glucose control in cardiac surgery
+NCT02442791,Cardiac arrest (neuroprotection),drug-study review 03d (11 Nov): brain protection after cardiac arrest
+NCT02451527,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02535299,Home base,drug-study review 03d (11 Nov): newly diagnosed type 2 diabetes (telomere markers)
+NCT02584075,ASCVD,drug-study review 03d (11 Nov): coronary artery endothelial function
+NCT02602600,ASCVD,drug-study review 03d (11 Nov): coronary microvascular dysfunction in angina
+NCT02640118,Home base,drug-study review 03d (11 Nov): diabetes after pancreatectomy (glucose tolerance)
+NCT02641899,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02650479,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT02685852,Post-bariatric hypoglycemia,drug-study review 03d (11 Nov): hyperinsulinemic hypoglycemia after gastric bypass (RYGB)
+NCT02770885,Primary polydipsia,drug-study review 03d (11 Nov): fluid intake in patients
+NCT02847403,Alzheimer's,drug-study review 03d (11 Nov): cognitive decline in mild cognitive impairment with dysglycaemia
+NCT02930265,ASCVD,drug-study review 03d (11 Nov): ischaemic cardiomyopathy (record title is just the hospital name)
+NCT03141632,Drug study,drug-study review 03d (11 Nov): fluid intake in healthy volunteers
+NCT03160261,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03363906,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03375463,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03426085,Home base,drug-study review 03d (11 Nov): sweat-gland function in type 2 diabetes: mechanism
+NCT03482024,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03672604,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03835013,Drug study,drug-study review 03d (11 Nov): IV GLP-1 haemodynamics (basic science)
+NCT03940742,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT03955575,Bile acid malabsorption,drug-study review 03d (11 Nov): 
+NCT03994549,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04004988,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04007107,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04050670,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04137328,Diabetic neuropathy,"drug-study review 03d (11 Nov): diabetic neuropathic pain; a diabetes complication with its own label, like CKD"
+NCT04143945,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04172987,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04263415,PCOS,drug-study review 03d (11 Nov): taste and weight in PCOS
+NCT04311424,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04431713,Multiple system atrophy,"drug-study review 03d (11 Nov): neurodegeneration, not Parkinson's"
+NCT04466566,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04513704,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04575844,Drug study,drug-study review 03d (11 Nov): exercise + GLP-1 muscle perfusion mechanism (basic science)
+NCT04612517,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04615871,COVID-19 myocardial injury,drug-study review 03d (11 Nov): 
+NCT04687514,Drug study,"drug-study review 03d (11 Nov): effect on sexuality (basic science, placebo-controlled)"
+NCT04702516,Osteoporosis,drug-study review 03d (11 Nov): bone turnover in high fracture risk
+NCT04763564,Inflammatory bowel disease,"drug-study review 03d (11 Nov): ileal pouch after colitis surgery, like the IBD pouch trial already tagged"
+NCT04777409,Alzheimer's,"drug-study review 03d (11 Nov): EVOKE Plus: industry Phase 3, oral semaglutide in early Alzheimer's"
+NCT04862234,Home base,drug-study review 03d (11 Nov): perioperative stress hyperglycaemia
+NCT04865744,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04878406,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04897802,Drug study,drug-study review 03d (11 Nov): GLP-1 used as a diagnostic test for oxytocin deficiency
+NCT04903509,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT04909333,Drug study,drug-study review 03d (11 Nov): exenatide as a diagnostic test
+NCT04941521,Cocaine use disorder,drug-study review 03d (11 Nov): treats cocaine use disorder
+NCT05056246,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05225974,Drug study,drug-study review 03d (11 Nov): liraglutide vs Victoza bioequivalence in healthy people
+NCT05305794,Type 1 diabetes,"drug-study review 03d (11 Nov): ""double diabetes"" = type 1 with insulin resistance"
+NCT05356104,Cerebral small vessel disease,drug-study review 03d (11 Nov): prevents progression
+NCT05429593,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05444569,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05517226,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05530577,Smoking cessation,drug-study review 03d (11 Nov): nicotine intake and smoking lapse
+NCT05681299,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05694221,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05784402,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05788965,Home base,drug-study review 03d (11 Nov): cystic-fibrosis-related diabetes with obesity
+NCT05810597,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05833711,Idiopathic inflammatory myopathy,drug-study review 03d (11 Nov): industry Phase 2: froniglutide
+NCT05896384,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05978713,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT05996874,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06097390,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06149260,Systemic sclerosis,drug-study review 03d (11 Nov): 
+NCT06153758,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06318442,Home base,drug-study review 03d (11 Nov): prevents steroid-induced diabetes
+NCT06324461,Perioperative myocardial injury,drug-study review 03d (11 Nov): after non-cardiac surgery
+NCT06335134,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06352411,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06361238,Postoperative delirium,drug-study review 03d (11 Nov): prevention in elderly
+NCT06363487,Drug study,drug-study review 03d (11 Nov): single-dose cognition in healthy volunteers
+NCT06370728,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06409130,Alcohol-related liver disease,drug-study review 03d (11 Nov): industry Phase 2 (Novo); not MASLD: alcohol cause
+NCT06449625,Chemotherapy toxicity,drug-study review 03d (11 Nov): prevents mucositis in high-dose chemo
+NCT06449703,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06497049,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06541678,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06608433,Drug study,drug-study review 03d (11 Nov): GLP-1 used as an adrenal-function test
+NCT06642584,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06691243,Cocaine use disorder,drug-study review 03d (11 Nov): treats cocaine use disorder (with/without HIV)
+NCT06692348,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06699329,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06701305,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06704763,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06772532,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06792422,Glaucoma,drug-study review 03d (11 Nov): neuroprotection in open-angle glaucoma
+NCT06808802,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06818292,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06836037,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06890611,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT06913023,Home base,drug-study review 03d (11 Nov): prevents post-transplant diabetes
+NCT06986993,Smoking cessation,drug-study review 03d (11 Nov): tobacco use behaviour
+NCT07009860,Alcohol-related liver disease,drug-study review 03d (11 Nov): industry Phase 2 (RESTORE); not MASLD: alcohol cause
+NCT07012642,Lymphoedema,drug-study review 03d (11 Nov): 
+NCT07071974,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT07091734,Partial lipodystrophy,drug-study review 03d (11 Nov): 
+NCT07111494,Psoriatic arthritis,drug-study review 03d (11 Nov): PsA disease outcomes; not the same label as psoriasis
+NCT07128082,Long COVID,drug-study review 03d (11 Nov): 
+NCT07202884,Stress urinary incontinence,drug-study review 03d (11 Nov): industry Phase 3: orforglipron in women with obesity
+NCT07204249,Methamphetamine use disorder,drug-study review 03d (11 Nov): a label names the substance
+NCT07221591,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT07251556,ASCVD,drug-study review 03d (11 Nov): subclinical atherosclerosis in non-diabetic psoriatic arthritis: target is atherosclerosis
+NCT07265752,Cannabis use disorder,drug-study review 03d (11 Nov): treats cannabis use disorder
+NCT07282769,Trichotillomania,drug-study review 03d (11 Nov): 
+NCT07319286,Type 1 diabetes,drug-study review 03d (11 Nov): menstrual irregularity in adolescents with type 1; target is a type 1 complication
+NCT07387796,Drug study,drug-study review 03d (11 Nov): what happens when people stop GLP-1s (basic science)
+NCT07423247,Home base,drug-study review 03d (11 Nov): obesity in kidney transplant recipients
+NCT07497399,Multiple sclerosis,drug-study review 03d (11 Nov): 
+NCT07509112,Methamphetamine use disorder,drug-study review 03d (11 Nov): a label names the substance
+NCT07519135,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT07550621,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT07550634,Drug study,drug-study review 03d (11 Nov): auto: PK / bioequivalence / interaction / formulation / healthy volunteers / organ impairment
+NCT07573163,Mild autonomous cortisol secretion,drug-study review 03d (11 Nov): after adrenalectomy
+NCT07581145,Diabetic foot ulcer,drug-study review 03d (11 Nov): foot-ulcer healing in type 2 diabetes
+NCT07613437,Stroke,"drug-study review 03d (11 Nov): treats intracerebral haemorrhage (a stroke, acute)"
+NCT07617155,Hypertriglyceridaemic pancreatitis,drug-study review 03d (11 Nov): prevents recurrence
+NCT07627191,GI cancers (metastatic),drug-study review 03d (11 Nov): GLP-1 RA with standard care in pancreatic/colorectal/liver cancer
+NCT07671248,Cannabis use disorder,drug-study review 03d (11 Nov): treats cannabis use disorder
+NCT07734870,Alopecia (CCCA),drug-study review 03d (11 Nov): 
+NCT07737522,Pulmonary arterial hypertension,drug-study review 03d (11 Nov): PAH heart metabolism
+NCT07769047,Breast cancer,drug-study review 03d (11 Nov): survivors with obesity: CV markers (from the keyword review)
+NCT07775846,CKD,drug-study review 03d (11 Nov): early diabetic kidney disease
+NCT07782359,Cancer therapy-induced metabolic toxicity,drug-study review 03d (11 Nov): lorlatinib weight gain; merged with ADT (11 Nov call 3)
+NCT07825857,Methamphetamine use disorder,drug-study review 03d (11 Nov): a label names the substance
+NCT07840729,Drug study,"drug-study review 03d (11 Nov): industry Phase 1 safety study; record is a template (""valid mesh conditiongs"")"
+NCT07874932,Home base,drug-study review 03d (11 Nov): muscle loss during GLP-1 weight loss: obesity treatment
+NCT07874971,Home base,drug-study review 03d (11 Nov): muscle loss during GLP-1 weight loss: obesity treatment
+NCT07878494,Post-bariatric hypoglycemia,drug-study review 03d (11 Nov): treats post-bariatric hypoglycemia
+NCT07879612,Cannabis use disorder,drug-study review 03d (11 Nov): treats cannabis use disorder
+NCT02838589,Drug study,"brain blood flow in healthy non-stroke volunteers: physiology; its Stroke MeSH tag is wrong (11 Nov, keyword review)"

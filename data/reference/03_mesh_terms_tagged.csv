@@ -3,16 +3,16 @@ downcase_mesh_term,n_trials,n_industry,n_academic,n_unclassified,pct_industry,ta
 obesity,576,299,277,0,51.9,home,,
 diabetes mellitus,308,223,85,0,72.4,home,,
 overweight,267,186,81,0,69.7,home,,
-weight loss,81,19,62,0,23.5,notd,,
+weight loss,81,19,62,0,23.5,home,,"retagged from measure (11 Nov desk check): weight loss is what these trials treat, as in obesity labels"
 "diabetes mellitus, type 1",72,13,59,0,18.1,real,Type 1 diabetes,"new, not home (11 Nov)"
 non-alcoholic fatty liver disease,59,31,28,0,52.5,real,MASLD,includes MASH trials (11 Nov)
-insulin resistance,50,6,44,0,12,notd,,mechanism term; 2 trials alone to drug-study bucket (11 Nov)
+insulin resistance,50,6,44,0,12,measure,,mechanism term; 2 trials alone to drug-study bucket (11 Nov); kept measure (11 Nov desk check)
 nutrition disorders,32,32,0,0,100,broad,,"check: 32 trials, all industry"
 "renal insufficiency, chronic",29,11,18,0,37.9,real,CKD,CKD merge (11 Nov)
 glucose intolerance,24,0,24,0,0,home,,diabetes spectrum (11 Nov)
 polycystic ovary syndrome,24,0,24,0,0,real,PCOS,
 alcoholism,22,2,20,0,9.1,real,Alcohol use disorder,"own indication, not merged into addiction (11 Nov)"
-body weight,21,12,9,0,57.1,notd,,
+body weight,21,12,9,0,57.1,home,,"retagged from measure (11 Nov desk check): weight loss is what these trials treat, as in obesity labels"
 cardiovascular diseases,21,5,16,0,23.8,broad,,
 hyperglycemia,20,10,10,0,50,home,,diabetes spectrum; NCT07327281 to drug-study bucket (11 Nov)
 metabolic syndrome,19,0,19,0,0,broad,,
@@ -22,27 +22,27 @@ metabolic diseases,17,14,3,0,82.4,broad,,
 glucose metabolism disorders,16,12,4,0,75,broad,,parent term; all 16 trials carry a diabetes tag (11 Nov)
 fatty liver,15,3,12,0,20,broad,,not merged into MASLD; liver trials via keyword pass (11 Nov)
 pediatric obesity,15,0,15,0,0,home,,obesity age extension; 0% industry is a tagging artefact (11 Nov)
-hypoglycemia,14,3,11,0,21.4,notd,,"safety outcome in diabetes trials; NCT02527993 post-bypass, NCT04909333 diagnostic: see coverage check (11 Nov)"
+hypoglycemia,14,3,11,0,21.4,measure,,"safety outcome in diabetes trials; NCT02527993 post-bypass, NCT04909333 diagnostic: see coverage check (11 Nov); kept measure (11 Nov desk check); NCT02527993 (post-bypass) via indication_additions.csv"
 endocrine system diseases,13,12,1,0,92.3,broad,,parent term; all trials carry a home tag (11 Nov)
 heart failure,13,2,11,0,15.4,real,Heart failure,HFpEF count via keyword pass (hfpef|preserved ejection); STEP-HFpEF tagged obesity only (11 Nov)
-inflammation,13,1,12,0,7.7,notd,,mechanism/measure rule (11 Nov)
+inflammation,13,1,12,0,7.7,measure,,mechanism/measure rule (11 Nov); kept measure (11 Nov desk check)
 atrial fibrillation,12,0,12,0,0,real,Atrial fibrillation,
 diabetic nephropathies,11,1,10,0,9.1,real,CKD,CKD merge (11 Nov)
 hypertension,11,4,7,0,36.4,real,Hypertension,Lilly orforglipron Ph3 targets BP; 3 old mechanism studies inflate academic (11 Nov)
 ischemic stroke,11,0,11,0,0,real,Stroke,stroke merge; mixes acute and prevention trials (11 Nov)
-motor activity,11,2,9,0,18.2,notd,,mechanism/measure rule (11 Nov)
+motor activity,11,2,9,0,18.2,measure,,mechanism/measure rule (11 Nov); kept measure (11 Nov desk check)
 "sleep apnea, obstructive",11,8,3,0,72.7,real,Obstructive sleep apnoea,OSA merge (11 Nov)
 "behavior, addictive",10,0,10,0,0,broad,,alcohol trials already AUD; meth/opioid via keyword pass (11 Nov)
 coronary artery disease,10,1,9,0,10,real,ASCVD,ASCVD merge; acute MI mixed with prevention; stroke kept separate (11 Nov)
 parkinson disease,10,2,8,0,20,real,Parkinson's,
 alzheimer disease,9,2,7,0,22.2,real,Alzheimer's,
-body weight changes,9,4,5,0,44.4,notd,,mechanism/measure rule (11 Nov)
+body weight changes,9,4,5,0,44.4,home,,"retagged from measure (11 Nov desk check): weight loss is what these trials treat, as in obesity labels"
 endometrial neoplasms,9,0,9,0,0,real,Endometrial cancer and atypical hyperplasia,merge; 5 of 12 trials carry both (11 Nov)
 atherosclerosis,8,2,6,0,25,real,ASCVD,ASCVD merge (11 Nov)
 endometrial hyperplasia,8,0,8,0,0,real,Endometrial cancer and atypical hyperplasia,merge (11 Nov)
 osteoarthritis,8,2,6,0,25,real,Osteoarthritis,OA merge (11 Nov)
 sexual infantilism,8,0,8,0,0,real,Hypothalamic obesity,"MeSH label for hypothalamic obesity trials; distinct cause, orphan market (11 Nov)"
-weight gain,8,1,7,0,12.5,notd,,mechanism/measure rule (11 Nov)
+weight gain,8,1,7,0,12.5,measure,,mechanism/measure rule (11 Nov); kept measure (11 Nov desk check); NCT00845507 (olanzapine) via indication_additions.csv
 myocardial infarction,7,0,7,0,0,real,ASCVD,ASCVD merge (11 Nov)
 psoriasis,7,2,5,0,28.6,real,Psoriasis,
 renal insufficiency,7,5,2,0,71.4,,,"pending: 4 PK trials to drug-study bucket, other 3 via keyword pass (11 Nov)"
@@ -61,3 +61,16 @@ mental disorders,5,0,5,0,0,broad,,parent term (11 Nov)
 overnutrition,5,4,1,0,80,broad,,parent term; all trials carry a home tag (11 Nov)
 sleep apnea syndromes,5,2,3,0,40,real,Obstructive sleep apnoea,OSA merge (11 Nov)
 smoking,5,0,5,0,0,real,Smoking cessation,smoking merge (11 Nov)
+opioid-related disorders,4,0,4,0,0.0,real,Opioid use disorder,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; a label names the substance, as for alcohol"
+cocaine-related disorders,2,0,2,0,0.0,real,Cocaine use disorder,"tail tag (11 Nov, option B): term held 2+ unlabelled trials"
+marijuana abuse,2,0,2,0,0.0,real,Cannabis use disorder,"tail tag (11 Nov, option B): term held 2+ unlabelled trials"
+binge-eating disorder,3,0,3,0,0.0,real,Binge eating disorder,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; labelled market (lisdexamfetamine)"
+pseudotumor cerebri,3,0,3,0,0.0,real,Idiopathic intracranial hypertension,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; label name"
+short bowel syndrome,3,2,1,0,66.7,real,Short bowel syndrome,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; 2 industry (vurolenatide, NM-002)"
+crohn disease,3,1,2,0,33.3,real,Inflammatory bowel disease,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; merged with inflammatory bowel diseases"
+inflammatory bowel diseases,3,0,3,0,0.0,real,Inflammatory bowel disease,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; merged with crohn disease (NCT06774079 has both)"
+"depressive disorder, major",4,0,4,0,0.0,real,Major depressive disorder,"tail tag (11 Nov, option B): term held 2+ unlabelled trials"
+osteoporosis,3,0,3,0,0.0,real,Osteoporosis,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; cost: NCT02473809 is bone-turnover mechanism work"
+breast neoplasms,4,0,4,0,0.0,real,Breast cancer,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; cost: both in patients with obesity, may target weight"
+prostatic neoplasms,4,0,4,0,0.0,broad,,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; mixed targets, split by hand in indication_additions.csv: tumour vs ADT side effects (like antipsychotic-induced weight gain)"
+"lymphoma, follicular",4,1,3,0,25.0,error,,"tail tag (11 Nov, option B): term held 2+ unlabelled trials; MeSH error: on opioid, cannabis and PK trials, none lymphoma"
