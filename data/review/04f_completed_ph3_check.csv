@@ -1,0 +1,6 @@
+indication,nct_id,lead_sponsor,start_year,enrollment,results_posted,how_it_ended,evidence
+PCOS,NCT03480022,Woman's (Baton Rouge),2018,88,yes,worked,"Primary outcomes met: body weight p=0.002, free androgen index p=0.006 (AACT results); Elkind-Hirsch, Fertil Steril 2022"
+PCOS,NCT02635386,Woman's (Baton Rouge),2016,119,yes,worked,"Primary outcome met: oral disposition index p=0.02 (AACT results); Elkind-Hirsch, J Clin Endocrinol Metab 2021"
+PCOS,NCT05965908,Beni-Suef University,2024,183,no,unknown,"No results posted, no result paper in AACT; primary outcome HOMA-IR"
+Antipsychotic-induced weight gain,NCT01794429,Copenhagen (TAO study),2013,45,no,failed,"Primary outcome not met: weight loss similar with exenatide and placebo (P = .98), Ishoy, Diabetes Obes Metab 2017, doi:10.1111/dom.12795 (abstract via Europe PMC); no cognitive effect either, Acta Psychiatr Scand 2017"
+Antipsychotic-induced weight gain,NCT02423824,University Health Network Toronto,2015,21,no,unknown,"No results posted, no result paper in AACT; primary outcome executive function"
