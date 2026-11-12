@@ -1,0 +1,40 @@
+indication,recent_trials,academic_recent,with_maker,scouting_share_pct,baseline_pct,scouting_label,industry_collaborators,q2_verdict,shortlist,on_watchlist
+Type 1 diabetes,21,18,1,5.6,6.1,open,Novo Nordisk (maker) x1,not white space,f,f
+CKD,18,11,0,0.0,6.1,open,"",not white space,f,f
+MASLD,20,11,1,9.1,6.1,being scouted,"Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd. x1; Novo Nordisk (maker) x1",not white space,f,f
+PCOS,10,10,0,0.0,6.1,open,"",white space,t,f
+Alcohol use disorder,10,7,0,0.0,6.1,open,"",not white space,f,f
+Heart failure,7,6,0,0.0,6.1,open,"Greenstone Biosciences, Inc. x1",not white space,f,f
+Stroke,7,6,1,16.7,6.1,being scouted,Novo Nordisk (maker) x1,not white space,f,f
+ASCVD,11,5,1,20.0,6.1,being scouted,Eli Lilly (maker) x1,not white space,f,f
+Hypertension,6,2,0,0.0,6.1,open,"",not white space,f,f
+Osteoarthritis,6,2,1,50.0,6.1,being scouted,Eli Lilly (maker) x1,not white space,f,f
+Obstructive sleep apnoea,6,1,0,0.0,6.1,open,"",not white space,f,f
+Atrial fibrillation,4,4,0,0.0,6.1,too early to call,"",too early to call,f,t
+Infertility,4,4,0,0.0,6.1,too early to call,"",too early to call,f,f
+Antipsychotic-induced weight gain,3,3,0,0.0,6.1,too early to call,"",too early to call,f,t
+Smoking cessation,3,3,0,0.0,6.1,too early to call,"",too early to call,f,t
+Alzheimer's,3,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Breast cancer,2,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Cancer therapy-induced metabolic toxicity,2,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Inflammatory bowel disease,4,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Opioid use disorder,2,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Osteoporosis,2,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Psoriasis,4,2,0,0.0,6.1,too early to call,"",too early to call,f,f
+Binge eating disorder,1,1,1,100.0,6.1,too early to call,Eli Lilly (maker) x1,too early to call,f,f
+Chemotherapy toxicity,1,1,1,100.0,6.1,too early to call,Independent Research Fund Denmark x1; Novo Nordisk (maker) x1,too early to call,f,f
+Cocaine use disorder,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Cognitive impairment in diabetes,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Endometrial cancer and atypical hyperplasia,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Glaucoma,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Hypothalamic obesity,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Idiopathic intracranial hypertension,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Long COVID,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Lymphoedema,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Major depressive disorder,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Methamphetamine use disorder,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Partial lipodystrophy,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Perioperative myocardial injury,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Postoperative delirium,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Prader-Willi syndrome,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f
+Systemic sclerosis,1,1,0,0.0,6.1,too early to call,"",too early to call,f,f

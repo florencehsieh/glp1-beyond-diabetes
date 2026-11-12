@@ -1,0 +1,69 @@
+indication,first_year,first_nct_id,first_lead_group,first_academic_year,first_industry_year,industry_lag_years,trials_all_years,industry_led_all_years
+Home base,1999,NCT01507272,industry-led,2006,1999,-7,1435,814
+Type 1 diabetes,2003,NCT00064714,industry-led,2004,2003,-1,78,12
+MASLD,2006,NCT00650546,academic-led,2006,2016,10,63,29
+Prader-Willi syndrome,2007,NCT00551343,academic-led,2007,2015,8,5,1
+Antipsychotic-induced weight gain,2008,NCT00845507,academic-led,2008,,,15,0
+ASCVD,2008,NCT00736229,academic-led,2008,2018,10,41,9
+Heart failure,2009,NCT00766857,academic-led,2009,2010,1,23,5
+Alzheimer's,2010,NCT01255163,academic-led,2010,2021,11,10,3
+Hypothalamic obesity,2010,NCT01061775,academic-led,2010,,,8,0
+Irritable bowel syndrome,2010,NCT01056107,academic-led,2010,,,1,0
+Obstructive sleep apnoea,2010,NCT01136798,academic-led,2010,2012,2,15,10
+Parkinson's,2010,NCT01174810,academic-led,2010,2020,10,10,2
+PCOS,2011,NCT01899430,academic-led,2011,,,33,0
+Psoriasis,2011,NCT01451905,academic-led,2011,2024,13,8,2
+Binge eating disorder,2012,NCT01739049,academic-led,2012,,,3,0
+CKD,2012,NCT01621178,industry-led,2012,2012,0,47,13
+Hypertension,2012,NCT01499108,academic-led,2012,2025,13,12,4
+Cardiac arrest (neuroprotection),2014,NCT02442791,academic-led,2014,,,1,0
+Cocaine use disorder,2014,NCT02302976,academic-led,2014,,,4,0
+Infertility,2014,NCT03034941,academic-led,2014,,,12,0
+Male hypogonadism,2014,NCT03619330,academic-led,2014,,,2,0
+Acute brain injury,2015,NCT02058940,academic-led,2015,,,1,0
+Alcohol use disorder,2015,NCT02690987,academic-led,2015,2024,9,24,3
+Major depressive disorder,2015,NCT02423824,academic-led,2015,,,4,0
+Osteoporosis,2015,NCT02473809,academic-led,2015,,,4,0
+Post-bariatric hypoglycemia,2015,NCT02527993,academic-led,2015,,,3,0
+Smoking cessation,2015,NCT02690987,academic-led,2015,,,12,0
+Cognitive impairment in diabetes,2016,NCT02847403,academic-led,2016,,,3,0
+Osteoarthritis,2016,NCT02905864,academic-led,2016,2021,5,13,6
+Primary polydipsia,2016,NCT02770885,academic-led,2016,,,1,0
+Stroke,2016,NCT02673931,academic-led,2016,2025,9,14,1
+Atrial fibrillation,2019,NCT03856632,academic-led,2019,,,12,0
+Bile acid malabsorption,2019,NCT03955575,academic-led,2019,,,1,0
+Diabetic neuropathy,2019,NCT04137328,academic-led,2019,,,1,0
+Multiple system atrophy,2020,NCT04431713,academic-led,2020,,,1,0
+Short bowel syndrome,2020,NCT04379856,industry-led,2026,2020,-6,3,2
+COVID-19 myocardial injury,2021,NCT04615871,academic-led,2021,,,1,0
+Opioid use disorder,2021,NCT04199728,academic-led,2021,,,4,0
+Cerebral small vessel disease,2022,NCT05356104,academic-led,2022,,,1,0
+Endometrial cancer and atypical hyperplasia,2022,NCT05172999,academic-led,2022,,,12,0
+Idiopathic intracranial hypertension,2022,NCT06027567,academic-led,2022,,,3,0
+Inflammatory bowel disease,2022,NCT05196958,academic-led,2022,2025,3,7,2
+Idiopathic inflammatory myopathy,2023,NCT05833711,industry-led,,2023,,1,1
+Alcohol-related liver disease,2024,NCT06409130,industry-led,2026,2024,-2,3,2
+Breast cancer,2024,NCT06518837,academic-led,2024,,,6,0
+Chemotherapy toxicity,2024,NCT06449625,academic-led,2024,,,1,0
+Perioperative myocardial injury,2024,NCT06324461,academic-led,2024,,,1,0
+Postoperative delirium,2024,NCT06361238,academic-led,2024,,,1,0
+Psoriatic arthritis,2024,NCT06588296,industry-led,2026,2024,-2,4,2
+Systemic sclerosis,2024,NCT06149260,academic-led,2024,,,1,0
+Cancer therapy-induced metabolic toxicity,2025,NCT06908694,academic-led,2025,,,3,0
+Glaucoma,2025,NCT06792422,academic-led,2025,,,1,0
+Long COVID,2025,NCT07128082,academic-led,2025,,,1,0
+Lymphoedema,2025,NCT07012642,academic-led,2025,,,1,0
+Methamphetamine use disorder,2025,NCT06745128,academic-led,2025,,,4,0
+Partial lipodystrophy,2025,NCT07091734,academic-led,2025,,,1,0
+Stress urinary incontinence,2025,NCT07202884,industry-led,,2025,,1,1
+Alopecia (CCCA),2026,NCT07734870,academic-led,2026,,,1,0
+Cannabis use disorder,2026,NCT07523633,academic-led,2026,,,5,0
+Diabetic foot ulcer,2026,NCT07581145,academic-led,2026,,,1,0
+GI cancers (metastatic),2026,NCT07627191,academic-led,2026,,,1,0
+Hypertriglyceridaemic pancreatitis,2026,NCT07617155,academic-led,2026,,,1,0
+Mild autonomous cortisol secretion,2026,NCT07573163,academic-led,2026,,,1,0
+Multiple sclerosis,2026,NCT07497399,academic-led,2026,,,1,0
+Prostate cancer,2026,NCT07727473,academic-led,2026,,,1,0
+Pulmonary arterial hypertension,2026,NCT07737522,academic-led,2026,,,1,0
+Stimulant use disorder,2026,NCT07693608,academic-led,2026,,,1,0
+Trichotillomania,2026,NCT07282769,academic-led,2026,,,1,0

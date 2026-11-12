@@ -1,0 +1,40 @@
+indication,academic_recent,generic,branded,of_branded_mixed,no_named_drug,branded_with_industry_collab,branded_pct_of_named,q2_verdict,on_watchlist
+Type 1 diabetes,18,1,17,0,0,1,94,not white space,f
+CKD,11,0,11,0,0,0,100,not white space,f
+MASLD,11,1,8,1,2,1,89,not white space,f
+PCOS,10,3,7,0,0,0,70,white space,f
+Alcohol use disorder,7,0,7,0,0,0,100,not white space,f
+Heart failure,6,0,5,0,1,1,100,not white space,f
+Stroke,6,0,6,0,0,1,100,not white space,f
+ASCVD,5,0,5,0,0,1,100,not white space,f
+Atrial fibrillation,4,0,4,0,0,0,100,too early to call,t
+Infertility,4,2,2,0,0,0,50,too early to call,f
+Antipsychotic-induced weight gain,3,0,3,0,0,0,100,too early to call,t
+Smoking cessation,3,0,2,0,1,0,100,too early to call,t
+Alzheimer's,2,0,2,0,0,0,100,too early to call,f
+Breast cancer,2,0,2,0,0,0,100,too early to call,f
+Cancer therapy-induced metabolic toxicity,2,0,2,0,0,0,100,too early to call,f
+Hypertension,2,0,1,0,1,0,100,not white space,f
+Inflammatory bowel disease,2,0,2,0,0,0,100,too early to call,f
+Opioid use disorder,2,0,2,0,0,0,100,too early to call,f
+Osteoarthritis,2,0,1,0,1,1,100,not white space,f
+Osteoporosis,2,0,2,0,0,0,100,too early to call,f
+Psoriasis,2,0,2,0,0,0,100,too early to call,f
+Binge eating disorder,1,0,1,0,0,1,100,too early to call,f
+Chemotherapy toxicity,1,0,1,0,0,1,100,too early to call,f
+Cocaine use disorder,1,0,1,0,0,0,100,too early to call,f
+Cognitive impairment in diabetes,1,0,1,0,0,0,100,too early to call,f
+Endometrial cancer and atypical hyperplasia,1,0,1,0,0,0,100,too early to call,f
+Glaucoma,1,0,1,0,0,0,100,too early to call,f
+Hypothalamic obesity,1,0,1,0,0,0,100,too early to call,f
+Idiopathic intracranial hypertension,1,0,1,0,0,0,100,too early to call,f
+Long COVID,1,0,1,0,0,0,100,too early to call,f
+Lymphoedema,1,0,0,0,1,0,,too early to call,f
+Major depressive disorder,1,0,1,0,0,0,100,too early to call,f
+Methamphetamine use disorder,1,0,1,0,0,0,100,too early to call,f
+Obstructive sleep apnoea,1,0,0,0,1,0,,not white space,f
+Partial lipodystrophy,1,0,1,0,0,0,100,too early to call,f
+Perioperative myocardial injury,1,0,1,0,0,0,100,too early to call,f
+Postoperative delirium,1,1,0,0,0,0,0,too early to call,f
+Prader-Willi syndrome,1,0,1,0,0,0,100,too early to call,f
+Systemic sclerosis,1,0,1,0,0,0,100,too early to call,f

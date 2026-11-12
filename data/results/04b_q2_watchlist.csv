@@ -1,0 +1,8 @@
+indication,recent_trials,lead_sponsors,industry_led,industry_ph3_active,industry_ph3_completed,shared_with_shortlist,unknown_status,phases,t1_size,t2_independent,t3_no_industry,t4_no_competitor,t5_not_a_copy,on_watchlist
+Atrial fibrillation,4,4,0,0,0,0,0,"PHASE2, PHASE3, PHASE4",t,t,t,t,t,t
+Antipsychotic-induced weight gain,3,3,0,0,0,0,1,"NA, PHASE2, PHASE4",t,t,t,t,t,t
+Smoking cessation,3,3,0,0,0,0,0,"NA, PHASE2, PHASE4",t,t,t,t,t,t
+Infertility,4,4,0,0,0,3,2,"PHASE3, PHASE4",t,t,t,t,f,f
+Inflammatory bowel disease,4,3,2,2,0,0,0,"PHASE2, PHASE3, PHASE4",t,t,f,f,t,f
+Psoriasis,4,3,2,0,1,0,0,"PHASE3, PHASE4",t,t,f,f,t,f
+Alzheimer's,3,3,1,0,3,0,0,"PHASE2, PHASE3",t,t,f,f,t,f
