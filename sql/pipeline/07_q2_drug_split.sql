@@ -1,7 +1,7 @@
--- sql/04d_q2_drug_split.sql  (Phase 4, Q2 add-on: generic vs branded GLP-1 in academic trials, 12 Nov)
--- Needs glp1.trials (sql/02), glp1.trial_indications (sql/03b), glp1.q2_white_space (sql/04),
--- glp1.q2_watchlist (sql/04b). Run from the repo root:  psql -d aact -f sql/04d_q2_drug_split.sql
--- Saves glp1.q2_drug_split (one row per indication) and exports data/results/04d_q2_drug_split.csv.
+-- sql/pipeline/07_q2_drug_split.sql  (Phase 4, Q2 add-on: generic vs branded GLP-1 in academic trials, 12 Nov)
+-- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05),
+-- glp1.q2_watchlist (sql/pipeline/06). Run from the repo root:  psql -d aact -f sql/pipeline/07_q2_drug_split.sql
+-- Saves glp1.q2_drug_split (one row per indication) and exports data/results/07_q2_drug_split.csv.
 --
 -- Rules (Decided, 9-10 Nov):
 --   Generic  = other companies sell approved copies, so a university can just buy it:
@@ -13,8 +13,8 @@
 --   A trial is branded if any branded drug is in a tested arm; generic if only generic drugs are;
 --   "no named drug" if its only GLP-1 is class wording ("GLP-1 receptor agonist").
 --   Mixed (generic + branded in tested arms) is reported, and counted as branded.
--- Scope: academic-led trials (both academic groups) started 2023-2025, same filters as sql/04.
--- The GLP-1 intervention list below repeats Steps 1-2 of sql/02 (names, other names, overrides).
+-- Scope: academic-led trials (both academic groups) started 2023-2025, same filters as sql/pipeline/05.
+-- The GLP-1 intervention list below repeats Steps 1-2 of sql/pipeline/02 (names, other names, overrides).
 
 DROP TABLE IF EXISTS glp1.q2_drug_split;
 CREATE TABLE glp1.q2_drug_split AS
@@ -84,7 +84,7 @@ LEFT JOIN glp1.q2_watchlist wl USING (indication)
 GROUP BY a.indication, w.verdict, wl.on_watchlist
 ORDER BY academic_recent DESC, a.indication;
 
-\copy (SELECT * FROM glp1.q2_drug_split) TO 'data/results/04d_q2_drug_split.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q2_drug_split) TO 'data/results/07_q2_drug_split.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
 -- Groups add up: generic + branded + no named drug = academic_recent (expect 0 rows)

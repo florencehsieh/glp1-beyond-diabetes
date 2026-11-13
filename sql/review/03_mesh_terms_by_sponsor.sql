@@ -1,5 +1,5 @@
--- sql/03_mesh_terms_by_sponsor.sql  (end of Week 2: white-space exploration, start of Phase 3)
--- Needs glp1.trials (sql/02_glp1_trials.sql). Run with search_path = ctgov, public.
+-- sql/review/03_mesh_terms_by_sponsor.sql  (end of Week 2: white-space exploration, start of Phase 3)
+-- Needs glp1.trials (sql/pipeline/02_trials.sql). Run with search_path = ctgov, public.
 -- The most common MeSH terms among the GLP-1 trials, split by lead sponsor class.
 -- First look at industry vs academic per area, and the term list Phase 3 maps into indications.
 --   mesh-list only: the term assigned directly. Never count across mesh-list and mesh-ancestor.
@@ -9,7 +9,7 @@
 --   the three sponsor groups (collaborator split) come in Phase 4b.
 -- A trial carries several terms, so the term rows add up to more than 1,809: never sum them.
 -- Export (from the repo root):
---   psql -d aact --csv -f sql/03_mesh_terms_by_sponsor.sql -o data/results/03_mesh_terms_by_sponsor.csv
+--   psql -d aact --csv -f sql/review/03_mesh_terms_by_sponsor.sql -o data/review/03_mesh_terms_by_sponsor.csv
 -- (the coverage check at the bottom is commented out so the CSV holds one table)
 
 WITH lead AS (

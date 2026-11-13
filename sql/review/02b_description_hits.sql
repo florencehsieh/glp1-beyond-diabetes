@@ -1,10 +1,10 @@
--- sql/02b_description_hits.sql  (Phase 2, recall-gap review, decided 10 Nov)
+-- sql/review/02b_description_hits.sql  (Phase 2, recall-gap review, decided 10 Nov)
 -- Finds GLP-1 drugs the name search missed: interventions whose DESCRIPTION has GLP-1
 -- wording, in interventional trials not already in glp1_interventions. Mostly
 -- development codes (e.g. VK2735: "a peptide GLP-1 and GIP dual agonist").
 -- One row per intervention name x trial, with the evidence for a hand decision.
 -- first_pass is a suggestion only; the decision is made by hand, as in 01b Reviews 1-4.
--- Needs sql/02a_load_reference.sql loaded; run with search_path = ctgov, public.
+-- Needs sql/pipeline/01_load_reference.sql loaded; run with search_path = ctgov, public.
 -- Pieces 1-3 copy glp1_interventions from 02_glp1_trials.sql: keep them in step.
 -- Known blind spot: codes whose description has no GLP-1 wording (HEC88473, PB1023).
 

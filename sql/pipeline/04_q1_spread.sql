@@ -1,12 +1,12 @@
--- sql/04c_q1_spread.sql  (Phase 4, Q1: where did GLP-1s spread beyond diabetes, and when? 12 Nov)
--- Needs glp1.trials (sql/02) and glp1.trial_indications (sql/03b).
--- Run from the repo root:  psql -d aact -f sql/04c_q1_spread.sql
--- Saves glp1.q1_spread (one row per indication) and exports data/results/04c_q1_spread.csv.
+-- sql/pipeline/04_q1_spread.sql  (Phase 4, Q1: where did GLP-1s spread beyond diabetes, and when? 12 Nov)
+-- Needs glp1.trials (sql/pipeline/02) and glp1.trial_indications (sql/pipeline/03).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/04_q1_spread.sql
+-- Saves glp1.q1_spread (one row per indication) and exports data/results/04_q1_spread.csv.
 --
 -- Per indication: first trial year (and that trial), first academic-led and first industry-led
 -- year, the industry lag (industry year - academic year), trials in all years.
 --   Home base stays in as one row: the starting point of the timeline. Drug study trials are out.
---   Lead sponsor class decides the group (INDUSTRY vs the academic classes), as in sql/04.
+--   Lead sponsor class decides the group (INDUSTRY vs the academic classes), as in sql/pipeline/05.
 --   Lag NULL = industry has never led a trial there: keep those rows, they're the strongest signal.
 --   Lag < 0 = industry got there first.
 --   Trials with no start_date can't be placed on the timeline: counted in the check at the end.
@@ -47,7 +47,7 @@ FROM per p
 JOIN first_trial f ON f.indication = p.indication AND f.rn = 1
 ORDER BY p.first_year, p.indication;
 
-\copy (SELECT * FROM glp1.q1_spread) TO 'data/results/04c_q1_spread.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q1_spread) TO 'data/results/04_q1_spread.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
 -- 1. Trials with no start date, left off the timeline

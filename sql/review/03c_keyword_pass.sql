@@ -1,9 +1,9 @@
--- sql/03c_keyword_pass.sql  (Phase 3: title keyword pass, option B of 11 Nov)
--- Needs glp1.trials (sql/02) and glp1.trial_indications (sql/03b).
+-- sql/review/03c_keyword_pass.sql  (Phase 3: title keyword pass, option B of 11 Nov)
+-- Needs glp1.trials (sql/pipeline/02) and glp1.trial_indications (sql/pipeline/03).
 -- Finds trials whose title names an indication they aren't labelled with yet,
 -- because sponsors often tag only the population (SELECT, FLOW, STEP-HFpEF).
 -- Every hit is reviewed by hand; yes decisions go in data/reference/indication_additions.csv,
--- then rerun 02a and 03b.
+-- then rerun pipeline/01 and pipeline/03.
 --
 -- Pass 1 (11 Nov, Review 7): Heart failure, MASLD, CKD, ASCVD. Keywords written BEFORE
 --   looking at hits (11 Nov walk), except 'cardiovascular outcomes', added after SELECT missed
@@ -22,7 +22,7 @@
 -- A trial already labelled with the indication is dropped.
 --
 -- Export (from the repo root):
---   psql -d aact --csv -f sql/03c_keyword_pass.sql -o data/review/03c_keyword_hits_v2.csv
+--   psql -d aact --csv -f sql/review/03c_keyword_pass.sql -o data/review/03c_keyword_hits_v2.csv
 -- WARNING: a rerun lists only hits that are STILL unlabelled, so once the yes decisions are
 -- in indication_additions.csv it returns fewer rows. Don't overwrite an earlier export:
 -- export a new pass to a new file (e.g. 03c_keyword_hits_v3.csv).

@@ -1,4 +1,4 @@
--- sql/01c_unclear_names.sql
+-- sql/review/01c_unclear_names.sql
 -- Shows every trial behind the 12 "review: unclear" names, so you can judge them.
 WITH unclear(drug_name) AS (
     VALUES ('glp-1'), ('glucagon-like peptide-1'), ('glucagon-like peptide 1'),

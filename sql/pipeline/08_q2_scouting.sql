@@ -1,7 +1,7 @@
--- sql/04e_q2_scouting.sql  (Phase 4, Q2 add-on: scouting label, 12 Nov)
--- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/04), glp1.q2_watchlist (sql/04b).
--- Run from the repo root:  psql -d aact -f sql/04e_q2_scouting.sql
--- Saves glp1.q2_scouting (one row per indication) and exports data/results/04e_q2_scouting.csv.
+-- sql/pipeline/08_q2_scouting.sql  (Phase 4, Q2 add-on: scouting label, 12 Nov)
+-- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/pipeline/05), glp1.q2_watchlist (sql/pipeline/06).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/08_q2_scouting.sql
+-- Saves glp1.q2_scouting (one row per indication) and exports data/results/08_q2_scouting.csv.
 --
 -- Rule (Decided 10 Nov, maker list 12 Nov):
 --   GLP-1 maker = one of 15 companies with a GLP-1 drug of their own, matched by name pattern:
@@ -12,7 +12,7 @@
 --                    / all academic-led trials started 2023-2025 in the indication.
 --   Baseline       = the same share across all academic-led trials outside home base, same window.
 --   Label          = "being scouted" if the share is above the baseline, else "open";
---                    "too early to call" below the 5-trial threshold (same as sql/04).
+--                    "too early to call" below the 5-trial threshold (same as sql/pipeline/05).
 --   Breakdown      = every industry collaborator on those academic trials, makers or not, with
 --                    its trial count, so the reader can judge one random firm vs a real maker.
 
@@ -86,7 +86,7 @@ LEFT JOIN glp1.q2_watchlist wl USING (indication)
 LEFT JOIN breakdown bd USING (indication)
 ORDER BY (w.recent_trials < 5), p.academic_recent DESC, p.indication;
 
-\copy (SELECT * FROM glp1.q2_scouting) TO 'data/results/04e_q2_scouting.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q2_scouting) TO 'data/results/08_q2_scouting.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
 -- 1. Which collaborator names matched a maker (read them: a wrong pattern shows here)

@@ -1,6 +1,6 @@
--- sql/04b_q2_watchlist.sql  (Phase 4, Q2 watchlist: early signals below the threshold, 12 Nov)
--- Needs glp1.q2_white_space (sql/04). Run from the repo root:  psql -d aact -f sql/04b_q2_watchlist.sql
--- Saves glp1.q2_watchlist and exports data/results/04b_q2_watchlist.csv.
+-- sql/pipeline/06_q2_watchlist.sql  (Phase 4, Q2 watchlist: early signals below the threshold, 12 Nov)
+-- Needs glp1.q2_white_space (sql/pipeline/05). Run from the repo root:  psql -d aact -f sql/pipeline/06_q2_watchlist.sql
+-- Saves glp1.q2_watchlist and exports data/results/06_q2_watchlist.csv.
 --
 -- Rule (Decided, 12 Nov; written before looking at the result). An indication is on the watchlist
 -- when it passes all five:
@@ -13,7 +13,7 @@
 
 DROP TABLE IF EXISTS glp1.q2_watchlist;
 CREATE TABLE glp1.q2_watchlist AS
-WITH recent AS (   -- trial x indication, 2023-2025, new areas only (same filters as sql/04)
+WITH recent AS (   -- trial x indication, 2023-2025, new areas only (same filters as sql/pipeline/05)
     SELECT i.indication, t.nct_id, t.phase
     FROM glp1.trial_indications i
     JOIN glp1.trials t USING (nct_id)
@@ -46,6 +46,6 @@ JOIN copy_check c USING (indication)
 WHERE w.recent_trials BETWEEN 3 AND 4          -- only size-passers are worth listing
 ORDER BY on_watchlist DESC, w.recent_trials DESC, w.indication;
 
-\copy (SELECT * FROM glp1.q2_watchlist) TO 'data/results/04b_q2_watchlist.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q2_watchlist) TO 'data/results/06_q2_watchlist.csv' WITH (FORMAT csv, HEADER)
 
 SELECT * FROM glp1.q2_watchlist;

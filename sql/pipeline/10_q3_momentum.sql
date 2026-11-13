@@ -1,11 +1,11 @@
--- sql/04f_q3_momentum.sql  (Phase 4, Q3: how fast does each indication move to late stage? 12 Nov)
--- Needs glp1.trials (sql/02), glp1.trial_indications (sql/03b), glp1.q2_white_space (sql/04)
--- and glp1.q2_watchlist (sql/04b). Run from the repo root:  psql -d aact -f sql/04f_q3_momentum.sql
--- Saves glp1.q3_momentum (one row per indication) and exports data/results/04f_q3_momentum.csv.
+-- sql/pipeline/10_q3_momentum.sql  (Phase 4, Q3: how fast does each indication move to late stage? 12 Nov)
+-- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05)
+-- and glp1.q2_watchlist (sql/pipeline/06). Run from the repo root:  psql -d aact -f sql/pipeline/10_q3_momentum.sql
+-- Saves glp1.q3_momentum (one row per indication) and exports data/results/10_q3_momentum.csv.
 --
 -- Rules (Decided table / docs/decisions.md):
 --   Indications  every new-area indication with at least one Phase 2+ trial (PHASE2, PHASE2/PHASE3,
---                PHASE3), any year. Home base and Drug study left out, as in sql/04. Shortlist and
+--                PHASE3), any year. Home base and Drug study left out, as in sql/pipeline/05. Shortlist and
 --                watchlist rows are flagged. A trial counts in each of its indications: never sum.
 --   Phase rule   main: only pure PHASE3 is Phase 3; PHASE2/PHASE3 counts as Phase 2; PHASE1/PHASE2
 --                as Phase 1 (4 Nov). Sensitivity: PHASE2/PHASE3 counted as Phase 3.
@@ -40,7 +40,7 @@ WITH why_stopped_sorted (nct_id, stop_group, note) AS (   -- hand list, 12 Nov: 
            ('NCT03279731', 'noise', 'recruitment goals not met'),
            ('NCT04741074', 'noise', 'low recruitment')
 ),
-ti AS (   -- trial x indication, new areas only (same filters as sql/04)
+ti AS (   -- trial x indication, new areas only (same filters as sql/pipeline/05)
     SELECT i.indication, t.nct_id, t.phase, t.overall_status,
            EXTRACT(YEAR FROM t.start_date)::int AS start_year,
            (t.start_date >= '2023-01-01' AND t.start_date < '2026-01-01') AS recent,
@@ -131,7 +131,7 @@ WHERE p.first_ph2_year IS NOT NULL OR p.first_ph3_year IS NOT NULL
    OR p.ph2_trials + p.ph3_trials > 0                -- any Phase 2+ trial, even without a start date
 ORDER BY (p.first_ph3_year IS NULL), years_to_ph3, p.indication;
 
-\copy (SELECT * FROM glp1.q3_momentum) TO 'data/results/04f_q3_momentum.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q3_momentum) TO 'data/results/10_q3_momentum.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
 -- 1. One row per indication (expect 0 rows)

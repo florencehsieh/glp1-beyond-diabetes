@@ -1,13 +1,13 @@
--- sql/04g_q2_arm_sensitivity.sql  (Phase 4, Q2 sensitivity: strict arm rule, 12 Nov)
--- Needs glp1.trials (sql/02), glp1.trial_indications (sql/03b), glp1.q2_white_space (sql/04).
--- Run from the repo root:  psql -d aact -f sql/04g_q2_arm_sensitivity.sql
--- Saves glp1.q2_arm_sensitivity and exports data/results/04g_q2_arm_sensitivity.csv.
+-- sql/pipeline/09_q2_arm_sensitivity.sql  (Phase 4, Q2 sensitivity: strict arm rule, 12 Nov)
+-- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/09_q2_arm_sensitivity.sql
+-- Saves glp1.q2_arm_sensitivity and exports data/results/09_q2_arm_sensitivity.csv.
 --
 -- The question: does the shortlist hold when only trials with the GLP-1 in an EXPERIMENTAL arm
 -- count (arm_rule = 'experimental arm'), dropping the 275 Option B trials with no EXPERIMENTAL arm?
 -- The whole Q2 test is rerun on the smaller list: baseline, share, Phase 3 block, heating up.
--- Same rules as sql/04 (threshold 5, bar = half the baseline, industry PHASE3 active or completed).
--- Each indication is scored under both rules: 'option B' must reproduce sql/04 (check 1).
+-- Same rules as sql/pipeline/05 (threshold 5, bar = half the baseline, industry PHASE3 active or completed).
+-- Each indication is scored under both rules: 'option B' must reproduce sql/pipeline/05 (check 1).
 
 DROP TABLE IF EXISTS glp1.q2_arm_sensitivity;
 CREATE TABLE glp1.q2_arm_sensitivity AS
@@ -76,10 +76,10 @@ LEFT JOIN scored s ON s.indication = b.indication AND s.arm_rule_set = 'strict'
 WHERE b.arm_rule_set = 'option B'
 ORDER BY (b.verdict = 'too early to call'), b.recent_trials DESC, b.indication;
 
-\copy (SELECT * FROM glp1.q2_arm_sensitivity) TO 'data/results/04g_q2_arm_sensitivity.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q2_arm_sensitivity) TO 'data/results/09_q2_arm_sensitivity.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
--- 1. The Option B rerun reproduces sql/04 (expect 0 rows)
+-- 1. The Option B rerun reproduces sql/pipeline/05 (expect 0 rows)
 SELECT a.indication, a.verdict_b, w.verdict, a.shortlist_b, w.shortlist
 FROM glp1.q2_arm_sensitivity a JOIN glp1.q2_white_space w USING (indication)
 WHERE a.verdict_b <> w.verdict OR a.shortlist_b <> w.shortlist OR a.recent_b <> w.recent_trials;

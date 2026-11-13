@@ -1,4 +1,4 @@
--- sql/01b_name_review.sql  (v7, 8 Nov 2026)
+-- sql/review/01b_name_review.sql  (v7, 8 Nov 2026)
 -- Purpose: give every GLP-1-looking drug name a first-pass label
 --          (keep / exclude / review) and a canonical_drug, so only
 --          the "review" rows need a human decision.

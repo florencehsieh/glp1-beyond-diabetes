@@ -1,9 +1,9 @@
--- sql/02_glp1_trials.sql  (Phase 2)
--- Needs sql/02a_load_reference.sql loaded first; run with search_path = ctgov, public.
+-- sql/pipeline/02_trials.sql  (Phase 2)
+-- Needs sql/pipeline/01_load_reference.sql loaded first; run with search_path = ctgov, public.
 -- Builds glp1.trials: one row per interventional trial that gives a GLP-1 in a tested arm.
 -- Saved as a table so Phases 3-4 read one list instead of copying these CTEs (decided 11 Nov).
--- Rerun after every snapshot or edit to the reference CSVs: 02a first, then this file.
---   psql -d aact -f sql/02a_load_reference.sql && psql -d aact -f sql/02_glp1_trials.sql
+-- Rerun after every snapshot or edit to the reference CSVs: 01 first, then this file.
+--   psql -d aact -f sql/pipeline/01_load_reference.sql && psql -d aact -f sql/pipeline/02_trials.sql
 --   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,142 trials)
 --   Step 3     glp1_arm_check: arm rule Option B (decided 9 Nov), one row per trial + arm_rule label
 --   Step 4     glp1_trials: interventional, WITHDRAWN dropped; headline count 1,809
@@ -115,3 +115,8 @@ SELECT arm_rule,
 FROM glp1.trials
 GROUP BY ROLLUP (arm_rule)
 ORDER BY arm_rule NULLS LAST;
+
+-- Every hand-added indication (glp1.indication_additions, loaded by sql/pipeline/01) is a trial
+-- in glp1.trials (expect 0 rows). Moved here from 01, where glp1.trials may not exist yet.
+SELECT a.nct_id FROM glp1.indication_additions a
+WHERE NOT EXISTS (SELECT 1 FROM glp1.trials t WHERE t.nct_id = a.nct_id);

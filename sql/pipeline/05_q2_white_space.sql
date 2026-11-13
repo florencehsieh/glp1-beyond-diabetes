@@ -1,7 +1,7 @@
--- sql/04_q2_white_space.sql  (Phase 4, Q2: which indications are white space? 12 Nov)
--- Needs glp1.trials (sql/02) and glp1.trial_indications (sql/03b).
--- Run from the repo root:  psql -d aact -f sql/04_q2_white_space.sql
--- Saves glp1.q2_white_space (one row per indication) and exports data/results/04_q2_white_space.csv.
+-- sql/pipeline/05_q2_white_space.sql  (Phase 4, Q2: which indications are white space? 12 Nov)
+-- Needs glp1.trials (sql/pipeline/02) and glp1.trial_indications (sql/pipeline/03).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/05_q2_white_space.sql
+-- Saves glp1.q2_white_space (one row per indication) and exports data/results/05_q2_white_space.csv.
 --
 -- Rules (Decided table / docs/decisions.md):
 --   Windows      recent = trials starting 2023-2025, earlier = 2020-2022 (whole calendar years).
@@ -167,7 +167,7 @@ CROSS JOIN LATERAL (
 ORDER BY (v.verdict = 'too early to call'), s.recent_trials DESC, s.indication;
 
 -- Export
-\copy (SELECT * FROM glp1.q2_white_space) TO 'data/results/04_q2_white_space.csv' WITH (FORMAT csv, HEADER)
+\copy (SELECT * FROM glp1.q2_white_space) TO 'data/results/05_q2_white_space.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
 -- 1. The baseline and the field windows (expect 163 recent trials, 30.1% industry-led on 12 Nov)

@@ -1,4 +1,4 @@
--- sql/01d_background_use.sql  (8 Nov 2026)
+-- sql/review/01d_background_use.sql  (8 Nov 2026)
 -- Purpose: Review 4. For the 34 names that 01b v5 labels 'review: background use',
 --          show the evidence per name x trial: study type, which arm types the
 --          GLP-1 intervention sits in, how many arms it's in vs the trial's total,

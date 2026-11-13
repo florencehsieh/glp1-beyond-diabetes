@@ -3,7 +3,7 @@
 Each hand review sorted rows into lettered patterns before deciding them. **The letters restart in every
 review**, so "A" means something different in each file. This page is the key.
 
-The decisions themselves live in SQL: `sql/01b_name_review.sql` rule 0 (Review 1), 0b (Review 2),
+The decisions themselves live in SQL: `sql/review/01b_name_review.sql` rule 0 (Review 1), 0b (Review 2),
 0c (Review 3), 0d (Review 4). The CSVs here are the evidence behind them.
 
 Every review asks the same question in the end: **does an arm of this trial get a GLP-1 receptor agonist
@@ -12,7 +12,7 @@ that the study assigns?**
 ## Review 1: unclear names (7 Nov 2026)
 
 Is a generic name like "glp-1" the drug or the body's own hormone?
-Query `sql/01c_unclear_names.sql` · evidence `01c_unclear_names_decided.csv` (73 rows, column `bucket`)
+Query `sql/review/01c_unclear_names.sql` · evidence `01c_unclear_names_decided.csv` (73 rows, column `bucket`)
 
 | Bucket | Meaning | Decision | Rows |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Evidence `01c_placebo_active_decided.csv` (18 names, column `pattern`)
 ## Review 4: background use (8 Nov 2026)
 
 Does the trial give the GLP-1, or only study people already on it?
-Query `sql/01d_background_use.sql` · evidence `01d_background_use_decided.csv` (37 rows, column `bucket`)
+Query `sql/review/01d_background_use.sql` · evidence `01d_background_use_decided.csv` (37 rows, column `bucket`)
 
 | Bucket | Meaning | Name clues | Decision | Rows |
 |---|---|---|---|---|
@@ -61,7 +61,7 @@ C and E were planned buckets; no row ended in them.
 
 Which GLP-1 drugs did the name search miss? Trials whose intervention **description** has GLP-1 wording
 but which aren't among the 2,050 in `glp1_interventions`: mostly development codes and typos.
-Query `sql/02b_description_hits.sql` · rows `02b_description_hits.csv` (191 rows, 167 trials) ·
+Query `sql/review/02b_description_hits.sql` · rows `02b_description_hits.csv` (191 rows, 167 trials) ·
 evidence `02b_description_hits_decided.csv` (same 191 rows, columns `pattern`, `decision`,
 `canonical_drug`, `clue`; join on `nct_id` + `drug_name`)
 
@@ -101,8 +101,8 @@ Backbone 49 → 47.
 
 What does each MeSH term become: an indication, home base, or nothing? Phase 3 gives every trial in
 `glp1.trials` its indication(s); this review decides the terms. Grain: **one row per term**, not per trial.
-Query `sql/03_mesh_terms_by_sponsor.sql` (`mesh-list` only) · rows `data/results/03_mesh_terms_by_sponsor.csv`
-(267 terms) · evidence `data/reference/03_mesh_terms_tagged.csv` (moved from data/review/ on 11 Nov; loaded by 02a) (the 62 terms with 5+ trials; columns `tag`, `indication`, `note`)
+Query `sql/review/03_mesh_terms_by_sponsor.sql` (`mesh-list` only) · rows `data/review/03_mesh_terms_by_sponsor.csv`
+(267 terms) · evidence `data/reference/03_mesh_terms_tagged.csv` (moved from data/review/ on 11 Nov; loaded by sql/pipeline/01) (the 62 terms with 5+ trials; columns `tag`, `indication`, `note`)
 
 Result: 61 of 62 tagged (32 `real`, 11 `broad`, 13 `home`, 5 `measure`, after the 11 Nov measure desk check); `renal insufficiency` left blank for the
 drug-study bucket. The 32 `real` terms make 20 indications. The 205 terms below 5 trials are not tagged yet: the
@@ -147,9 +147,9 @@ Rules decided 11 Nov:
 | Endometrial cancer and atypical hyperplasia | Merge the two terms | One treatment setting (obese women, often fertility-sparing); 5 of 12 trials carry both | A pure cancer label is smaller than this row |
 | Hypothalamic obesity | `real`, from `sexual infantilism` + `craniopharyngioma` (MeSH's labels for these trials) | Obesity from brain-tumour damage: a different cause and an orphan market, like antipsychotic-induced weight gain | A reviewer may call it home base |
 
-**Coverage fixes** (11 Nov, after the first `sql/03b_trial_indications.sql` run: 1,592 of 1,809 labelled, 217 not):
+**Coverage fixes** (11 Nov, after the first `sql/pipeline/03_trial_indications.sql` run: 1,592 of 1,809 labelled, 217 not):
 (A) trials with no mesh-list term whose condition text is plain type 2 diabetes or obesity spelled oddly
-("type2 diabetes", "t2dm") → home base, a rule in 03b (18 trials); words that change the target (healthy, type 1,
+("type2 diabetes", "t2dm") → home base, a rule in sql/pipeline/03 (18 trials); words that change the target (healthy, type 1,
 kidney, steroid) are excluded and go to hand review. (B) tail terms holding 2+ unlabelled trials tagged (13 terms,
 rows added to the CSV): opioid, cocaine and cannabis use disorder (a label names the substance), binge eating
 disorder, idiopathic intracranial hypertension (`pseudotumor cerebri`), short bowel syndrome, IBD (Crohn + IBD
@@ -183,7 +183,7 @@ being a check. Cost: trials naming the disease only in their outcomes still slip
 
 ## Review 7: title keyword pass (11 Nov 2026)
 
-Query `sql/03c_keyword_pass.sql` · rows `03c_keyword_hits.csv` · evidence `03c_keyword_hits_decided.csv`
+Query `sql/review/03c_keyword_pass.sql` · rows `03c_keyword_hits.csv` · evidence `03c_keyword_hits_decided.csv`
 (93 rows: `proposed`, `reason`, `unsure`, `my_decision`). Keyword lists for 4 indications (heart failure, MASLD,
 CKD, ASCVD), written on the 11 Nov walk before looking at hits; `cardiovascular outcomes` added afterwards because
 SELECT missed the known-trials check. Titles with only the plain word "cardiovascular" come out as `ASCVD?`.
@@ -227,7 +227,7 @@ inflammatory myopathy (Phase 2).
 
 ## Review 9: title keyword pass for the 19 other indications with 5+ trials (11 Nov 2026)
 
-Query `sql/03c_keyword_pass.sql` (pass 2) · rows `03c_keyword_hits_v2.csv` · evidence
+Query `sql/review/03c_keyword_pass.sql` (pass 2) · rows `03c_keyword_hits_v2.csv` · evidence
 `03c_keyword_hits_v2_decided.csv` (76 new rows: `proposed`, `my_decision`, `add_indication`, `reason`, with title and
 primary outcomes). Keyword lists written and expanded before looking at any hits. Each indication has `match` terms
 (pre-sorted likely yes), `look` terms (always hand review) and `block` terms (removed from the title first, e.g.

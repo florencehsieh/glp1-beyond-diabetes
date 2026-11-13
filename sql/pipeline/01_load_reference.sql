@@ -1,6 +1,6 @@
--- sql/02a_load_reference.sql
+-- sql/pipeline/01_load_reference.sql
 -- Loads the reference CSVs into their own schema (glp1), separate from AACT's ctgov.
--- Run in psql from the repo root:  psql -d aact -f sql/02a_load_reference.sql
+-- Run in psql from the repo root:  psql -d aact -f sql/pipeline/01_load_reference.sql
 -- \copy is a psql command, so this file does not run in DataGrip.
 -- Safe to rerun: each table is dropped and rebuilt, so edits to a CSV are picked up.
 
@@ -77,9 +77,7 @@ CREATE TABLE glp1.indication_additions (
 \copy glp1.indication_additions FROM 'data/reference/indication_additions.csv' WITH (FORMAT csv, HEADER true)
 
 -- Checks: tag counts (76 terms, 1 untagged: renal insufficiency); every real term has an
--- indication (0 rows); every addition is a trial in glp1.trials (0 rows; run after 02)
+-- indication (0 rows). The "every addition is a trial in glp1.trials" check lives at the end of
+-- sql/pipeline/02, because glp1.trials doesn't exist yet on a fresh database.
 SELECT COALESCE(tag, '(untagged)') AS tag, COUNT(*) FROM glp1.mesh_tags GROUP BY 1 ORDER BY 2 DESC;
 SELECT downcase_mesh_term FROM glp1.mesh_tags WHERE tag = 'real' AND indication IS NULL;
-SELECT a.nct_id FROM glp1.indication_additions a
-WHERE to_regclass('glp1.trials') IS NOT NULL
-  AND NOT EXISTS (SELECT 1 FROM glp1.trials t WHERE t.nct_id = a.nct_id);

@@ -1,8 +1,8 @@
--- sql/03b_trial_indications.sql  (Phase 3: give every GLP-1 trial its indication(s), 11 Nov)
--- Needs glp1.trials (sql/02) and glp1.mesh_tags + glp1.indication_additions (sql/02a).
--- Run from the repo root:  psql -d aact -f sql/03b_trial_indications.sql
+-- sql/pipeline/03_trial_indications.sql  (Phase 3: give every GLP-1 trial its indication(s), 11 Nov)
+-- Needs glp1.trials (sql/pipeline/02) and glp1.mesh_tags + glp1.indication_additions (sql/pipeline/01).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/03_trial_indications.sql
 --
--- Saves glp1.trial_indications: one row per trial x indication. Three sources, combined:
+-- Saves glp1.trial_indications: one row per trial x indication. Exports data/results/03_trial_indications.csv. Three sources, combined:
 --   'mesh'      a mesh-list term tagged home or real (Review 6). home -> indication 'Home base'.
 --               broad, measure and error terms, and untagged terms, map to nothing.
 --   'condition' trials with NO mesh-list term whose sponsor-typed condition is plain type 2
@@ -87,5 +87,5 @@ WHERE (i.indication = 'MASLD'         AND COALESCE(s.official_title, s.brief_tit
    OR (i.indication = 'Heart failure' AND COALESCE(s.official_title, s.brief_title) ~* 'hfpef|preserved ejection')
 GROUP BY 1;
 
--- Export (from the repo root):
---   psql -d aact --csv -c "SELECT * FROM glp1.trial_indications ORDER BY nct_id, indication" -o data/results/03_trial_indications.csv
+-- Export
+\copy (SELECT * FROM glp1.trial_indications ORDER BY nct_id, indication) TO 'data/results/03_trial_indications.csv' WITH (FORMAT csv, HEADER)

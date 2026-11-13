@@ -1,4 +1,4 @@
--- sql/01_explore_names.sql
+-- sql/review/01_explore_names.sql
 WITH names AS (
     SELECT nct_id, LOWER(name) AS drug_name, 'interventions' AS src
     FROM interventions
