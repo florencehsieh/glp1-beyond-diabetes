@@ -1,8 +1,16 @@
-indication,recent_trials,lead_sponsors,industry_led,industry_ph3_active,industry_ph3_completed,shared_with_shortlist,unknown_status,phases,t1_size,t2_independent,t3_no_industry,t4_no_competitor,t5_not_a_copy,on_watchlist
-Atrial fibrillation,4,4,0,0,0,0,0,"PHASE2, PHASE3, PHASE4",t,t,t,t,t,t
-Antipsychotic-induced weight gain,3,3,0,0,0,0,1,"NA, PHASE2, PHASE4",t,t,t,t,t,t
-Smoking cessation,3,3,0,0,0,0,0,"NA, PHASE2, PHASE4",t,t,t,t,t,t
-Infertility,4,4,0,0,0,3,2,"PHASE3, PHASE4",t,t,t,t,f,f
-Inflammatory bowel disease,4,3,2,2,0,0,0,"PHASE2, PHASE3, PHASE4",t,t,f,f,t,f
-Psoriasis,4,3,2,0,1,0,0,"PHASE3, PHASE4",t,t,f,f,t,f
-Alzheimer's,3,3,1,0,3,0,0,"PHASE2, PHASE3",t,t,f,f,t,f
+indication,trials_2325,trials_2326,trials_2027_plus,lead_sponsors,industry_led,industry_ph3_active,industry_ph3_completed,shared_with_shortlist,actual_2326,planned_2326,unknown_status,phases,t1_size,t2_independent,t3_no_industry,t4_no_competitor,t5_not_a_copy,on_watchlist,strict_trials_2326,strict_lead_sponsors,strict_industry_led,strict_on_watchlist
+Atrial fibrillation,4,10,0,9,0,0,0,0,4,6,0,"NA, PHASE2, PHASE3, PHASE4",t,t,t,t,t,t,6,5,0,t
+Endometrial cancer and atypical hyperplasia,1,8,3,8,0,0,0,0,4,4,0,"EARLY_PHASE1, PHASE2",t,t,t,t,t,t,8,8,0,t
+Infertility,4,7,0,7,0,0,0,3,4,3,2,"NA, PHASE2, PHASE3, PHASE4",t,t,t,t,t,t,7,7,0,t
+Smoking cessation,3,6,0,6,0,0,0,0,5,1,0,"NA, PHASE2, PHASE3, PHASE4",t,t,t,t,t,t,5,5,0,t
+Antipsychotic-induced weight gain,3,5,1,5,0,0,0,0,4,1,1,"NA, PHASE2, PHASE3, PHASE4",t,t,t,t,t,t,5,5,0,t
+Breast cancer,2,5,1,5,0,0,0,0,3,2,0,"PHASE2, PHASE4",t,t,t,t,t,t,4,4,0,t
+Methamphetamine use disorder,1,4,0,3,0,0,0,0,3,1,0,PHASE2,t,t,t,t,t,t,4,3,0,t
+Cancer therapy-induced metabolic toxicity,2,3,0,3,0,0,0,0,3,0,0,"PHASE1, PHASE2, PHASE4",t,t,t,t,t,t,3,3,0,t
+Cannabis use disorder,0,3,2,3,0,0,0,0,1,2,0,"PHASE2, PHASE3",t,t,t,t,t,t,3,3,0,t
+Opioid use disorder,2,3,0,3,0,0,0,0,3,0,0,PHASE2,t,t,t,t,t,t,3,3,0,t
+Alzheimer's,3,5,0,5,1,0,3,0,3,2,0,"PHASE1/PHASE2, PHASE2, PHASE3",t,t,f,f,t,f,4,4,1,f
+Inflammatory bowel disease,4,5,0,4,2,2,0,0,4,1,0,"PHASE2, PHASE3, PHASE4",t,t,f,f,t,f,5,4,2,f
+Psoriasis,4,5,0,4,2,0,1,0,5,0,0,"PHASE3, PHASE4",t,t,f,f,t,f,4,3,2,f
+Psoriatic arthritis,2,4,0,3,2,0,1,0,4,0,0,"NA, PHASE3, PHASE4",t,t,f,f,t,f,2,1,2,f
+Alcohol-related liver disease,2,3,0,3,2,0,0,0,3,0,0,PHASE2,t,t,f,t,t,f,1,1,1,f

@@ -1,6 +1,8 @@
 -- sql/pipeline/07_q2_drug_split.sql  (Phase 4, Q2 add-on: generic vs branded GLP-1 in academic trials, 12 Nov)
--- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05),
--- glp1.q2_watchlist (sql/pipeline/06). Run from the repo root:  psql -d aact -f sql/pipeline/07_q2_drug_split.sql
+-- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05).
+-- Run from the repo root:  psql -d aact -f sql/pipeline/07_q2_drug_split.sql
+-- Window 2023-2025, like Q2. Watchlist rows left out since 14 Nov: the watchlist counts 2023-2026 (sql/pipeline/06),
+-- so a 2023-2025 count here would misstate them (e.g. 0 trials for an area whose trials all start in 2026).
 -- Saves glp1.q2_drug_split (one row per indication) and exports data/results/07_q2_drug_split.csv.
 --
 -- Rules (Decided, 9-10 Nov):
@@ -75,13 +77,11 @@ SELECT a.indication,
        COUNT(DISTINCT a.nct_id) FILTER (WHERE d.drug_type = 'branded' AND a.has_industry_collab) AS branded_with_industry_collab,
        ROUND(100.0 * COUNT(DISTINCT a.nct_id) FILTER (WHERE d.drug_type = 'branded')
              / NULLIF(COUNT(DISTINCT a.nct_id) FILTER (WHERE d.drug_type IN ('generic','branded')), 0), 0) AS branded_pct_of_named,
-       COALESCE(w.verdict, 'too early to call') AS q2_verdict,
-       COALESCE(wl.on_watchlist, FALSE) AS on_watchlist
+       COALESCE(w.verdict, 'too early to call') AS q2_verdict
 FROM academic_recent a
 LEFT JOIN trial_drug_type d USING (nct_id)
 LEFT JOIN glp1.q2_white_space w USING (indication)
-LEFT JOIN glp1.q2_watchlist wl USING (indication)
-GROUP BY a.indication, w.verdict, wl.on_watchlist
+GROUP BY a.indication, w.verdict
 ORDER BY academic_recent DESC, a.indication;
 
 \copy (SELECT * FROM glp1.q2_drug_split) TO 'data/results/07_q2_drug_split.csv' WITH (FORMAT csv, HEADER)
@@ -90,8 +90,8 @@ ORDER BY academic_recent DESC, a.indication;
 -- Groups add up: generic + branded + no named drug = academic_recent (expect 0 rows)
 SELECT indication FROM glp1.q2_drug_split WHERE generic + branded + no_named_drug <> academic_recent;
 
--- The shortlist, the watchlist and every indication with 5+ trials
+-- The shortlist and every indication with 5+ trials (judged by Q2)
 SELECT d.* FROM glp1.q2_drug_split d
 JOIN glp1.q2_white_space w USING (indication)
-WHERE w.recent_trials >= 5 OR d.on_watchlist
-ORDER BY d.on_watchlist, d.academic_recent DESC;
+WHERE w.recent_trials >= 5
+ORDER BY d.academic_recent DESC;

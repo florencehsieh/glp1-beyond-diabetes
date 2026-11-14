@@ -1,5 +1,6 @@
 -- sql/pipeline/08_q2_scouting.sql  (Phase 4, Q2 add-on: scouting label, 12 Nov)
--- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/pipeline/05), glp1.q2_watchlist (sql/pipeline/06).
+-- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/pipeline/05).
+-- Window 2023-2025, like Q2. Watchlist rows left out since 14 Nov (the watchlist counts 2023-2026, sql/pipeline/06).
 -- Run from the repo root:  psql -d aact -f sql/pipeline/08_q2_scouting.sql
 -- Saves glp1.q2_scouting (one row per indication) and exports data/results/08_q2_scouting.csv.
 --
@@ -77,12 +78,10 @@ SELECT p.indication, w.recent_trials, p.academic_recent, p.with_maker,
             WHEN 100.0 * p.with_maker / p.academic_recent > b.baseline_pct THEN 'being scouted'
             ELSE 'open' END AS scouting_label,
        COALESCE(bd.collaborators, '') AS industry_collaborators,
-       w.verdict AS q2_verdict, w.shortlist,
-       COALESCE(wl.on_watchlist, FALSE) AS on_watchlist
+       w.verdict AS q2_verdict, w.shortlist
 FROM per p
 CROSS JOIN baseline b
 JOIN glp1.q2_white_space w USING (indication)
-LEFT JOIN glp1.q2_watchlist wl USING (indication)
 LEFT JOIN breakdown bd USING (indication)
 ORDER BY (w.recent_trials < 5), p.academic_recent DESC, p.indication;
 
@@ -103,4 +102,4 @@ ORDER BY 1, 2;
 -- 2. The baseline
 SELECT baseline_pct FROM glp1.q2_scouting LIMIT 1;
 
-SELECT * FROM glp1.q2_scouting WHERE recent_trials >= 5 OR on_watchlist;
+SELECT * FROM glp1.q2_scouting WHERE recent_trials >= 5;
