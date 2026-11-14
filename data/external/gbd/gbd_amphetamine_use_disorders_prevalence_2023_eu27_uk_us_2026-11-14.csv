@@ -1,0 +1,59 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,8547.19132818439,11311.178029039227,6277.13974993997
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,123.39570194651,163.29934584858,90.62299367349
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,90521.68231699656,119145.38918466648,66864.09002082223
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,231.98342798011998,305.33851231678,171.35519816658
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,1059.98751695752,1418.017949871774,784.7695095047654
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,160.88370616499,215.2251602346,119.11142834662999
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,6214.449158434983,8458.915427673543,4459.018033030908
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,32.161311706149995,43.776979878599995,23.07652137905
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,26425.498440802203,35657.449042787324,18904.90451385179
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,148.59160570253,200.50322306667002,106.30301349505999
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,9480.831554175797,12333.359545072388,6884.610665532885
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,160.44449794041998,208.71794513175,116.50854626355999
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,11826.993963187344,15869.457140013388,8481.938442118508
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,112.233436653,150.59479341793,80.49019926798
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,69601.79398418209,93070.0441481522,50929.23130979853
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,145.98133851155998,195.20315271133998,106.81789836709001
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,42765.53249601301,57263.83603733503,30610.18229497432
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,61.20436371467,81.95377080487,43.80810015001
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,20889.44818459284,26084.391863814788,16151.617134502358
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,197.04363574245,246.04591579244,152.35315625282
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,6092.715637296463,8274.773743233256,4269.283242292974
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,112.43844702087,152.70739101014,78.78778630618
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,3321.535786600858,4148.0684273497145,2673.309892311342
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,245.44577858145,306.52262994339,197.54495211365
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,3640.130748717306,4837.96738838326,2651.92701729128
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,34.10042249691,45.32165006113,24.84301745273
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,196726.7256627541,251400.20002282955,146885.99714251634
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,284.42834972182004,363.47549511299997,212.36840914086002
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,6619.730946247355,8764.101097414568,5025.854853092412
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,124.30507431785,164.57198141276,94.37532523562001
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,11811.368390021476,15669.990547893058,8509.686531249225
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,101.72488394039,134.95709533353,73.2892960558
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,1710.2810693386778,2313.710247432984,1194.6578808015663
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,125.01745494391001,169.12668437801,87.32663330259
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,1741.8587845380596,2331.163689254071,1299.0668227752913
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,82.30333092452,110.14815796723,61.38128277505
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,3608.625043222648,4783.895044605693,2546.583121213436
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,92.79994511139999,123.02336547597001,65.48831508945
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,11260.55111534123,14987.329822584705,7921.288581179494
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,124.24880913174,165.37004836147,87.40341950578
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,20596.28923479781,27492.246018422367,14618.779501446525
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,189.0863669252,252.39541254133002,134.20921959762
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,3173.7183672314486,3983.0486052057095,2501.3381946515115
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,111.78693123301,140.2937277375,88.10388585295999
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,14152.267825286894,18351.01570872946,10745.775927952574
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,254.86275892225999,330.47639786719003,193.51655392395
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,119038.95857788772,155699.54623273973,87156.99709963679
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,202.12383770173997,264.37218696255,147.98942251172002
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,1087644.7781471305,1412557.3286046004,806515.8861136332
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,324.26915234618,421.1382031984,240.4537106217
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,3917.279653784433,5208.786054165953,2870.6103000393123
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,206.81417539621,274.99971608279003,151.55489384398
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,107751.9567399527,143952.2824014136,78029.79885381769
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,127.60125271420999,170.47014384918,92.40389115916
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,1014.2985958003898,1335.8602814352068,740.3345067558904
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,182.16498302101,239.91649647711,132.96185503109
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,564,Amphetamine use disorders,1,Number,2023,19484.954399114933,26594.867740537724,13881.039884569673
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,564,Amphetamine use disorders,3,Rate,2023,202.41143110130002,276.26984025976,144.19747106709

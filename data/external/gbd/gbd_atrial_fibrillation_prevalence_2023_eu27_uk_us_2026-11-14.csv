@@ -1,0 +1,59 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,28941.008509820054,37262.64376600062,22431.13989440525
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1527.95085852777,1967.29455761558,1184.26002493256
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,266922.3106849526,350152.1286528796,204718.28972172685
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1381.38898821203,1812.12388533155,1059.46779188862
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,285922.36084178684,319643.52565743134,242935.02924503683
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,3154.86448885527,3526.9434864072696,2680.54269910103
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,55386.73341868937,65939.32691052693,46916.70526355673
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1424.33357846578,1695.70566204224,1206.517058746
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,14014.81749132114,18219.536329742,10519.918795189678
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1024.44963326755,1331.80452209725,768.98089885297
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,146807.4808095727,188097.8736787001,111022.41286437638
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1525.0491060114,1953.97736215116,1153.31065251141
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,36093.20198658653,47205.06029631224,27518.262295379347
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1705.4142239295597,2230.45274012269,1300.2458455696199
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,9354.43853951789,11930.358868030056,7110.678597919993
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1419.80609889637,1810.77637223158,1079.2507533155501
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,638075.3531796486,824586.057472675,484017.06968636607
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1635.22046819547,2113.19868766078,1240.40932683432
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,65856.3969660858,85157.48187803105,49744.0877393386
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1236.64910034091,1599.0841923222101,934.0927257501099
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,841770.212256012,1059536.3102547573,660683.2076375037
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1429.29531471724,1799.0542572909899,1121.8161434553601
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,7833.430026408389,10085.636755748996,5887.333993162163
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1406.86051786449,1811.35008563954,1057.3475122058198
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,177103.5055261405,223710.9434448933,141854.7828068793
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1525.29604955043,1926.7005317821402,1221.71799582607
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,44229.26559563583,55756.27466031891,33780.950636681904
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1557.8741714058,1963.88655830834,1189.8563038228199
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,84223.85054686025,110197.5062649111,63856.70491149113
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1554.31494285348,2033.6475896153,1178.44802868629
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,116554.01680295916,151304.46830658766,86989.61531879935
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1682.6889870431498,2184.38085184422,1255.86806614757
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,202471.41504960775,241994.27882731933,167445.50601765196
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1921.37265020561,2296.4288007328,1588.9907994337302
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,112607.5354133125,142815.68875420402,85790.59990987883
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1905.6619011166802,2416.87570855449,1451.83781105001
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,875271.1594940294,1097961.2702772785,686121.4008612834
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1835.7753171211002,2302.84087081668,1439.05659244824
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,316435.97517423274,349610.0556136023,282051.8081926012
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1779.3317979799199,1965.87094278485,1585.98828947466
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,20303.626448953044,25772.38628439508,15619.826971251478
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1500.3419267357,1904.4574028055001,1154.23130701531
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,109586.2083524236,143576.69666722213,83231.305239396
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1973.4959615889397,2585.61761841243,1498.88062774727
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,1889739.052152977,2451539.866800033,1446924.757259491
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,2237.8532850187103,2903.14503371372,1713.46690301976
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,7506846.446597791,8721259.480815742,6622181.479767807
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,2238.0824906621797,2600.14618380552,1974.32950377889
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,340831.8622742146,409571.8324415317,265328.8675109791
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,3214.96043006618,3863.36308402362,2502.76427887419
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,1247934.9114275852,1613076.231519575,935092.3035096488
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1785.99581844038,2308.5718477287,1338.26766815388
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,191035.52831382916,251209.401007936,144034.16962174233
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1753.82145738516,2306.25392916872,1322.3206149606
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,197518.21408248172,260409.53020498733,148449.57616158365
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1850.3331380119398,2439.4934180156,1390.66248331357
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,500,Atrial fibrillation and flutter,1,Number,2023,1363066.9965899575,1756750.5454954093,1043569.8287684786
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,500,Atrial fibrillation and flutter,3,Rate,2023,1970.7281514204801,2539.91752693912,1508.7977661202

@@ -1,0 +1,59 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,1671.959755812407,1864.9730620919768,1482.931945158995
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,253.76816025711003,283.0635015292,225.0777330024
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,20936.88335719171,24433.016724439047,17635.383111661067
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,53.65576343810999,62.6154400863,45.19488064372
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,14402.851860180745,16694.657604304957,12217.494594165784
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,74.53832130947,86.39898297515,63.22855685091
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,22842.919733026836,25994.230073519488,19878.536811781603
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,128.44662626395998,146.16656689667,111.77778578128002
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,20252.15906080792,22302.97485260009,18186.86925756731
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,174.42081746799,192.08337708974,156.63360106761
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,18704.794351241253,20261.175894597643,17154.972448519922
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,316.5419954584,342.8807036087,290.31429637332997
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,12675.76530368926,15155.690612556302,10487.737582052436
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,120.28793678833999,143.82143489642,99.52442989421999
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,43356.770947463134,49891.685668988845,37098.13292353699
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,408.97086921818,470.61267730317996,349.93509287153
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,80680.98625374245,89707.44460904814,70192.85447146131
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,169.21860330829,188.15050717596,147.22101634363
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,145428.87832871193,160895.1797861152,130045.71288906716
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,208.13214390999,230.26691189886,186.11635695028
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,307356.07655665715,344115.79416343884,271629.7754293863
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,444.37674310630996,497.52410160533003,392.7235026172
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,24802.32486512604,27000.42477504725,22538.66930272999
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,232.34598293054,252.93758823075,211.14025808333
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,1991.7034629384016,2296.64434038494,1712.7512280991878
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,145.58875871544,167.87920739676,125.19801764035
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,5462.883370820467,6531.895068439009,4462.507349542627
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,100.81516339137,120.5433145612,82.35365411283
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,13032.840373297217,14137.560926883029,12027.795483721751
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,963.0652379107299,1044.69885976831,888.7971760020499
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,21968.714024784204,23759.61211526332,20110.602359834826
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,412.52773741003006,446.15715861164006,377.63618207675
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,19749.66306039104,22092.42807007896,17588.710107359642
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,217.91758599307002,243.76763183432,194.07365257865
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,14916.22558671312,16185.27964923128,13782.028441456425
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,525.3897450808099,570.0892561283,485.44025882816004
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,66093.35439113417,76055.17800473553,56424.41792267642
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,112.22412053760999,129.13893601772,95.80661681575
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,7099.93059438789,7896.686536198,6408.481339487323
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,182.58288449542,203.07238029549,164.80147131629
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,7214.2260550708015,8092.427374744046,6295.577084795669
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,104.15169777828,116.83028003186,90.88917326269
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,3949.244396079776,4377.548103760054,3537.525572066064
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,186.60293895098,206.8404129083,167.14910553954002
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,24616.66357208577,26623.61292784385,22673.355523029983
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,443.31204517150996,479.45442575250996,408.31575645422
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,1526.3358105605378,1691.3917695544103,1361.047341509953
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,274.12532972671,303.76888448674003,244.44001685844998
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,9539.950137163576,10980.47324399432,8091.652418059006
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,99.10184649885998,114.06612804736,84.05680158983999
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,169462.17660359168,186040.55692755652,152940.0681689193
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,200.67928858575002,220.31161974068,181.11359532569
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,12475.671323827575,13980.298997072783,10868.695757957796
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,114.53419296471999,128.34758318592,99.78118731288001
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,5551.577380046323,6030.863871165369,5056.686679325671
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,293.09750629964,318.40160741062,266.96957538158
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,562,Opioid use disorders,1,Number,2023,6990364.393474442,7956231.721812815,6058905.871588077
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,562,Opioid use disorders,3,Rate,2023,2084.09913053091,2372.0616952689297,1806.39516742977

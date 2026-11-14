@@ -75,8 +75,9 @@ uncertainty range, because summing 27 ranges isn't valid. Trial counts come from
 
 ### Sources
 
-- GBD 2023 Results tool (IHME), downloaded 14 Nov 2026: `data/external/gbd/gbd_pcos_prevalence_2023_eu27_uk_2026-11-14.csv`,
-  `gbd_benchmarks_prevalence_2023_2026-11-14.csv` (Western Europe file kept, not used). Free for non-commercial
+- GBD 2023 Results tool (IHME), downloaded 14 Nov 2026: `data/external/gbd/gbd_pcos_prevalence_2023_eu27_uk_us_2026-11-14.csv`,
+  `gbd_benchmarks_prevalence_2023_2026-11-14.csv` (US and Western Europe file
+  `gbd_pcos_prevalence_2023_2026-11-14.csv` kept, Western Europe not used). Free for non-commercial
   use with attribution.
 - FDA approval of Ozempic for CKD in type 2 diabetes, 28 Jan 2025:
   [Pharmacy Times](https://www.pharmacytimes.com/view/fda-approves-semaglutide-to-reduce-kidney-disease-cardiovascular-death-risk-in-adults-with-type-2-diabetes-chronic-kidney-disease)
@@ -101,3 +102,103 @@ uncertainty range, because summing 27 ranges isn't valid. Trial counts come from
   features; an anti-androgen can be added if hirsutism doesn't respond to the pill; anti-obesity medicines
   may be considered as in general-population guidelines. Evidence rated low to moderate quality.
   ([Guideline summary, Monash](https://assets.monashivf.com/assets/Summary-International-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome-2023.pdf))
+
+## Watchlist
+
+**The line:** 4 of the 10 watchlist indications have no approved drug at all: methamphetamine use disorder,
+cannabis use disorder, cancer therapy-induced metabolic toxicity and antipsychotic-induced weight gain.
+Endometrial cancer comes close: nothing is approved for the fertility-sparing treatment its trials test.
+Early signals, not recommendations (watchlist rule, `docs/decisions.md`).
+
+Light version, by the 14 Nov rule ("So what" for the watchlist): patients from GBD 2023 with the PCOS settings,
+"not in GBD" where GBD has no cause, and the FDA/EMA check. No benchmarks per row: compare with the PCOS
+benchmarks above (Alzheimer's 4.89 M, CKD in T2D 7.99 M in the US) and the rare-disease floor (US 200,000).
+Trials = trial starts 2023–2026 (`data/results/06_q2_watchlist.csv`). Upper bound = the GBD count is for the
+whole disease, while the trials study a subgroup.
+
+| Indication | Trials 2023–26 | Patients US / EU-27 / UK (GBD 2023) | FDA approved | EMA (centrally authorised) | One line |
+|---|---|---|---|---|---|
+| Methamphetamine use disorder | 4 | 1.09 M / 0.63 M / 0.20 M (Amphetamine use disorders) | None | None | No approved drug; GBD's group is wider than methamphetamine |
+| Cannabis use disorder | 3 | 2.91 M / 1.70 M / 0.52 M | None | None | No approved drug; PP-01 in Phase 3 (Fast Track) for withdrawal |
+| Cancer therapy-induced metabolic toxicity | 3 | Not in GBD | None | None | No approved drug; side effects of ADT and lorlatinib |
+| Antipsychotic-induced weight gain | 5 | Not in GBD | None | None | No approved drug; metformin used off-label |
+| Endometrial cancer and atypical hyperplasia | 8 | 0.79 M / 0.71 M / 0.11 M (Uterine cancer), upper bound | Advanced disease only | Advanced disease only | Nothing approved for fertility-sparing treatment |
+| Opioid use disorder | 3 | 6.99 M / 0.79 M / 0.31 M | Methadone, buprenorphine, naltrexone ER | Zubsolv, Buvidal, Buprenorphine Neuraxpharm | Approved drugs exist; GLP-1 as add-on |
+| Smoking cessation | 6 | Not in GBD | NRT (5 forms), varenicline, bupropion | Champix | Approved drugs exist; cytisinicline may follow in 2027 |
+| Atrial fibrillation | 10 | 7.51 M / 8.32 M / 1.36 M | Many (anticoagulants, rate and rhythm drugs) | 23 products | Approved drugs exist; none aimed at weight-driven AF |
+| Infertility | 7 | 1.54 M / 3.17 M / 0.47 M (Female infertility), upper bound | Clomiphene, gonadotropins, bromocriptine | 12 fertility drugs | Approved drugs exist; trials are weight loss before IVF |
+| Breast cancer | 5 | 2.96 M / 3.93 M / 0.59 M, upper bound | Many cancer drugs | Many | None for weight or metabolism in breast cancer |
+
+Rows sorted: no approved drug first, then by how close the approved drugs come to what the trials test.
+
+### Notes by indication
+
+- **Addiction split.** Methamphetamine and cannabis use disorder have no approved drug; opioid use disorder
+  and smoking do. NIDA: "no FDA-approved medications exist for stimulant use disorders, cannabis use disorder,
+  or poly-SUDs". The only openFDA hit for methamphetamine is Desoxyn, methamphetamine itself, for ADHD.
+- **Opioid use disorder.** The US count is 9× the EU-27's (2.1% vs 0.17% of people): GBD's view of the US
+  opioid crisis, not a download error. One of the 3 trials tests tirzepatide on top of buprenorphine
+  (NCT06651177), so a GLP-1 would be an add-on, not a replacement.
+- **Smoking cessation.** Not in GBD: smoking is a risk factor there, not a cause with a patient count. A new
+  competitor may come: the FDA refused cytisinicline in Jun 2026 over manufacturing, not efficacy or safety;
+  Achieve plans to resubmit in Q4 2026. One trial targets weight gain after quitting (NCT06173778), not
+  quitting itself.
+- **Cancer therapy-induced metabolic toxicity.** Not in GBD: a side effect across several cancers. The trials
+  test androgen deprivation therapy in prostate cancer (NCT06908694), lorlatinib in lung cancer (NCT07782359)
+  and cardiometabolic risk after cancer treatment (NCT07202247). openFDA and EMA: no product with this
+  indication.
+- **Antipsychotic-induced weight gain.** Not in GBD. The trials mostly study obesity and cardiometabolic
+  health in people with schizophrenia or bipolar disorder. No label names this indication; the olanzapine
+  hits in openFDA only warn about weight gain. Metformin is used off-label (meta-analysis, 2016).
+- **Endometrial cancer and atypical hyperplasia.** Upper bound: GBD counts all uterine cancer; the trials
+  pair a GLP-1 with a progestin IUD to treat atypical hyperplasia or early cancer and keep fertility.
+  Approved drugs cover advanced disease only: FDA megestrol ("palliative treatment of advanced carcinoma of
+  the breast or endometrium"), dostarlimab, pembrolizumab, durvalumab, lenvatinib; EMA Jemperli, Keytruda,
+  Imfinzi, Lynparza. Fertility-sparing care uses progestins outside these labels (ESGO/ESHRE/ESGE guideline
+  2023; its recommendations not checked here).
+- **Infertility.** Upper bound and a mismatch: GBD counts female infertility, but 2 of the 7 trials study men
+  (NCT05586802 Klinefelter syndrome, NCT07179120 obese men). The female trials are weight loss before IVF or
+  embryo transfer and PCOS infertility, a weaker signal (watchlist decision, 14 Nov). Female infertility has
+  the widest US range in the set: 0.29–3.75 M.
+- **Atrial fibrillation and breast cancer.** Plenty of approved drugs for the disease, none for what the
+  trials test: weight loss to cut AF coming back after ablation or AF burden, and weight loss in early breast
+  cancer or survivors.
+- **Across the watchlist.** Many of these are weight-loss trials in a new group of patients (AF, breast cancer,
+  infertility, antipsychotic weight gain, some endometrial). Semaglutide and tirzepatide are already approved
+  for obesity, so the value for a sponsor is the disease result, not the weight loss (not sourced here; cite
+  the Wegovy and Zepbound labels if used in the write-up).
+
+### Limitations
+
+Same as PCOS: patients, not market size; GBD only, so like for like; EU-27 has no uncertainty range. 3 of 10
+rows have no count. Upper-bound rows overstate the size of what the trials test. The EMA list covers central
+authorisations only: medicines authorised country by country (e.g. NRT, methadone, metformin, clomiphene)
+don't show. Some watchlist signals rest on planned 2026 starts.
+
+### Sources
+
+- GBD 2023 Results tool (IHME), downloaded 14 Nov 2026, prevalence, all ages, 2023, both sexes, EU-27 + US + UK:
+  `data/external/gbd/gbd_{atrial_fibrillation, uterine_cancer, breast_cancer, female_infertility,
+  opioid_use_disorders, amphetamine_use_disorders, cannabis_use_disorders}_prevalence_2023_eu27_uk_us_2026-11-14.csv`
+- openFDA drug label search, run 14 Nov 2026, `indications_and_usage:` + "atrial fibrillation" · "smoking
+  cessation" (noisy: also matches blood-pressure labels' lifestyle advice; real hits varenicline, bupropion) ·
+  "opioid use disorder" OR "opioid dependence" · "methamphetamine" OR "stimulant use disorder" (Desoxyn only) ·
+  "cannabis use disorder" (no matches) · "endometrial cancer/carcinoma/hyperplasia" · "infertility" OR
+  "ovulation induction" · "antipsychotic" AND "weight gain" (olanzapine warnings only) · "chemotherapy-induced"
+  OR "androgen deprivation" with hyperglycemia/metabolic/weight (no matches)
+- EMA medicines list (JSON report), downloaded 14 Nov 2026, human medicines with status Authorised (1,564),
+  regex on therapeutic indication and MeSH area:
+  `https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json`
+- [FDA, Medications for Opioid Use Disorder](https://www.fda.gov/drugs/food-and-drug-administration-overdose-prevention-framework/medications-opioid-use-disorder),
+  content current as of 9 Nov 2026
+- [FDA, Want to Quit Smoking? FDA-Approved and FDA-Cleared Cessation Products Can Help](https://www.fda.gov/consumers/consumer-updates/want-quit-smoking-fda-approved-and-fda-cleared-cessation-products-can-help),
+  content current as of 21 Jul 2022
+- [NIDA Strategic Plan 2022–2026, Priority Area 2](https://nida.nih.gov/about-nida/2022-2026-strategic-plan/priority-area-2)
+  (stimulant and cannabis use disorder)
+- [NIDA, Cannabis (Marijuana)](https://nida.nih.gov/research-topics/cannabis-marijuana), Sep 2024
+- Cytisinicline CRL, Jun 2026: [Achieve 8-K, SEC](https://www.sec.gov/Archives/edgar/data/0000949858/000119312526344571/achv-ex99_1.htm);
+  [Benzinga](https://www.benzinga.com/news/fda/26/06/60020423/fda-declines-to-approve-achieve-life-sciences-smoking-cessation-drug-q4-resubmission-planned)
+- PP-01 Phase 3: [Psychiatric Times, Sep 2026](https://www.psychiatrictimes.com/view/treating-cannabis-use-disorder-withdrawal-with-pp-01-nida-grant-accelerates-phase-3-trial)
+- Metformin for antipsychotic-induced weight gain: [systematic review and meta-analysis, 2016](https://pubmed.ncbi.nlm.nih.gov/27716110/)
+- [ESGO/ESHRE/ESGE Guidelines for the fertility-sparing treatment of patients with endometrial carcinoma](https://fvvo.eu/articles/esgoeshreesge-guidelines-for-the-fertility-sparing-treatment-of-patients-with-endometrial-carcinoma/FVVO.15.1.065),
+  Facts Views Vis ObGyn 2023;15(1):3–23; [review of fertility-sparing approaches (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8910633/)

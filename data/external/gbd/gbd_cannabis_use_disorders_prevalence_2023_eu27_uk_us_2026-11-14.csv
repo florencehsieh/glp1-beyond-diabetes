@@ -1,0 +1,59 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,125403.61069292098,175099.34898310035,87044.75705754664
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,321.37669942713,448.73389639335005,223.07297669516
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,3596.428579306015,4309.285974135027,2813.7729237991484
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,265.75905529042,318.43584384021,207.92450553124002
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,42422.768456882615,52199.589535098174,34129.26704594614
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,365.36420296166,449.56663883926996,293.93679162126
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,2905220.482722679,3780203.063358199,2150512.528768929
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,866.15906428213,1127.0253557782398,641.15131045057
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,2860.7743807056945,3732.2493659687057,2019.6271051771373
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,434.20509912310996,566.47658649084,306.53671722928
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,6870.131475348345,8404.787099134452,5302.351200347881
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,324.61569751222,397.12861921451,250.53762646782002
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,15454.17522270817,18482.624111047327,12130.630554447074
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,223.11174822098002,266.83342965257,175.1297724416
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,4999.834488369618,6246.16104483348,3765.9073029323336
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,176.10767228076,220.00665919145,132.645424701
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,25819.690143895623,32863.76917258937,19290.68988110721
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,133.62328368991,170.07813520593,99.83409220604999
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,69597.87023317648,89182.7152807252,54225.96088883022
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,391.35153172575997,501.47787729195,304.91468750474
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,4371.434796946344,5498.2354056172135,3383.625923082239
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,230.79145803526,290.28129774918,178.63973649557002
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,25369.60717752448,31825.318075755797,19364.42202982585
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,240.7474129887,302.00952425738,183.76061068191
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,17475.003425980383,22089.43749688121,13271.958379070322
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,295.73019361932,373.82044905254,224.60189136872
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,59036.36714801349,69209.09859787385,47550.9022761191
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,541.98948428149,635.38129916774,436.54598422593
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,359661.5819002762,432880.2776054501,287996.2342778735
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,514.73364151077,619.52138577822,412.16898849191
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,20992.61578920391,26520.602911955488,16355.54041420036
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,198.01678351178,250.16055827209,154.27670081412998
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,322296.15611422213,345132.09383810154,297239.83199043904
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,675.97717779199,723.87279318168,623.42457067671
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,13130.355776593186,16042.865025592431,10163.720191185565
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,242.31506937795,296.06417509475,187.56708539883002
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,22021.589682627276,28620.46009910872,16385.92710171858
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,206.29630199294,268.11393568197,153.50191400929
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,3175.305328014145,3990.383421193793,2410.9742235096496
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,232.10722371596998,291.68748254984,176.23644836056
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,14312.36059909696,18615.255862617672,10819.593667130795
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,257.74580823425,335.23499737007,194.8459092539
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,514805.1478545225,680425.7366586104,372612.00316296495
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,744.30750646242,983.76246915142,538.72404366587
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,20603.63192507999,24851.602737749017,16775.534274368234
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,386.89427387026,466.66252002054,315.01039115181004
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,189692.51578366957,256764.99182429104,134800.571955978
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,322.09101735720003,435.97765097234,228.88648601797
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,1489.8653754781126,1997.5126338495209,1030.8485545210124
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,267.57534906513,358.74727278145,185.13730592653
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,11585.591567901894,14419.695054994543,8797.990418631349
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,297.93681768176003,370.81904980399,226.25044668275
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,25299.818261489087,31953.099078620908,19476.128433408343
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,279.15794334053004,352.57017777562004,214.89940763655
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,273202.84868337965,320988.3746054011,225710.0733899135
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,323.53032642576,380.11856067912,267.28877123112
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,565,Cannabis use disorders,1,Number,2023,20712.635739645004,26621.61553779844,15107.87472420147
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,565,Cannabis use disorders,3,Rate,2023,215.16469354077003,276.54769874541,156.9419399803
