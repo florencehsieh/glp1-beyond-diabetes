@@ -1,0 +1,59 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,75,Austria,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,154088.45658289606,210802.6485014418,111493.272908724
+1,All Population,5,Prevalence,75,Austria,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3352.3917643098403,4586.2816618631705,2425.67897793224
+1,All Population,5,Prevalence,77,Cyprus,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,24207.61567073047,33995.98505723296,16824.403275766846
+1,All Population,5,Prevalence,77,Cyprus,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3494.2290536138003,4907.12345688938,2428.50512564032
+1,All Population,5,Prevalence,102,United States of America,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,5063173.323536741,7006110.676015463,3547326.582618572
+1,All Population,5,Prevalence,102,United States of America,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2993.1108181991203,4141.68433863413,2097.01325466464
+1,All Population,5,Prevalence,45,Bulgaria,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,5955.915573495374,8705.86665766732,3929.950689168197
+1,All Population,5,Prevalence,45,Bulgaria,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,167.30991942617,244.55985499715,110.3977591757
+1,All Population,5,Prevalence,59,Latvia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,2200.02629054905,3209.851482184577,1514.3149969457877
+1,All Population,5,Prevalence,59,Latvia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,216.69187736468,316.15474175211,149.15265377478
+1,All Population,5,Prevalence,58,Estonia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,1766.849027707926,2571.1479943763507,1200.8977668525567
+1,All Population,5,Prevalence,58,Estonia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,248.76073556873,362.00074613441,169.07851612688
+1,All Population,5,Prevalence,46,Croatia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,3383.7083319507565,4909.647882519163,2202.63629391127
+1,All Population,5,Prevalence,46,Croatia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,168.06290301773998,243.85366437756,109.40111071380001
+1,All Population,5,Prevalence,76,Belgium,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,180164.8666920497,257742.1133024973,127608.44893527208
+1,All Population,5,Prevalence,76,Belgium,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3062.00545493881,4380.47534677597,2168.77892960096
+1,All Population,5,Prevalence,87,Luxembourg,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,11604.528388159502,16265.95790140062,8008.24856011264
+1,All Population,5,Prevalence,87,Luxembourg,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3547.2057339372495,4972.08479361402,2447.9155258227197
+1,All Population,5,Prevalence,88,Malta,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,9304.984601743929,12956.54707941662,6603.27904124067
+1,All Population,5,Prevalence,88,Malta,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3520.84008066242,4902.52614234848,2498.5629216238503
+1,All Population,5,Prevalence,84,Ireland,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,89024.21864298831,121954.4436392195,60996.52516111713
+1,All Population,5,Prevalence,84,Ireland,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3307.76087597492,4531.30781117921,2266.37113556125
+1,All Population,5,Prevalence,86,Italy,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,1873749.439328228,2542770.4161075284,1354063.4762765078
+1,All Population,5,Prevalence,86,Italy,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,6221.23108878044,8442.51746380284,4495.76747988977
+1,All Population,5,Prevalence,51,Poland,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,49492.42793757591,68060.69595538791,34477.059716256124
+1,All Population,5,Prevalence,51,Poland,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,245.90780562503,338.16600011646,171.30252954899
+1,All Population,5,Prevalence,79,Finland,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,76795.74585172662,106843.22605692604,54449.42239205227
+1,All Population,5,Prevalence,79,Finland,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2737.39729558783,3808.4447883975104,1940.85883207777
+1,All Population,5,Prevalence,81,Germany,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,1051746.741547571,1441662.3418422912,748281.3742024095
+1,All Population,5,Prevalence,81,Germany,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2457.05756371415,3367.96609051842,1748.11134433858
+1,All Population,5,Prevalence,95,United Kingdom,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,1200642.893941312,1662907.96915265,854355.018770107
+1,All Population,5,Prevalence,95,United Kingdom,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3399.1984797252803,4707.93961234492,2418.80603766849
+1,All Population,5,Prevalence,78,Denmark,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,84151.63381449445,115331.4477122772,61194.13887117718
+1,All Population,5,Prevalence,78,Denmark,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2831.97015625977,3881.27007396434,2059.37742579325
+1,All Population,5,Prevalence,89,Netherlands,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,240848.50188696705,341522.97616437776,172149.85485163447
+1,All Population,5,Prevalence,89,Netherlands,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2692.0942809780304,3817.38746038043,1924.2122582717298
+1,All Population,5,Prevalence,92,Spain,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,693452.5871109464,958218.9460454768,478667.11369091633
+1,All Population,5,Prevalence,92,Spain,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2853.54376807959,3943.0521318487804,1969.70576596728
+1,All Population,5,Prevalence,52,Romania,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,17184.774035540107,25602.693742506257,11530.38414321299
+1,All Population,5,Prevalence,52,Romania,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,172.99813983528,257.74085728832,116.0757193686
+1,All Population,5,Prevalence,91,Portugal,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,145743.8645676827,205227.00246581115,103753.46450895176
+1,All Population,5,Prevalence,91,Portugal,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2640.7151971217,3718.4828732157303,1879.8962913157798
+1,All Population,5,Prevalence,48,Hungary,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,9168.067681431505,13532.907361861728,6072.775838156119
+1,All Population,5,Prevalence,48,Hungary,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,183.01003137976,270.13956342946,121.22280673757
+1,All Population,5,Prevalence,55,Slovenia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,1907.328777684122,2847.777582683982,1256.424679368665
+1,All Population,5,Prevalence,55,Slovenia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,181.1951868683,270.53730709202,119.35965483652
+1,All Population,5,Prevalence,54,Slovakia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,5165.478287698182,7621.759246934024,3335.938743453285
+1,All Population,5,Prevalence,54,Slovakia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,186.48997837455002,275.16943020008,120.43785869878
+1,All Population,5,Prevalence,60,Lithuania,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,3205.6928285451004,4559.403070917862,2171.9595177663678
+1,All Population,5,Prevalence,60,Lithuania,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,212.46841146917998,302.19025325807,143.95415069279
+1,All Population,5,Prevalence,47,Czechia,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,9821.533553519565,14564.345101000908,6450.187114394555
+1,All Population,5,Prevalence,47,Czechia,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,177.5955948105,263.35638086893005,116.63400740604
+1,All Population,5,Prevalence,80,France,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,956056.6388655755,1342096.7282885625,663014.7727236659
+1,All Population,5,Prevalence,80,France,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2655.78979432722,3728.15443049277,1841.7610372718398
+1,All Population,5,Prevalence,93,Sweden,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,117800.2561015849,166660.8962168011,80968.40665323817
+1,All Population,5,Prevalence,93,Sweden,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2240.27251149017,3169.4822820490594,1539.82089451473
+1,All Population,5,Prevalence,82,Greece,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,161908.77379184938,229025.85018661147,114265.25865432998
+1,All Population,5,Prevalence,82,Greece,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2975.3486965505604,4208.73896373998,2099.81819042896

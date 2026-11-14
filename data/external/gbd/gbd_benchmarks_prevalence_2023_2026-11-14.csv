@@ -1,0 +1,117 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,108604.31018821563,116422.23761690772,100833.44220884242
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2039.36790766986,2186.17267329045,1893.4468227294099
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,132896.97644651082,144274.23201047422,122784.53482110648
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2393.29063636472,2598.17926466035,2211.17955679019
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,138861.23059212795,150983.82680157994,128162.20730228288
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2004.7379734638203,2179.75175416004,1850.27629847603
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,447037.3992950818,517933.8387195082,369099.6427184392
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1145.64009052137,1327.32914698045,945.90597735703
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,234456.80406484372,252653.56125796505,214263.4730033134
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2019.2487775322,2175.9675380041604,1845.33461358658
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,928959.9992415768,1000490.9882703408,851999.9990911987
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1948.3811601725201,2098.40875178673,1786.96687484022
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,893570.8354676389,1006962.833504956,778532.2906733542
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1278.8437610098,1441.12597018974,1114.20507827031
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,194676.8017300627,223986.78555378795,162400.263947206
+1,All Population,5,Prevalence,76,Belgium,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1676.64528003456,1929.0762096533701,1398.66503663339
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,183540.1128736154,198417.73789694536,169131.66221122685
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1685.00901947326,1821.59459719879,1552.7307455709301
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,123083.1263875608,133080.62365875178,113536.58771047328
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2082.9407531760503,2252.1288060563397,1921.38429092253
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,189372.8338600972,207584.7534901261,173838.61864898104
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1797.07235997523,1969.8961843966,1649.6588782166598
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,9940.51298733776,10665.321766099223,9238.401185703391
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1508.75981556324,1618.77047203095,1402.1940806069101
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,1716690.1040169387,1827827.5047795635,1614147.9139441983
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2032.92649546326,2164.53683452131,1911.49471542683
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,136123.34415397636,157144.20120872185,112202.14012359412
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1501.9836269932,1733.92755489052,1238.0372993819901
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,349643.8537116711,369781.69321745215,328216.2278000676
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1809.4934367753099,1913.7117378543098,1698.6001719828
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,7123.62610297934,8197.113765409595,5971.558963815896
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1279.38186395028,1472.17702566059,1072.47406410347
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,28987.24931351074,33335.29220390189,24239.886856292207
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1369.65590667809,1575.10218972842,1145.34165870146
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,252013.22174123707,292857.49242549186,211400.59771644577
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,2360.8375438745,2743.46305462079,1980.38207852024
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,1219672.197751293,1310494.8091752436,1137392.979652327
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2070.95919094678,2225.17269373958,1931.2520604078302
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,76465.08976850766,82660.02652493115,70636.262559463
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1966.38776499744,2125.69769165342,1816.4927666021101
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,67621.4691891025,77288.13961362507,57474.05035402667
+1,All Population,5,Prevalence,78,Denmark,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1144.36087299335,1307.95032969401,972.6356913907001
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,97287.65176696503,111407.23180113555,80562.66994417008
+1,All Population,5,Prevalence,79,Finland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1752.01597683829,2006.29007387754,1450.82219907032
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,276533.08812973334,298616.32265082246,257291.21015626105
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2608.45019009937,2816.75443923689,2426.94756921146
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,98835.31991081063,106471.66013016828,90853.70250270172
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,3481.24686309226,3750.21938686345,3200.11274434346
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,5357.773245798774,6259.0902231955015,4481.290904190336
+1,All Population,5,Prevalence,87,Luxembourg,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,813.1967620240399,949.99763319773,680.1652637750001
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,1037146.9770560908,1200623.9906481723,859980.3028895991
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1499.511579371,1735.86735175933,1243.36323659187
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,1079290.0272487998,1179158.1151308552,994182.6075233388
+1,All Population,5,Prevalence,80,France,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1544.63783158823,1687.56514752408,1422.83540875671
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,4886564.517629173,5635047.029946657,4048098.3270764
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1456.8746762301898,1680.0263841146398,1206.89533890954
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,332849.9163031452,366597.1766457325,305028.18902276794
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1871.6280274613,2061.39018515911,1715.1853726795703
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,2117751.480418461,2371712.6390790744,1854182.7584723071
+1,All Population,5,Prevalence,81,Germany,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,2507.8685344986197,2808.61260417761,2195.74706483676
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,1231067.930950771,1330491.470622901,1139100.2412207385
+1,All Population,5,Prevalence,95,United Kingdom,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1779.88333215105,1923.6303152677401,1646.91604908609
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,86113.74677337783,92970.5287763701,79772.06966841087
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1589.19216499716,1715.73112822361,1472.15924115194
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,12416.581231480435,14321.83621125341,10310.72374922858
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,907.62238587153,1046.8919672641,753.6892414161999
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,56191.02331720048,64301.49779605721,46486.72062425163
+1,All Population,5,Prevalence,84,Ireland,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1055.15305473264,1207.45125854694,872.92600090747
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,66616.36047528159,72195.43168674405,61283.42052637862
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,3517.0344926184803,3811.5835455462397,3235.48002741598
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,707185.474435325,756197.303210221,657239.5245458503
+1,All Population,5,Prevalence,51,Poland,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1812.3316577651701,1937.93617327736,1684.3332338239402
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,10847.56128215276,11768.752874371425,9922.398662262603
+1,All Population,5,Prevalence,88,Malta,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1948.18944338912,2113.63268806126,1782.0330140676601
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,1427708.7354602243,1656291.4541652366,1186278.664243983
+1,All Population,5,Prevalence,86,Italy,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,2424.19769274701,2812.32286528642,2014.25818123068
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,54618.323300570766,63064.05876727448,45938.72762040381
+1,All Population,5,Prevalence,46,Croatia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1404.5730281369601,1621.76483342234,1181.36723838015
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,7985544.610278184,8594987.92841849,7419910.498062891
+1,All Population,5,Prevalence,102,United States of America,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2380.8010058292,2562.49972966537,2212.16350782309
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,223003.62676392813,257604.0122268237,187699.40786436532
+1,All Population,5,Prevalence,52,Romania,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1154.09893445225,1333.1644885593,971.3908681983
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,38275.85758517389,41123.20814577405,35481.73616016784
+1,All Population,5,Prevalence,55,Slovenia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1808.54533169755,1943.08346850143,1676.52228693243
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,290303.26174599124,329863.3768721686,241496.35513594464
+1,All Population,5,Prevalence,89,Netherlands,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1632.38653379254,1854.8346000625,1357.9433993023001
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,644939.2167092627,741311.4700591137,543483.9936115148
+1,All Population,5,Prevalence,92,Spain,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1352.6819457443298,1554.81108256779,1139.89189510045
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,193918.50691176095,210889.11819725504,178542.66890264564
+1,All Population,5,Prevalence,75,Austria,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2139.69487866071,2326.94843497979,1970.03803482892
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,88564.91820790638,102498.11508485564,73783.06541798411
+1,All Population,5,Prevalence,45,Bulgaria,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1278.61069566362,1479.76409717,1065.20525859709
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,54053.29984306155,61726.42089500185,45995.93721353014
+1,All Population,5,Prevalence,54,Slovakia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,997.53040393072,1139.13455325323,848.83524153011
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,46868.17832580413,50340.6363973387,43602.97233284654
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,3463.33661864408,3719.9348399841797,3222.0533452850195
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,173437.01804884148,201506.511097254,144813.3989723491
+1,All Population,5,Prevalence,91,Portugal,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1645.8478493401901,1912.2160980885,1374.22116648226
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,22973.91997532607,24800.483592562665,21073.08863854115
+1,All Population,5,Prevalence,77,Cyprus,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1679.33859345765,1812.85602448925,1540.39236978555
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,27170.7828845744,31556.91155398411,22933.550100300683
+1,All Population,5,Prevalence,59,Latvia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1434.49116575431,1666.05839202301,1210.78495080619
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,255657.71777241217,275343.41355017363,236640.0418683916
+1,All Population,5,Prevalence,82,Greece,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,2394.97885995089,2579.39271470154,2216.8229562199804
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,18562.82786028929,21434.343987958928,15592.835876149178
+1,All Population,5,Prevalence,58,Estonia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1371.70514772772,1583.89660280951,1152.23679279726
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,131359.59098805036,152185.06638276766,109895.40905840606
+1,All Population,5,Prevalence,47,Czechia,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1205.96033283251,1397.15076704065,1008.90618711577
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,38172.91458529871,44220.01407070219,32283.697256123374
+1,All Population,5,Prevalence,60,Lithuania,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1344.55313419413,1557.54830771473,1137.11899656235
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,154002.99874093046,177608.9879785752,129343.5130459146
+1,All Population,5,Prevalence,93,Sweden,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1452.6621535908,1675.3300720336401,1220.05693233518
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,543,Alzheimer's disease and other dementias,1,Number,2023,118366.87735869938,134458.12495539684,100484.1649333174
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,543,Alzheimer's disease and other dementias,3,Rate,2023,1229.60559980861,1396.76290423632,1043.8384001605
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,1,Number,2023,165256.81750842364,177019.52542266683,152302.7251400756
+1,All Population,5,Prevalence,48,Hungary,3,Both,22,All ages,998,Chronic kidney disease due to diabetes mellitus type 2,3,Rate,2023,1716.70244876974,1838.89449981487,1582.13419055432

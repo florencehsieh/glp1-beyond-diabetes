@@ -1,0 +1,5 @@
+population_group_id,population_group_name,measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+1,All Population,5,Prevalence,102,United States of America,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,5063173.323536741,7006110.676015463,3547326.582618572
+1,All Population,5,Prevalence,102,United States of America,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,2993.1108181991203,4141.68433863413,2097.01325466464
+1,All Population,5,Prevalence,73,Western Europe,2,Female,22,All ages,605,Polycystic ovarian syndrome,1,Number,2023,7436314.399083045,10205798.02181309,5466401.773582829
+1,All Population,5,Prevalence,73,Western Europe,2,Female,22,All ages,605,Polycystic ovarian syndrome,3,Rate,2023,3281.0113762798,4502.94831774617,2411.85692856839

@@ -299,6 +299,28 @@ What the pass changed, per indication (all years; Phase 4 uses the 2023–2025 w
 Read: osteoarthritis, IBD and psoriatic arthritis would have looked more open to industry than they are; PCOS and
 infertility stay all academic after the pass, so their openness isn't a tagging artefact.
 
+## Review 10: size benchmarks for the PCOS "so what" line (14 Nov 2026)
+
+Is PCOS (GBD 2023: 5.06 M women in the US, 5.98 M in the EU-27) too small for industry? A benchmark must be an
+indication where industry runs a GLP-1 Phase 3 **as a disease drug**, so every industry-led Phase 3 in a new
+indication was read for what its primary outcome tests.
+Query `sql/review/04h_benchmark_trials.sql` · evidence `04h_benchmark_trials.csv` (54 trials, column `weight_in_primary`)
+
+| Pattern | Meaning | Indications | Use as a benchmark? |
+|---|---|---|---|
+| A | Disease endpoint only | CKD, ASCVD, Alzheimer's, Hypertension, Stroke, Stress urinary incontinence; most of OSA, MASLD, Type 1 diabetes | Yes, if GBD has a matching cause |
+| B | Combination endpoint: disease control **and** ≥10% weight loss, Lilly's own immune drug + tirzepatide | Psoriasis (NCT06588283), IBD (NCT06937086, NCT06937099) | Weak: kept as context only |
+| C | Weight is (part of) the endpoint without a disease-control target | Prader-Willi, most of Osteoarthritis | No |
+
+`weight_in_primary` is only a pre-sort: it is also true for A trials that list weight as one of several primary outcomes, so read the text.
+
+Chosen rungs (GBD cause in brackets): CKD in T2D, the FLOW approval ("Chronic kidney disease due to diabetes
+mellitus type 2"); Alzheimer's, Novo evoke/evoke+, CDR-SB, completed and missed in Nov 2025 ("Alzheimer's disease
+and other dementias", broader than early amyloid-confirmed AD); psoriasis and IBD get one sentence in the write-up (pattern B, the combination route), no GBD pull.
+Type 1 diabetes (Lilly tirzepatide Phase 3s 2025, HbA1c) also qualifies but was left out: still diabetes, too
+close to home base for a "beyond diabetes" story. Not in GBD: sleep apnoea, stress urinary incontinence; MASH is
+far narrower than GBD's fatty-liver cause.
+
 ## Merge and split log (Phase 3)
 
 Every indication that joins or splits MeSH terms or trials. The plan's rule: write down every merge.
