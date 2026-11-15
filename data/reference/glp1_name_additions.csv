@@ -41,3 +41,306 @@ single dose pb1023,keep,pb1023,development code: Glymera (GLP-1-ELP); AACT silen
 multiple (four weekly) subcutaneous injections (part b) of pb1023 or placebo (0.9% nacl),keep,pb1023,development code + placebo of the same drug: the arm gets PB1023 (Review 3 pattern C) (02b)
 single subcutaneous dose (part a) of pb1023 or placebo (0.9% nacl),keep,pb1023,development code + placebo of the same drug: the arm gets PB1023 (Review 3 pattern C) (02b)
 bms-686117,keep,bms-686117,drug code only: 11-mer GLP-1 RA from Bristol-Myers Squibb (NCATS); AACT silent; missed by the name search (BMS-686117 check)
+alv-100,keep,alv100,development code only: GLP-1R agonist / GIPR antagonist fusion protein (Alveus): activates GLP-1R (02c)
+nnc0487-0111,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 (formulation c),keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 (formulation d),keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 a,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 b,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 c,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 oral,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 subcutanous,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+asc30,keep,asc30,development code only: oral small-molecule GLP-1 RA (Ascletis) (02c)
+"asc30 injection, for subcutaneous use or placebo",keep,asc30,development code + placebo label: the arm gets the drug (Review 3 pattern C); oral small-molecule GLP-1 RA (Ascletis) (02c)
+asc30 tablets,keep,asc30,development code only: oral small-molecule GLP-1 RA (Ascletis) (02c)
+asc30 tablets a1,keep,asc30,development code only: oral small-molecule GLP-1 RA (Ascletis) (02c)
+asc30 tablets or asc30 tablets a1 or placebo,keep,asc30,development code + placebo label: the arm gets the drug (Review 3 pattern C); oral small-molecule GLP-1 RA (Ascletis) (02c)
+[14c]azd5004,keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+[14c]azd5004 oral solution,keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+[14c]azd5004 solution for infusion,keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+azd5004,keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+azd5004 film-coated tablet,keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+azd5004(part a),keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+azd5004(part b),keep,elecoglipron,"development code only: oral small-molecule GLP-1 RA (AstraZeneca, from Eccogene) (02c)"
+ecc5004,keep,elecoglipron,development code only: same molecule as AZD5004 (Eccogene code) (02c)
+azd9550,keep,azd9550,development code only: GLP-1/glucagon dual agonist (AstraZeneca) (02c)
+azd9550 and azd6234,keep,azd9550,development code only: GLP-1/glucagon dual agonist (AstraZeneca) (02c)
+azd9550 solution for injection,keep,azd9550,development code only: GLP-1/glucagon dual agonist (AstraZeneca) (02c)
+azd9550+azd6234,keep,azd9550,development code only: GLP-1/glucagon dual agonist (AstraZeneca) (02c)
+10 mg bgm0504 injection administered subcutaneously (sc) once a week,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+15 mg bgm0504 injection,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+5 mg bgm0504 injection,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bgm0504,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bgm0504 administered sc,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bgm0504 injection multi-dose pen,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bgm0504 injection single-dose pen,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bgm0504 tablets,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+drug: 5 mg bgm0504 administered sc,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+drug: : 10 mg bgm0504 administered sc,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+drug:10 mg bgm0504 administered sc,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+experimental: 10 mg bgm0504 10 milligrams (mg) bgm0504 administered subcutaneously (sc) once a week.,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+experimental: 15 mg bgm0504 15 mg bgm0504 administered sc once a week.,keep,bgm0504,development code only: GLP-1/GIP dual agonist (BrightGene) (02c)
+bi 3034701,keep,bi3034701,development code only: GLP-1/GIP/NPY2 triple agonist (Boehringer) (02c)
+bi 3034701 (c-14),keep,bi3034701,development code only: GLP-1/GIP/NPY2 triple agonist (Boehringer) (02c)
+bi3034701 formulation c1,keep,bi3034701,development code only: GLP-1/GIP/NPY2 triple agonist (Boehringer) (02c)
+bi3034701 formulation ii,keep,bi3034701,development code only: GLP-1/GIP/NPY2 triple agonist (Boehringer) (02c)
+ly3537031,keep,brenipatide,"development code only: WHO INN List 134: ""gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist"" (02c)"
+medi0382,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 100 μg,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 200 μg,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 300 μg,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 50 ug,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 formulation 2,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 formulation 3,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 high dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 low dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+medi0382 mid dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
+cpx101 or placebo 120mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 120mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 160mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 160mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 160mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 240mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 240mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 320mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 360mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 80mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+cpx101 or placebo 80mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
+ct-868,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
+ct-868 as sc injection,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
+ct-868 pen injector,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
+"ct-868 pen injector, placebo",keep,ct868,"development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
+ct-996,keep,ct996,"development code only: oral GLP-1 RA (Roche, ex-Carmot) (02c)"
+rg6652,keep,ct996,"development code only: AACT: listed on the same trials as RO7795081 (CT-996, oral) (02c)"
+ro7795081,keep,ct996,"development code only: RO7795081 = CT-996, oral (Roche patient platform; AACT trial titles ""Daily Oral RO7795081"") (02c)"
+15 mg da-302168s tablet,keep,da-302168s,development code only: AACT: co-listed with DA-302168S (already kept) (02c)
+[14c] da-302168s,keep,da-302168s,development code only: AACT: co-listed with DA-302168S (already kept) (02c)
+"[14c]pf-06882961, 50 mg",keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 (cohort 3),keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 (cohorts 1 and 2),keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 + pf-06865571,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 100 mg,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 20 mg,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 20mg,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 controlled release tablet (long),keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 controlled release tablet (short),keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 followed by pf-06882961/pf-06865571,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 immediate release solution,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961 immediate release tablet,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+"pf-06882961, 50 mg and [14c]pf-06882961, 100 ug",keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+pf-06882961/pf-06865571 followed by pf-06882961,keep,danuglipron,development code only: AACT: co-listed with danuglipron in 4 trials (02c)
+in-b00009,keep,ecnoglutide,"development code only: IN-B00009 = ecnoglutide (HK inno.N, licensed from Sciwind) (02c)"
+xw003,keep,ecnoglutide,development code only: AACT: co-listed with ecnoglutide in 6 trials (02c)
+xw003 injection,keep,ecnoglutide,development code only: AACT: co-listed with ecnoglutide in 6 trials (02c)
+jnj-64565111,keep,efinopegdutide,development code only: AACT: co-listed with efinopegdutide in 5 trials (02c)
+jnj-64565111 dose level 1,keep,efinopegdutide,development code only: AACT: co-listed with efinopegdutide in 5 trials (02c)
+jnj-64565111 dose level 2,keep,efinopegdutide,development code only: AACT: co-listed with efinopegdutide in 5 trials (02c)
+jnj-64565111 dose level 3,keep,efinopegdutide,development code only: AACT: co-listed with efinopegdutide in 5 trials (02c)
+"jnj-64565111,",keep,efinopegdutide,development code only: AACT: co-listed with efinopegdutide in 5 trials (02c)
+ct-388,keep,enicepatide,development code only: enicepatide (CT-388): GLP-1/GIP dual agonist (Roche) (02c)
+rg6640,keep,enicepatide,"development code only: AACT: trial titles name ""Enicepatide (RO7795068)""; RG6640 listed on the same trials (02c)"
+ro7795068,keep,enicepatide,"development code only: AACT: trial titles name ""Enicepatide (RO7795068)"" (02c)"
+gzr102,keep,gzr18,development code only: fixed-ratio weekly insulin GZR4 + GLP-1 RA GZR18 (bofanglutide); insulin + GLP-1 combo rule (02c)
+gzr102 injection,keep,gzr18,development code only: fixed-ratio weekly insulin GZR4 + GLP-1 RA GZR18 (bofanglutide); insulin + GLP-1 combo rule (02c)
+[14c] hdm1002,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 100 mg,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 100 mg qd,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 100 mg qd 12weeks,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 200 mg,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 200 mg bid,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 200 mg qd 12weeks,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+"hdm1002 200mg, oral, once daily, 52 weeks",keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 400 mg,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 400 mg qd 12weeks,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 400 mg qd 12weeks，q 2w for titration,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 400 mg qd 12weeks，q 3w for titration,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+"hdm1002 400mg, oral, once daily, 52 weeks",keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 50 mg,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 and itraconazole,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1002 and rifampicin,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+"hdm1002 placebo, oral, once daily, 52 weeks",keep,hdm1002,"development code + placebo label: the arm gets the drug (Review 3 pattern C); oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+single dose of hdm1002 on day 1,keep,hdm1002,"development code only: oral small-molecule GLP-1 RA (conveglipron, Huadong) (02c)"
+hdm1005,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 1,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 2,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 3,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 4,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 dose level 1,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 dose level 2,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 dose level 3,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 injection,keep,hdm1005,development code only: GLP-1/GIP dual full agonist (Huadong) (02c)
+hdm1005 injection or placebo,keep,hdm1005,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP dual full agonist (Huadong) (02c)
+hm15275,keep,hm15275,development code only: GLP-1/GIP/glucagon triple agonist (Hanmi) (02c)
+hrs-4729,keep,hrs4729,development code only: GLP-1/GIP/glucagon triple agonist (Hengrui) (02c)
+hrs-4729 injection,keep,hrs4729,development code only: GLP-1/GIP/glucagon triple agonist (Hengrui) (02c)
+hrs-4729 injection;,keep,hrs4729,development code only: GLP-1/GIP/glucagon triple agonist (Hengrui) (02c)
+[14c]hrs-7535,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535 tables,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535 tablet,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535 tablets,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535(c) tablets,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535(d) tablets,keep,hrs7535,development code only: oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+hrs-7535;placebo,keep,hrs7535,development code + placebo label: the arm gets the drug (Review 3 pattern C); oral small-molecule GLP-1 RA (Kailera KAI-7535) (02c)
+kai-7535,keep,hrs7535,development code only: same molecule as HRS-7535 (Kailera code) (02c)
+[14c]hrs9531,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs-9531 tablet,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs9531,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs9531 injection,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs9531 injection；placebo,keep,ribupatide,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs9531 tablet,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+hrs9531 tablets,keep,ribupatide,development code only: GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531) (02c)
+kai-9531,keep,ribupatide,development code only: same molecule as HRS9531 (Kailera code) (02c)
+hs-20094,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 10mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 15mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 20mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 5mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 ai pen;,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 injection,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 injection 10mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 injection 15mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 injection 20mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 injection 5mg,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+hs-20094 mdv pen,keep,olatorepatide,development code only: GLP-1/GIP dual agonist (Hansoh; licensed to Regeneron) (02c)
+ibi3032,keep,ibi3032,development code only: oral small-molecule GLP-1 RA (Innovent) (02c)
+ibi3032 tablets,keep,ibi3032,development code only: oral small-molecule GLP-1 RA (Innovent) (02c)
+exendin-4 fc fusion protein (jy09) injection,keep,jy09,"development code only: AACT: intervention name ""exendin-4 Fc fusion protein (JY09) injection"" (02c)"
+jy09,keep,jy09,"development code only: AACT: intervention name ""exendin-4 Fc fusion protein (JY09) injection"" (02c)"
+jy09(1.2mg),keep,jy09,"development code only: AACT: intervention name ""exendin-4 Fc fusion protein (JY09) injection"" (02c)"
+jy09(2.4mg),keep,jy09,"development code only: AACT: intervention name ""exendin-4 Fc fusion protein (JY09) injection"" (02c)"
+formulation a (pf-07081532 20 mg plus 60 mg),keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
+formulation b (pf-07081532 80 mg),keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
+oral [14c]pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
+oral pf-07081532 and iv [14c]pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
+pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
+ly4086940,keep,ly4086940,"development code only: AACT keywords: ""glp-1; incretin; oral""; Lilly has not disclosed the mechanism (AdisInsight: undefined). Weak: Flo to confirm (02c)"
+amg 133,keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)
+amg 133 (frozen liquid),keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)
+amg 133 (liquid),keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)
+ibi-362; ly3305677,keep,mazdutide,development code only: AACT: co-listed with mazdutide in 4 trials (02c)
+ibi362,keep,mazdutide,development code only: AACT: co-listed with mazdutide in 4 trials (02c)
+ibi362 liquid formulation,keep,mazdutide,development code only: AACT: co-listed with mazdutide in 4 trials (02c)
+ibi362 lyophilized powder,keep,mazdutide,development code only: AACT: co-listed with mazdutide in 4 trials (02c)
+ly3305677,keep,mazdutide,development code only: AACT: co-listed with mazdutide in 2 trials (02c)
+(part c) met097,keep,met097,development code only: AACT: variant spellings of MET097 (already kept) (02c)
+pf-08653944,keep,met097,development code only: AACT: co-listed with MET097 / berobenatide (ex-Metsera MET-097i) (02c)
+mwn105,keep,mwn105,development code only: GLP-1/GIP/FGF21 triple agonist (Minwei) (02c)
+mwn105 1,keep,mwn105,development code only: GLP-1/GIP/FGF21 triple agonist (Minwei) (02c)
+mwn105 2,keep,mwn105,development code only: GLP-1/GIP/FGF21 triple agonist (Minwei) (02c)
+mwn105 3,keep,mwn105,development code only: GLP-1/GIP/FGF21 triple agonist (Minwei) (02c)
+mwn109,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 1,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 2,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 3,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 4,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 tablet,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+mwn109 tablets,keep,mwn109,development code only: GLP-1/GIP/glucagon triple agonist (Minwei / Lepu) (02c)
+na-931,keep,na-931,development code only: AACT: co-listed with NA-931 (already kept) (02c)
+na-931 is a quadruple receptor agonist,keep,na-931,development code only: AACT: co-listed with NA-931 (already kept) (02c)
+[14c]-ly3549492,keep,naperiglipron,"development code only: oral small-molecule GLP-1 RA (naperiglipron, Lilly) (02c)"
+ly3549492,keep,naperiglipron,"development code only: oral small-molecule GLP-1 RA (naperiglipron, Lilly) (02c)"
+nnc0519-0130,keep,nnc0519,development code only: GLP-1/GIP dual agonist (Novo; Synapse/AdisInsight) (02c)
+nnc0519-0130 b,keep,nnc0519,development code only: GLP-1/GIP dual agonist (Novo; Synapse/AdisInsight) (02c)
+nnc0519-0130 c,keep,nnc0519,development code only: GLP-1/GIP dual agonist (Novo; Synapse/AdisInsight) (02c)
+nnc0662-0419,keep,nnc0662,development code only: GLP-1/GIP/glucagon triple agonist (Novo NN9662) (02c)
+acetaminophen/shr20004,keep,noiiglutide,"development code only: AACT: trial title ""SHR20004 (Noiiglutide)""; noiiglutide already kept in the name map (02c)"
+hr17031,keep,noiiglutide,development code only: fixed-ratio insulin INS068 + GLP-1 RA SHR20004 (noiiglutide); insulin + GLP-1 combo rule (02c)
+hr17031 injection,keep,noiiglutide,development code only: fixed-ratio insulin INS068 + GLP-1 RA SHR20004 (noiiglutide); insulin + GLP-1 combo rule (02c)
+hr17031 injection ；ins068 injection；shr20004 injection,keep,noiiglutide,development code only: fixed-ratio insulin INS068 + GLP-1 RA SHR20004 (noiiglutide); insulin + GLP-1 combo rule (02c)
+shr20004,keep,noiiglutide,"development code only: AACT: trial title ""SHR20004 (Noiiglutide)""; noiiglutide already kept in the name map (02c)"
+shr20004 injection,keep,noiiglutide,"development code only: AACT: trial title ""SHR20004 (Noiiglutide)""; noiiglutide already kept in the name map (02c)"
+(ly3502970),keep,orforglipron,development code only: AACT: co-listed with orforglipron in 30 trials (02c)
+[14c]-ly3502970,keep,orforglipron,development code only: AACT: co-listed with orforglipron in 30 trials (02c)
+[¹⁴c]-ly3502970,keep,orforglipron,development code only: AACT: co-listed with orforglipron in 30 trials (02c)
+ly3502970,keep,orforglipron,development code only: AACT: co-listed with orforglipron in 30 trials (02c)
+14c-ray1225,keep,ray1225,"development code only: GLP-1/GIP dual agonist (bilpatide, Raynovent) (02c)"
+ray1225,keep,ray1225,"development code only: GLP-1/GIP dual agonist (bilpatide, Raynovent) (02c)"
+[¹⁴c]-ly3437943,keep,retatrutide,development code only: AACT: co-listed with retatrutide; expanded-access record calls it a GLP-1/GIP/glucagon triple agonist (02c)
+ly3437943,keep,retatrutide,development code only: AACT: co-listed with retatrutide; expanded-access record calls it a GLP-1/GIP/glucagon triple agonist (02c)
+sar425899,keep,sar425899,"development code only: AACT: PET study of ""receptor occupancy by SAR425899 ... for the glucagon and GLP-1 receptor"" (02c)"
+hdg1901,keep,semaglutide,"development code only: AACT: trial titles ""Semaglutide Injection vs Ozempic"" (biosimilar) (02c)"
+bi 456906,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 (c-14),keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 - formulation a,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 - formulation b,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 - formulation c,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 formulation a,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi 456906 formulation b2,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+bi456906,keep,survodutide,development code only: AACT: co-listed with survodutide in 25 trials (02c)
+syh2069 injection,keep,syh2069,"development code only: GLP-1/GIP dual agonist, weekly (CSPC) (02c)"
+syh2069 injection (group 1),keep,syh2069,"development code only: GLP-1/GIP dual agonist, weekly (CSPC) (02c)"
+syh2069 injection (group 2),keep,syh2069,"development code only: GLP-1/GIP dual agonist, weekly (CSPC) (02c)"
+syh2069 injection (group 3),keep,syh2069,"development code only: GLP-1/GIP dual agonist, weekly (CSPC) (02c)"
+syh2069 injection (group 4),keep,syh2069,"development code only: GLP-1/GIP dual agonist, weekly (CSPC) (02c)"
+syh2082 injection,keep,syh2082,"development code only: GLP-1/GIP dual agonist, monthly (CSPC) (02c)"
+te-8105 mad cohort 1,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 mad cohort 2,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 mad cohort 3,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 sad cohort 1,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 sad cohort 2,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 sad cohort 3,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 sad cohort 4,keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+te-8105 sad cohort 5 (adaptive cohort),keep,te8105,development code only: long-acting GLP-1 RA (Immunwork) (02c)
+tg103,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 15 mg,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 22.5 mg,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 7.5 mg,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 injection,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+"tg103 injection, subcutaneous injection,q2w",keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+"tg103 injection, subcutaneous injection,qw",keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 produced by the modified manufacturing process,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+tg103 produced by the original manufacturing process,keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+"tg103,q2w",keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+"tg103,qw",keep,tg103,"development code only: GLP-1 RA Fc fusion (efmedaglutide alfa, CSPC) (02c)"
+thdbh120 injection,keep,thdbh120,development code only: GLP-1/GIP dual agonist (Tonghua Dongbao) (02c)
+thdbh120 injection (mad),keep,thdbh120,development code only: GLP-1/GIP dual agonist (Tonghua Dongbao) (02c)
+thdbh120 injection (sad),keep,thdbh120,development code only: GLP-1/GIP dual agonist (Tonghua Dongbao) (02c)
+ubt251,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 2.0 mg,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 2.0 mg and ubt251 injection placebo,keep,ubt251,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 2.0 mg group,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 4.0 mg,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 4.0 mg (id 0.5 mg) and ubt251 injection placebo,keep,ubt251,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 4.0 mg (id 1.0 mg) and ubt251 injection placebo,keep,ubt251,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 4.0 mg group,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 6.0 mg,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 6.0 mg and ubt251 injection placebo,keep,ubt251,development code + placebo label: the arm gets the drug (Review 3 pattern C); GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+ubt251 injection 6.0 mg group,keep,ubt251,development code only: GLP-1/GIP/glucagon triple agonist (United Labs; licensed to Novo) (02c)
+gl0034,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 1,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 2,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 3,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 4,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 5,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+gl0034 dose level 6,keep,utreglutide,"development code only: GLP-1 RA (utreglutide, Sun Pharma) (02c)"
+cx11,keep,vct220,development code only: AACT: co-listed with VCT220 (already kept) in 3 trials (02c)
+cx11 (vct220),keep,vct220,development code only: AACT: co-listed with VCT220 (already kept) in 3 trials (02c)
+vk2735 drug,keep,vk2735,development code only: AACT: variant spellings of VK2735 (already kept) (02c)
+aleniglipron,keep,aleniglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of GSBR-1290, oral small-molecule GLP-1 RA (Structure Therapeutics) (02c)"
+aleniglipron or placebo,keep,aleniglipron,"drug name + placebo label: the arm gets the drug (Review 3 pattern C); INN of GSBR-1290, oral small-molecule GLP-1 RA (Structure Therapeutics) (02c)"
+elecoglipron,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron reference formulation dose a,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron reference formulation dose b,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron test formulation 1 dose a,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron test formulation 1 dose b,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron test formulation 2 dose a,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+elecoglipron test formulation 2 dose b,keep,elecoglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of AZD5004/ECC5004, oral small-molecule GLP-1 RA (Eccogene release) (02c)"
+gsbr-1290,keep,aleniglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): GSBR-1290 = aleniglipron, oral small-molecule GLP-1 RA (Structure Therapeutics) (02c)"
+gsbr-1290 (capsule/tablet),keep,aleniglipron,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): GSBR-1290 = aleniglipron, oral small-molecule GLP-1 RA (Structure Therapeutics) (02c)"
+olatorepatide,keep,olatorepatide,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of HS-20094, GLP-1/GIP dual agonist (Hansoh) (02c)"
+ribupatide,keep,ribupatide,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of HRS9531, GLP-1/GIP dual agonist (Kailera) (02c)"
+ribupatide injection,keep,ribupatide,"INN with a stem the Phase 1 pattern missed (-glipron/-patide): INN of HRS9531, GLP-1/GIP dual agonist (Kailera) (02c)"
+gzr-18,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18 and metformin,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18 injection,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18 injection a,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18 injection b,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+"gzr18 injection,digoxin tablets, rosuvastatin calcium tablets and warfarin sodium tablets",keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+gzr18 injection、[14c]gzr18 injection,keep,gzr18,"development code: GZR18 = bofanglutide, GLP-1 RA (Gan & Lee; Fierce Biotech); found in the other-class check (02c)"
+zt002,keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
+"zt002 injection, metformin, warfarin",keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
+"zt002 injection, rosuvastatin, digoxin",keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
