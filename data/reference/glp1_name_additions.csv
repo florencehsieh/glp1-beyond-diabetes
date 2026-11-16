@@ -95,17 +95,6 @@ medi0382 formulation 3,keep,cotadutide,development code only: AACT: co-listed wi
 medi0382 high dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
 medi0382 low dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
 medi0382 mid dose,keep,cotadutide,development code only: AACT: co-listed with cotadutide in 3 trials (02c)
-cpx101 or placebo 120mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 120mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 160mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 160mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 160mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 240mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 240mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 320mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 360mg q4w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 80mg q2w,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
-cpx101 or placebo 80mg single dose,keep,cpx101,"development code + placebo label: the arm gets the drug (Review 3 pattern C); AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm (02c)"
 ct-868,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
 ct-868 as sc injection,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
 ct-868 pen injector,keep,ct868,"development code only: GLP-1/GIP dual agonist (acmopatide, Carmot/Roche) (02c)"
@@ -216,7 +205,6 @@ formulation b (pf-07081532 80 mg),keep,lotiglipron,"development code only: oral 
 oral [14c]pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
 oral pf-07081532 and iv [14c]pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
 pf-07081532,keep,lotiglipron,"development code only: oral small-molecule GLP-1 RA (lotiglipron, Pfizer) (02c)"
-ly4086940,keep,ly4086940,"development code only: AACT keywords: ""glp-1; incretin; oral""; Lilly has not disclosed the mechanism (AdisInsight: undefined). Weak: Flo to confirm (02c)"
 amg 133,keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)
 amg 133 (frozen liquid),keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)
 amg 133 (liquid),keep,maridebart cafraglutide,development code only: AACT: co-listed with maridebart cafraglutide in 27 trials (02c)

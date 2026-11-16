@@ -95,7 +95,7 @@ s309309,3,3,exclude,,MGAT2 inhibitor (Shionogi),https://en.wikipedia.org/wiki/S-
 sac1004,3,3,exclude,,CU06-1004 (AACT),AACT
 shr20004,3,3,keep,noiiglutide,"AACT: trial title ""SHR20004 (Noiiglutide)""; noiiglutide already kept in the name map",AACT
 sy009,3,3,exclude,,SGLT-1 inhibitor (AACT keyword),AACT
-syh2069,3,3,keep,syh2069,"GLP-1/GIP dual agonist, weekly (CSPC)",https://www.itiger.com/news/1114235970
+syh2069,3,3,keep,syh2069,"GLP-1/GIP dual agonist, weekly (CSPC); mechanism confirmed 16 Nov",https://www.itiger.com/news/2595781825
 thdbh120,3,4,keep,thdbh120,GLP-1/GIP dual agonist (Tonghua Dongbao),https://www.biocentury.com/article/655050/promising-early-data-for-tonghua-dongbao-s-obesity-program
 ttax01,3,4,exclude,,"umbilical cord tissue, foot ulcer (AACT)",AACT
 ubx1325,3,4,exclude,,"foselutoclax, eye (AACT)",AACT
@@ -103,7 +103,7 @@ yj001,3,4,exclude,,spray (AACT),AACT
 abbv295,2,4,exclude,,"amylin/calcitonin agonist (AbbVie, ex-Gubra GUB014295)",https://www.inderes.fi/en/releases/abbvie-reports-positive-phase-1-multiple-ascending-dose-results-for-abbv-295-a-long-acting-amylin-analog
 ado09,2,2,exclude,,insulin + pramlintide (AACT title),AACT
 aln4324,2,2,exclude,,siRNA against GRB14 (Alnylam),https://www.biospace.com/press-releases/alnylam-highlights-significant-pipeline-progress-and-platform-innovation-at-r-d-day
-alv100,2,2,keep,alv100,GLP-1R agonist / GIPR antagonist fusion protein (Alveus): activates GLP-1R,https://www.bioworld.com/articles/728298-alveus-therapeutics-alv-100-gains-ind-clearance-for-obesity
+alv100,2,2,keep,alv100,GLP-1R agonist / GIPR antagonist fusion protein (Alveus): activates GLP-1R; mechanism confirmed 16 Nov,https://www.biospace.com/press-releases/alveus-therapeutics-announces-fda-clearance-of-ind-and-first-patient-dosed-in-phase-1b-trial-of-alv-100-for-obesity
 amg133,2,30,keep,maridebart cafraglutide,AACT: co-listed with maridebart cafraglutide in 27 trials,AACT
 ap707,2,8,exclude,,cannabinoid (AACT),AACT
 aphd012p,2,2,exclude,,jejunal-release dextrose (AACT title),AACT
@@ -117,9 +117,9 @@ bat5906,2,5,exclude,,wet AMD (AACT),AACT
 bay2395840,2,3,exclude,,diabetic nerve pain (AACT),AACT
 bb101,2,2,exclude,,foot ulcer (AACT),AACT
 berlim25,2,2,exclude,,oral combination tablet (AACT),AACT
-bge102,2,2,exclude,,"AACT silent on mechanism; from memory, unverified: NLRP3 inhibitor",
+bge102,2,2,exclude,,"NLRP3 inhibitor (BioAge), oral; mechanism confirmed 16 Nov (was from memory)",https://ir.bioagelabs.com/news-releases/news-release-details/bioage-labs-announces-first-participant-dosed-phase-1-clinical
 bgm1812,2,2,exclude,,dual amylin/calcitonin receptor agonist (BrightGene),https://www.medchemexpress.com/publications/40608546.html
-bi685509,2,15,exclude,,"AACT silent on mechanism (healthy-volunteer PK); from memory, unverified: avenciguat, sGC activator",
+bi685509,2,15,exclude,,"avenciguat, sGC activator (Boehringer); mechanism confirmed 16 Nov (was from memory)",https://en.wikipedia.org/wiki/Avenciguat
 bi690517,2,12,exclude,,aldosterone synthase inhibitor (AACT),AACT
 bi764524,2,2,exclude,,diabetic retinopathy (AACT),AACT
 bmf219,2,5,exclude,,menin inhibitor (AACT),AACT
@@ -130,25 +130,25 @@ br3409,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings suc
 c2022,2,2,exclude,,"oral tablets with metformin, BID (AACT)",AACT
 cin102,2,4,exclude,,gastroparesis (AACT),AACT
 ckd375,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings such as 0.5/100/1000 mg or co-administration of its parts)",AACT
-cpx101,2,2,keep,cpx101,"AACT keyword ""glp-1r""; mechanism not public. Weak: Flo to confirm",AACT
+cpx101,2,2,unclear,,"AACT keyword ""glp-1r"" only; trials exclude people on GLP-1 drugs (a hint, not proof); no published mechanism. Moved keep -> unclear 16 Nov (rule: keep needs a source naming the mechanism)",AACT
 cx11,2,5,keep,vct220,AACT: co-listed with VCT220 (already kept) in 3 trials,AACT
 d150,2,5,exclude,,"4D-150 gene therapy, eye (AACT)",AACT
 d308,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings such as 0.5/100/1000 mg or co-administration of its parts)",AACT
 d4517,2,2,exclude,,VEGFR TKI dendrimer (AACT),AACT
 d484,2,5,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings such as 0.5/100/1000 mg or co-administration of its parts)",AACT
-da1241,2,3,exclude,,"AACT silent on mechanism; from memory, unverified: GPR119 agonist",
+da1241,2,3,exclude,,"vanoglipel, GPR119 agonist (Dong-A / MetaVia): raises the body's own GLP-1, not a GLP-1R agonist; mechanism confirmed 16 Nov (was from memory)",https://www.biospace.com/first-in-class-gpr119-agonist-of-dong-a-st-da-1241-improved-glucose-control-in-patients-with-type-2-diabetes-in-us-phase-1b-study
 da2811,2,4,exclude,,"oral, with Forxiga (AACT)",AACT
 erx1000,2,2,exclude,,leptin sensitiser (ERX),https://synapse.patsnap.com/drug/f9fcea9729fd46a094334c4fc2f5f235
 f703,2,3,exclude,,"gel, foot ulcer (AACT)",AACT
 gl0034,2,2,keep,utreglutide,"GLP-1 RA (utreglutide, Sun Pharma)",https://www.biospace.com/sun-pharma-s-gl0034-utreglutide-demonstrates-significant-weight-loss-gluco-metabolic-and-lipid-lowering-efficacy-in-individuals-with-obesity-in-oral-presentation-at-the-american-diabetes-association-84th-scientific-sessions
-gly200,2,2,exclude,,"AACT silent on mechanism (oral, obesity/T2D); from memory, unverified: gut-coating polymer",
+gly200,2,2,exclude,,"oral gut-restricted mucin-complexing polymer, duodenal coating (Glyscend); mechanism confirmed 16 Nov (was from memory)",https://pubmed.ncbi.nlm.nih.gov/37380614
 gzr102,2,2,keep,gzr18,fixed-ratio weekly insulin GZR4 + GLP-1 RA GZR18 (bofanglutide); insulin + GLP-1 combo rule,https://ctv.veeva.com/study/a-phase-i-study-to-evaluate-the-pk-and-pd-profiles-of-gzr102-injection-versus-gzr4-injection-and-gzr
 hcl1000,2,2,exclude,,"metformin HCl 1000 mg, parsing artefact (AACT)",AACT
-hd6277,2,2,exclude,,"AACT silent on mechanism (oral, T2DM); from memory, unverified: GPR40 agonist",
+hd6277,2,2,exclude,,GPR40 agonist (Hyundai Pharm); mechanism confirmed 16 Nov (was from memory),https://en.wikipedia.org/wiki/HD-6277
 hdg1901,2,2,keep,semaglutide,"AACT: trial titles ""Semaglutide Injection vs Ozempic"" (biosimilar)",AACT
 hrs5817,2,2,exclude,,siRNA against INHBE (Patsnap),https://synapse.patsnap.com/drug/5d65952ddd594cbebaa7043463578bcd
 ibi302,2,8,exclude,,wet AMD (AACT),AACT
-ibi3032,2,4,keep,ibi3032,oral small-molecule GLP-1 RA (Innovent),https://www.pharmafocusasia.com/index.php/news/innovent-receives-approval-for-ind-application-of-oral-glp-1r
+ibi3032,2,4,keep,ibi3032,oral small-molecule GLP-1 RA (Innovent); mechanism confirmed 16 Nov,https://www.pharmafocusasia.com/index.php/news/innovent-receives-approval-for-ind-application-of-oral-glp-1r
 imcy0098,2,2,exclude,,T1D immunotherapy (AACT),AACT
 ins062,2,2,exclude,,insulin (AACT: bioequivalence),AACT
 inv202,2,3,exclude,,CB1 blocker (AACT),AACT
@@ -158,8 +158,8 @@ l03,2,2,exclude,,pioglitazone combination (AACT),AACT
 l03r,2,2,exclude,,pioglitazone combination (AACT),AACT
 lacebo25m,2,4,exclude,,"placebo, parsing artefact (AACT)",AACT
 lacebo50m,2,4,exclude,,"placebo, parsing artefact (AACT)",AACT
-lae102,2,4,exclude,,"AACT: tested with tirzepatide as the background drug; from memory, unverified: ActRIIA antibody",
-lb54640,2,2,exclude,,"AACT: genetic obesity (Rhythm partner); from memory, unverified: oral MC4R agonist",
+lae102,2,4,exclude,,"ActRIIA monoclonal antibody (Laekna, Lilly collaboration), add-on to incretins; mechanism confirmed 16 Nov (was from memory)",https://www.businesswire.com/news/home/20241120291603/en/Laekna-Announces-a-Clinical-Collaboration-with-Lilly-to-Develop-LAE102-a-Novel-Monoclonal-Antibody-Targeting-Activin-Receptor-Type-2A-for-The-Treatment-of-Obesity
+lb54640,2,2,exclude,,"oral MC4R agonist (LG Chem, licensed to Rhythm); mechanism confirmed 16 Nov (was from memory)",https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-and-lg-chem-life-sciences-enter-agreement
 lka651,2,2,exclude,,intravitreal (AACT),AACT
 lx9211,2,3,exclude,,neuropathic pain (AACT),AACT
 ly3305677,2,7,keep,mazdutide,AACT: co-listed with mazdutide in 2 trials,AACT
@@ -167,17 +167,17 @@ ly3526318,2,7,exclude,,chronic pain master protocol (AACT),AACT
 ly3537031,2,18,keep,brenipatide,"WHO INN List 134: ""gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist""",https://cdn.who.int/media/docs/default-source/international-nonproprietary-names-(inn)/pl134.pdf
 ly3857210,2,5,exclude,,chronic pain master protocol (AACT),AACT
 ly4065967,2,7,exclude,,chronic pain master protocol (AACT),AACT
-ly4086940,2,2,keep,ly4086940,"AACT keywords: ""glp-1; incretin; oral""; Lilly has not disclosed the mechanism (AdisInsight: undefined). Weak: Flo to confirm",https://adisinsight.springer.com/drugs/800082225
+ly4086940,2,2,unclear,,"AACT keywords ""glp-1; incretin; oral"" only; Lilly has not disclosed the mechanism (AdisInsight: undefined). Moved keep -> unclear 16 Nov (rule: keep needs a source naming the mechanism)",https://adisinsight.springer.com/drugs/800082225
 ly4167586,2,2,unclear,,"Lilly, obesity, SC/IV; mechanism not disclosed anywhere found",
 mbn101,2,3,exclude,,"topical, foot infection (AACT)",AACT
 mt8554,2,10,exclude,,painful diabetic neuropathy (AACT; BioWorld),https://www.bioworld.com/articles/660407-mitsubishi-tanabe-initiates-phase-iia-trial-of-mt-8554-in-painful-diabetic-peripheral-neuropathy
 mw0813,2,2,exclude,,diabetic macular oedema (AACT),AACT
 myl1701p,2,2,exclude,,aflibercept biosimilar (AACT),AACT
-ngm313,2,3,exclude,,"AACT: MK-3655 in NASH; mechanism from memory, unverified: FGFR1c/beta-klotho agonist antibody",
+ngm313,2,3,exclude,,"MK-3655, FGFR1c/beta-klotho agonist antibody (NGM / Merck); mechanism confirmed 16 Nov (was from memory)",https://www.merck.com/news/merck-exercises-option-for-ngm-bios-investigational-insulin-sensitizer-ngm313-for-the-treatment-of-nash-and-type-2-diabetes
 nnc0143,2,2,exclude,,insulin (AACT MeSH: insulin aspart; type 1 diabetes),AACT
 nnc0194,2,11,exclude,,"zalfermin, FGF21 analogue (J Med Chem 2024; EMA)",https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11284795/
 nox1416,2,2,exclude,,foot ulcer (AACT),AACT
-nt0796,2,3,exclude,,"AACT silent on mechanism (CV-risk obesity); from memory, unverified: NLRP3 inhibitor",
+nt0796,2,3,exclude,,"NLRP3 inhibitor (NodThera), oral; mechanism confirmed 16 Nov (was from memory)",https://www.biospace.com/press-releases/nodtheras-oral-nlrp3-inhibitor-nt-0796-enhances-and-sustains-weight-loss-in-combination-with-glp-1
 nyx2925,2,5,exclude,,fibromyalgia (AACT),AACT
 ocs01,2,6,exclude,,eyedrops (AACT),AACT
 ons5010,2,5,exclude,,wet AMD (AACT),AACT
@@ -193,9 +193,9 @@ sar446681,2,2,exclude,,teplizumab study (AACT),AACT
 spi62,2,6,exclude,,11beta-HSD1 inhibitor (AACT),AACT
 stx02,2,2,exclude,,VX-880 cell therapy (AACT),AACT
 sy008,2,2,unclear,,"Yabao oral, T2DM, dosed with meals; sister code SY-009 is an SGLT-1 inhibitor (AACT keyword); not found",
-syh2082,2,2,keep,syh2082,"GLP-1/GIP dual agonist, monthly (CSPC)",https://www-web.itiger.com/news/2620782012
+syh2082,2,2,keep,syh2082,"GLP-1/GIP dual agonist, monthly (CSPC); mechanism confirmed 16 Nov",https://www.itiger.com/hant/news/1103036324
 tak906,2,7,exclude,,gastroparesis (AACT),AACT
-te8105,2,2,keep,te8105,long-acting GLP-1 RA (Immunwork),https://www.immunwork.com/?p=430
+te8105,2,2,keep,te8105,long-acting GLP-1 RA (Immunwork); mechanism confirmed 16 Nov,https://www.immunwork.com/?p=768
 thdb0206,2,4,exclude,,insulin (AACT: dosed 0.2 U/kg),AACT
 thdb0207,2,3,exclude,,insulin combo (AACT: vs Lantus and Humalog),AACT
 thp00102,2,2,exclude,,telmisartan/dapagliflozin (AACT),AACT
@@ -213,7 +213,7 @@ cd36,1,1,exclude,,"NKS-3, fat-taste receptor agonist (AACT)",AACT
 cg0416,1,1,exclude,,THR-beta agonist (AACT),AACT
 ck0045,1,2,exclude,,IL-22 agonist (AACT),AACT
 csl346,1,1,exclude,,VEGF-B antibody (AACT),AACT
-da302168s,1,8,keep,da-302168s,AACT: co-listed with DA-302168S (already kept),AACT
+da302168s,1,8,keep,da-302168s,"oral small-molecule GLP-1R agonist (Dong et al., J Med Chem 2025;68(9):9555-9583); AACT co-listed with DA-302168S (already kept); mechanism confirmed 16 Nov",https://www.medchemexpress.com/da-302168s.html
 dmx200,1,5,exclude,,CCR2 antagonist (AACT),AACT
 gfb024,1,1,exclude,,CB1 inverse agonist antibody (AACT),AACT
 gub014295,1,1,exclude,,amylin/calcitonin agonist (same as ABBV-295),https://www.inderes.fi/en/releases/abbvie-reports-positive-phase-1-multiple-ascending-dose-results-for-abbv-295-a-long-acting-amylin-analog
