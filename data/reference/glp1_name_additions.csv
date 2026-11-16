@@ -42,14 +42,14 @@ multiple (four weekly) subcutaneous injections (part b) of pb1023 or placebo (0.
 single subcutaneous dose (part a) of pb1023 or placebo (0.9% nacl),keep,pb1023,development code + placebo of the same drug: the arm gets PB1023 (Review 3 pattern C) (02b)
 bms-686117,keep,bms-686117,drug code only: 11-mer GLP-1 RA from Bristol-Myers Squibb (NCATS); AACT silent; missed by the name search (BMS-686117 check)
 alv-100,keep,alv100,development code only: GLP-1R agonist / GIPR antagonist fusion protein (Alveus): activates GLP-1R (02c)
-nnc0487-0111,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 (formulation c),keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 (formulation d),keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 a,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 b,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 c,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 oral,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
-nnc0487-0111 subcutanous,keep,amycretin,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 (formulation c),keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 (formulation d),keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 a,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 b,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 c,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 oral,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
+nnc0487-0111 subcutanous,keep,zenagamtide,development code only: amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS) (02c)
 asc30,keep,asc30,development code only: oral small-molecule GLP-1 RA (Ascletis) (02c)
 "asc30 injection, for subcutaneous use or placebo",keep,asc30,development code + placebo label: the arm gets the drug (Review 3 pattern C); oral small-molecule GLP-1 RA (Ascletis) (02c)
 asc30 tablets,keep,asc30,development code only: oral small-molecule GLP-1 RA (Ascletis) (02c)
@@ -332,3 +332,90 @@ gzr18 injection、[14c]gzr18 injection,keep,gzr18,"development code: GZR18 = bof
 zt002,keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
 "zt002 injection, metformin, warfarin",keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
 "zt002 injection, rosuvastatin, digoxin",keep,zovaglutide,"development code: AACT trial title ""Zovaglutide (ZT002 Injection)""; found in the other-class check (02c)"
+cpx101 or placebo 120mg q2w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 120mg single dose,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 160mg q2w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 160mg q4w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 160mg single dose,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 240mg q2w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 240mg q4w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 320mg q2w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 360mg q4w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 80mg q2w,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+cpx101 or placebo 80mg single dose,keep,cpx101,development code + placebo label: the arm gets the drug (Review 3 pattern C); GIPR antagonist / GLP-1 RA (Chia Tai Tianqing) (02c)
+zt006,keep,zt006,development code only: oral once-weekly GLP-1 RA peptide (QL Biopharm) (02c)
+zenagamtide,keep,zenagamtide,INN of amycretin: GLP-1 and amylin receptor agonist (WHO PL 133; Novo) (02d)
+zenagamtide injection,keep,zenagamtide,INN of amycretin: GLP-1 and amylin receptor agonist (WHO PL 133; Novo) (02d)
+zenagamtide tablet,keep,zenagamtide,INN of amycretin: GLP-1 and amylin receptor agonist (WHO PL 133; Novo) (02d)
+efocipegtrutide,keep,efocipegtrutide,glucagon/GIP/GLP-1 triple agonist (Hanmi; WHO PL 126) (02d)
+hm15211,keep,efocipegtrutide,glucagon/GIP/GLP-1 triple agonist (Hanmi; WHO PL 126) (02d)
+hm15211 or placebo,keep,efocipegtrutide,development code + placebo label: the arm gets the drug (Review 3 pattern C); glucagon/GIP/GLP-1 triple agonist (Hanmi) (02d)
+pb-119,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb-119 injection,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb119,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb-119 75ug,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb-119 150ug,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb-119 200ug,keep,pb-119,development code only: pegylated exenatide (PegBio; AACT titles) (02d)
+pb-119 100 μg+ glucophage®,keep,pb-119,PB-119 + metformin in one arm label: the arm gets PB-119; pegylated exenatide (PegBio) (02d)
+pb-119 150 μg+ glucophage®,keep,pb-119,PB-119 + metformin in one arm label: the arm gets PB-119; pegylated exenatide (PegBio) (02d)
+pb-119 200 μg+ glucophage®,keep,pb-119,PB-119 + metformin in one arm label: the arm gets PB-119; pegylated exenatide (PegBio) (02d)
+pg-102,keep,pg-102,"development code: GLP-1/GLP-2 fusion, bare name of pg-102(mg12) (02b) (02d)"
+hd1916,keep,semaglutide,"development code only: semaglutide copy, as ""semaglutide injection (hd1916)"" (02d)"
+vx-201,keep,semaglutide,development code only: semaglutide microarray patch (AACT title) (02d)
+rt-114 is the ranipill capsule with pg-102 for the treatment of obesity,keep,pg-102,oral capsule containing PG-102 (GLP-1/GLP-2 fusion); the arm gets PG-102 (02d)
+nnc0090-2746,keep,nnc0090-2746,development code only: dual GIP/GLP-1 receptor agonist (Frias et al. 2017) (02d)
+opk-88003,keep,pegapamodutide,"development code only: oxyntomodulin analogue, GLP-1/glucagon dual agonist (OPKO; WHO PL 116) (02d)"
+ly2944876,keep,pegapamodutide,"development code only: oxyntomodulin analogue, GLP-1/glucagon dual agonist (OPKO; WHO PL 116) (02d)"
+mk-8521,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 35μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 50/72μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 72/125μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 100μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 100/150μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 125μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 125/150μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 150μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 175μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 200μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+mk-8521 300μg,keep,mk-8521,development code only: GLP-1R/GCGR dual agonist (Merck protocol) (02d)
+ly3493269,keep,ly3493269,development code only: GIP/GLP-1 dual receptor agonist (Lilly protocol) (02d)
+ly3493269 - iv,keep,ly3493269,development code only: GIP/GLP-1 dual receptor agonist (Lilly protocol) (02d)
+ly3493269 - sc,keep,ly3493269,development code only: GIP/GLP-1 dual receptor agonist (Lilly protocol) (02d)
+ibi3042,keep,ibi3042,development code only: oral small-molecule GLP-1 RA (Innovent) (02d)
+investigational drug: ibi3042,keep,ibi3042,development code only: oral small-molecule GLP-1 RA (Innovent) (02d)
+"asc35 injection b, for subcutaneous use",keep,asc35,development code only: GLP-1R/GIPR dual peptide agonist (Ascletis) (02d)
+14028 injection,keep,dulaglutide,"development code only: HEC14028, dulaglutide biosimilar (02d)"
+brenipatide,keep,brenipatide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+enicepatide,keep,enicepatide,"INN safety net: GLP-1 agonist INN (WHO PL 133), name not yet used in AACT (02d)"
+lotiglipron,keep,lotiglipron,"INN safety net: GLP-1 agonist INN (WHO PL 129), name not yet used in AACT (02d)"
+vurolenatide,keep,vurolenatide,"INN safety net: GLP-1 agonist INN (WHO PL 126), name not yet used in AACT (02d)"
+utreglutide,keep,utreglutide,"INN safety net: GLP-1 agonist INN (WHO PL 126), name not yet used in AACT (02d)"
+naperiglipron,keep,naperiglipron,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+pegapamodutide,keep,pegapamodutide,"INN safety net: GLP-1 agonist INN (WHO PL 116), name not yet used in AACT (02d)"
+bamadutide,keep,sar425899,"INN safety net: GLP-1 agonist INN (WHO PL 119), name not yet used in AACT (02d)"
+langlenatide,keep,langlenatide,"INN safety net: GLP-1 agonist INN (WHO PL 109), name not yet used in AACT (02d)"
+albenatide,keep,albenatide,"INN safety net: GLP-1 agonist INN (WHO PL 111), name not yet used in AACT (02d)"
+pegloxenatide,keep,pegloxenatide,"INN safety net: GLP-1 agonist INN (WHO PL 125), name not yet used in AACT (02d)"
+pegsebrenatide,keep,pegsebrenatide,"INN safety net: GLP-1 agonist INN (WHO PL 127), name not yet used in AACT (02d)"
+visepegenatide,keep,visepegenatide,"INN safety net: GLP-1 agonist INN (WHO PL 129), name not yet used in AACT (02d)"
+vensemaglutide,keep,vensemaglutide,"INN safety net: GLP-1 agonist INN (WHO PL 131), name not yet used in AACT (02d)"
+astepatide,keep,astepatide,"INN safety net: GLP-1 agonist INN (WHO PL 132), name not yet used in AACT (02d)"
+acmopatide,keep,acmopatide,"INN safety net: GLP-1 agonist INN (WHO PL 133), name not yet used in AACT (02d)"
+relsipatide,keep,relsipatide,"INN safety net: GLP-1 agonist INN (WHO PL 133), name not yet used in AACT (02d)"
+anvoglutide,keep,anvoglutide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+conveglipron,keep,conveglipron,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+erzemdutide,keep,erzemdutide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+linvixdutide,keep,linvixdutide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+poterepatide,keep,poterepatide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+safiglipron,keep,safiglipron,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+tifeglipron,keep,tifeglipron,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+zabopegdutide,keep,zabopegdutide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+zantrutide,keep,zantrutide,"INN safety net: GLP-1 agonist INN (WHO PL 134), name not yet used in AACT (02d)"
+bilpatide,keep,bilpatide,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"
+birmiglipron,keep,birmiglipron,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"
+caroglipron,keep,caroglipron,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"
+gimaglipron,keep,gimaglipron,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"
+tapimtrutide,keep,tapimtrutide,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"
+gulgafafusp alfa,keep,gulgafafusp alfa,"INN safety net: GLP-1 agonist INN (WHO PL 128), name not yet used in AACT (02d)"
+efmedaglutide alfa,keep,efmedaglutide alfa,"INN safety net: GLP-1 agonist INN (WHO PL 131), name not yet used in AACT (02d)"
+efaxaglutide alfa,keep,efaxaglutide alfa,"INN safety net: GLP-1 agonist INN (WHO PL 135), name not yet used in AACT (02d)"

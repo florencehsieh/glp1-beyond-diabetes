@@ -1,7 +1,7 @@
 code,n_metabolic_trials,n_trials_all,decision,canonical_drug,clue,source
 hrs9531,28,32,keep,ribupatide,GLP-1/GIP dual agonist (ribupatide; Kailera KAI-9531),https://www.biospace.com/press-releases/kailera-therapeutics-and-hengrui-pharma-report-positive-topline-data-from-phase-2-obesity-trial-of-oral-ribupatide
 ly900014,26,35,exclude,,"insulin lispro formulation (AACT: compared with Humalog, given by insulin pump)",AACT
-nnc0487,23,23,keep,amycretin,amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS),https://ctis.eu/trial/2024-520440-42-00
+nnc0487,23,23,keep,zenagamtide,amycretin: unimolecular GLP-1 + amylin receptor agonist (EU CTIS),https://ctis.eu/trial/2024-520440-42-00
 hrs7535,17,19,keep,hrs7535,oral small-molecule GLP-1 RA (Kailera KAI-7535),https://www.biospace.com/press-releases/kailera-therapeutics-and-hengrui-pharma-report-positive-topline-data-from-phase-2-obesity-trial-of-oral-ribupatide
 ibi362,16,24,keep,mazdutide,AACT: co-listed with mazdutide in 4 trials,AACT
 ly3209590,16,19,exclude,,weekly basal insulin (AACT: dose based on prior basal insulin),AACT
@@ -130,7 +130,7 @@ br3409,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings suc
 c2022,2,2,exclude,,"oral tablets with metformin, BID (AACT)",AACT
 cin102,2,4,exclude,,gastroparesis (AACT),AACT
 ckd375,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings such as 0.5/100/1000 mg or co-administration of its parts)",AACT
-cpx101,2,2,unclear,,"AACT keyword ""glp-1r"" only; trials exclude people on GLP-1 drugs (a hint, not proof); no published mechanism. Moved keep -> unclear 16 Nov (rule: keep needs a source naming the mechanism)",AACT
+cpx101,2,2,keep,cpx101,"GIPR antagonist / GLP-1 RA, SC q2w-q4w (Chia Tai Tianqing, licensed from GMAX); same mechanism as maridebart cafraglutide. Moved unclear -> keep 16 Nov",https://www.cttq.com/news/579231.htm
 cx11,2,5,keep,vct220,AACT: co-listed with VCT220 (already kept) in 3 trials,AACT
 d150,2,5,exclude,,"4D-150 gene therapy, eye (AACT)",AACT
 d308,2,2,exclude,,"Korean oral fixed-dose tablet (AACT: oral, dose strings such as 0.5/100/1000 mg or co-administration of its parts)",AACT
@@ -167,8 +167,8 @@ ly3526318,2,7,exclude,,chronic pain master protocol (AACT),AACT
 ly3537031,2,18,keep,brenipatide,"WHO INN List 134: ""gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist""",https://cdn.who.int/media/docs/default-source/international-nonproprietary-names-(inn)/pl134.pdf
 ly3857210,2,5,exclude,,chronic pain master protocol (AACT),AACT
 ly4065967,2,7,exclude,,chronic pain master protocol (AACT),AACT
-ly4086940,2,2,unclear,,"AACT keywords ""glp-1; incretin; oral"" only; Lilly has not disclosed the mechanism (AdisInsight: undefined). Moved keep -> unclear 16 Nov (rule: keep needs a source naming the mechanism)",https://adisinsight.springer.com/drugs/800082225
-ly4167586,2,2,unclear,,"Lilly, obesity, SC/IV; mechanism not disclosed anywhere found",
+ly4086940,2,2,unclear,,"AACT keywords ""glp-1; incretin; oral"" only; Lilly has not disclosed the mechanism (AdisInsight: undefined). Moved keep -> unclear 16 Nov (rule: keep needs a source naming the mechanism); checked again 16 Nov: mechanism still not disclosed (AdisInsight/Synapse blank)",https://adisinsight.springer.com/drugs/800082225
+ly4167586,2,2,unclear,,"Lilly, obesity, SC/IV; mechanism not disclosed anywhere found; checked again 16 Nov: mechanism still not disclosed (Synapse target and mechanism blank)",https://synapse.patsnap.com/drug/eace52bc853a439682d1528b51bcda71
 mbn101,2,3,exclude,,"topical, foot infection (AACT)",AACT
 mt8554,2,10,exclude,,painful diabetic neuropathy (AACT; BioWorld),https://www.bioworld.com/articles/660407-mitsubishi-tanabe-initiates-phase-iia-trial-of-mt-8554-in-painful-diabetic-peripheral-neuropathy
 mw0813,2,2,exclude,,diabetic macular oedema (AACT),AACT
@@ -192,7 +192,7 @@ rgb5088,2,2,exclude,,cell transplant (AACT),AACT
 sar446681,2,2,exclude,,teplizumab study (AACT),AACT
 spi62,2,6,exclude,,11beta-HSD1 inhibitor (AACT),AACT
 stx02,2,2,exclude,,VX-880 cell therapy (AACT),AACT
-sy008,2,2,unclear,,"Yabao oral, T2DM, dosed with meals; sister code SY-009 is an SGLT-1 inhibitor (AACT keyword); not found",
+sy008,2,2,exclude,,"SGLT1 inhibitor (Yabao, originator Lilly), not GLP-1; fits sister code SY-009 (SGLT1). AdisInsight behind login, seen via snippet. Moved unclear -> exclude 16 Nov",https://adisinsight.springer.com/drugs/800043540
 syh2082,2,2,keep,syh2082,"GLP-1/GIP dual agonist, monthly (CSPC); mechanism confirmed 16 Nov",https://www.itiger.com/hant/news/1103036324
 tak906,2,7,exclude,,gastroparesis (AACT),AACT
 te8105,2,2,keep,te8105,long-acting GLP-1 RA (Immunwork); mechanism confirmed 16 Nov,https://www.immunwork.com/?p=768
@@ -205,7 +205,7 @@ tp102,2,2,exclude,,"phage, foot ulcer (AACT)",AACT
 vc02,2,2,exclude,,"cell product, T1D (AACT)",AACT
 wst057,2,4,exclude,,topical pirenzepine (AACT),AACT
 xw003,2,9,keep,ecnoglutide,AACT: co-listed with ecnoglutide in 6 trials,AACT
-zt006,2,2,unclear,,"QL Biopharm oral tablet, obesity; mechanism not found",
+zt006,2,2,keep,zt006,oral once-weekly GLP-1 RA peptide (Beijing QL Biopharm). Moved unclear -> keep 16 Nov,https://insights.citeline.com/scrip/r-and-d/clinical-trials/ql-biopharm-unveils-oral-once-weekly-glp-1-peptide-OYIOSZFMAZBJHPC2HM5J6455LI/
 zt01,2,2,exclude,,"somatostatin receptor antagonist, hypoglycaemia (AACT)",AACT
 am712,1,3,exclude,,"ASKG712, eye (AACT)",AACT
 askg712,1,2,exclude,,eye (AACT),AACT

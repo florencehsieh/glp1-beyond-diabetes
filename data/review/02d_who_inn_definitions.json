@@ -1,0 +1,1186 @@
+[
+ {
+  "pl": 87,
+  "inn": "liraglutide",
+  "latin": "liraglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "liraglutide             N26-(hexadecanoyl-γ-glutamyle)-[34-arginine]GLP-1-(7-37)-peptide antidiabetic",
+  "line": 957,
+  "end": 988
+ },
+ {
+  "pl": 89,
+  "inn": "exenatide",
+  "latin": "exenatidum",
+  "why": [
+   "a:kw-other",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "exenatide              L-histidylglycyl-L-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-L-methionyl-L-glutamyl-L-glutamyl-L-glutamyl-L-alanyl-L-valyl-L-arginyl-L-leucyl-L-phenylalanyl-L-isoleucyl-L-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-asparaginylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide antidiabetic",
+  "line": 899,
+  "end": 938
+ },
+ {
+  "pl": 90,
+  "inn": "teduglutide",
+  "latin": "teduglutidum",
+  "why": [
+   "b:ending"
+  ],
+  "en": "teduglutide            [2-glycine](1-33)-Peptide 2 analogue of human glucagon (GLP-2) gastrointestinal functions normalizing agent",
+  "line": 1408,
+  "end": 1429
+ },
+ {
+  "pl": 97,
+  "inn": "albiglutide",
+  "latin": "albiglutidum*",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "albiglutide                                 ([8-glycine]human glucagon-like peptide 1-(7-36)-peptidyl) ([8-glycine]human glucagon-like peptide 1-(7-36)-peptidyl)(human serum albumin (585 residues)) antidiabetic",
+  "line": 133,
+  "end": 221
+ },
+ {
+  "pl": 99,
+  "inn": "etaracizumab",
+  "latin": "etaracizumabum*",
+  "why": [
+   "c:seq"
+  ],
+  "en": "etaracizumab                                immunoglobulin G1, anti-[Homo sapiens alphaVbeta3 integrin (CD51/CD61, CD51/GPIIIa, CD51/platelet membrane glycoprotein IIIa, vitronectin receptor)], humanized monoclonal antibody, MEDI-522 (or hLM609); gamma1 heavy chain (1-447) [humanized VH (Homo sapiens FR/Mus musculus CDR from clone LM609-Homo sapiens IGHJ5*01, L123>T) [8.8.10] (1-117) -Homo sapiens IGHG1*03 (118-447)], (220-214’)-disulfide with kappa light chain (1'-214') [humanized V-KAPPA (Homo sapiens FR/Mus musculus CDR from clone LM609-Homo sapiens IGKJ4*01) [6.3.9] (1'-107') -Homo sapiens IGKC*01 (108'-214')]; (226-226”:230-230”)-bisdisulfide dimer antineoplastic",
+  "line": 1154,
+  "end": 1232
+ },
+ {
+  "pl": 99,
+  "inn": "lixisenatide",
+  "latin": "lixisenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "lixisenatide           des-38-proline-exendine-4 (Heloderma suspectum)-(1-39)-peptidylpenta-L-lysyl-L-lysinamide antidiabetic",
+  "line": 1516,
+  "end": 1539
+ },
+ {
+  "pl": 99,
+  "inn": "taspoglutide",
+  "latin": "taspoglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "taspoglutide                                [8-(2-amino-2-methylpropanoic acid),35-(2-amino-2-methylpropanoic acid)]human glucagon-like peptide 1 (GLP-1)-(7-36)-peptidamide L-histidyl-2-methyl-L-alanyl-L-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-glutamylglycyl-L-glutaminyl-L-alanyl-L-lysyl-L-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-lysyl-2-methyl-L-alanyl-L-arginamide antidiabetic",
+  "line": 2291,
+  "end": 2341
+ },
+ {
+  "pl": 100,
+  "inn": "racotumomab",
+  "latin": "racotumomabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "racotumomab             immunoglobulin G1-kappa, anti-idiotype anti-[anti-(N-glycolylneuraminic acid (NeuGc, NGNA)-gangliosides GM3) Mus musculus IgM-kappa monoclonal antibody P3], Mus musculus monoclonal antibody; gamma1 heavy chain (1-445) [Mus musculus VH (IGHV1S56*01 -(IGHD)-IGHJ2*01) [8.8.14] (1-121) -IGHG1*01, CH1 E84.2>Q, N-glycosylation sites CH2 N84.4, CH3 N84.4 (122-445)], (223-214’)-disulfide with kappa light chain (1'-214') [Mus musculus V-KAPPA (IGHKV10-96*01 -IGKJ1*01) [6.3.9] (1'-107') -IGKC1*01 (108'-214')]; (225-225'':228-228'':230-230'')-trisdisulfide dimer antineoplastic",
+  "line": 1847,
+  "end": 1924
+ },
+ {
+  "pl": 101,
+  "inn": "semaglutide",
+  "latin": "semaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "semaglutide             N -{18-[N-(17-carboxyheptadecanoyl)-L-γ-glutamyl]-10-oxo-3,6,12,15-tetraoxa-9,18-diazaoctadecanoyl}-[8-(2-amino-2-propanoic acid),34-L-arginine]human glucagon-like peptide 1(7-37) antidiabetic 6.26",
+  "line": 2460,
+  "end": 2505
+ },
+ {
+  "pl": 103,
+  "inn": "dulaglutide",
+  "latin": "dulaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "dulaglutide             glucagon-like peptide-1-immunoglobulin G4 fusion protein, [2-glycyl,16-L-glutamyl,30-glycyl][human glucagon-like peptide 1-(7-37)-peptide] {(8-A>G,22-G>E,36-R>G)-GLP-1(7-37)} fusion protein with tris(tetraglycyl-L-seryl)-L-alanine (linker) fusion protein with des-276-lysine-[57-L-proline,63-L-alanine,64-L-alanine]human immunoglobulin G4 Fc region {(10-S>P)-H-(4-F>A,5-L>A)-CH2-(107-K>-)-CH3 of IGHG4*01}, dimer (55-55':58-58')-bisdisulfide antidiabetic",
+  "line": 661,
+  "end": 714
+ },
+ {
+  "pl": 104,
+  "inn": "elsiglutide",
+  "latin": "elsiglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "elsiglutide             [2-glycine(A>G),3-glutamic acid(D>E),8-serine(D>S),10-leucine(M>L),11-serine(N>S),16-alanine(N>A),24-alanine(N>A),28-alanine(Q>A)]human glucagon-like peptide 2 (GLP-2) fusion protein with hexalysinamide antidiarrhoeal",
+  "line": 1040,
+  "end": 1067
+ },
+ {
+  "pl": 106,
+  "inn": "secretin",
+  "latin": "secretinum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "secretin human          human peptide hormone secretin; L-histidyl-L-seryl-L-aspartylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-glutamyl-L-leucyl-L-seryl-L-arginyl-L-leucyl-L-arginyl-L-glutamylglycyl-L-alanyl-L-arginyl-L-leucyl-L-glutaminyl-L-arginyl-L-leucyl-L-leucyl-L-glutaminylglycyl-L-leucyl-L-valinamide diagnostic agent",
+  "line": 1622,
+  "end": 1660
+ },
+ {
+  "pl": 108,
+  "inn": "abicipar pegol",
+  "latin": "abiciparum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "abicipar pegol                                     pegylated composite protein for clinical applications (CPCA), with alternative scaffold domain to antigen receptors based on ankyrin repeats, anti-[Homo sapiens VEGFA (vascular endothelial growth factor A, VEGF-A, VEGF)]; glycyl-seryl-ankyrin repeats (3-35, 36-68, 69-101, 102-123)-lysyl-dialanyl-bis(triglycyl-seryl) linker (127-134)-cysteinyl (1-135), conjugated via a maleimide group linker (thioether bond to C135) to a single linear methoxy polyethylene glycol 20 (mPEG20) angiogenesis inhibitor",
+  "line": 97,
+  "end": 146
+ },
+ {
+  "pl": 108,
+  "inn": "dusigitumab",
+  "latin": "dusigitumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "dusigitumab                                  immunoglobulin G2-lambda2, anti-[Homo sapiens IGF1 (insulin-like growth factor 1, somatomedin C) and IGF2 (insulin-like growth factor 2, somatomedin A)], Homo sapiens monoclonal antibody; gamma2 heavy chain (1-446) [Homo sapiens VH (IGHV1-8*01 (100.00%) -(IGHD)-IGHJ6*01) [8.8.13] (1-120) -IGHG2*01 (CH1 (121-218), hinge (219-230), CH2 (231-339), CH3 (340-444), CHS (445-446)) (121-446)], (134-216')-disulfide with lambda light chain (1'-217') [Homo sapiens V-LAMBDA (IGLV1-51*01 (95.90%) -IGLJ2*01) [8.3.12] (1'-111') -IGLC2*01 (112'-217')]; dimer (222-222'':223-223'':226-226'':229-229'')-tetrakisdisulfide immunomodulator, antineoplastic",
+  "line": 865,
+  "end": 943
+ },
+ {
+  "pl": 108,
+  "inn": "nesvacumab",
+  "latin": "nesvacumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "nesvacumab              immunoglobulin G1-kappa, anti-[Homo sapiens ANGPT2 (angiopoietin 2, Ang2)], Homo sapiens monoclonal antibody; gamma1 heavy chain (1-452) [Homo sapiens VH (IGHV3-13*01 (97.90%) -(IGHD)-IGHJ4*01) [8.7.16] (1-122) -IGHG1*01 (CH1 (123-220), hinge 221-235), CH2 (236-345), CH3 (346-450), CHS (451-452)) (123-452)], (225-214')-disulfide with kappa light chain (1'-214') [Homo sapiens V-KAPPA (IGKV3-20*01 (95.80%) -IGKJ1*01) [7.3.8] (1'-107') -IGKC*01 (108'-214')]; dimer (231-231'':234-234'')-bisdisulfide immunomodulator, antineoplastic",
+  "line": 1972,
+  "end": 2044
+ },
+ {
+  "pl": 109,
+  "inn": "langlenatide",
+  "latin": "langlenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "langlenatide            exenatide derivative and human IgG4 Fc dimer linked together with polyethylene glycol derivative: 6.27 .1' N ,N -[ω-(oxypropane-1,3-diyl)-α-(propane-1,3-diyl)poly(oxyethylene)] [1-(imidazol-4-ylacetic acid)]exendin-4 Heloderma suspectum (Gila monster), human immunoglobulin G4 Fc fragment-(9'-229')-peptide dimer (3'-3'')-disulfide antidiabetic",
+  "line": 2018,
+  "end": 2091
+ },
+ {
+  "pl": 111,
+  "inn": "albenatide",
+  "latin": "albenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "albenatide              S -{1-[(23S)-23-{[exendin-4 Heloderma suspectum precursor-(48-86)-peptidyl (exenatidyl)]amino}-3,12,24-trioxo-7,10-dioxa-4,13,18,25-tetraazapentacosyl]-2,5-dioxopyrrolidin-3-yl}human serum albumin. Peptide is synthetic, and human serum albumin is produced in Saccharomyces cerevisiae. antidiabetic 3.34",
+  "line": 211,
+  "end": 285
+ },
+ {
+  "pl": 111,
+  "inn": "emactuzumab",
+  "latin": "emactuzumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "emactuzumab             immunoglobulin G1-kappa, anti-[Homo sapiens CSF1R (colony stimulating factor 1 receptor, CSF-1R, CSF-1-R, macrophage colony-stimulating factor 1 receptor, c-fms, FMS, CD115)], humanized monoclonal antibody; gamma1 heavy chain (1-446) [humanized VH (Homo sapiens IGHV1-18*01 (92.90%) -(IGHD)-IGHJ6*01) [8.7.10] (1-116) -Homo sapiens IGHG1*01 (CH1 (117-214), hinge (215-229), CH2 (230-339), CH3 (340-444), CHS (445-446)) (117-446)], (219-213')-disulfide with kappa light chain (1’-213’) [humanized V-KAPPA (Homo sapiens IGKV1-39*01 (86.30%) -IGKJ2*01) [6.3.8] (1'-106') -Homo sapiens IGKC*01 (107'-213')]; dimer (225-225\":228-228\")-bisdisulfide immunomodulator, antineoplastic",
+  "line": 1548,
+  "end": 1625
+ },
+ {
+  "pl": 111,
+  "inn": "varlilumab",
+  "latin": "varlilumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "varlilumab              immunoglobulin G1-kappa, anti-[Homo sapiens anti-CD27 (TNFRSF7, tumor necrosis factor receptor superfamily member 7)], Homo sapiens monoclonal antibody; gamma1 heavy chain (1-452)[Homo sapiens VH (IGHV3-33*01 (99.00%) -(IGHD)-IGHJ4*01) [8.8.12](1-119) -IGHG1*01 (CH1 (120-217), hinge (218-232), CH2 (233-342), CH3 (343-447), CHS (448-449) (120-449) -glycyl-seryl-seryl (450-452)],(222-214')-disulfide with kappa light chain (1'-214') [Homo sapiens V-KAPPA (IGKV1D-16*01 (97.90%) -IGKJ1*01) [6.3.9] (1'-107') -IGKC*01 (108'-214')]; dimer (228-228'':231-231'')-bisdisulfide immunomodulator, antineoplastic",
+  "line": 4213,
+  "end": 4290
+ },
+ {
+  "pl": 111,
+  "inn": "vorhyaluronidase alfa",
+  "latin": "vorhyaluronidasum",
+  "why": [
+   "a:kw-other",
+   "c:seq"
+  ],
+  "en": "vorhyaluronidase alfa                      human hyaluronidase PH-20 (hyaluronoglucosaminidase PH-20, sperm adhesion molecule 1, EC 3.2.1.35) precursor-(36-482)-peptide (mature-(1-447)-peptide), produced in Chinese hamster ovary (CHO) DG44dhfr-cells, glycoform alfa enzyme",
+  "line": 4451,
+  "end": 5987
+ },
+ {
+  "pl": 114,
+  "inn": "trizoxetan",
+  "latin": "trizoxetanum",
+  "why": [
+   "a:kw-other"
+  ],
+  "en": "trizoxetan       (4RS)-4-[4,7-bis(carboxymethyl)-1,4,7-triazonan-1-yl]-4-carboxybutanoyl",
+  "line": 4212,
+  "end": 5628
+ },
+ {
+  "pl": 115,
+  "inn": "crizanlizumab",
+  "latin": "crizanlizumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "crizanlizumab                         immunoglobulin G2-kappa, anti-[Homo sapiens SELP (selectin P, CD62)], humanized monoclonal antibody; gamma2 heavy chain (1-448) [humanized VH (Homo sapiens IGHV1-8*01 (81.60%) -(IGHD) -IGHJ4*01) [8.8.15] (1-122) -Homo sapiens IGHG2*02 (CH1 (123-220), hinge (221-232), CH2 K105>A (323) (233-341), CH3 (342-446), CHS (447-448)) (123-448)], (136-218')-disulfide with kappa light chain (1’-218’) [humanized V-KAPPA (Homo sapiens IGKV1-39*01 (86.90%) -IGKJ4*01) [10.3.9] (1'-111') -Homo sapiens IGKC*01, Km3 (112'-218')]; dimer (224-224\":225-225\":228-228\":231-231\")-tetrakisdisulfide immunomodulator",
+  "line": 1093,
+  "end": 1190
+ },
+ {
+  "pl": 116,
+  "inn": "dasiglucagon",
+  "latin": "dasiglucagonum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "dasiglucagon            mutated human glucagon analogue: [16-(2-methylalanine)(S>X),17-L-alanine(R>A),20-L-α-glutamyl(Q>E),21-L-α-glutamyl(D>E),24-L-lysyl(Q>K),27-L-α-glutamyl(M>E),28-L-serine(N>S)]human glucagon glucagon analogue",
+  "line": 1149,
+  "end": 1183
+ },
+ {
+  "pl": 116,
+  "inn": "glepaglutide",
+  "latin": "glepaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "glepaglutide                          mutated human glucagon like peptide-2 (GLP-2) analogue with a C-terminal hexa-lysine addition; [2-glycine(A>G),3-glutamic acid(D>E),5-threonine(S>T),8-serine(D>S),10-leucine(M>L),11-alanine(N>A),16-alanine(N>A),24-alanine(N>A),28-alanine(Q>A)]human glucagon-like peptide 2 (GLP-2) fusion peptide with hexalysinamide antidiabetic",
+  "line": 2375,
+  "end": 2422
+ },
+ {
+  "pl": 116,
+  "inn": "pegapamodutide",
+  "latin": "pegapamodutidum",
+  "why": [
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "pegapamodutide          S ,S -bis{(3RS)-1-[3-({3-[ω-methoxypoly(oxyethylene-1,2-diyl)]propyl}amino)-3-oxopropyl]-2,5-dioxopyrrolidin-3-yl}-[2-Aib(S>2-methylA),17-Lys(R>K),18-Lys(R>K),21-Glu(D>E),27-Leu(M>L),29-Aib(T>2-methylA),30-Gly(K>G)]human oxyntomodulinyl-L-cysteinyl-L-cysteinamide oxyntomodulin analogue 3.38   3.39",
+  "line": 3722,
+  "end": 3844
+ },
+ {
+  "pl": 116,
+  "inn": "suvratoxumab",
+  "latin": "suvratoxumabum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "suvratoxumab            immunoglobulin G1-kappa, anti-[Staphylococcus aureus alpha toxin (AT, alpha-hemolysin, alpha-HL, hly, hla)], Homo sapiens monoclonal antibody; gamma1 heavy chain (1-452) [Homo sapiens VH (IGHV3-13*01 (96.90%) -(IGHD) -IGHJ6*01) [8.7.16] (1-122) -Homo sapiens IGHG1*03, G1m3, nG1m1 (CH1 R120 (219) (123-220), hinge (221-235), CH2 M15.1>Y (257), S16>T (259), T18>E (261) (236-345), CH3 E12 (361), M14 (363) (346-450), CHS (451-452)) (123-452)], (225-213')-disulfide with kappa light chain (1'-213') [Homo sapiens V-KAPPA (IGKV1-5*03 (96.80%) -IGKJ1*01) [6.3.8] (1'-106') -Homo sapiens IGKC*01, Km3 A45.1 (152), V101 (190) (107'-213')]; dimer (231-231'':234-234'')-bisdisulfide immunomodulator",
+  "line": 4358,
+  "end": 4450
+ },
+ {
+  "pl": 117,
+  "inn": "beinaglutide",
+  "latin": "beinaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "beinaglutide                          human glucagon-like peptide-1 (7-36)-peptide (GLP-1-(7-36)) antidiabetic",
+  "line": 619,
+  "end": 644
+ },
+ {
+  "pl": 118,
+  "inn": "apraglutide",
+  "latin": "apraglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "apraglutide             5,7-O-didephosphono[Ala >Gly,Met >Ahx,Asn >D-Phe,Asn >Leu]human glucagon-like peptide 2 (1-33)-peptide 33-amide: L-histidylglycyl-L-α-aspartylglycyl-L-seryl-L-phenylalanyl-L-seryl-L-α-aspartyl-L-α-glutamyl-L-2-aminohexanoyl-D-phenylalanyl-L-threonyl-L-isoleucyl-L-leucyl-L-α-aspartyl-L-leucyl-L-leucyl-L-alanyl-L-alanyl-L-arginyl-L-α-aspartyl-L-phenylalanyl-L-isoleucyl-L-asparaginyl-L-tryptophyl-L-leucyl-L-isoleucyl-L-glutaminyl-L-threonyl-L-lysyl-L-isoleucyl-L-threonyl-L-α-asparagine glucagon like peptide 2 (GLP-2) analogue 2         10          11",
+  "line": 314,
+  "end": 366
+ },
+ {
+  "pl": 118,
+  "inn": "efinopegdutide",
+  "latin": "efinopegdutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "efinopegdutide                        glucagon-like peptide-1 (GLP-1) analogue, conjugated by a 10 kDa polyethylene glycol (PEG) linker (n ~ 225) to an Fc portion dimer of human immunoglobulin G4 (IgG4): 1.1 N -{3-[ω-(3-{3-[(3RS)-3-({16,20-anhydro-2        16        17        20         21        30 [Ser >Aib,Ser >Glu,Arg >Lys,Gln >Lys,Asp >Glu,Lys > 3.30 Cys]-oxyntomodulin (1-30)-peptide 30-amide}-S -yl)-2,5-dioxopyrrolidin-1-yl]propanamido}propoxy) poly(oxyethylene)-α-yloxy]propyl}[immunoglobulin γ4 heavy chain constant region C-terminal 221-peptide dimer disulfide], non-glycosylated, immunoglobulin fragment dimer produced in Escherichia coli oxyntomodulin analogue",
+  "line": 1619,
+  "end": 1684
+ },
+ {
+  "pl": 119,
+  "inn": "bamadutide",
+  "latin": "bamadutidum",
+  "why": [
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "bamadutide                            L-histidyl-D-seryl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-N -(N-hexadecanoyl-L-γ-glutamyl)-L-lysyl-L-α-glutamyl-L-seryl-L-lysyl-L-alanyl-L-alanyl-L-glutaminyl-L-α-aspartyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide antidiabetic",
+  "line": 548,
+  "end": 593
+ },
+ {
+  "pl": 119,
+  "inn": "cenupatide",
+  "latin": "cenupatidum",
+  "why": [
+   "b:ending"
+  ],
+  "en": "cenupatide              N -acetyl-L-arginyl-2-methylalanyl-L-arginyl-α-methyl-L-phenylalaninamide urokinase plasminogen activator receptor (uPAR) inhibitor",
+  "line": 1092,
+  "end": 1120
+ },
+ {
+  "pl": 119,
+  "inn": "cotadutide",
+  "latin": "cotadutidum",
+  "why": [
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "cotadutide              L-histidyl-L-seryl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-N -(N-hexadecanoyl-L-γ-glutamyl)-L-lysyl-L-seryl-L-α-glutamyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-seryl-L-α-glutamyl-L-arginyl-L-alanyl-L-arginyl-L-α-aspartyl-L-phenylalanyl-L-valyl-L-alanyl-L-tryptophyl-L-leucyl-L-α-glutamyl-L-alanylglycylglycine antidiabetic",
+  "line": 1221,
+  "end": 1258
+ },
+ {
+  "pl": 119,
+  "inn": "tirzepatide",
+  "latin": "tirzepatidum",
+  "why": [
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "tirzepatide             L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methylalanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-isoleucyl-L-alanyl-L-glutaminyl-N -[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-alanyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-isoleucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide antidiabetic",
+  "line": 5511,
+  "end": 5575
+ },
+ {
+  "pl": 119,
+  "inn": "barzuxetan",
+  "latin": "barzuxetanum",
+  "why": [
+   "a:kw-other",
+   "c:seq"
+  ],
+  "en": "barzuxetan                                   (4-{(2R)-2-[bis(carboxymethyl)amino]-3-[{(1S,2S)-2-[bis(carboxymethyl)amino]cyclohexyl}(carboxymethyl) amino]propyl}phenyl)carbamothioyl",
+  "line": 5951,
+  "end": 7304
+ },
+ {
+  "pl": 120,
+  "inn": "avexitide",
+  "latin": "avexitidum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "avexitide               exendin 3 [Heloderma horridum horridum (Mexican beaded lizard)] (9-39)-peptide 39-amide: L-α-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-L-methionyl-L-α-glutamyl-L-α-glutamyl-L-α-glutamyl-L-alanyl-L-valyl-L-arginyl-L-leucyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-asparaginylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide glucagon-like peptide-1 (GLP-1) receptor antagonist",
+  "line": 400,
+  "end": 439
+ },
+ {
+  "pl": 120,
+  "inn": "sarotalocan",
+  "latin": "sarotalocanum",
+  "why": [
+   "a:kw-other"
+  ],
+  "en": "sarotalocan                           6-({[3-({(OC-6-1'5)-bis({3-[bis(3-sulfopropyl)(3-sulfonatopropyl)azaniumyl]propyl}dimethylsilanolato-κO,κO')[(phtalocyaninato(2-)-κ4N29,N30,N31,N32)-1-yl]silicon}oxy)propoxy]carbonyl}amino)hexanoyl",
+  "line": 6246,
+  "end": 7569
+ },
+ {
+  "pl": 123,
+  "inn": "dapiglutide",
+  "latin": "dapiglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "dapiglutide             human glucagon like peptide-2 (GLP-2) analogue; N6.16-[N-(17-carboxyheptadecanoyl)-L-γ-glutamyl]-[A2>Aib (2-methylalanine), D3>E, S7>T, D8>S, M10>L, N11>A, N16>K, L17>Q, N24>A, T29>H]human glucagon-like peptide 2 (GLP-2) glucagon like peptides (GLP) analogue",
+  "line": 2383,
+  "end": 2420
+ },
+ {
+  "pl": 124,
+  "inn": "danuglipron",
+  "latin": "danuglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "danuglipron                         (12S)-94-cyano-92-fluoro-7-oxa-3(1,2)-benzimidazola-6(2,6)-pyridina-5(1,4)-piperidina-1(2)-oxetana-9(1)-benzenanonaphane-36-carboxylic acid glucagon-like peptide 1 receptor agonist",
+  "line": 3210,
+  "end": 3231
+ },
+ {
+  "pl": 125,
+  "inn": "pegloxenatide",
+  "latin": "pegloxenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "pegloxenatide          exendin-4 (exenatide), [Gly2>D-Ala, Met14>Ahx, Asn28>Gln, Ser39>Cys]-modified, synthetic, conjugated at Cys39 via a thioether linker with two O-methylpoly(ethylene glycol) chains: L-histidyl-D-alanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-L-2-aminohexanoyl-L-α-glutamyl-L-α-glutamyl-L-α-glutamyl-L-alanyl-L-valyl-L-arginyl-L-leucyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-glutaminylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-S-[(3RS)-1-{3-[(2-{N2,N6-bis[ω-methoxypoly(oxyethylene)-α-carbonyl]-L-lysinamido}ethyl)amino]-3-oxopropyl}-2,5-dioxopyrrolidin-3-yl]-L-cysteinamide glucagon-like peptide-1 receptor agonist, hypoglycaemic",
+  "line": 7679,
+  "end": 7745
+ },
+ {
+  "pl": 126,
+  "inn": "ecnoglutide",
+  "latin": "ecnoglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "ecnoglutide                         N6.24-[(22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl]-[Ala8>Val2, Gly22>Glu16, Lys26>Arg20, Ala30>Lys24, Lys34>Arg28]-human glucagon-like peptide 1 (GLP-1) (7-37)-peptide (1-31); L-histidyl-L-valyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamyl-L-α-glutamyl-L-glutaminyl-L-alanyl-L-alanyl-L-arginyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-N6-[(22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl]-L-lysyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycyl-L-arginylglycine glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 1881,
+  "end": 1939
+ },
+ {
+  "pl": 126,
+  "inn": "efocipegtrutide",
+  "latin": "efocipegtrutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "efocipegtrutide         chimeric triple receptor agonist peptide (1''-40''), sharing balanced sequence homology with glucagon, glucagon-like peptide 1 (GLP1) and gastric inhibitory polypeptide (GIP, glucose-dependent insulinotropic polypeptide, incretin hormone), produced by chemical synthesis, conjugated at the S atom of the C-terminal cysteinamide 40'' via a polyethylene glycol linker (~10 kDa) to the N atom of one N-terminal proline residue of the dimer (3-3')-disulfide of an immunoglobulin G4 (IgG4) heavy chain constant fragment (Fc, C-terminal 221-peptide, produced in Escherichia coli, not glycosylated): N1.1-(3-{α-[3-(3-{(3RS)-3-[16,20-anhydro(L-tyrosyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-L-lysyl-L-arginyl-L-alanyl-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-leucyl-L-α-aspartyl-L-histidyl-L-histidyl-L-prolyl-L-seryl-L-serylglycyl-L-glutaminyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-L-cysteinamide)-S3.40-yl]-2,5-dioxopyrrolidin-1-yl}propanamido)propyl]poly(oxyethylene)-ω-oxy}propyl)(IgG4 Fc (Homo sapiens IGHG4*01 (hinge (1-4, N-terminal hinge residues ESKYGPPC deleted), CH2 (5-114), CH3 (115-219), CHS (220-221))(1-221) dimer (3-3')-disulfide) glucagon, gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptors agonist",
+  "line": 1941,
+  "end": 2090
+ },
+ {
+  "pl": 126,
+  "inn": "mazdutide",
+  "latin": "mazdutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "mazdutide                           L-histidyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-L-lysyl-L-lysyl-L-alanyl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-leucyl-L-α-glutamylglycylglycyl-L-prolyl-L-seryl-L-serylglycinamide glucagon and glucagon-like peptide 1 (GLP-1) receptors agonist",
+  "line": 6337,
+  "end": 6378
+ },
+ {
+  "pl": 126,
+  "inn": "pemvidutide",
+  "latin": "pemvidutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "pemvidutide                         C5.16,N6.20-anhydro{L-histidyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-N6-[1-O-(17-carboxyheptadecyl)-β-D-glucopyranuronoyl]-L-lysyl-L-alanyl-L-alanyl-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-leucyl-L-glutaminyl-L-threoninamide} glucagon and glucagon-like peptide 1 (GLP-1) receptors agonist",
+  "line": 8143,
+  "end": 8204
+ },
+ {
+  "pl": 126,
+  "inn": "utreglutide",
+  "latin": "utreglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "utreglutide                         N6.20-[(16S)-16,34-dicarboxy-11,11-dimethyl-10,13,18-trioxo-3,6-dioxa-9,12,17-triazatetratriacontan-1-oyl]-[Ala8>Aib2, Lys34>Arg28]-glucagon-like peptide 1 (GLP-1, human) (7-37)-peptidyl-L-leucine; L-histidyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamylglycyl-L-glutaminyl-L-alanyl-L-alanyl-N6-{N-(17-carboxyheptadecanoyl)-L-γ-glutamyl-2-methylalanyl-2-[2-(2-aminoethoxy)ethoxy]acetyl}-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycyl-L-arginylglycyl-L-leucine glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 11052,
+  "end": 11107
+ },
+ {
+  "pl": 126,
+  "inn": "vurolenatide",
+  "latin": "vurolenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "vurolenatide                        exendin 4 (Heloderma suspectum, Gila monster lizard) (1-39) fused via a Gly-Gly dipeptide linker (40-41) to an artificial hydrophilic protein (864-peptide, 42-905) comprising 72 randomly repeating dodecapeptides (4 types of A1E2G2P2S3T2), produced in Escherichia coli glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 11674,
+  "end": 11703
+ },
+ {
+  "pl": 127,
+  "inn": "froniglutide",
+  "latin": "froniglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "froniglutide            [2-glycine]-human glucagon-like peptide 1(7-37) (1-31 in the actual sequence), non-phosphorylated, fused to 121 repeats of elastin-derived pentapeptides (VPGVG, VPGGG, VPGAG, and VPGWP) (32-636); fusion protein comprising [A8>G2]-human glucagon-like peptide 1(7-37) [hGLP-1(7-37)] (1-31) and an artificial elastin-like polypeptide (ELP) (32-631) of 120 alternating pentapeptides of three types VPGVG, VPGGG, and VPGAG, and a C-terminal pentapeptide VPGWP (632-636), produced in Escherichia coli glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 6116,
+  "end": 6159
+ },
+ {
+  "pl": 127,
+  "inn": "pegsebrenatide",
+  "latin": "pegsebrenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "pegsebrenatide          exendin-4-oyl-L-cysteinamide, conjugated at Cys40 via a 1-O-(3-{O'-[3-(3-maleimidopropanamido) propyl]polyethylene glycol-O-yl} propylaminocarbonyl)glycerol linker with two O-methylpoly(ethylene glycol) chains: L-histidylglycyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-L-methionyl-L-α-glutamyl-L-α-glutamyl-L-α-glutamyl-L-alanyl-L-valyl-L-arginyl-L-leucyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-asparaginylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-S-{(3RS)-1-[3-({3-[α-{3-[({(2RS)-2,3-bis[α-methylpoly(oxyethylene)-ω-oxy]propoxy}carbonyl)amino]propyl}poly(oxyethylene)-ω-oxy]propyl}amino)-3-oxopropyl]-2,5-dioxopyrrolidin-3-yl}-L-cysteinamide glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 8953,
+  "end": 9012
+ },
+ {
+  "pl": 128,
+  "inn": "duvakitug",
+  "latin": "duvakitugum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "duvakitug               immunoglobulin G1-lambda, anti-[Homo sapiens TNFSF15 (tumor necrosis factor (TNF) superfamily member 15, vascular endothelial cell growth inhibitor, VEGI, TNF superfamily ligand TL1A)], Homo sapiens monoclonal antibody; gamma1 heavy chain Homo sapiens (1-448) [VH (Homo sapiens IGHV1-8*01 (92.9%) -(IGHD) -IGHJ4*01 (92.9%), CDR-IMGT [8.8.12] (26-33.51-58.97-108)) (1-119)-Homo sapiens IGHG1*01 (100%), G1m17,1 CH1 K120, CH3 D12, L14 (CH1 K120 (216) (120-217), hinge 1-15 (218-232), CH2 (233-342), CH3 D12 (358), L14 (360) (343-447), CHS K2>del (448)) (120-448)], (222-215')-disulfide with lambda light chain Homo sapiens(1'-216') [V-LAMBDA (Homo sapiens IGLV1-40*01 (85.7%) -IGLJ2*01 (90.9%), CDR-IMGT [9.3.10] (26-34.52-54.91-100)) (1'-110') -Homo sapiens IGLC2*01 (100%) (111'-216')]; dimer (228-228'':231-231'')-bisdisulfide, produced in Chinese hamster ovary (CHO) cells, cell line CHO-K1SV, glycoform alfa anti-inflammatory",
+  "line": 2066,
+  "end": 2176
+ },
+ {
+  "pl": 128,
+  "inn": "gulgafafusp alfa",
+  "latin": "gulgafafuspum",
+  "why": [
+   "a:kw-en",
+   "c:seq"
+  ],
+  "en": "gulgafafusp alfa            humanized immunoglobulin G2-kappa, anti-(human glucagon-like peptide 1 receptor, GLP1R) (heavy chain 1-451, variant S382>A) fused at the N-terminus of each light chain (53-266) via the peptide linker 30GSGSATGGSGSGASSGSGSATGS52 to a glucagon-like peptide-1 (GLP-1) fragment (7-35, 1-29 in the current sequence), variant (A2>G), disulfide bridged dimer, produced in Chinese hamster ovary (CHO) cells, glycoform alfa; humanized monoclonal antibody fusion with human Glucagon-like peptide 1 (GLP1); type: IgG2-kappa; antigen: human glucagon-like peptide 1 receptor, GLP-1 receptor, GLP-1-R, GLP-1R (GLP1R); CDR source: Mus musculus (humanized by Kabat CDR grafting); heavy chain class: gamma2; heavy chain length: 451; HV germline: Homo sapiens IGHV3-33*01; HJ germline: Homo sapiens IGHJ6*01; HC germline: Homo sapiens IGHG2*01; VH: 1-125; CH1: 126-223; hinge: 224-235; CH2: 236-344; CH3: 345-449 (S382A, non-functional mutation); CHS: 450-451; CDR Kabat H1: SYGMH (31-35); CDR Kabat H2: VIWYDGSNKYYADSVKG (50-66); CDR Kabat H3: GGGSGSYRYYYYGLDV (99-114); fusion protein: 1-29 (human 7-35 glucagon-like peptide-1); linker: 30-52; light chain class: kappa; light chain length: 266; LV germline: Homo sapiens IGKV1-12*01; LJ germline: Homo sapiens IGKJ1*01; LC germline: Homo sapiens IGKC*01; VL: 53-159; CL: 160-266; CDR Kabat L1: RASQNINNLLA (76-86); CDR Kabat L2: TASSLQS (102-108); CDR Kabat L3: QQAHRFPPT (141-149) glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 3745,
+  "end": 3894
+ },
+ {
+  "pl": 128,
+  "inn": "maridebart",
+  "latin": "maridebartum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "maridebart                               immunoglobulin G1-kappa, anti-[Homo sapiens GIPR (gastric inhibitory polypeptide receptor)], Homo sapiens monoclonal antibody; gamma1 heavy chain Homo sapiens (1-450) [VH (Homo sapiens IGHV3-33*01 (92.9%) -(IGHD) -IGHJ4*01 (100%), CDR-IMGT [8.8.13] (26-33.51-58.97-109)) (1-120) -Homo sapiens IGHG1*03v, G1m3>G1m17, nG1m1 CH1 K120, CH3 E12, M14, G1v64 CH2 C36, G1v54-30 CH2 C83, G84.4, C85 (CH1 R120>K (217) (121-218), hinge 1-15 (219-233), CH2 E36>C (275), R83>C (295), N84.4>G (300), V85>C (305) (234-343), CH3 E12 (359), M14 (361) (344-448), CHS (449-450)) (121-450)], (223-214')-disulfide with kappa light chain Homo sapiens (1'-214') [V-KAPPA (Homo sapiens IGKV3-15*01 (97.9%) -IGKJ4*01 (100%), CDR-IMGT [6.3.9] (27-32.51-53.89-97)) (1'-107') -Homo sapiens IGKC*01 (100%), Km3 A45.1 (153), V101 (191) (108'-214')]; dimer (229-229'':232-232'')-bisdisulfide, produced in Chinese hamster ovary (CHO) cells, glycoform alfa gastric inhibitory polypeptide (GIP) receptor antagonist",
+  "line": 4741,
+  "end": 4819
+ },
+ {
+  "pl": 128,
+  "inn": "maridebart",
+  "latin": "maridebartum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "maridebart cafraglutide        immunoglobulin G1-kappa, anti-[Homo sapiens GIPR (gastric inhibitory polypeptide receptor)], Homo sapiens monoclonal antibody; conjugated with two identical glucagon-like peptide 1 (GLP-1) analogues; gamma1 heavy chain Homo sapiens (1-450) [VH (Homo sapiens IGHV3-33*01 (92.9%) -(IGHD) -IGHJ4*01 (100%), CDR-IMGT [8.8.13] (26-33.51-58.97-109)) (1-120) -Homo sapiens IGHG1*03v, G1m3>G1m17, nG1m1 CH1 K120, CH3 E12, M14, G1v64 CH2 C36, G1v54-30 CH2 C83, G84.4, C85 (CH1 R120>K (217) (121-218), hinge 1-15 (219-233), CH2 E36>C (275), R83>C (295), N84.4>G (300), V85>C (305) (234-343), CH3 E12 (359), M14 (361) (344-448), CHS (449-450)) (121-450)], (223-214')-disulfide with kappa light chain Homo sapiens (1'-214') [V-KAPPA (Homo sapiens IGKV3-15*01 (97.9%) -IGKJ4*01 (100%), CDR-IMGT [6.3.9] (27-32.51-53.89-97)) (1'-107') -Homo sapiens IGKC*01 (100%), Km3 A45.1 (153), V101 (191) (108'-214')]; dimer (229-229'':232-232'')-bisdisulfide, produced in Chinese hamster ovary (CHO) cells, glycoform alfa; 275,275''-bis(thioether) conjugated to a glucagon-like peptide 1 (GLP-1) analogue (GCG (glucagon) 98-126, GLP-1 7-35 A8>methylalanine (2), V16>Y (10), G22>E (16)), via a fused 18-mer linker (diglycyl-tris(tetraglycyl-seryl)-lysinamide gastric inhibitory polypeptide (GIP) receptor antagonist, glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 4821,
+  "end": 4925
+ },
+ {
+  "pl": 128,
+  "inn": "orforglipron",
+  "latin": "orforglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "orforglipron            (34S,61S,62S)-55-[(4S)-2,2-dimethyloxan-4-yl]-14-fluoro-32-(4-fluoro-3,5-dimethylphenyl)-11,34,62-trimethyl-32,34,36,37-tetrahydro-11H,22H-3(3,5)-pyrazolo[4,3-c]pyridina-1(5)-indazola-5(2,1)-indola-7(3)-[1,2,4]oxadiazola-2(1,3)-imidazola-6(1,1)-cyclopropanaheptaphane-22,4,75(72H)-trione glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 6509,
+  "end": 6563
+ },
+ {
+  "pl": 128,
+  "inn": "retatrutide",
+  "latin": "retatrutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "retatrutide                         L-tyrosyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methyl-L-leucyl-L-leucyl-L-α-aspartyl-L-lysyl-N6-{2-[2-(2-{[N-(19-carboxynonadecanoyl)-L-γ-glutamyl]amino}ethoxy)ethoxy]acetyl}-L-lysyl-L-alanyl-L-glutaminyl-2-methylalanyl-L-alanyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tyrosyl-L-leucyl-L-leucyl-L-α-glutamylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide glucagon, gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptors agonist",
+  "line": 7830,
+  "end": 7904
+ },
+ {
+  "pl": 128,
+  "inn": "survodutide",
+  "latin": "survodutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "survodutide             L-histidyl-1-aminocyclobutanoyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-L-arginyl-L-alanyl-L-alanyl-L-lysyl-L-α-aspartyl-L-phenylalanyl-L-isoleucyl-N6-[N-(17-carboxyheptadecanoyl)-L-γ-glutamylglycyl-L-serylglycyl-L-serylglycylglycyl]-L-lysyl-L-tryptophyl-L-leucyl-L-α-glutamyl-L-seryl-L-alaninamide glucagon and glucagon-like peptide 1 (GLP-1) receptors agonist",
+  "line": 9151,
+  "end": 9193
+ },
+ {
+  "pl": 128,
+  "inn": "cafraglutide",
+  "latin": "cafraglutidum",
+  "why": [
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "cafraglutide       L-histidyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamyl-L-α-glutamyl-L-glutaminyl-L-alanyl-L-alanyl-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-lysylglycylglycylglycylglycylglycylglycylglycyl-L-serylglycylglycylglycylglycyl-L-serylglycylglycylglycylglycyl-L-seryl-N6-(sulfanylacetyl)-L-lysinamide",
+  "line": 12158,
+  "end": 12181
+ },
+ {
+  "pl": 128,
+  "inn": "tomilopil",
+  "latin": "tomilopilum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "tomilopil           3-ethoxy-2,2-dimethyl-3-oxopropan-1-yl",
+  "line": 12212,
+  "end": 12941
+ },
+ {
+  "pl": 129,
+  "inn": "ganipatide",
+  "latin": "ganipatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "ganipatide                     N1-acetyl-N6.24-({(1r,4r)-4-[(19-carboxynonadecanamido)methyl]cyclohexane-1-carbonyl}-L-γ-glutamyl-L-γ-glutamyl-L-γ-glutamyl)[D-Tyr1,Aib2,Ahx14,Arg18,Lys24,Pro31]human gastric inhibitory polypeptide (GIP)-(52-82)-peptide-31-amide gastric inhibitory polypeptide (GIP) receptor agonist",
+  "line": 4149,
+  "end": 4204
+ },
+ {
+  "pl": 129,
+  "inn": "lotiglipron",
+  "latin": "lotiglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "lotiglipron             (22S,72S)-15-chloro-22-methyl-5(2,1)-[1,3]benzimidazola-1(2)-pyridina-3(4,1)-piperidina-2(2,4)-[1,3]benzodioxola-7(2)-oxetanaheptaphane-56-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 5685,
+  "end": 5705
+ },
+ {
+  "pl": 129,
+  "inn": "visepegenatide",
+  "latin": "visepegenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "visepegenatide          L-histidylglycyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-leucyl-L-seryl-L-lysyl-L-glutaminyl-L-methionyl-L-α-glutamyl-L-α-glutamyl-L-α-glutamyl-L-alanyl-L-valyl-L-arginyl-L-leucyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-asparaginylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-S-[(3Ξ)-1-{3-[(3-{[α-methylpoly(oxyethylene)-ω-yl]oxy}propyl)amino]-3-oxopropyl}-2,5-dioxopyrrolidin-3-yl]-L-cysteinamide glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 12245,
+  "end": 12303
+ },
+ {
+  "pl": 130,
+  "inn": "bofanglutide",
+  "latin": "bofanglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "bofanglutide            L-histidylglycyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamylglycyl-L-glutaminyl-L-alanyl-L-alanyl-N6-[(22S)-22,44-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetratetracontan-1-oyl]-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycyl-L-arginylglycine glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 2122,
+  "end": 2164
+ },
+ {
+  "pl": 130,
+  "inn": "olatorepatide",
+  "latin": "olatorepatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "olatorepatide              L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-L-tyrosyl-L-leucyl-L-α-glutamyl-L-lysyl-L-isoleucyl-L-alanyl-L-alanyl-L-glutaminyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-asparaginyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysinamide dual gastric inhibitory polypeptide (GIP) receptor and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 10440,
+  "end": 10497
+ },
+ {
+  "pl": 130,
+  "inn": "sonefpeglutide",
+  "latin": "sonefpeglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "sonefpeglutide          glucagon-like peptide 2 (GLP-2) analogue, conjugated through a 3.4 kDa polyethylene glycol (PEG) linker (n ~ 75) to an Fc portion dimer of human immunoglobulin G4 (IgG4); N1.1-(3-{α-[3-({[Ala2>N-[(1H-imidazol-4-yl)acetyl]Gly1,Lys30>Arg29]glucagon like peptide 2 (2-33)-peptidyl (1-32)-L-lysine (33)}-N6.33-yl)propyl]poly(oxyethylene)-ω-oxy}propyl)[immunoglobulin G4 heavy chain constant region C-terminal 221-peptide dimer (3-3')-disulfide], non-glycosylated, immunoglobulin fragment dimer produced in Escherichia coli glucagon-like peptide 2 (GLP-2) receptor agonist",
+  "line": 13766,
+  "end": 13841
+ },
+ {
+  "pl": 131,
+  "inn": "aleniglipron",
+  "latin": "aleniglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "aleniglipron            (34S,61S,62S)-14-(diethylphosphoryl)-32-(4-fluoro-3,5-dimethylphenyl)-34,62-dimethyl-13-(methylamino)-55-(oxan-4-yl)-32,34,36,37-tetrahydro-22H-3(3,5)-pyrazolo[4,3-c]pyridina-5(2,1)-indola-7(3)-[1,2,4]oxadiazola-2(1,3)-imidazola-1(1)-benzena-6(1,1)-cyclopropanaheptaphane-22,4,75(72H)-trione glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 592,
+  "end": 632
+ },
+ {
+  "pl": 131,
+  "inn": "efmedaglutide alfa",
+  "latin": "efmedaglutidum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "efmedaglutide alfa        human glucagon-like peptide-1 (GLP-1) (7-37, 1-31 in the current sequence), variant (A8>G2), fused to a hybrid Fc fragment of human immunoglobulin delta/gamma 4 (32-286) [Homo sapiens IGHD*01 (hinge (32-68), CH2 (69-78)), Homo sapiens IGHG4*01 (CH2 (79-179), CH3 (180-284), CHS (285-286))], dimer (70-70')-disulfide, produced in Chinese hamster ovary (CHO) cells, cell line CHO DG44, glycoform alfa glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 4687,
+  "end": 4722
+ },
+ {
+  "pl": 131,
+  "inn": "efsubaglutide alfa",
+  "latin": "efsubaglutidum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "efsubaglutide alfa glucagon-like peptide-1-immunoglobulin G2 fusion protein; {[2-glycine,16-L-glutamic acid,30-glycine][human glucagon-like peptide 1-(7-37)-peptide] {(8-A>G,22-G>E,36-R>G)-GLP-1(7-37)} (1-31)}-[SSGAPPPSGGGGS linker (32-44)]-[human immunoglobulin G2 Fc fragment (h-CH2-CH3-CHS domains [Homo sapiens IGHG2*01 (hinge C48>S (45-56), CH2 A155>S, P156>S (57-165),CH3 (166-270), CHS K272>del (271))] (45-271)] fusion protein, dimer (49-49':52-52':55-55':86-146:86'-146':192-250:192'-250')-heptakisdisulfide, produced in Chinese hamster ovary cells (CHO), glycoform alfa glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 4724,
+  "end": 4766
+ },
+ {
+  "pl": 131,
+  "inn": "vensemaglutide",
+  "latin": "vensemaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "vensemaglutide          N2.2-{2-[(4S)-4-carboxy-4-(15-carboxypentadecanamido)butanamido]ethyl}-N6.22-[(22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl]-[E5>G,R6>G,A8>Aib,K34>R]human glucagon-like peptide 1(5-37) glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 14163,
+  "end": 14194
+ },
+ {
+  "pl": 132,
+  "inn": "astepatide",
+  "latin": "astepatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "astepatide          L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-L-leucyl-L-leucyl-L-α-glutamyl-N6-(N6-{N6-[N-(17-carboxyheptadecanoyl)-L-γ-glutamyl]-L-lysyl}-L-lysyl)-L-lysyl-L-glutaminyl-L-alanyl-L-alanyl-L-arginyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serine gastric inhibitory polypeptide (GIP) receptor and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 1312,
+  "end": 1351
+ },
+ {
+  "pl": 132,
+  "inn": "elecoglipron",
+  "latin": "elecoglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "elecoglipron   (34S)-32-(3-cyclopropyl-4-fluorophenyl)-57-[(4S)-2,2-dimethyloxan-4-yl]-14-fluoro-11,34-dimethyl-32,34,36,37-tetrahydro-11H,22H-3(3,5)-pyrazolo[4,3-c]pyridina-1(5)-indazola-5(2,3)-indolizina-7(3)-[1,2,4]oxadiazola-2(1,3)-imidazola-6(1,1)-cyclopropanaheptaphane-22,4,75(72H)-trione glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 3789,
+  "end": 3811
+ },
+ {
+  "pl": 132,
+  "inn": "imapextide",
+  "latin": "imapextidum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "imapextide                glucagon-like peptide 1(15-35) [human GLP-1(15-35)] (1-21 in the real sequence), [G22>E8, A25>V11, K26>R12, K34>R20]-variant, fused to the C-terminal (30-39)-peptide of exendin-4 (Heloderma suspectum) (22-31), substituted at the N-atom of the L-α-aspartyl residue 1 with a 17-carboxyheptadecanoyl group; N-(17-carboxyheptadecanoyl)-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamyl-L-α-glutamyl-L-glutaminyl-L-alanyl-L-valyl-L-arginyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serine glucagon-like peptide-1 (GLP-1) receptor antagonist, treatment of hypoglycemia",
+  "line": 5214,
+  "end": 5271
+ },
+ {
+  "pl": 132,
+  "inn": "macupatide",
+  "latin": "macupatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "macupatide              L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-isoleucyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methyl-L-leucyl-L-leucyl-L-α-aspartyl-L-lysyl-N6-(17-{[N-(19-carboxynonadecanoyl)-L-γ-glutamyl]amino}-10-oxo-3,6,12,15-tetraoxa-9-azaheptadecan-1-oyl)-L-lysyl-L-histidyl-L-glutaminyl-2-methylalanyl-L-α-aspartyl-L-phenylalanyl-L-valyl-L-α-glutamyl-3-(pyridine-4-yl)-L-alanyl-L-leucyl-L-leucyl-L-α-glutamyl-L-alanylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide gastric inhibitory polypeptide (GIP) receptor agonist, antidiabetic",
+  "line": 6926,
+  "end": 6998
+ },
+ {
+  "pl": 132,
+  "inn": "zovaglutide",
+  "latin": "zovaglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "zovaglutide       glucagon-like peptide 1(7-37) [human GLP-1(7-37)] (1-31), (A8>2-MeAla2, G22>E16, K34>R28, R36>G30)-variant, fused to the artificial 40-peptide (GAQP)9GQKP (32-71), substituted at N6 of each of the two lysyl residues 20 and 70 with a (22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl group glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 13996,
+  "end": 14066
+ },
+ {
+  "pl": 132,
+  "inn": "tivedotin",
+  "latin": "tivedotinum",
+  "why": [
+   "a:kw-other"
+  ],
+  "en": "tivedotin            2-{[(2S)-1-{[(2S)-1-{4-[(5S,8S,11S,12R)-11-[(2S)-butan-2-yl]-12-(2-{(2S)-2-[(1R,2R)-3-{[(1S,2R)-1-hydroxy-1-phenylpropan-2-yl]amino}-1-methoxy-2-methyl-3-oxopropyl]pyrrolidin-1-yl}-2-oxoethyl)-4,10-dimethyl-3,6,9-trioxo-5,8-di(propan-2-yl)-2,13-dioxa-4,7,10-triazatetradecan-1-yl]anilino}-5-(carbamoylamino)-1-oxopentan-2-yl]amino}-3-methyl-1-oxobutan-2-yl]amino}-2-oxoethyl; 2-oxo-2-({L-valyl-N5-carbamoyl-L-ornithyl[(4-aminophenyl)methoxy]carbonyl-N-methyl-L-valyl-L-valyl-(3R,4S,5S)-3-methoxy-5-methyl-4-(methylamino)heptanoyl-(2R,3R)-N-[(1S,2R)-1-hydroxy-1-phenylpropan-2-yl]-3-methoxy-2-methyl-3-[(2S)-pyrrolidin-2-yl]propanamide}-N2.1-yl)ethyl",
+  "line": 14570,
+  "end": 16823
+ },
+ {
+  "pl": 133,
+  "inn": "acmopatide",
+  "latin": "acmopatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "acmopatide              N-[2-[[2-[[2-(2-oxopiperidin-1-yl)ethyl]amino]-2-oxoethyl]thio]acetyl]-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-lysyl-L-glutaminyl-L-alanyl-L-alanyl-2-methylalanyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-asparaginyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-N6-[N-hexadecanoyl-L-γ-glutamyl]-L-lysinamide dual gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 185,
+  "end": 441
+ },
+ {
+  "pl": 133,
+  "inn": "berobenatide",
+  "latin": "berobenatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "berobenatide             [H1>F, G2>2-MeAla, L10>V, M14>L, E17>K, A18>R, L21>E, N28>Q, A35>K, S39(NH2)>G]exendin 4 [Heloderma suspectum (Gila monster lizard)]-yl-L-lysyl-N6-[N-(19-carboxynonadecanoyl)-L-γ-glutamyl]-L-lysine; L-phenylalanyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-lysyl-L-glutaminyl-L-leucyl-L-α-glutamyl-L-α-glutamyl-L-lysyl-L-arginyl-L-valyl-L-arginyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-lysyl-L-glutaminylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-lysyl-L-prolyl-L-prolyl-L-prolylglycyl-L-lysyl-N6-[N-(19-carboxynonadecanoyl)-L-γ-glutamyl]-L-lysine glucagon-like peptide-1 (GLP-1) receptor agonist",
+  "line": 1598,
+  "end": 1654
+ },
+ {
+  "pl": 133,
+  "inn": "enicepatide",
+  "latin": "enicepatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "enicepatide           N-[2-(3-cyano-5-fluorophenyl)-2-methyl-1-oxopropyl]-β-alanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methylalanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-isoleucyl-L-alanyl-L-glutaminyl-N6-[N-(19-carboxynonadecanoyl)-L-γ-glutamyl-2-[2-(2-aminoethoxy)ethoxy]acetyl-2-[2-(2-aminoethoxy)ethoxy]acetyl]-L-lysyl-L-alanyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-isoleucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide dual gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 3444,
+  "end": 3480
+ },
+ {
+  "pl": 133,
+  "inn": "relsipatide",
+  "latin": "relsipatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "relsipatide             L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methylalanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-isoleucyl-L-alanyl-L-glutaminyl-L-lysyl-L-alanyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-isoleucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-N6-[(28S)-28,48-dicarboxy-13,25,30-trioxo-3,6,9,15,18,21-hexaoxa-12,24,29-triazaoctatetracontan-1-oyl]-L-lysinamide dual gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 9361,
+  "end": 9404
+ },
+ {
+  "pl": 133,
+  "inn": "ribupatide",
+  "latin": "ribupatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "ribupatide                             L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-L-tyrosyl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-α-glutamyl-L-lysyl-L-isoleucyl-L-alanyl-L-alanyl-L-glutaminyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-asparaginyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide dual gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 9741,
+  "end": 9810
+ },
+ {
+  "pl": 133,
+  "inn": "zenagamtide",
+  "latin": "zenagamtidum",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "zenagamtide              glucagon-like peptide 1(7-37) [human GLP-1(7-37)] (1-31), (A8>2-MeAla2, G22>E16, K26>R20, K34>R28, G37>K31)-variant, fused via a G4 peptide linker (32-35) to an artificial 33-peptide (36-68, amylin receptor agonist), 68-amide, substituted at N6 of the lysine residue 31 with a (22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl group glucagon-like peptide 1 (GLP-1) and amylin receptors agonist",
+  "line": 14255,
+  "end": 14291
+ },
+ {
+  "pl": 133,
+  "inn": "tavatecan",
+  "latin": "tavatecanum",
+  "why": [
+   "a:kw-other"
+  ],
+  "en": "tavatecan      2-acetamido-2,6-dideoxy-6-[(5aRS,6SR,6aSR)-6-{13-[(11S,19S,9S,12S,24S,27S,351S,359S)-19,359-diethyl-15,355-difluoro-19,359-dihydroxy-14,9,27,354-tetramethyl-110,113,3,8,11,14,22,25,28,33,3510,3513-dodecaoxo-12,24-di(propan-2-yl)-12,13,19,110,113,115,352,353,359,3510,3513,3515-dodecahydro-11H,112H,351H,3512H-4,15,21,32-tetraoxa-2,7,10,13,18,23,26,29,34-nonaaza-1,35(1)-bis(benzo[de]pyrano[3',4':6,7]indolizino[1,2-b]quinolina)-6,30(1,4)-dibenzenapentatriacontaphane-18-sulfonamido]-3,5,5,13-tetraoxo-2,9,12-trioxa-5λ6-thia-4,6-diazatridecan-1-yl}-5,5a,6,6a,7,8-hexahydrocyclopropa[5,6]cycloocta[1,2-d][1,2,3]triazol-1(4H)-yl]-β-D-galactopyranosyl-(1→4)-[6-deoxy-α-L-galactopyranosyl-(1→6) and unsubstituted 1:9]-2-acetamido-2-deoxy-β-D-glucopyranosyl",
+  "line": 14958,
+  "end": 16898
+ },
+ {
+  "pl": 134,
+  "inn": "anvoglutide",
+  "latin": "anvoglutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "anvoglutide         N6.26-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl][A8>Aib, G22>E, K34>R] human glucagon-like peptide 1 (7-37) (GLP-1 (7-37)); L-histidyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamyl-L-α-glutamyl-L-glutaminyl-L-alanyl-L-alanyl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycyl-L-arginylglycine glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic, obesity",
+  "line": 646,
+  "end": 685
+ },
+ {
+  "pl": 134,
+  "inn": "brenipatide",
+  "latin": "brenipatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "brenipatide               D-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methyl-L-leucyl-L-leucyl-L-α-aspartyl-L-lysyl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-alanyl-L-glutaminyl-2-methylalanyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-α-methyl-L-tyrosyl-L-leucyl-L-isoleucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 1330,
+  "end": 1371
+ },
+ {
+  "pl": 134,
+  "inn": "conveglipron",
+  "latin": "conveglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "conveglipron     (102S)-23-fluoro-4-oxa-8(2,1)-[1,3]benzimidazola-5(2,6)-pyridina-6(4,1)-piperidina-1(3),10(2)-bisoxetana-2(1,4)-benzenadecaphane-86-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 1625,
+  "end": 1651
+ },
+ {
+  "pl": 134,
+  "inn": "erzemdutide",
+  "latin": "erzemdutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "erzemdutide              L-histidyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-lysyl-α-methyl-L-phenylalanyl-L-leucyl-L-α-aspartyl-L-threonyl-N6-[(22S)-22,40-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetracontan-1-oyl]-L-lysyl-L-arginyl-L-alanyl-L-arginyl-L-α-aspartyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-leucyl-L-α-glutamyl-2-methylalanylglycine glucagon and glucagon-like peptide 1 (GLP-1) receptor agonist, obesity",
+  "line": 3088,
+  "end": 3127
+ },
+ {
+  "pl": 134,
+  "inn": "linvixdutide",
+  "latin": "linvixdutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "linvixdutide       L-histidyl-2-methylalanyl-L-histidylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-alanyl-L-lysyl-L-arginyl-L-alanyl-L-glutaminyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-leucyl-L-glutaminyl-L-seryl-L-glutaminyl-L-glutaminyl-L-histidyl-L-α-glutamyl-L-seryl-L-prolyl-L-prolyl-L-prolyl-N6-[N-(19-carboxynonadecanoyl)-L-γ-glutamyl]-L-lysine glucagon and glucagon-like peptide 1 (GLP-1) receptor agonist, obesity",
+  "line": 4686,
+  "end": 4721
+ },
+ {
+  "pl": 134,
+  "inn": "naperiglipron",
+  "latin": "naperiglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "naperiglipron                       (12S)-94-cyano-52,92-difluoro-55-methyl-7-oxa-3(1,2)-[1,3]benzimidazola-6(2,6)-pyridina-1(2)-oxetana-5(1,4),9(1)-dibenzenanonaphane-36-carboxylic acid glucagon-like peptide-1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 5333,
+  "end": 5358
+ },
+ {
+  "pl": 134,
+  "inn": "poterepatide",
+  "latin": "poterepatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "poterepatide             L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-α-methyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-2-methylalanyl-L-isoleucyl-2-methylalanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-glutaminyl-L-alanyl-L-glutaminyl-L-alanyl-L-α-glutamyl-L-phenylalanyl-L-valyl-N6-[(31S)-31,53-dicarboxy-10,19,28,33-tetraoxo-3,6,12,15,21,24-hexaoxa-9,18,27,32-tetraazatripentacontan-1-oyl]-L-lysyl-L-tryptophyl-L-leucyl-L-leucyl-L-lysylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-seryl-L-lysinamide gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 6885,
+  "end": 6958
+ },
+ {
+  "pl": 134,
+  "inn": "safiglipron",
+  "latin": "safiglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "safiglipron          (22S,72S)-14-chloro-12-fluoro-22,23-dihydro-5(2,1)-[1,3]benzimidazola-3(4,1)-piperidina-2(2,8)-[1,4]benzodioxina-7(2)-oxetana-1(1)-benzenaheptaphane-56-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 8823,
+  "end": 8851
+ },
+ {
+  "pl": 134,
+  "inn": "tifeglipron",
+  "latin": "tifeglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "tifeglipron              (12S,52S,54S)-102,104-difluoro-52-methyl-6,9-dioxa-3(1,2)-[1,3]benzimidazola-7(4,2)-pyrimidina-5(1,4)-piperidina-1(2)-oxetana-10(1)-benzenadecaphane-36-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 9841,
+  "end": 9868
+ },
+ {
+  "pl": 134,
+  "inn": "zabopegdutide",
+  "latin": "zabopegdutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "zabopegdutide                            16,20-anhydro(L-histidyl-2-methylalanyl-L-glutaminylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-L-glutaminyl-L-alanyl-L-alanyl-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-methionyl-L-asparaginyl-L-threonyl-S-{(3RS)-1-[3-({3-[ω-{3-[({(2RS)-2,3-bis[ω-methoxypoly(oxyethylene)-α-yl]propoxy}carbonyl)amino]propoxy}poly(oxyeth ylene)-α-yl]propyl}amino)-3-oxopropyl]-2,5-dioxopyrrolidin-3-yl}-L-cysteinamide) glucagon and glucagon-like peptide 1 (GLP-1) receptor agonist, obesity",
+  "line": 11866,
+  "end": 11949
+ },
+ {
+  "pl": 134,
+  "inn": "zantrutide",
+  "latin": "zantrutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "zantrutide             16,20-anhydro{L-histidyl-2-methylalanyl-L-histidylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-tyrosyl-L-leucyl-L-α-aspartyl-L-α-glutamyl-L-lysyl-L-alanyl-L-alanyl-L-lysyl-L-α-aspartyl-L-phenylalanyl-L-valyl-L-glutaminyl-L-tryptophyl-L-leucyl-L-leucyl-L-α-aspartyl-L-glutaminyl-L-histidyl-L-prolyl-L-seryl-L-serylglycyl-L-glutaminyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide} glucagon, gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, metabolic diseases",
+  "line": 12050,
+  "end": 12091
+ },
+ {
+  "pl": 134,
+  "inn": "sonditecan",
+  "latin": "sonditecanum",
+  "why": [
+   "c:seq"
+  ],
+  "en": "sonditecan        (3RS)-1-[3-({3-[5-{[({[(7S)-7-ethyl-7-hydroxy-8,11-dioxo-7,8,11,13-tetrahydro-2H,10H-[1,3]dioxolo[4,5-g]pyrano[3',4':6,7]indolizino[1,2-b]quinolin-14-yl]methyl}carbamoyl)oxy]methyl}-2-(β-D-glucopyranuronosyloxy)anilino]-3-oxopropyl}amino)-3-oxopropyl]-2,5-dioxopyrrolidin-3-yl",
+  "line": 13650,
+  "end": 16317
+ },
+ {
+  "pl": 135,
+  "inn": "bilpatide",
+  "latin": "bilpatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "bilpatide                 N6.17,N6.20-(2,2′-{[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]azanediyl}diacetyl)(L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methylalanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-lysyl-L-alanyl-L-glutaminyl-L-lysyl-L-alanyl-L-phenylalanyl-L-valyl-L-α-glutamyl-L-tryptophyl-L-leucyl-L-isoleucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide) gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, antidiabetic",
+  "line": 1448,
+  "end": 1489
+ },
+ {
+  "pl": 135,
+  "inn": "birmiglipron",
+  "latin": "birmiglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "birmiglipron               94-cyano-92-fluoro-7-oxa-3(1,2)-[1,3]benzimidazola-6(2,6)-pyridina-5(1,4)-piperidina-1(5)-[1,3]thiazola-9(1)-benzenanonaphane-36-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 1681,
+  "end": 1700
+ },
+ {
+  "pl": 135,
+  "inn": "caroglipron",
+  "latin": "caroglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "caroglipron                         (22R,72S)-14-chloro-12-fluoro-22H-5(2,1)-[1,3]benzimidazola-3(4,1)-piperidina-2(2,8)-[1]benzopyrana-7(2)-oxetana-1(1)-benzenaheptaphane-56-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 1906,
+  "end": 1936
+ },
+ {
+  "pl": 135,
+  "inn": "efaxaglutide alfa",
+  "latin": "efaxaglutide",
+  "why": [
+   "a:kw-en"
+  ],
+  "en": "efaxaglutide alfa       human glucagon-like peptide 1 (GLP-1, Uniprot: P01275) (7-35, 1-29 in the current sequence), variant (A8>G2), fused at its C-terminus to an exendin 4 (Uniprot: P26349) peptide fragment (30-39) connected via peptide linker (G4S)6 (40-69) to a second human glucagon-like peptide 1 (GLP-1, Uniprot: P01275) (7-35, 70-98 in the current sequence), variant (A8>G71) fused to an exendin 4 peptide fragment (99-108) connected via peptide linker (G4S)3 (109-123) to a human immunoglobulin G4 (IgG4) Fc fragment (hinge-CH2-CH3-CHS domains) [Homo sapiens IGHG1*01 (hinge C128>S (124-138)), Homo sapiens IGHG4*01 (CH2 AP138-139>del, E139>S, F140>H, L141>T, G142>Q, G143>P, P144>L, S145>G, T156>Q (139-246), CH3 S260>C, T272>W, M334>L (247-351), CHS (352-353)) (124-353)], (134-59':137-62':260-180')-trisdisulfide with glucagon-like-2 (GLP-2, Uniprot: P01275) peptide (1'-33'), variant (H2'>G, N16'>G, L17'>Q), fused via peptide linker (G4S)3 (34'-48') to a human immunoglobulin G4 (IgG4) Fc fragment (hinge-CH2-CH3-CHS domains) [Homo sapiens IGHG4*01 (hinge C53'>S (49'-63'), CH2 AP63'-64'>del, E64'>S, F65'>H, L66'>T, G67'>Q, G68'>P, P69'>L, S70'>G, T81'>Q (64'-171'), CH3 Y180'>C, T197'>S, L199'>A, Y238'>V, M259'>L (172'-276'), CHS (277'-278')) (49'-278'); produced in Chinese hamster ovary (CHO) cells, ZFN-engineered CHO-K1 GS-/-cell line, glycoform alfa glucagon-like peptide 1 (GLP-1) and glucagon-like peptide 2 (GLP-2) receptor agonist",
+  "line": 3252,
+  "end": 3350
+ },
+ {
+  "pl": 135,
+  "inn": "gimaglipron",
+  "latin": "gimaglipronum",
+  "why": [
+   "a:kw-en",
+   "b:ending"
+  ],
+  "en": "gimaglipron                    (12S)-94-chloro-92-fluoro-7-oxa-3(1,2)-[1,3]benzimidazola-5(1,4)-piperidina-1(2)-oxetana-6(1,2),9(1)-dibenzenanonaphane-36-carboxylic acid glucagon-like peptide 1 (GLP-1) receptor agonist",
+  "line": 5169,
+  "end": 5200
+ },
+ {
+  "pl": 135,
+  "inn": "tapimtrutide",
+  "latin": "tapimtrutidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "tapimtrutide            L-histidyl-2-methylalanyl-L-histidylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-isoleucyl-2-methyl-L-leucyl-L-leucyl-L-α-glutamyl-N6-[(22S)-22,42-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazadotetracontan-1-oyl]-L-lysyl-L-lysyl-L-alanyl-L-alanyl-L-glutaminyl-L-α-glutamyl-L-phenylalanyl-L-valyl-L-glutamyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanylglycylglycyl-L-prolyl-L-seryl-L-serylglycyl-L-alanyl-L-prolyl-L-prolyl-L-prolyl-L-serinamide glucagon, gastric inhibitory polypeptide (GIP) and glucagon-like peptide 1 (GLP-1) receptor agonist, metabolic diseases",
+  "line": 12221,
+  "end": 12273
+ },
+ {
+  "pl": 135,
+  "inn": "zormapatide",
+  "latin": "zormapatidum",
+  "why": [
+   "a:kw-en",
+   "b:ending",
+   "c:seq"
+  ],
+  "en": "zormapatide                     L-tyrosyl-2-methylalanyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-isoleucyl-L-seryl-L-α-aspartyl-L-tyrosyl-L-seryl-L-lysyl-L-alanyl-L-leucyl-L-α-aspartyl-L-lysyl-L-isoleucyl-L-histidyl-L-glutaminyl-L-glutaminyl-L-α-aspartyl-L-phenylalanyl-L-valyl-L-asparaginyl-L-tryptophyl-L-leucyl-L-leucyl-L-alanyl-L-glutaminyl-L-lysylglycyl-L-lysyl-N6-[N-(19-carboxynonadecanoyl)-L-γ-glutamyl-L-lysyl]-L-lysine gastric inhibitory polypeptide (GIP) receptor agonist, antidiabetic",
+  "line": 15065,
+  "end": 15103
+ }
+]
