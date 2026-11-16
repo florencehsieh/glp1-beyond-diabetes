@@ -321,6 +321,60 @@ Type 1 diabetes (Lilly tirzepatide Phase 3s 2025, HbA1c) also qualifies but was 
 close to home base for a "beyond diabetes" story. Not in GBD: sleep apnoea, stress urinary incontinence; MASH is
 far narrower than GBD's fatty-liver cause.
 
+## Review 11: recall gap 2, code-only drugs and new INNs (15–16 Nov 2026)
+
+Called "Review 10" in the commits, `docs/decisions.md` and `docs/so_what.md`; renumbered here because Review 10
+above was already taken.
+
+Which GLP-1 drugs did Review 5 still miss? Drugs registered only under a development code, with no GLP-1 wording
+anywhere in the record (AZD5004, HRS9531, CT-388, amycretin as NNC0487-0111), and new INNs the Phase 1 pattern
+didn't cover (elecoglipron, brenipatide). **No letters**: each pass is reviewed per code or per INN, not per trial.
+A kept name goes into `data/reference/glp1_name_additions.csv` (tagged `(02c)` or `(02d)`) and joins every trial
+that uses it, in any disease.
+
+| Pass | Query · evidence | What it searched | Decisions | Trials |
+|---|---|---|---|---|
+| 02c code search (15 Nov) | `sql/review/02c_code_hits.sql` · `02c_code_hits_decided.csv` | Every code in industry-led obesity, type 2 diabetes and weight trials: first seen 2015 or later, 2+ trials, plus 1-trial codes whose description hints at the class | 226 codes, 303 names | 1,809 → 2,319 |
+| Hand check (16 Nov) | same file | The keeps re-read; the 9 excludes written from memory given a source | CPX101, LY4086940 → unclear; then CPX101 and ZT006 keep with a source, SY-008 exclude (SGLT1). Final: 67 keep, 157 exclude, 2 unclear | 2,319 → 2,315 → 2,319 |
+| 02d WHO INN check (16 Nov) | `sql/review/02d_who_inn_check.sql`, `scripts/02d_who_inn/` · `02d_who_inn_decided.csv`, `02d_who_inn_summary.csv`, `02d_who_inn_missing_detail.csv` | 80 GLP-1-family INNs from WHO Proposed INN Lists 70–135 (70–85 by OCR), matched to AACT on whole words | 6 drugs kept: zenagamtide 6, PB-119 8, efocipegtrutide / HM15211 3, PG-102 3, HD1916 1, VX-201 1 | 2,319 → 2,341 |
+| 02d code leads (16 Nov) | `02d_who_inn_decided.csv` | Codes in the experimental arm of trials where the GLP-1 is only the comparator | 7 kept: LY3493269 5, MK-8521 3, IBI3042 3, pegapamodutide 2, NNC0090-2746 1, ASC35 1, HEC14028 1; NNC0721-8060 unclear | 2,341 → 2,357 |
+| INN safety net (16 Nov) | `glp1_name_additions.csv` | GLP-1 agonist INNs not yet on the list as a name | 34 names (8 for drugs already kept under a code, 26 with no AACT trial yet) | 0 change |
+
+Why 02d: 02c's recall test ("15 of 15 known code-only GLP-1s found") was built from drugs already known, so it
+couldn't find unknown ones. WHO's lists are a test set we didn't write. The second 02d run was an independent AI
+review; its numbers were re-checked by hand (it undercounted PG-102: 3 trials, not 1).
+
+**Rules set in this review**
+- **Keep needs a source that names the mechanism**: a company release, protocol, paper or WHO entry. A sponsor
+  keyword, an obesity trial or a semaglutide comparator isn't enough. Without one the code stays `unclear` and
+  out of the list; the source URL is in each decided file's `source` column.
+- **The INN is the canonical name** when one exists: amycretin → zenagamtide (11 rows), OPK-88003 and LY2944876 →
+  pegapamodutide. A code with no INN keeps its code. Safety-net INNs for drugs already kept use the existing
+  canonical (bamadutide → sar425899), so no count moves.
+- **Same letters, different drug**: names are matched whole, so `pg102` (NCT00787137, psoriatic arthritis) isn't
+  PG-102, and PAC-14028 isn't HEC14028.
+- **Placebo-only names are never added** ("placebo of hm15211", "pb-119 injection placebo"), so a placebo arm
+  doesn't count as a GLP-1 arm. Blinded labels are kept ("hm15211 or placebo", "cpx101 or placebo 80mg q2w"), as in
+  Review 3 pattern C.
+- **Agonists only**: GLP-1 blockers (avexitide, imapextide) and GIP-only INNs (ganipatide, macupatide,
+  zormapatide) are left out.
+- **No arm link, no trial**: 14 trials name a kept GLP-1 that AACT links to no arm, so the arm rule drops them
+  (rows with `name_is_keep` = t and `in_any_arm` = f in `02d_who_inn_missing_detail.csv`). Kept out, reported as a
+  limitation (`docs/decisions.md`).
+
+Still unclear, mechanism not disclosed (rechecked 16 Nov, with when to look again in each row's clue): LY4086940,
+LY4167586 (`02c_code_hits_decided.csv`), NNC0721-8060 (`02d_who_inn_decided.csv`).
+
+Limits: about 380 1-trial codes outside 02c's scope weren't reviewed; a GLP-1 with a code but no INN yet, first
+tested outside obesity and diabetes, can still be missed (efocipegtrutide was, because it started in MASH); 02c's
+other-class filter drops a GLP-1 whose trials also name insulin (GZR18, found by rerunning with the filter
+flipped and added by hand).
+
+Result: 1,809 → **2,357** trials. Watchlist 10 → 7: smoking cessation, antipsychotic-induced weight gain and opioid
+use disorder each gained an industry-led trial of Lilly's brenipatide (LY3537031, GIP/GLP-1), which the old list
+missed (`docs/so_what.md`). PCOS is still the only white space. After 02d only Home base (1,832 → 1,866) and MASLD
+(65 → 67) moved.
+
 ## Merge and split log (Phase 3)
 
 Every indication that joins or splits MeSH terms or trials. The plan's rule: write down every merge.
