@@ -1,0 +1,416 @@
+inn,nct_id,study_type,overall_status,src,lname,name_is_keep,name_decision,in_exp_arm,trial_has_exp,in_any_arm,title
+albiglutide,NCT00518115,INTERVENTIONAL,COMPLETED,name,albiglutide (gsk716155) or exenatide,t,keep,f,f,f,Out-Patient Study in Patients With Type 2 Diabetes Mellitus Who Are Taking no Diabetes Med
+albiglutide,NCT02229240,INTERVENTIONAL,WITHDRAWN,name,albiglutide,t,keep,t,t,t,Albiglutide Versus Placebo Added-on to Basal-Bolus Insulin Therapy in Subjects With Type 2
+albiglutide,NCT02229240,INTERVENTIONAL,WITHDRAWN,name,matching albiglutide placebo,t,exclude,f,t,t,Albiglutide Versus Placebo Added-on to Basal-Bolus Insulin Therapy in Subjects With Type 2
+albiglutide,NCT03015519,INTERVENTIONAL,WITHDRAWN,name,albiglutide,t,keep,t,t,t,"A Study to Evaluate Pharmacokinetics, Safety and Efficacy of Albiglutide in Pediatric Subj"
+albiglutide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,albiglutide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+apraglutide,NCT04627025,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,Trial to Evaluate Efficacy and Safety of Apraglutide in SBS-IF
+apraglutide,NCT04699032,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,Study of Pharmacokinetics and Safety of Apraglutide in Participants With Normal and Impair
+apraglutide,NCT04964986,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,"Metabolic Balance Study of Apraglutide in Patients With Short Bowel Syndrome, Intestinal F"
+apraglutide,NCT05018286,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,apraglutide,t,exclude,t,t,t,Open-label Extension Trial to Evaluate the Long-term Safety of Apraglutide in Short Bowel 
+apraglutide,NCT05415410,INTERVENTIONAL,TERMINATED,name,apraglutide,t,exclude,t,t,t,Proof-of-concept Trial of Apraglutide in Acute Graft Versus Host Disease (aGVHD)
+apraglutide,NCT05706623,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,A Phase 1 Open-Label Evaluation of the Pharmacokinetics and Safety of a Single Dose of Apr
+apraglutide,NCT05995704,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,Evaluation of Apraglutide on Gastric Emptying
+apraglutide,NCT06002555,INTERVENTIONAL,COMPLETED,name,apraglutide,t,exclude,t,t,t,Relative Bioavailability of a New Presentation of Apraglutide Versus the Reference Formula
+apraglutide,NCT07742735,INTERVENTIONAL,RECRUITING,name,apraglutide,t,exclude,t,t,t,A Study to Investigate the Efficacy and Safety of Apraglutide Compared With Placebo in Adu
+avexitide,NCT02771574,INTERVENTIONAL,COMPLETED,name,lyo avexitide,f,,t,t,t,"Efficacy, Tolerability and Pharmacokinetics of Subcutaneous Exendin (9-39) in Patients Wit"
+avexitide,NCT02771574,INTERVENTIONAL,COMPLETED,name,liq avexitide,f,,t,t,t,"Efficacy, Tolerability and Pharmacokinetics of Subcutaneous Exendin (9-39) in Patients Wit"
+avexitide,NCT03373435,INTERVENTIONAL,COMPLETED,other_name,avexitide,f,,t,t,t,Safety and Efficacy of Exendin 9-39 in Patients With Postbariatric Hypoglycemia
+avexitide,NCT04652479,INTERVENTIONAL,COMPLETED,name,avexitide,f,,t,t,t,Avexitide Safety and Efficacy to Treat Acquired Hyperinsulinemic Hypoglycemia
+avexitide,NCT06747468,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,avexitide,f,,t,t,t,Avexitide for Treatment of Post-Bariatric Hypoglycemia
+avexitide,NCT07582874,EXPANDED_ACCESS,AVAILABLE,name,avexitide,f,,f,f,f,An Expanded Access Protocol to Provide Avexitide in Patients With Post-Bariatric Hypoglyce
+dasiglucagon,NCT02916251,INTERVENTIONAL,COMPLETED,other_name,dasiglucagon,f,,t,t,t,ZP4207(Dasiglucagon) Administered to T1D Patients to Assess the PK and PD Compared to Mark
+dasiglucagon,NCT02916251,INTERVENTIONAL,COMPLETED,name,zp4207(dasiglucagon) glucagon analogue,f,,t,t,t,ZP4207(Dasiglucagon) Administered to T1D Patients to Assess the PK and PD Compared to Mark
+dasiglucagon,NCT02971228,INTERVENTIONAL,COMPLETED,other_name,dasiglucagon,f,,t,t,t,Feasibility Trial Testing the Bionic Pancreas With ZP4207
+dasiglucagon,NCT02971228,INTERVENTIONAL,COMPLETED,name,zp4207 (dasiglucagon),f,,t,t,t,Feasibility Trial Testing the Bionic Pancreas With ZP4207
+dasiglucagon,NCT03216226,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,A Trial to Evaluate the Immunogenicity of Dasiglucagon and GlucaGen in Patients With Type 
+dasiglucagon,NCT03378635,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,A Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemi
+dasiglucagon,NCT03378635,INTERVENTIONAL,COMPLETED,other_name,placebo for dasiglucagon,f,,f,t,t,A Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemi
+dasiglucagon,NCT03667053,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemia 
+dasiglucagon,NCT03667053,INTERVENTIONAL,COMPLETED,other_name,placebo for dasiglucagon,f,,f,t,t,Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemia 
+dasiglucagon,NCT03688711,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Trial to Confirm the Clinical Efficacy and Safety of Dasiglucagon in the Treatment of Hypo
+dasiglucagon,NCT03688711,INTERVENTIONAL,COMPLETED,other_name,placebo for dasiglucagon,f,,f,t,t,Trial to Confirm the Clinical Efficacy and Safety of Dasiglucagon in the Treatment of Hypo
+dasiglucagon,NCT03735225,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,"Evaluation of the Safety, Tolerability and Bioavailability of Dasiglucagon Following Subcu"
+dasiglucagon,NCT03735225,INTERVENTIONAL,COMPLETED,other_name,placebo for dasiglucagon,f,,f,t,t,"Evaluation of the Safety, Tolerability and Bioavailability of Dasiglucagon Following Subcu"
+dasiglucagon,NCT03777176,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,A Two-Period Open-label Trial Evaluating Efficacy and Safety of Dasiglucagon in Children W
+dasiglucagon,NCT03840278,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,The Bihormonal iLet Bionic Pancreas Feasibility Study
+dasiglucagon,NCT03895697,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,A Trial to Compare the Efficacy and Safety of 2 Different Batches of Subcutaneous Dasigluc
+dasiglucagon,NCT03941236,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Extension Trial Evaluating the Long-term Safety and Efficacy of Dasiglucagon in Children W
+dasiglucagon,NCT03984370,INTERVENTIONAL,COMPLETED,other_name,dasiglucagon,f,,t,t,t,Dasiglucagon in the Treatment of Postprandial Hypoglycaemia After Roux-en-Y Gastric Bypass
+dasiglucagon,NCT04172441,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Trial Evaluating Efficacy and Safety of Dasiglucagon in Children With Congenital Hyperinsu
+dasiglucagon,NCT04192019,INTERVENTIONAL,WITHDRAWN,other_name,dasiglucagon,f,,t,t,t,Micro Glucagon During Exercise in Type 1 Diabetes
+dasiglucagon,NCT04192019,INTERVENTIONAL,WITHDRAWN,other_name,dasiglucagon,f,,t,t,t,Micro Glucagon During Exercise in Type 1 Diabetes
+dasiglucagon,NCT04449692,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Low-dose Dasiglucagon for Prevention of Insulin-Induced Hypoglycemia in People With Type 1
+dasiglucagon,NCT04764968,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Pen-Administered Low-Dose Dasiglucagon for Prevention and Treatment of Hypoglycemia in Peo
+dasiglucagon,NCT04824872,INTERVENTIONAL,WITHDRAWN,name,dasiglucagon,f,,t,t,t,Efficacy and Safety of Dasiglucagon for Treatment of Post-bariatric Hypoglycemia in Roux-e
+dasiglucagon,NCT04824872,INTERVENTIONAL,WITHDRAWN,name,dasiglucagon,f,,t,t,t,Efficacy and Safety of Dasiglucagon for Treatment of Post-bariatric Hypoglycemia in Roux-e
+dasiglucagon,NCT04836273,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Treatment of Post-bariatric Hypoglycaemia
+dasiglucagon,NCT05378672,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,"A Study to Inv. Safety, Efficacy & PD of Dasiglucagon as Hypoglycemia Rescue Therapy in Ch"
+dasiglucagon,NCT05454709,INTERVENTIONAL,WITHDRAWN,name,dasiglucagon,f,,t,t,t,A Stable Glucagon Analog Administered by a Bihormonal Closed Loop System
+dasiglucagon,NCT06588504,INTERVENTIONAL,COMPLETED,name,dasiglucagon,f,,t,t,t,Research Study in Japan to Compare Dasiglucagon With Glucagon in Treating Very Low Levels 
+dulaglutide,NCT04374578,OBSERVATIONAL,COMPLETED,name,dulaglutide 1.5 mg/ml,t,keep,f,f,f,Effect of Dulaglutide on Glycemic Variability in Patients With Type 2 Diabetes
+dulaglutide,NCT04515576,INTERVENTIONAL,COMPLETED,name,dulaglutide,t,keep,f,t,t,A Study of LY3493269 in Participants With Type 2 Diabetes
+dulaglutide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,dulaglutide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+dulaglutide,NCT05459285,INTERVENTIONAL,COMPLETED,name,dulaglutide injection,t,keep,f,t,t,A Pharmacokinetic Study Comparing the 14028 Injection and TRULICITY® in Healthy Chinese Su
+dulaglutide,NCT05946148,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Novel Antidiabetic Medications and Their Effect on Liver Steatosis (NAMELS-18)
+dulaglutide,NCT06779929,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Comparative Study of Tirzepatide Versus Dulaglutide (SURPASS CVOT) or Semaglutide on Major
+dulaglutide,NCT07088718,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Prediction of the SURPASS-CVOT Cardiovascular Outcome Trial in Healthcare Claims Data
+dulaglutide,NCT07096063,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide and Semaglutide in Individuals at Cardiovascular 
+dulaglutide,NCT07309094,OBSERVATIONAL,RECRUITING,other_name,dulaglutide,t,keep,f,f,t,"Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of "
+dulaglutide,NCT07417618,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without 
+dulaglutide,NCT07417631,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Emulation of the REWIND Cardiovascular Outcomes Trial in Healthcare Claims Data.
+dulaglutide,NCT07619495,OBSERVATIONAL,COMPLETED,name,dulaglutide,t,keep,f,f,t,Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk
+efocipegtrutide,NCT04505436,INTERVENTIONAL,COMPLETED,other_name,efocipegtrutide,f,,t,t,t,Efocipegtrutide (HM15211) in Adults With Biopsy-Confirmed Nonalcoholic Steatohepatitis (NA
+elsiglutide,NCT01543451,INTERVENTIONAL,COMPLETED,name,elsiglutide,t,exclude,t,t,t,Proof-of-Concept Study in Cancer Patients to Assess Efficacy of Elsiglutide in Preventing 
+elsiglutide,NCT02383810,INTERVENTIONAL,COMPLETED,name,elsiglutide,t,exclude,f,f,t,Dose Finding Study in Colorectal Cancer Patients Receiving 5-FU-based Chemotherapy to Asse
+exenatide,NCT00259896,INTERVENTIONAL,COMPLETED,name,exenatide,t,keep,f,f,f,In-patient Study in Patients With Type 2 Diabetes Mellitus
+exenatide,NCT00313001,INTERVENTIONAL,COMPLETED,name,exenatide,t,keep,f,f,f,Effects of Biphasic Insulin Aspart 70/30 vs. Exenatide in Type 2 Diabetes Patients Not Rea
+exenatide,NCT00344851,INTERVENTIONAL,COMPLETED,name,"metformin, exenatide or combined (metformin & exenatide )",t,keep,f,f,f,Exenatide and Metformin Therapy in Overweight Women With PCOS
+exenatide,NCT00518115,INTERVENTIONAL,COMPLETED,name,albiglutide (gsk716155) or exenatide,t,keep,f,f,f,Out-Patient Study in Patients With Type 2 Diabetes Mellitus Who Are Taking no Diabetes Med
+exenatide,NCT00572689,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,Pilot Study of Exenatide Pharmacokinetics and Pharmacodynamics in Gestational Diabetes
+exenatide,NCT00635492,OBSERVATIONAL,COMPLETED,name,exenatide,t,keep,f,f,t,CHOICE: CHanges to Treatment and Outcomes in Patients With Type 2 Diabetes Initiating Inje
+exenatide,NCT00845559,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,The Effects of Exenatide on Post-Meal Sugar Peaks and Vascular Health in Obese/Pre-Diabeti
+exenatide,NCT00948168,INTERVENTIONAL,COMPLETED,name,exenatide (byetta),t,keep,f,f,f,Effect of Exenatide on Glucose Homeostasis Determinants in Type 2 Diabetes
+exenatide,NCT01060059,OBSERVATIONAL,COMPLETED,name,exenatide,t,keep,f,f,t,Exenatide and Basal Insulins Use in the Real Setting: an Observational Study in Patients W
+exenatide,NCT01077323,OBSERVATIONAL,COMPLETED,name,exenatide,t,keep,f,f,t,A Retrospective Cohort Study of Acute Pancreatitis in Relation to Use of Exenatide and Oth
+exenatide,NCT01302327,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,GLP Analogs for Diabetes in Wolfram Syndrome Patients
+exenatide,NCT01416649,OBSERVATIONAL,COMPLETED,name,exenatide,t,keep,f,f,f,Impact of Exenatide on Sleep Duration
+exenatide,NCT01416649,OBSERVATIONAL,COMPLETED,other_name,the brand name of exenatide is byetta.,t,keep,f,f,f,Impact of Exenatide on Sleep Duration
+exenatide,NCT01573806,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,f,f,t,Pharmacology of Exenatide in Pediatric Sepsis
+exenatide,NCT01573806,INTERVENTIONAL,WITHDRAWN,name,exenatide vehicle,t,exclude,f,f,t,Pharmacology of Exenatide in Pediatric Sepsis
+exenatide,NCT01575301,INTERVENTIONAL,COMPLETED,name,"exenatide, liraglutide",t,keep,f,f,f,DIabetes REsearCh on Patient sTratification (DIRECT): GLP-1R Agonists
+exenatide,NCT01664624,INTERVENTIONAL,COMPLETED,name,exenatide,t,keep,f,t,t,Roflumilast Plus Alogliptin Proof-of-Mechanism Study in Type2 Diabetes
+exenatide,NCT01818648,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,Exenatide on GI Motor Function and Permeability in Short Bowel Syndrome
+exenatide,NCT02090673,OBSERVATIONAL,COMPLETED,name,exenatide,t,keep,f,f,t,Post-Marketing Surveillance Study: 12 To 24 Weeks Study On The Treatment Emergent Adverse 
+exenatide,NCT02150707,OBSERVATIONAL,COMPLETED,other_name,exenatide,t,keep,f,f,t,The Differential Effects of Diabetes Therapy on Inflammation
+exenatide,NCT02456428,OBSERVATIONAL,COMPLETED,other_name,exenatide,t,keep,f,f,t,Incretin-based Drugs and the Risk of Heart Failure
+exenatide,NCT02475499,OBSERVATIONAL,COMPLETED,other_name,exenatide,t,keep,f,f,t,Incretin-based Drugs and Pancreatic Cancer
+exenatide,NCT02476760,OBSERVATIONAL,COMPLETED,other_name,exenatide,t,keep,f,f,t,Incretin-based Drugs and Acute Pancreatitis
+exenatide,NCT02586831,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,Diabetes Islet Preservation Immune Treatment
+exenatide,NCT02586831,INTERVENTIONAL,WITHDRAWN,name,exenatide placebo,t,exclude,f,t,t,Diabetes Islet Preservation Immune Treatment
+exenatide,NCT02811484,INTERVENTIONAL,WITHDRAWN,name,exenatide-lar plus dapagliflozin placebo,t,keep,f,t,t,"Efficacy of Exenatide-LAR and Dapagliflozin in Overweight/Obese, Insulin Treated Patients "
+exenatide,NCT02811484,INTERVENTIONAL,WITHDRAWN,name,exenatide-lar plus dapagliflozin,t,keep,t,t,t,"Efficacy of Exenatide-LAR and Dapagliflozin in Overweight/Obese, Insulin Treated Patients "
+exenatide,NCT02917057,OBSERVATIONAL,COMPLETED,name,exenatide once weekly,t,keep,f,f,t,Subanalyses of Elderly Type 2 Diabetes Patients or Type 2 Diabetes Patients With Renal Imp
+exenatide,NCT02974244,OBSERVATIONAL,COMPLETED,name,exenatide once weekly,t,keep,f,f,t,Comparison of the Effectiveness and Tolerability of Exenatide Once-weekly Compared to Basa
+exenatide,NCT02987348,OBSERVATIONAL,COMPLETED,name,exenatide once weekly,t,keep,f,f,t,Clinical Outcomes of Exenatide Versus Basal Insulin
+exenatide,NCT02987348,OBSERVATIONAL,COMPLETED,name,exenatide twice daily,t,keep,f,f,t,Clinical Outcomes of Exenatide Versus Basal Insulin
+exenatide,NCT03059719,INTERVENTIONAL,COMPLETED,name,exenatide injection(byetta),t,keep,f,t,t,Clinical Trial for PB-119 in Subjects With Type 2 Diabetes Mellitus
+exenatide,NCT03167411,INTERVENTIONAL,COMPLETED,name,exenatide injection,t,keep,f,t,t,Bexagliflozin Drug/Drug Interaction Study With Exenatide Injection
+exenatide,NCT04001231,INTERVENTIONAL,WITHDRAWN,name,exenatide once-weekly suspension,t,keep,t,t,t,Study of Exenatide Once-Weekly Suspension in Chinese Patients With Type 2 Diabetes Mellitu
+exenatide,NCT04303819,OBSERVATIONAL,COMPLETED,other_name,exenatide,t,keep,f,f,t,The Effect of Exenatide on Fasting Bile Acids
+exenatide,NCT04303819,OBSERVATIONAL,COMPLETED,name,exenatide treatment,t,keep,f,f,t,The Effect of Exenatide on Fasting Bile Acids
+exenatide,NCT04307797,INTERVENTIONAL,COMPLETED,name,exenatide (50ng/min for 30 minutes loading followed by 25ng/min maintenance) and glucagon 12.5ng/kg/min,t,keep,f,f,f,Effect of Glucagon and Glucagon-like Peptide-1 Co-agonism on Cardiac Function and Metaboli
+exenatide,NCT04307797,INTERVENTIONAL,COMPLETED,name,exenatide (50ng/min for 30 minutes loading followed by 25ng/min maintenance) and glucagon 12.5ng/kg/min,t,keep,f,f,f,Effect of Glucagon and Glucagon-like Peptide-1 Co-agonism on Cardiac Function and Metaboli
+exenatide,NCT05073692,OBSERVATIONAL,COMPLETED,name,exenatide (glp-1ra),t,keep,f,f,f,Comparison of Type 2 Diabetes Pharmacotherapy Regimens
+exenatide,NCT05073692,OBSERVATIONAL,COMPLETED,name,exenatide (glp-1ra) or liraglutide (glp-1ra),t,keep,f,f,f,Comparison of Type 2 Diabetes Pharmacotherapy Regimens
+exenatide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,exenatide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+exenatide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,exenatide microspheres,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+exenatide,NCT05663515,OBSERVATIONAL,RECRUITING,name,exenatide,t,keep,f,f,t,A Pan-European Post-Authorisation Safety Study: Risk of Pancreatic Cancer Among Type 2 Dia
+exenatide,NCT06252623,INTERVENTIONAL,WITHDRAWN,name,exenatide,t,keep,t,t,t,Exenatide For Reducing the Reinforcing Effects of Cocaine
+exenatide,NCT07309094,OBSERVATIONAL,RECRUITING,other_name,exenatide,t,keep,f,f,t,"Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of "
+glepaglutide,NCT03279302,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,Trial to Evaluate the PK Profile of Glepaglutide (ZP1848) After a Single IV and After Mult
+glepaglutide,NCT03690206,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,Efficacy And Safety Evaluation of Glepaglutide in Treatment of Short Bowel Syndrome (SBS)
+glepaglutide,NCT03905707,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,Evaluation of Long Term Safety and Efficacy of Glepaglutide in Treatment of SBS
+glepaglutide,NCT04178447,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,Pharmacokinetic Profile of Glepaglutide After a Single Injection in Subjects With Varying 
+glepaglutide,NCT04318743,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,A Bridging Trial to Compare the PK Profile When Glepaglutide is Administered Via Vial/Syri
+glepaglutide,NCT04881825,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,Evaluation of Long Term Safety and Efficacy of Glepaglutide in Treatment of SBS - Extensio
+glepaglutide,NCT04991311,INTERVENTIONAL,COMPLETED,name,glepaglutide,t,exclude,t,t,t,The Long-term Effect on Intestinal Absorption and Safety of Treatment With Glepaglutide in
+glepaglutide,NCT07197944,INTERVENTIONAL,RECRUITING,name,glepaglutide,t,exclude,t,t,t,Efficacy And Safety Evaluation of Glepaglutide in Treatment of SBS
+glepaglutide,NCT07228403,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,glepaglutide 10 mg,t,exclude,t,t,t,Efficacy and Safety Evaluation of Glepaglutide in Treatment of Short Bowel Syndrome
+imapextide,NCT07029412,INTERVENTIONAL,COMPLETED,name,mbx 1416 (inn imapextide),f,,t,t,t,Study to Evaluate Efficacy and Dose Response of Imapextide (STEADI)
+liraglutide,NCT00154401,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Effect of Liraglutide on Blood Glucose Control in Subjects With Type 2 Diabetes
+liraglutide,NCT00154414,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Effect of Liraglutide on Blood Glucose Control in Japanese Subjects With Type 2 Diabetes
+liraglutide,NCT00318422,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Effect of Liraglutide on Blood Glucose Control in Subjects With Type 2 Diabetes
+liraglutide,NCT00331851,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Effect of Liraglutide on Blood Glucose Control in Subjects With Type 2 Diabetes
+liraglutide,NCT00333151,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Effect of Liraglutide on Blood Glucose Control in Subjects With Type 2 Diabetes
+liraglutide,NCT01117350,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,t,t,Efficacy Assessment of Insulin Glargine Versus LiraglutidE After Oral Agents Failure
+liraglutide,NCT01212133,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,A Post Marketing Surveillance (PMS) Study of Liraglutide in Subjects With Type 2 Diabetes 
+liraglutide,NCT01226966,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Observational Study on Efficacy and Safety of Liraglutide in Subjects With Type 2 Diabetes
+liraglutide,NCT01288326,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Observational Study on Effectiveness and Safety of Liraglutide in Subjects With Type 2 Dia
+liraglutide,NCT01296412,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,t,t,Comparison of Two Treatment Regimens (Sitagliptin Versus Liraglutide) on Participants Who 
+liraglutide,NCT01299012,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,f,Liraglutide as Additional Treatment in Patients With Type 1 Diabetes Mellitus
+liraglutide,NCT01345734,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Non-Interventional Study on Safety of Liraglutide in Subjects With Type 2 Diabetes
+liraglutide,NCT01403025,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Evaluating the Safety and Effectiveness of Liraglutide in Subjects With Type 2 Diabetes
+liraglutide,NCT01484262,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Liraglutide or Insulin in Real Life Usage in Patients With Diabetes Mellitus Type 2
+liraglutide,NCT01575301,INTERVENTIONAL,COMPLETED,name,"exenatide, liraglutide",t,keep,f,f,f,DIabetes REsearCh on Patient sTratification (DIRECT): GLP-1R Agonists
+liraglutide,NCT01593137,INTERVENTIONAL,WITHDRAWN,name,liraglutide + metformin,t,keep,t,t,t,A Long-term Trial to Compare the Effects of Liraglutide and Sulphonylurea (Glimepiride) Bo
+liraglutide,NCT01722227,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,f,f,t,Anti-diabetic Effects of Liraglutide in Adolescents and Young Subjects With Type 1 Diabete
+liraglutide,NCT01821846,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Investigating the Safety Profile of Liraglutide Under Normal Conditions of Use in Korean S
+liraglutide,NCT01890993,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Retrospective Collection of Effectiveness and Safety Data From Patients Treated With Lirag
+liraglutide,NCT01982630,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,t,t,Study of the Safety and Efficacy of MK-8521 Compared to Placebo and a Diabetes Drug in Par
+liraglutide,NCT02077946,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,A Retrospective Database Assessment of Clinical Effectiveness in Type 2 Diabetes Patients 
+liraglutide,NCT02109315,INTERVENTIONAL,WITHDRAWN,name,liraglutide 6 mg,t,keep,t,t,t,"Vitamin C and Liraglutide Effects on Hypoglycemia-induced Oxidative Stress, Inflammation a"
+liraglutide,NCT02150707,OBSERVATIONAL,COMPLETED,other_name,liraglutide,t,keep,f,f,t,The Differential Effects of Diabetes Therapy on Inflammation
+liraglutide,NCT02198209,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,f,f,t,Liraglutide Actions on the Liver: Effects on Glucose Phosphorylation
+liraglutide,NCT02205528,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,t,t,A Study of Once-Daily NNC0090-2746 in Participants With Type 2 Diabetes Inadequately Contr
+liraglutide,NCT02255266,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Long-Term Effectiveness of Liraglutide for Treatment of Type 2 Diabetes in Daily Practice
+liraglutide,NCT02284230,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,f,f,t,The Effect of Liraglutide in Patients With Prediabetes and Kidney Failure
+liraglutide,NCT02321878,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Post-marketing Surveillance (Special Use-results Surveillance) on Use With Liraglutide (Vi
+liraglutide,NCT02456428,OBSERVATIONAL,COMPLETED,other_name,liraglutide,t,keep,f,f,t,Incretin-based Drugs and the Risk of Heart Failure
+liraglutide,NCT02472717,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,t,t,t,Psoriatic Arthritis Treated With Liraglutide Therapy: a QUality of Life and Efficacy Study
+liraglutide,NCT02475499,OBSERVATIONAL,COMPLETED,other_name,liraglutide,t,keep,f,f,t,Incretin-based Drugs and Pancreatic Cancer
+liraglutide,NCT02476760,OBSERVATIONAL,COMPLETED,other_name,liraglutide,t,keep,f,f,t,Incretin-based Drugs and Acute Pancreatitis
+liraglutide,NCT02492763,INTERVENTIONAL,TERMINATED,name,liraglutide,t,keep,f,t,t,A Preliminary Study of the Efficacy and Safety of MK-8521 for Type 2 Diabetes (MK-8521-004
+liraglutide,NCT02654665,INTERVENTIONAL,UNKNOWN,name,liraglutide,t,keep,f,t,t,"Comparing Effects of Liraglutide and Bariatric Surgery on Weight Loss, Liver Function, Bod"
+liraglutide,NCT02754817,OBSERVATIONAL,COMPLETED,name,insulin degludec/liraglutide,t,keep,f,f,t,A Study of the Effectiveness of Xultophy® (Insulin Degludec/Liraglutide) in an Adult Real-
+liraglutide,NCT02773355,OBSERVATIONAL,COMPLETED,name,liraglutide 3.0 mg,t,keep,f,f,t,Timely Detection of Treatment Emergent Serious and Non-serious Adverse Events for Saxenda®
+liraglutide,NCT02920190,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,t,t,t,Antigen-Lipid-Driven Monoclonal Gammopathies Targeting Epicardial Fat
+liraglutide,NCT02967757,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,In-market Utilisation of Liraglutide Used for Weight Management in Europe
+liraglutide,NCT03070704,OBSERVATIONAL,WITHDRAWN,name,insulin degludec/liraglutide,t,keep,f,f,t,"Non-interventional, Post Marketing Surveillance Study of Xultophy™ (Insulin Degludec/Lirag"
+liraglutide,NCT03115099,INTERVENTIONAL,COMPLETED,name,liraglutide,t,keep,f,t,t,A Study of LY3325656 in Healthy Participants and Participants With Type 2 Diabetes
+liraglutide,NCT03371862,INTERVENTIONAL,WITHDRAWN,name,liraglutide pen injector [victoza],t,keep,t,t,t,Liraglutide on Decreasing Parenteral Support in Short Bowel Patients (SLIPS)
+liraglutide,NCT03479762,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,In Market Utilisation of Liraglutide Used for Weight Management in the UK: a Study in the 
+liraglutide,NCT03560336,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,A Regulatory Post-marketing Surveillance (rPMS) Study to Evaluate the Safety and Effective
+liraglutide,NCT03823339,OBSERVATIONAL,COMPLETED,name,insulin degludec/liraglutide,t,keep,f,f,t,"A Research Study, Looking at How Xultophy® Works in People With Type 2 Diabetes in Local C"
+liraglutide,NCT03856047,INTERVENTIONAL,COMPLETED,name,liraglutide 3.0 mg,t,keep,f,t,t,Research Study Investigating How Well NNC0174-0833 Works in People Suffering From Overweig
+liraglutide,NCT03856047,INTERVENTIONAL,COMPLETED,name,placebo (liraglutide 3.0 mg),t,exclude,f,t,t,Research Study Investigating How Well NNC0174-0833 Works in People Suffering From Overweig
+liraglutide,NCT03888157,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,"A Research Study Looking at How Victoza® Works in People With Type 2 Diabetes in Iran, Fol"
+liraglutide,NCT03936049,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Replication of the LEADER Diabetes Trial in Healthcare Claims
+liraglutide,NCT03993132,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,A Study Using Medical Records of Danish People With Type 2 Diabetes Comparing Empagliflozi
+liraglutide,NCT04057261,INTERVENTIONAL,WITHDRAWN,name,liraglutide pen injector [victoza],t,keep,f,f,t,Effect of Liraglutide on the Metabolic Profile in Patients With Type 2 Diabetes and Cardio
+liraglutide,NCT04417582,OBSERVATIONAL,UNKNOWN,other_name,"antiobesity drugs ,liraglutide or orlistat",t,keep,f,f,t,Life Style Modification Medical and Surgical Management in Patients With Obesity
+liraglutide,NCT04643301,INTERVENTIONAL,WITHDRAWN,name,liraglutide pen injector,t,keep,t,t,t,Liraglutide for Low-responders After Bariatric Surgery
+liraglutide,NCT04666987,OBSERVATIONAL,COMPLETED,name,insulin degludec and liraglutide (ideglira),t,keep,f,f,t,A Research Study Looking at Long-term Blood Sugar Control in People With Type 2 Diabetes B
+liraglutide,NCT04683237,INTERVENTIONAL,WITHDRAWN,name,liraglutide injection,t,keep,t,t,t,Liraglutide Plus Megestrol Acetate in Endometrial Atypical Hyperplasia
+liraglutide,NCT04839237,INTERVENTIONAL,WITHDRAWN,name,liraglutide,t,keep,t,t,t,The Effect and the Pharmacogenomics Study of Liraglutide in Obese Patients
+liraglutide,NCT04839237,INTERVENTIONAL,WITHDRAWN,name,liraglutide;metformin,t,keep,t,t,t,The Effect and the Pharmacogenomics Study of Liraglutide in Obese Patients
+liraglutide,NCT04952779,OBSERVATIONAL,COMPLETED,other_name,insulin degludec/liraglutide,t,keep,f,f,t,Regulatory Post Marketing Surveillance (rPMS) Study of Xultophy® (Insulin Degludec/Liraglu
+liraglutide,NCT04952779,OBSERVATIONAL,COMPLETED,name,xultophy® (insulin degludec/liraglutide),t,keep,f,f,t,Regulatory Post Marketing Surveillance (rPMS) Study of Xultophy® (Insulin Degludec/Liraglu
+liraglutide,NCT05073692,OBSERVATIONAL,COMPLETED,name,liraglutide (glp-1ra),t,keep,f,f,f,Comparison of Type 2 Diabetes Pharmacotherapy Regimens
+liraglutide,NCT05073692,OBSERVATIONAL,COMPLETED,name,exenatide (glp-1ra) or liraglutide (glp-1ra),t,keep,f,f,f,Comparison of Type 2 Diabetes Pharmacotherapy Regimens
+liraglutide,NCT05162183,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Replication of the LEAD-2 Diabetes Trial in Healthcare Claims Data
+liraglutide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,insulin degludec/liraglutide*,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+liraglutide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,liraglutide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+liraglutide,NCT05221229,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,liraglutide plus upstream risk factors modification advice and consultation,t,keep,f,f,t,Outcome of Overweight AF Patients Following Ablation With a Potential Weight Loss Medicati
+liraglutide,NCT05438186,OBSERVATIONAL,WITHDRAWN,name,liraglutide,t,keep,f,f,t,INSPIRE Turkey :A Research Study Looking at the Clinical Parameters Associated With Use an
+liraglutide,NCT05756764,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,liraglutide,t,keep,f,f,t,Anti-obesity Pharmacotherapy and Inflammation
+liraglutide,NCT06099067,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Harmonizing RCT-Duplicate Emulations In A Real World Replication Program (HARRP)
+liraglutide,NCT06283641,OBSERVATIONAL,COMPLETED,name,liraglutide,t,keep,f,f,t,Study to Evaluate the Safety and Effectiveness of Saxenda® for Weight Management in Routin
+liraglutide,NCT07304141,OBSERVATIONAL,COMPLETED,name,liraglutide 3 mg (saxenda),t,keep,f,f,t,Pharmacological Treatment - An Overview of Its Role in Managing Childhood Obesity
+liraglutide,NCT07309094,OBSERVATIONAL,RECRUITING,other_name,liraglutide,t,keep,f,f,t,"Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of "
+liraglutide,NCT07640139,OBSERVATIONAL,ENROLLING_BY_INVITATION,other_name,liraglutide,t,keep,f,f,t,Estimating the Impact of Obesity Medications on Clinical and Economic Outcomes
+lixisenatide,NCT00299871,INTERVENTIONAL,COMPLETED,name,lixisenatide (ave0010),t,keep,f,f,f,Dose Ranging Study of the GLP-1 Agonist AVE0010 in Metformin-Treated Subjects With Type 2 
+lixisenatide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,"insulin glargine, human recombinant analog/lixisenatide*",t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+lixisenatide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,lixisenatide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+macupatide,NCT07215559,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,macupatide,f,,t,t,t,"A Study of Macupatide (LY3532226) and Eloralintide (LY3841136), Alone or in Combination, i"
+macupatide,NCT07215559,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,macupatide placebo,f,,t,t,t,"A Study of Macupatide (LY3532226) and Eloralintide (LY3841136), Alone or in Combination, i"
+macupatide,NCT07589608,INTERVENTIONAL,RECRUITING,name,macupatide,f,,t,t,t,"A Study to Investigate Weight Management With Macupatide and Eloralintide, Alone or in Com"
+macupatide,NCT07765511,INTERVENTIONAL,NOT_YET_RECRUITING,name,macupatide,f,,t,t,t,A Study of Macupatide (LY3532226) in Participants With Obesity or Overweight Without Type 
+orforglipron,NCT07793019,INTERVENTIONAL,RECRUITING,name,orforglipron,t,keep,f,t,t,IBI3042 Study in Healthy Participants and Overweight or Obese Participants
+retatrutide,NCT07629401,EXPANDED_ACCESS,AVAILABLE,name,retatrutide,t,keep,f,f,f,Pre-approval Expanded Access of Retatrutide (LY3437943)
+semaglutide,NCT03457012,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in Canada
+semaglutide,NCT03631186,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in Switze
+semaglutide,NCT03648281,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in Denmar
+semaglutide,NCT03876015,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in United
+semaglutide,NCT03929679,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in The Ne
+semaglutide,NCT04067999,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,"A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in Spain,"
+semaglutide,NCT04083820,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in France
+semaglutide,NCT04094415,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,"A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in Italy,"
+semaglutide,NCT04175665,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,f,Real-world Health Outcomes in Canadian Patients Using Semaglutide
+semaglutide,NCT04261933,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Semaglutide Works in People With Type 2 Diabetes in German
+semaglutide,NCT04287179,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,SUSTAIN SWITCH: A Research Study to Compare Two Dose Schedules of Semaglutide Taken Once W
+semaglutide,NCT04469855,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Post-Marketing Surveillance (Special Use-results Surveillance) on Long-term Use With Ozemp
+semaglutide,NCT04537624,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in S
+semaglutide,NCT04537637,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in D
+semaglutide,NCT04559815,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in C
+semaglutide,NCT04601740,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in T
+semaglutide,NCT04601753,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in S
+semaglutide,NCT04862923,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in t
+semaglutide,NCT04878393,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in J
+semaglutide,NCT04885634,INTERVENTIONAL,WITHDRAWN,name,semaglutide injectable product,t,keep,f,f,t,Semaglutide for the Reduction of Arrhythmia Burden in Overweight AF Patients
+semaglutide,NCT04885634,INTERVENTIONAL,WITHDRAWN,other_name,semaglutide plus lifestyle and cardiovascular risk factor management,t,keep,f,f,t,Semaglutide for the Reduction of Arrhythmia Burden in Overweight AF Patients
+semaglutide,NCT05220917,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,semaglutide,t,keep,f,f,t,Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Typ
+semaglutide,NCT05230589,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in S
+semaglutide,NCT05230615,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in I
+semaglutide,NCT05316662,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in M
+semaglutide,NCT05419726,OBSERVATIONAL,RECRUITING,name,semaglutide injectable product (not provided by the study),t,exclude,f,f,f,Brown Adipose Tissue Activity in Response to Semaglutide Administered to Obese Subjects.
+semaglutide,NCT05443191,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in F
+semaglutide,NCT05443334,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in S
+semaglutide,NCT05443568,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in I
+semaglutide,NCT05444153,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,Research Study to Compare Semaglutide Tablets With Empagliflozin Tablets Taken Once Daily 
+semaglutide,NCT05468632,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Study in North Macedonia Investigating Retrospective Data of Glucagon-like Peptide-1 (GL
+semaglutide,NCT05473286,OBSERVATIONAL,WITHDRAWN,name,oral semaglutide,t,keep,f,f,t,A Research Study Looking at How Oral Semaglutide Works in People With Type 2 Diabetes in G
+semaglutide,NCT05502562,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,A Research Study to Understand How Oral Semaglutide Works in People With Type 2 Diabetes i
+semaglutide,NCT05577728,OBSERVATIONAL,COMPLETED,name,new use of semaglutide injection,t,exclude,f,f,t,Prediction of the SEPRA Diabetes Trial in Healthcare Claims Data
+semaglutide,NCT05577728,OBSERVATIONAL,COMPLETED,name,"new initiation of ""standard of care"" (sgl2i, 2nd generation su, dpp-4i and glp-1 ra except for semaglutide inj or oral)",t,exclude,f,f,t,Prediction of the SEPRA Diabetes Trial in Healthcare Claims Data
+semaglutide,NCT05689372,OBSERVATIONAL,ENROLLING_BY_INVITATION,name,semaglutide,t,keep,f,f,t,Regulatory Post Marketing Surveillance (rPMS) Study of Ozempic (Semaglutide) to Evaluate S
+semaglutide,NCT05714683,OBSERVATIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,f,t,Regulatory Post Marketing Surveillance (rPMS) Study of Rybelsus (Oral Semaglutide) to Eval
+semaglutide,NCT05716724,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,O-SEMA-Fast: A Research Study to Understand How Oral Semaglutide Works in People With Type
+semaglutide,NCT05755360,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,DOORS: A Research Study to Understand How Oral Semaglutide Works in People With Type 2 Dia
+semaglutide,NCT05756764,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,semaglutide,t,keep,f,f,t,Anti-obesity Pharmacotherapy and Inflammation
+semaglutide,NCT05768945,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Data Analysis for Drug Repurposing for Effective Alzheimer's Medicines (DREAM)- Semaglutid
+semaglutide,NCT05829460,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,Primary Prevention and Uterine Preservation in Premenopausal Women With Obesity and Endome
+semaglutide,NCT06083675,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,Research Study to Compare Semaglutide Tablets With Empagliflozin or Metformin Tablets in P
+semaglutide,NCT06118203,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Semaglutide Use in Acute Pulmonary Embolism
+semaglutide,NCT06154486,OBSERVATIONAL,COMPLETED,name,semaglutide use,t,keep,f,f,t,Evaluation of Gastric Content of Volunteers Fasting and Using Semaglutide: an Observationa
+semaglutide,NCT06182618,OBSERVATIONAL,UNKNOWN,name,"dietary, semaglutide or/and metformin",t,keep,f,f,t,Retrospective Analysis for Patients With Metabolic Syndrome
+semaglutide,NCT06222437,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,Semaglutide and Polycystic Ovarian Syndrome: an Emerging Treatment Strategy
+semaglutide,NCT06234111,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,"semaglutide 2.4 mg, total diet replacement, behavioural intervention",t,keep,f,f,t,Semaglutide and Physical Activity for Obesity and Multimorbidity
+semaglutide,NCT06269120,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,SEMA-CardioDiab HUNGARY: A Research Study to Understand the Effects of Oral Semaglutide on
+semaglutide,NCT06283667,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,semaglutide,t,keep,f,f,t,Special Use - Results Surveillance on Long-term Use With Wegovy®
+semaglutide,NCT06301191,OBSERVATIONAL,UNKNOWN,name,"semaglutide, 1.0 mg/ml",t,keep,f,f,t,The Effect of Semaglutide on Cardiovascular Markers and Liver Function
+semaglutide,NCT06351748,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Real-world Study of CHina Ozempic cLinicAl pRactice in Patients With Type 2 Diabetes (SCHO
+semaglutide,NCT06354101,OBSERVATIONAL,WITHDRAWN,name,semaglutide,t,keep,f,f,f,The Purpose of This Registry Study is to Learn More About Metabolic Health: Approximately 
+semaglutide,NCT06410352,INTERVENTIONAL,RECRUITING,other_name,"semaglutide (glp-1ra), empagliflozin (sglt-2i)",t,keep,f,t,t,Effectiveness of Weight Loss Methods on Lifespan for Metabolic Syndrome
+semaglutide,NCT06410352,INTERVENTIONAL,RECRUITING,name,"semaglutide, empagliflozin",t,keep,f,t,t,Effectiveness of Weight Loss Methods on Lifespan for Metabolic Syndrome
+semaglutide,NCT06468748,INTERVENTIONAL,WITHDRAWN,name,semaglutide,t,keep,t,t,t,The Effects of Semaglutide on Body Composition and Performance in Military Personnel
+semaglutide,NCT06478550,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,A Research Study to Understand How People With Type 2 Diabetes Take Ozempic® and if the Oz
+semaglutide,NCT06507475,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Real World Effectiveness of Oral Semaglutide in Thailand Participants With Type 2 Diabetes
+semaglutide,NCT06604624,INTERVENTIONAL,COMPLETED,name,semaglutide,t,keep,f,t,t,Semaglutide in Treatment of Obesity
+semaglutide,NCT06619015,INTERVENTIONAL,WITHDRAWN,name,semaglutide pen injector,t,keep,t,t,t,Tailoring Obesity Treatment Trial
+semaglutide,NCT06659679,OBSERVATIONAL,COMPLETED,name,new use of oral semaglutide,t,exclude,f,f,t,Emulating the PIONEER6 Diabetes Trial Using Healthcare Claims
+semaglutide,NCT06659718,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,Emulation of the SOUL Diabetes Trial in Healthcare Claims
+semaglutide,NCT06659744,OBSERVATIONAL,COMPLETED,name,new use of semaglutide injection,t,exclude,f,f,t,Emulation of the SUSTAIN6 Diabetes Trial Using Healthcare Claims
+semaglutide,NCT06779929,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Comparative Study of Tirzepatide Versus Dulaglutide (SURPASS CVOT) or Semaglutide on Major
+semaglutide,NCT06820047,OBSERVATIONAL,COMPLETED,other_name,semaglutide 2.4 mg,t,keep,f,f,t,Sleeve Gastrectomy vs. Lifestyle & Medications: Impact on BMI Trajectory and Target Attain
+semaglutide,NCT06827002,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,other_name,semaglutide,t,keep,f,t,t,Effect of Aqueous Extracts of Cissus Quadrangularis and Dichrostachys Glomerata on GLP-1 C
+semaglutide,NCT06827002,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,semaglutide (rybelsus®),t,keep,f,t,t,Effect of Aqueous Extracts of Cissus Quadrangularis and Dichrostachys Glomerata on GLP-1 C
+semaglutide,NCT06914102,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Emulation of the STEP-HFpEF DM Heart Failure Trial in Healthcare Claims Data
+semaglutide,NCT06914141,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide Versus Semaglutide in Individuals With Heart Fail
+semaglutide,NCT06975111,INTERVENTIONAL,RECRUITING,name,semaglutide,t,keep,f,t,t,Focusing on the Menopausal Transition to Improve Mid-Life Women's Health
+semaglutide,NCT06980623,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,semaglutide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide vs Semaglutide in Participants With Type 2 Diabet
+semaglutide,NCT06989177,INTERVENTIONAL,RECRUITING,name,semaglutide,t,keep,f,t,t,Probiotic Intervention on Body Weight
+semaglutide,NCT07018544,OBSERVATIONAL,ENROLLING_BY_INVITATION,name,semaglutide,t,keep,f,f,t,"A Multicentre, Prospective, Single-arm, Non-interventional Regulatory Post-marketing Surve"
+semaglutide,NCT07043361,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,"Efficacy of Semaglutide in Glycemic Control, Weight Loss, and Improving Lipidogram- Role o"
+semaglutide,NCT07055607,OBSERVATIONAL,ENROLLING_BY_INVITATION,name,semaglutide,t,keep,f,f,t,"A Two-year Prospective, Observational Study of Wegovy in Real-world Clinical Practice"
+semaglutide,NCT07056803,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,Oral vs. Subcutaneous Semaglutide in Type 2 Diabetes Mellitus
+semaglutide,NCT07056803,OBSERVATIONAL,COMPLETED,name,subcutaneous semaglutide,t,keep,f,f,t,Oral vs. Subcutaneous Semaglutide in Type 2 Diabetes Mellitus
+semaglutide,NCT07081178,OBSERVATIONAL,TERMINATED,name,semaglutide,t,keep,f,f,t,A Non-interventional Study Investigating Semaglutide in Combination With Lifestyle-based M
+semaglutide,NCT07096063,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide and Semaglutide in Individuals at Cardiovascular 
+semaglutide,NCT07115069,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,semaglutide,t,keep,f,f,t,Comparison of Body Composition Changes With Weight Loss Interventions
+semaglutide,NCT07172867,INTERVENTIONAL,WITHDRAWN,name,semaglutide 1 mg,t,keep,t,t,t,"A Ph2 Study to Evaluate the Safety, Efficacy and Tolerability of HT-6184 and Semaglutide i"
+semaglutide,NCT07187856,INTERVENTIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,t,t,Phase 2 Randomized Study of PG-102 vs Placebo and Semaglutide in Type 2 Diabetes Mellitus
+semaglutide,NCT07195994,INTERVENTIONAL,RECRUITING,name,ampk charge+® with semaglutide,t,keep,f,t,t,A Clinical Trial to Examine the Efficacy and Safety of an Investigational Product With and
+semaglutide,NCT07280221,OBSERVATIONAL,ENROLLING_BY_INVITATION,name,semaglutide,t,keep,f,f,t,WEgovy Real World Assessment of Weight Loss in Korea
+semaglutide,NCT07281196,OBSERVATIONAL,COMPLETED,name,semaglutide subcutaneous injection,t,keep,f,f,t,Semaglutide Effects on Sleep Apnea in Patients With Type 2 Diabetes/Obesity and Comorbid O
+semaglutide,NCT07295223,INTERVENTIONAL,RECRUITING,name,semaglutide (rybelsus®),t,keep,f,t,t,Effect of Glp-1 and Antidiabetic sgLT2 Agents for myoCardial infarcTion and Ultrasensitive
+semaglutide,NCT07297589,INTERVENTIONAL,RECRUITING,name,semaglutide (rybelsus®),t,keep,f,t,t,Epicardial Cardiac Fat-CT (EPIC-CT)
+semaglutide,NCT07302802,OBSERVATIONAL,RECRUITING,name,semaglutide (administered by pds290 pen-injector),t,keep,f,f,t,Efficacy of Semaglutide s.c. Once-weekly on Weight Loss and Management in Adolescents With
+semaglutide,NCT07309094,OBSERVATIONAL,RECRUITING,other_name,semaglutide,t,keep,f,f,t,"Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of "
+semaglutide,NCT07323134,OBSERVATIONAL,NOT_YET_RECRUITING,name,semaglutide injection,t,keep,f,f,f,The Effect of Semaglutide on the Intestinal Flora in Obesity
+semaglutide,NCT07390110,OBSERVATIONAL,COMPLETED,name,oral semaglutide,t,keep,f,f,t,Comparative Effectiveness of Oral Semaglutide vs Sitagliptin Among Individuals With Heart 
+semaglutide,NCT07417618,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without 
+semaglutide,NCT07424430,OBSERVATIONAL,COMPLETED,name,semaglutide (sema),t,keep,f,f,t,Real-world Canadian Retrospective Study Evaluating Longitudinal Semaglutide Use on Cardio-
+semaglutide,NCT07457424,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,semaglutide 1 mg weekly injection,t,keep,f,f,t,Direct Measurement of Microstructure of Ingestive Behaviour After Initiation of GLP-1 Rece
+semaglutide,NCT07554417,INTERVENTIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,t,t,Combatting Muscle Loss in Obese Adult Patients on GLP-1 Medications Through Dietary Counse
+semaglutide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,other_name,noom standard dose semaglutide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+semaglutide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+semaglutide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,name,microdose semaglutide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+semaglutide,NCT07597018,INTERVENTIONAL,RECRUITING,name,cagrilintide b and placebo semaglutide i,t,exclude,t,t,t,A Research Study to Compare Blood Levels of Cagrilintide After Multiple Doses of Different
+semaglutide,NCT07619495,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk
+semaglutide,NCT07619508,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Tirzepatide vs Semaglutide in Individuals at Cardiovascular Risk But Without Diabetes.
+semaglutide,NCT07621419,OBSERVATIONAL,RECRUITING,name,semaglutide,t,keep,f,f,t,Study of Adult Patients Residing in Argentina Diagnosed With Type 2 Diabetes Treated With 
+semaglutide,NCT07627074,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Weight Loss in Adults Using Semaglutide (Real-world Study)
+semaglutide,NCT07640139,OBSERVATIONAL,ENROLLING_BY_INVITATION,other_name,semaglutide,t,keep,f,f,t,Estimating the Impact of Obesity Medications on Clinical and Economic Outcomes
+semaglutide,NCT07653412,OBSERVATIONAL,RECRUITING,name,semaglutide or tirzepatide,t,keep,f,f,t,Precision Obesity Medicine: Genetic Prediction of Response to GLP-1/GIP Agonists.
+semaglutide,NCT07668414,INTERVENTIONAL,RECRUITING,name,semaglutide,t,keep,f,t,t,A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess 
+semaglutide,NCT07668414,INTERVENTIONAL,RECRUITING,name,placebo (matched to semaglutide),t,exclude,t,t,t,A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess 
+semaglutide,NCT07673900,INTERVENTIONAL,RECRUITING,other_name,semaglutide,t,keep,f,t,t,Semaglutide Delivered Epi-Intradermally by Microarray Patch (VX-201) Versus Subcutaneous A
+semaglutide,NCT07673900,INTERVENTIONAL,RECRUITING,name,semaglutide sc,t,keep,f,t,t,Semaglutide Delivered Epi-Intradermally by Microarray Patch (VX-201) Versus Subcutaneous A
+semaglutide,NCT07701005,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Non-Invasive Hepatic and Metabolic Index Changes After Incretin Therapy in Overweight/Obes
+semaglutide,NCT07745504,INTERVENTIONAL,RECRUITING,name,placebo semaglutide,t,exclude,t,t,t,A Research Study to Compare Two Different Versions of Injectable Cagrilintide and Placebo 
+semaglutide,NCT07760532,OBSERVATIONAL,NOT_YET_RECRUITING,other_name,semaglutide,t,keep,f,f,t,Comparing Facial Aging Between Identical Twins With 3D Imaging
+semaglutide,NCT07767175,INTERVENTIONAL,RECRUITING,name,semaglutide,t,keep,f,t,t,A First-in-human Research Study on How NNC0721-8060 Works in People Living With Overweight
+semaglutide,NCT07850765,OBSERVATIONAL,COMPLETED,name,semaglutide,t,keep,f,f,t,Real-World Patient and Physician Experience With Semaglutide Across Six Emerging Markets
+semaglutide,NCT07858864,OBSERVATIONAL,RECRUITING,name,"glp-1 receptor agonist (e.g., semaglutide, tirzepatide) - prescribed by the treating physician as standard care; the study does not assign or alter treatment.",t,exclude,f,f,t,GLP-1 Receptor Agonist Use and Sarcopenia in Obese Individuals Without Diabetes
+semaglutide,NCT07881770,OBSERVATIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,f,t,Semaglutide Health Outcomes and Patient Adherence in Australia
+semaglutide,NCT07911046,OBSERVATIONAL,NOT_YET_RECRUITING,name,semaglutide,t,keep,f,f,t,Brain and Obesity Longitudinal Development: Neurobiological Mechanisms of Semaglutide Trea
+sonefpeglutide,NCT05711381,INTERVENTIONAL,COMPLETED,other_name,sonefpeglutide,t,exclude,t,t,t,Phase 1 Study of PK and Safety of HM15912 (Sonefpeglutide) in Subjects With Normal and Sev
+teduglutide,NCT00072839,INTERVENTIONAL,COMPLETED,name,teduglutide 0.05,t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease
+teduglutide,NCT00072839,INTERVENTIONAL,COMPLETED,name,teduglutide 0.2 mg,t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease
+teduglutide,NCT00072839,INTERVENTIONAL,COMPLETED,name,teduglutide 0.05 dose,t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease
+teduglutide,NCT00072839,INTERVENTIONAL,COMPLETED,name,teduglutide 0.1 mg dose,t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease
+teduglutide,NCT00081458,INTERVENTIONAL,COMPLETED,name,teduglutide 0.05 mg/kg/d,t,exclude,t,t,t,Safety and Efficacy Study of Teduglutide in Subjects With Short Bowel Syndrome
+teduglutide,NCT00081458,INTERVENTIONAL,COMPLETED,name,teduglutide 0.1 mg/kg/d,t,exclude,t,t,t,Safety and Efficacy Study of Teduglutide in Subjects With Short Bowel Syndrome
+teduglutide,NCT00172185,INTERVENTIONAL,COMPLETED,name,teduglutide 0.05 mg/kg/d,t,exclude,t,t,t,Safety and Efficacy Study of Teduglutide in Subjects With Short Bowel Syndrome Who Complet
+teduglutide,NCT00172185,INTERVENTIONAL,COMPLETED,name,teduglutide 0.10 mg/kg/d,t,exclude,t,t,t,Safety and Efficacy Study of Teduglutide in Subjects With Short Bowel Syndrome Who Complet
+teduglutide,NCT00308438,INTERVENTIONAL,COMPLETED,other_name,teduglutide,t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease Who Completed Prot
+teduglutide,NCT00308438,INTERVENTIONAL,COMPLETED,name,teduglutide (alx-0600),t,exclude,t,t,t,Safety and Efficacy of ALX-0600 in Subjects With Active Crohn's Disease Who Completed Prot
+teduglutide,NCT00798967,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Study of Teduglutide Effectiveness in Parenteral Nutrition (PN)-Dependent Short Bowel Synd
+teduglutide,NCT00819468,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Pharmacokinetics (PK) of 20 mg Teduglutide in Participants With Moderately Impaired Hepati
+teduglutide,NCT00820885,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,t,A Double-Blind Multi-Dose Tolerability and Pharmacokinetic Study of Teduglutide
+teduglutide,NCT00820885,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,t,A Double-Blind Multi-Dose Tolerability and Pharmacokinetic Study of Teduglutide
+teduglutide,NCT00930644,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Open-Label Study of Teduglutide for Subjects With PN-Dependent Short Bowel Syndrome (SBS)
+teduglutide,NCT01028768,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Pharmacokinetics of 10 mg Teduglutide in Subjects With Renal Impairment Compared to Health
+teduglutide,NCT01028924,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Effects of Teduglutide on Cardiac Repolarisation and Conduction in Healthy Male and Female
+teduglutide,NCT01209351,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Effect of Teduglutide on Gastric Emptying in Healthy Subjects
+teduglutide,NCT01560403,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,"A One-Year, Open-Label Study With Teduglutide for Subjects Who Completed Study CL0600-021"
+teduglutide,NCT01952080,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,"A Pharmacokinetic, Safety, and Pharmacodynamic Study of Teduglutide in Pediatric Subjects "
+teduglutide,NCT02099084,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Short Bowel Syndrome and Teduglutide Versus Placebo
+teduglutide,NCT02340819,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,"Study to Evaluate the Safety, Efficacy and Pharmacokinetics of Teduglutide in Japanese Sub"
+teduglutide,NCT02431325,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,A Study of the Gut Barrier and Blood Vessel Inflammation in Individuals With and Without H
+teduglutide,NCT02682381,INTERVENTIONAL,COMPLETED,name,teduglutide 0.05mg/kg,t,exclude,t,t,t,Short Bowel Syndrome Research Study for Children Up To 17 Years of Age on Parenteral Nutri
+teduglutide,NCT02682381,INTERVENTIONAL,COMPLETED,name,teduglutide 0.025 mg/kg,t,exclude,t,t,t,Short Bowel Syndrome Research Study for Children Up To 17 Years of Age on Parenteral Nutri
+teduglutide,NCT02889393,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Teduglutide for Enterocutaneous Fistula (ECF)
+teduglutide,NCT02949362,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Long-term Study of Teduglutide in Pediatric Subjects With Short Bowel Syndrome Who Complet
+teduglutide,NCT02980666,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Study in Japanese Pediatric Subjects With Short Bowel Syndrome (SBS) Who Are Dependent on 
+teduglutide,NCT03268811,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,A Study in Japanese Children With Short Bowel Syndrome Who Completed SHP633-302
+teduglutide,NCT03422666,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Plasma Lipoprotein Response to Glucagon-like Peptide-2
+teduglutide,NCT03442972,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Glucagon-like Peptide-2 Mediated Secretion of Stored Enteral Lipids
+teduglutide,NCT03534661,INTERVENTIONAL,COMPLETED,name,teduglutide + normal saline,t,exclude,f,f,t,L-NMMA on GLP-2 Mediated Intestinal Lipoprotein Release
+teduglutide,NCT03534661,INTERVENTIONAL,COMPLETED,name,teduglutide + l-nmma,t,exclude,f,f,t,L-NMMA on GLP-2 Mediated Intestinal Lipoprotein Release
+teduglutide,NCT03534661,INTERVENTIONAL,COMPLETED,other_name,teduglutide control,t,exclude,f,f,t,L-NMMA on GLP-2 Mediated Intestinal Lipoprotein Release
+teduglutide,NCT03562130,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,"Characterization of the Long-term Safety, Efficacy, and Pharmacodynamics Revestive® in the"
+teduglutide,NCT03571516,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,"Safety, Efficacy and Pharmacokinetic Study of Teduglutide in Infants 4 to 12 Months of Age"
+teduglutide,NCT03596164,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,An Extension Study of Teduglutide in Japanese Participants With Short Bowel Syndrome Who C
+teduglutide,NCT03663582,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Study of Teduglutide in Japanese Participants With Short Bowel Syndrome
+teduglutide,NCT03716115,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Therapeutic Approaches to Malnutrition Enteropathy
+teduglutide,NCT03953170,INTERVENTIONAL,WITHDRAWN,name,teduglutide,t,exclude,f,f,t,Pilot Study to Investigate the Effect of Teduglutide on Temporary Ileostomy Function and C
+teduglutide,NCT04290429,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,Treatment of Patients With Teduglutide (GLP-2) for GVHD and Analysis of Paneth Cells of GV
+teduglutide,NCT04465396,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,A Study to Evaluate the Bioavailability of Teduglutide Administered Subcutaneously by Syri
+teduglutide,NCT04733066,OBSERVATIONAL,UNKNOWN,name,teduglutide,t,exclude,f,f,t,Quality of Life in Patients With Short Bowel Syndrome Treated Without and With Teduglutide
+teduglutide,NCT04832087,OBSERVATIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,t,Pediatric Teduglutide Registry
+teduglutide,NCT04857801,OBSERVATIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,f,Teduglutide in Short Bowel Syndrome Patients
+teduglutide,NCT04916665,OBSERVATIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,f,Bridging Intestinal Failure With Teduglutide - a Case Report
+teduglutide,NCT05023382,OBSERVATIONAL,COMPLETED,name,teduglutide,t,exclude,f,f,t,A Study of Teduglutide in Japanese People With Short Bowel Syndrome
+teduglutide,NCT05027308,INTERVENTIONAL,COMPLETED,name,teduglutide,t,exclude,t,t,t,A Study of Teduglutide in Japanese Children With Short Bowel Syndrome Aged 4 Months or Old
+teduglutide,NCT06973304,INTERVENTIONAL,ACTIVE_NOT_RECRUITING,name,teduglutide,t,exclude,t,t,t,A Study of Teduglutide in Chinese Adults With Short Bowel Syndrome
+teduglutide,NCT07400783,INTERVENTIONAL,RECRUITING,name,teduglutide (alx-0600),t,exclude,f,f,t,TED_ORG: Study on Short Bowel Syndrome
+teduglutide,NCT07537686,INTERVENTIONAL,NOT_YET_RECRUITING,name,teduglutide 0.05 dose,t,exclude,t,t,t,Glucagon-like Peptide 2 (GLP-2) in Undernourished Women Improving From Histology-Confirmed
+tirzepatide,NCT05756764,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,tirzepatide,t,keep,f,f,t,Anti-obesity Pharmacotherapy and Inflammation
+tirzepatide,NCT05766358,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Role Of Metabolic Adaptation In Weight Regain
+tirzepatide,NCT06009653,INTERVENTIONAL,WITHDRAWN,name,tirzepatide,t,keep,t,t,t,Effects of Tirzepatide Plus Intensive Lifestyle Therapy on Body Weight and Metabolic Healt
+tirzepatide,NCT06301256,INTERVENTIONAL,UNKNOWN,name,tirzepatide,t,keep,f,f,f,Evaluate the Efficacy of TIRZEPATIDE for the Treatment of Moderate to Severe HS Hidradenit
+tirzepatide,NCT06354101,OBSERVATIONAL,WITHDRAWN,name,tirzepatide,t,keep,f,f,f,The Purpose of This Registry Study is to Learn More About Metabolic Health: Approximately 
+tirzepatide,NCT06485089,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,"Effects of Tirzepatide on Blood, Imaging and Breast Tissue Biomarkers"
+tirzepatide,NCT06779929,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Comparative Study of Tirzepatide Versus Dulaglutide (SURPASS CVOT) or Semaglutide on Major
+tirzepatide,NCT06901349,INTERVENTIONAL,WITHDRAWN,name,tirzepatide,t,keep,t,t,t,"A Study of Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in"
+tirzepatide,NCT06901349,INTERVENTIONAL,WITHDRAWN,name,tirzepatide placebo,t,exclude,t,t,t,"A Study of Bimagrumab (LY3985863) and Tirzepatide (LY3298176), Alone or in Combination, in"
+tirzepatide,NCT06914141,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide Versus Semaglutide in Individuals With Heart Fail
+tirzepatide,NCT06914154,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Emulation of the SUMMIT Heart Failure Trial in Healthcare Claims Data
+tirzepatide,NCT06980623,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,tirzepatide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide vs Semaglutide in Participants With Type 2 Diabet
+tirzepatide,NCT07088718,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Prediction of the SURPASS-CVOT Cardiovascular Outcome Trial in Healthcare Claims Data
+tirzepatide,NCT07096063,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Comparative Effectiveness of Tirzepatide and Semaglutide in Individuals at Cardiovascular 
+tirzepatide,NCT07099742,OBSERVATIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,f,t,Effectiveness and Safety of Tirzepatide Among Participants With Obesity With or Without Ty
+tirzepatide,NCT07115069,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,other_name,tirzepatide,t,keep,f,f,t,Comparison of Body Composition Changes With Weight Loss Interventions
+tirzepatide,NCT07203677,OBSERVATIONAL,COMPLETED,name,initiation of tirzepatide,t,exclude,f,f,t,Comparative Effectiveness of Tirzepatide Versus Sitagliptin in Individuals at Cardiovascul
+tirzepatide,NCT07309094,OBSERVATIONAL,RECRUITING,name,tirzepatide,t,keep,f,f,t,"Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of "
+tirzepatide,NCT07382180,OBSERVATIONAL,COMPLETED,name,"tirzepatide is administered as part of routine clinical care for obesity management, according to standard prescribing practices. dosing and treatment duration are determined by the treating physician",t,exclude,f,f,t,Real-World Tirzepatide Therapy in Post-Bariatric Weight Regain and Preoperative Obesity Pa
+tirzepatide,NCT07417618,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without 
+tirzepatide,NCT07492563,OBSERVATIONAL,NOT_YET_RECRUITING,name,tirzepatide (t.g.),t,keep,f,f,t,"Safety and Effectiveness of Tirzepatide in Patients With Obesity at Hospital de Clínicas, "
+tirzepatide,NCT07504172,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Real-world Effectiveness and Dosing Patterns of Tirzepatide in People With Obesity
+tirzepatide,NCT07555730,INTERVENTIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,t,t,AI-assisted Multi-domain Lifestyle Versus Tirzepatide for Weight Loss Maintenance in Adult
+tirzepatide,NCT07567378,OBSERVATIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,f,t,"CARTIZ Registry: Cartilage, Arthropathy and Imaging Under Tirzepatide in Zone-stratified C"
+tirzepatide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,other_name,noom standard dose tirzepatide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+tirzepatide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+tirzepatide,NCT07588984,OBSERVATIONAL,NOT_YET_RECRUITING,name,microdose tirzepatide,t,keep,f,f,t,GLP-1 Medication & Behavioral Health Programs on Weight & Metabolic Outcomes: FLOURISH and
+tirzepatide,NCT07619508,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Tirzepatide vs Semaglutide in Individuals at Cardiovascular Risk But Without Diabetes.
+tirzepatide,NCT07638592,OBSERVATIONAL,COMPLETED,name,tirzepatide prehabilitation,t,keep,f,f,t,Tirzepatide-Based Prehabilitation Before Elective Ventral and Incisional Hernia Repair in 
+tirzepatide,NCT07640139,OBSERVATIONAL,ENROLLING_BY_INVITATION,other_name,tirzepatide,t,keep,f,f,t,Estimating the Impact of Obesity Medications on Clinical and Economic Outcomes
+tirzepatide,NCT07653412,OBSERVATIONAL,RECRUITING,name,semaglutide or tirzepatide,t,keep,f,f,t,Precision Obesity Medicine: Genetic Prediction of Response to GLP-1/GIP Agonists.
+tirzepatide,NCT07697391,INTERVENTIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,t,t,AI-Assisted Lifestyle Intervention Versus Tirzepatide for Obesity and Newly Diagnosed Type
+tirzepatide,NCT07701005,OBSERVATIONAL,COMPLETED,name,tirzepatide,t,keep,f,f,t,Non-Invasive Hepatic and Metabolic Index Changes After Incretin Therapy in Overweight/Obes
+tirzepatide,NCT07760532,OBSERVATIONAL,NOT_YET_RECRUITING,other_name,tirzepatide,t,keep,f,f,t,Comparing Facial Aging Between Identical Twins With 3D Imaging
+tirzepatide,NCT07842640,INTERVENTIONAL,RECRUITING,name,tirzepatide,t,keep,f,t,t,"A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AS"
+tirzepatide,NCT07847515,OBSERVATIONAL,NOT_YET_RECRUITING,name,tirzepatide,t,keep,f,f,t,Effects of Tirzepatide on Gut Microbiota and Gastrointestinal Function After Drug Withdraw
+tirzepatide,NCT07858864,OBSERVATIONAL,RECRUITING,name,"glp-1 receptor agonist (e.g., semaglutide, tirzepatide) - prescribed by the treating physician as standard care; the study does not assign or alter treatment.",t,exclude,f,f,t,GLP-1 Receptor Agonist Use and Sarcopenia in Obese Individuals Without Diabetes
+tirzepatide,NCT07889453,OBSERVATIONAL,ACTIVE_NOT_RECRUITING,name,tirzepatide,t,keep,f,f,t,Metabolic Effects of Switching From Injectable Semaglutide to Tirzepatide
+zenagamtide,NCT07668401,INTERVENTIONAL,NOT_YET_RECRUITING,name,zenagamtide,f,,t,t,t,AMAZE 13: A Research Study Investigating How Well the Medicine Zenagamtide Helps People in
+zenagamtide,NCT07668401,INTERVENTIONAL,NOT_YET_RECRUITING,name,placebo ( matched to zenagamtide),f,,f,t,t,AMAZE 13: A Research Study Investigating How Well the Medicine Zenagamtide Helps People in
+zenagamtide,NCT07668414,INTERVENTIONAL,RECRUITING,name,zenagamtide,f,,t,t,t,A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess 
+zenagamtide,NCT07668414,INTERVENTIONAL,RECRUITING,name,placebo (matched to zenagamtide),f,,f,t,t,A Research Study Investigating How Well the Medicine Zenagamtide Helps People With Excess 
+zenagamtide,NCT07720271,INTERVENTIONAL,RECRUITING,name,zenagamtide,f,,t,t,t,AMAZE 9: A Research Study Investigating How Well Zenagamtide Tablets Help People With Exce
+zenagamtide,NCT07797335,INTERVENTIONAL,RECRUITING,name,zenagamtide,f,,t,t,t,AMBITION 7: A Research Study Investigating How Well Zenagamtide Lowers Blood Sugar and Bod
+zenagamtide,NCT07815067,INTERVENTIONAL,RECRUITING,name,zenagamtide injection,f,,t,t,t,A Research Study Looking at the Effect of Timing of Meal After Dosing and Water Volume at 
+zenagamtide,NCT07815067,INTERVENTIONAL,RECRUITING,name,zenagamtide tablet,f,,t,t,t,A Research Study Looking at the Effect of Timing of Meal After Dosing and Water Volume at 
+zenagamtide,NCT07861100,INTERVENTIONAL,NOT_YET_RECRUITING,name,zenagamtide,f,,t,t,t,A Research Study to Look at How Well Zenagamtide Works Compared to Placebo in People With 

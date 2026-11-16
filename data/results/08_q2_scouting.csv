@@ -1,19 +1,19 @@
 indication,recent_trials,academic_recent,with_maker,scouting_share_pct,baseline_pct,scouting_label,industry_collaborators,q2_verdict,shortlist
-Type 1 diabetes,21,18,1,5.6,6.1,open,Novo Nordisk (maker) x1,not white space,f
-CKD,18,11,0,0.0,6.1,open,"",not white space,f
-MASLD,20,11,1,9.1,6.1,being scouted,"Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd. x1; Novo Nordisk (maker) x1",not white space,f
+Type 1 diabetes,23,18,1,5.6,6.1,open,Novo Nordisk (maker) x1,not white space,f
+CKD,21,11,0,0.0,6.1,open,"",not white space,f
+MASLD,22,11,1,9.1,6.1,being scouted,"Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd. x1; Novo Nordisk (maker) x1",not white space,f
 PCOS,10,10,0,0.0,6.1,open,"",white space,t
-Alcohol use disorder,10,7,0,0.0,6.1,open,"",not white space,f
+Alcohol use disorder,12,7,0,0.0,6.1,open,"",not white space,f
 Heart failure,7,6,0,0.0,6.1,open,"Greenstone Biosciences, Inc. x1",not white space,f
 Stroke,7,6,1,16.7,6.1,being scouted,Novo Nordisk (maker) x1,not white space,f
 ASCVD,11,5,1,20.0,6.1,being scouted,Eli Lilly (maker) x1,not white space,f
 Hypertension,6,2,0,0.0,6.1,open,"",not white space,f
 Osteoarthritis,6,2,1,50.0,6.1,being scouted,Eli Lilly (maker) x1,not white space,f
-Obstructive sleep apnoea,6,1,0,0.0,6.1,open,"",not white space,f
+Obstructive sleep apnoea,8,1,0,0.0,6.1,open,"",not white space,f
 Atrial fibrillation,4,4,0,0.0,6.1,too early to call,"",too early to call,f
 Infertility,4,4,0,0.0,6.1,too early to call,"",too early to call,f
-Antipsychotic-induced weight gain,3,3,0,0.0,6.1,too early to call,"",too early to call,f
-Smoking cessation,3,3,0,0.0,6.1,too early to call,"",too early to call,f
+Antipsychotic-induced weight gain,4,3,0,0.0,6.1,too early to call,"",too early to call,f
+Smoking cessation,4,3,0,0.0,6.1,too early to call,"",too early to call,f
 Alzheimer's,3,2,0,0.0,6.1,too early to call,"",too early to call,f
 Breast cancer,2,2,0,0.0,6.1,too early to call,"",too early to call,f
 Cancer therapy-induced metabolic toxicity,2,2,0,0.0,6.1,too early to call,"",too early to call,f

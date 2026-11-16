@@ -105,8 +105,8 @@ uncertainty range, because summing 27 ranges isn't valid. Trial counts come from
 
 ## Watchlist
 
-**The line:** 4 of the 10 watchlist indications have no approved drug at all: methamphetamine use disorder,
-cannabis use disorder, cancer therapy-induced metabolic toxicity and antipsychotic-induced weight gain.
+**The line:** 3 of the 7 watchlist indications have no approved drug at all: methamphetamine use disorder,
+cannabis use disorder and cancer therapy-induced metabolic toxicity.
 Endometrial cancer comes close: nothing is approved for the fertility-sparing treatment its trials test.
 Early signals, not recommendations (watchlist rule, `docs/decisions.md`).
 
@@ -121,10 +121,7 @@ whole disease, while the trials study a subgroup.
 | Methamphetamine use disorder | 4 | 1.09 M / 0.63 M / 0.20 M (Amphetamine use disorders) | None | None | No approved drug; GBD's group is wider than methamphetamine |
 | Cannabis use disorder | 3 | 2.91 M / 1.70 M / 0.52 M | None | None | No approved drug; PP-01 in Phase 3 (Fast Track) for withdrawal |
 | Cancer therapy-induced metabolic toxicity | 3 | Not in GBD | None | None | No approved drug; side effects of ADT and lorlatinib |
-| Antipsychotic-induced weight gain | 5 | Not in GBD | None | None | No approved drug; metformin used off-label |
 | Endometrial cancer and atypical hyperplasia | 8 | 0.79 M / 0.71 M / 0.11 M (Uterine cancer), upper bound | Advanced disease only | Advanced disease only | Nothing approved for fertility-sparing treatment |
-| Opioid use disorder | 3 | 6.99 M / 0.79 M / 0.31 M | Methadone, buprenorphine, naltrexone ER | Zubsolv, Buvidal, Buprenorphine Neuraxpharm | Approved drugs exist; GLP-1 as add-on |
-| Smoking cessation | 6 | Not in GBD | NRT (5 forms), varenicline, bupropion | Champix | Approved drugs exist; cytisinicline may follow in 2027 |
 | Atrial fibrillation | 10 | 7.51 M / 8.32 M / 1.36 M | Many (anticoagulants, rate and rhythm drugs) | 23 products | Approved drugs exist; none aimed at weight-driven AF |
 | Infertility | 7 | 1.54 M / 3.17 M / 0.47 M (Female infertility), upper bound | Clomiphene, gonadotropins, bromocriptine | 12 fertility drugs | Approved drugs exist; trials are weight loss before IVF |
 | Breast cancer | 5 | 2.96 M / 3.93 M / 0.59 M, upper bound | Many cancer drugs | Many | None for weight or metabolism in breast cancer |
@@ -133,23 +130,14 @@ Rows sorted: no approved drug first, then by how close the approved drugs come t
 
 ### Notes by indication
 
-- **Addiction split.** Methamphetamine and cannabis use disorder have no approved drug; opioid use disorder
-  and smoking do. NIDA: "no FDA-approved medications exist for stimulant use disorders, cannabis use disorder,
-  or poly-SUDs". The only openFDA hit for methamphetamine is Desoxyn, methamphetamine itself, for ADHD.
-- **Opioid use disorder.** The US count is 9× the EU-27's (2.1% vs 0.17% of people): GBD's view of the US
-  opioid crisis, not a download error. One of the 3 trials tests tirzepatide on top of buprenorphine
-  (NCT06651177), so a GLP-1 would be an add-on, not a replacement.
-- **Smoking cessation.** Not in GBD: smoking is a risk factor there, not a cause with a patient count. A new
-  competitor may come: the FDA refused cytisinicline in Jun 2026 over manufacturing, not efficacy or safety;
-  Achieve plans to resubmit in Q4 2026. One trial targets weight gain after quitting (NCT06173778), not
-  quitting itself.
+- **Addiction.** Methamphetamine and cannabis use disorder have no approved drug. NIDA: "no FDA-approved
+  medications exist for stimulant use disorders, cannabis use disorder, or poly-SUDs". The only openFDA hit for
+  methamphetamine is Desoxyn, methamphetamine itself, for ADHD. Opioid use disorder and smoking, which do have
+  approved drugs, dropped off the watchlist (below).
 - **Cancer therapy-induced metabolic toxicity.** Not in GBD: a side effect across several cancers. The trials
   test androgen deprivation therapy in prostate cancer (NCT06908694), lorlatinib in lung cancer (NCT07782359)
   and cardiometabolic risk after cancer treatment (NCT07202247). openFDA and EMA: no product with this
   indication.
-- **Antipsychotic-induced weight gain.** Not in GBD. The trials mostly study obesity and cardiometabolic
-  health in people with schizophrenia or bipolar disorder. No label names this indication; the olanzapine
-  hits in openFDA only warn about weight gain. Metformin is used off-label (meta-analysis, 2016).
 - **Endometrial cancer and atypical hyperplasia.** Upper bound: GBD counts all uterine cancer; the trials
   pair a GLP-1 with a progestin IUD to treat atypical hyperplasia or early cancer and keep fertility.
   Approved drugs cover advanced disease only: FDA megestrol ("palliative treatment of advanced carcinoma of
@@ -164,16 +152,34 @@ Rows sorted: no approved drug first, then by how close the approved drugs come t
   trials test: weight loss to cut AF coming back after ablation or AF burden, and weight loss in early breast
   cancer or survivors.
 - **Across the watchlist.** Many of these are weight-loss trials in a new group of patients (AF, breast cancer,
-  infertility, antipsychotic weight gain, some endometrial). Semaglutide and tirzepatide are already approved
+  infertility, some endometrial). Semaglutide and tirzepatide are already approved
   for obesity, so the value for a sponsor is the disease result, not the weight loss (not sourced here; cite
   the Wegovy and Zepbound labels if used in the write-up).
 
+### Dropped after Review 10 (16 Nov)
+
+Review 10's recall fix found 4 Lilly Phase 2 trials of brenipatide (LY3537031, a GIP/GLP-1 agonist) that the
+old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (schizophrenia,
+tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse). Each row now has an industry-led
+trial, so it fails the "no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide
+Phase 3 trials in alcohol use disorder (NCT07219966, NCT07219953) and major depressive disorder (NCT07412756,
+NCT07775300): a big sponsor is moving into psychiatry and addiction, which is a signal in itself.
+
+- **Antipsychotic-induced weight gain** (7 trials 2023–26, 2 industry-led): no approved drug; metformin used
+  off-label (meta-analysis, 2016).
+- **Smoking cessation** (7, 1 industry-led): NRT, varenicline and bupropion approved; cytisinicline may follow
+  in 2027 after the FDA's Jun 2026 refusal over manufacturing.
+- **Opioid use disorder** (4, 1 industry-led): methadone, buprenorphine and naltrexone approved; GLP-1 tested as
+  an add-on (NCT06651177).
+
 ### Limitations
 
-Same as PCOS: patients, not market size; GBD only, so like for like; EU-27 has no uncertainty range. 3 of 10
-rows have no count. Upper-bound rows overstate the size of what the trials test. The EMA list covers central
+Same as PCOS: patients, not market size; GBD only, so like for like; EU-27 has no uncertainty range. 1 of 7
+rows has no count. Upper-bound rows overstate the size of what the trials test. The EMA list covers central
 authorisations only: medicines authorised country by country (e.g. NRT, methadone, metformin, clomiphene)
-don't show. Some watchlist signals rest on planned 2026 starts.
+don't show. Some watchlist signals rest on planned 2026 starts. NCT07286175 (bipolar relapse) is tagged
+antipsychotic-induced weight gain by the bipolar MeSH rule, which is wrong; the row still drops on its other
+industry-led trial (NCT07410507).
 
 ### Sources
 
