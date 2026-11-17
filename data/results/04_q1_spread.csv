@@ -1,14 +1,14 @@
 indication,first_year,first_nct_id,first_lead_group,first_academic_year,first_industry_year,industry_lag_years,trials_all_years,industry_led_all_years
-Home base,1999,NCT01507272,industry-led,2006,1999,-7,1866,1232
+Home base,1999,NCT01507272,industry-led,2006,1999,-7,1869,1235
 Type 1 diabetes,2003,NCT00064714,industry-led,2004,2003,-1,80,14
-MASLD,2006,NCT00650546,academic-led,2006,2016,10,67,33
+MASLD,2006,NCT00650546,academic-led,2006,2016,10,70,36
 Prader-Willi syndrome,2007,NCT00551343,academic-led,2007,2015,8,5,1
 Antipsychotic-induced weight gain,2008,NCT00845507,academic-led,2008,2025,17,17,2
 ASCVD,2008,NCT00736229,academic-led,2008,2018,10,42,10
-Heart failure,2009,NCT00766857,academic-led,2009,2010,1,25,7
+Heart failure,2009,NCT00766857,academic-led,2009,2010,1,26,8
 Alzheimer's,2010,NCT01255163,academic-led,2010,2021,11,10,3
 Hypothalamic obesity,2010,NCT01061775,academic-led,2010,,,8,0
-Irritable bowel syndrome,2010,NCT01056107,academic-led,2010,,,1,0
+Irritable bowel syndrome,2010,NCT01056107,academic-led,2010,2026,16,3,2
 Obstructive sleep apnoea,2010,NCT01136798,academic-led,2010,2012,2,26,21
 Parkinson's,2010,NCT01174810,academic-led,2010,2020,10,10,2
 PCOS,2011,NCT01899430,academic-led,2011,,,33,0
@@ -49,6 +49,7 @@ Perioperative myocardial injury,2024,NCT06324461,academic-led,2024,,,1,0
 Postoperative delirium,2024,NCT06361238,academic-led,2024,,,1,0
 Psoriatic arthritis,2024,NCT06588296,industry-led,2026,2024,-2,4,2
 Systemic sclerosis,2024,NCT06149260,academic-led,2024,,,1,0
+Asthma,2025,NCT07219173,industry-led,,2025,,1,1
 Cancer therapy-induced metabolic toxicity,2025,NCT06908694,academic-led,2025,,,3,0
 Glaucoma,2025,NCT06792422,academic-led,2025,,,1,0
 Long COVID,2025,NCT07128082,academic-led,2025,,,1,0
@@ -58,6 +59,7 @@ Partial lipodystrophy,2025,NCT07091734,academic-led,2025,,,1,0
 Stress urinary incontinence,2025,NCT07202884,industry-led,,2025,,1,1
 Alopecia (CCCA),2026,NCT07734870,academic-led,2026,,,1,0
 Cannabis use disorder,2026,NCT07523633,academic-led,2026,,,5,0
+COPD,2026,NCT07759245,industry-led,,2026,,1,1
 Diabetic foot ulcer,2026,NCT07581145,academic-led,2026,,,1,0
 GI cancers (metastatic),2026,NCT07627191,academic-led,2026,,,1,0
 Hypertriglyceridaemic pancreatitis,2026,NCT07617155,academic-led,2026,,,1,0

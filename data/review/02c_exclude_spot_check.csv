@@ -1,0 +1,16 @@
+code,n_trials_all,clue,source,check,check_note,check_source
+sy008,2,"SGLT1 inhibitor (Yabao, originator Lilly), not GLP-1; fits sister code SY-009 (SGLT1). AdisInsight behind login, seen via snippet. Moved unclear -> exclude 16 Nov",https://adisinsight.springer.com/drugs/800043540,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+oln324,5,intravitreal (AACT),AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+hsg4112,7,vutiglabridin (AACT title),AACT,confirmed exclude,vutiglabridin: paraoxonase (PON1/PON2) modulator,https://pure.skku.edu/en/publications/paraoxonase-2-agonist-vutiglabridin-promotes-autophagy-activation/
+ttax01,4,"umbilical cord tissue, foot ulcer (AACT)",AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+ard101,5,"TAS2R agonist, Prader-Willi (AACT)",AACT,confirmed exclude,"TAS2R agonist; raises endogenous GLP-1/CCK, not a receptor agonist (same reason as DPP-4, DA-1241)",https://praderwillinews.com/news/fpwr-invests-aardvark-gut-targeting-pws-therapy-ard-101/
+vx548,26,"suzetrigine, pain (AACT)",AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+vis101,3,eye (AACT),AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+s309309,3,MGAT2 inhibitor (Shionogi),https://en.wikipedia.org/wiki/S-309309,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+cin102,4,gastroparesis (AACT),AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+abbv295,4,"amylin/calcitonin agonist (AbbVie, ex-Gubra GUB014295)",https://www.inderes.fi/en/releases/abbvie-reports-positive-phase-1-multiple-ascending-dose-results-for-abbv-295-a-long-acting-amylin-analog,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+spi62,6,11beta-HSD1 inhibitor (AACT),AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+cd36,1,"NKS-3, fat-taste receptor agonist (AACT)",AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+ott166,3,"nesvategrast, eye (AACT)",AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+dmx200,5,CCR2 antagonist (AACT),AACT,confirmed exclude,"AACT names, descriptions and titles match the clue",AACT
+ly3556050,9,chronic pain master protocol (AACT),AACT,confirmed exclude,"SSTR4 agonist, oral analgesic; only pain trials (secondary source, not Lilly)",https://withpower.com/trial/phase-2-neuralgia-9-2023-08b93
