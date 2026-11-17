@@ -4,11 +4,14 @@
 -- Run from the repo root:  psql -d aact -f sql/pipeline/08_q2_scouting.sql
 -- Saves glp1.q2_scouting (one row per indication) and exports data/results/08_q2_scouting.csv.
 --
--- Rule (Decided 10 Nov, maker list 12 Nov):
---   GLP-1 maker = one of 15 companies with a GLP-1 drug of their own, matched by name pattern:
+-- Rule (Decided 10 Nov, maker list 12 Nov, Huadong added 17 Nov):
+--   GLP-1 maker = one of 16 companies with a GLP-1 drug of their own, matched by name pattern:
 --     Novo Nordisk, Eli Lilly, AstraZeneca (+ MedImmune, + Amylin, exenatide's original maker),
 --     Sanofi, Boehringer Ingelheim, Amgen, Pfizer, Roche (+ Genentech), MSD, Innovent, Hengrui,
---     Hansoh, Viking, Zealand, Altimmune. GSK left out: albiglutide withdrawn 2018.
+--     Hansoh, Viking, Zealand, Altimmune, Huadong (HDM1002, HDM1005; found by the recall fix).
+--     GSK left out: albiglutide withdrawn 2018.
+--   Check (17 Nov): each maker leads glp1.trials trials of its own GLP-1 (by hand, data/review/README.md
+--   Review 11), and check 3 below: no non-maker collaborator leads GLP-1 trials (expect 0 rows).
 --   Scouting share = academic-led trials started 2023-2025 with a GLP-1 maker as collaborator
 --                    / all academic-led trials started 2023-2025 in the indication.
 --   Baseline       = the same share across all academic-led trials outside home base, same window.
@@ -26,7 +29,8 @@ WITH makers(company, pattern) AS (VALUES
     ('Pfizer', 'pfizer%'), ('Roche', '%roche%'), ('Roche', 'genentech%'),
     ('MSD', 'merck sharp%'), ('MSD', 'msd %'),
     ('Innovent', 'innovent%'), ('Hengrui', '%hengrui%'), ('Hansoh', '%hansoh%'),
-    ('Viking', 'viking%'), ('Zealand', 'zealand pharma%'), ('Altimmune', 'altimmune%')
+    ('Viking', 'viking%'), ('Zealand', 'zealand pharma%'), ('Altimmune', 'altimmune%'),
+    ('Huadong', '%huadong%')
 ),
 academic_recent AS (   -- trial x indication, academic-led, 2023-2025, new areas only
     SELECT i.indication, t.nct_id
@@ -95,7 +99,8 @@ JOIN (VALUES ('Novo Nordisk','novo nordisk%'),('Eli Lilly','eli lilly%'),('Astra
              ('Boehringer Ingelheim','boehringer%'),('Amgen','amgen%'),('Pfizer','pfizer%'),
              ('Roche','%roche%'),('Roche','genentech%'),('MSD','merck sharp%'),('MSD','msd %'),
              ('Innovent','innovent%'),('Hengrui','%hengrui%'),('Hansoh','%hansoh%'),
-             ('Viking','viking%'),('Zealand','zealand pharma%'),('Altimmune','altimmune%')) m(company, pattern)
+             ('Viking','viking%'),('Zealand','zealand pharma%'),('Altimmune','altimmune%'),
+             ('Huadong','%huadong%')) m(company, pattern)
   ON LOWER(c.name) LIKE m.pattern
 JOIN glp1.trials t ON t.nct_id = c.nct_id
 ORDER BY 1, 2;
@@ -103,3 +108,19 @@ ORDER BY 1, 2;
 SELECT baseline_pct FROM glp1.q2_scouting LIMIT 1;
 
 SELECT * FROM glp1.q2_scouting WHERE recent_trials >= 5;
+
+-- 3. Missed makers: industry collaborators on 2023-2025 academic trials, not matched to a maker,
+--    that lead GLP-1 trials themselves (expect 0 rows; a row = a maker missing from the list)
+SELECT c.name AS collaborator, COUNT(DISTINCT l.nct_id) AS glp1_trials_led
+FROM ctgov.sponsors c
+JOIN glp1.trials t ON t.nct_id = c.nct_id AND t.start_date >= '2023-01-01' AND t.start_date < '2026-01-01'
+JOIN ctgov.sponsors lead ON lead.nct_id = c.nct_id AND lead.lead_or_collaborator = 'lead'
+                         AND lead.agency_class IN ('OTHER','OTHER_GOV','NIH','FED','NETWORK','INDIV')
+JOIN ctgov.sponsors l ON l.name = c.name AND l.lead_or_collaborator = 'lead'
+JOIN glp1.trials t2 ON t2.nct_id = l.nct_id
+WHERE c.lead_or_collaborator = 'collaborator' AND c.agency_class = 'INDUSTRY'
+  AND NOT EXISTS (SELECT 1 FROM (VALUES ('novo nordisk%'),('eli lilly%'),('astrazeneca%'),('medimmune%'),
+                  ('amylin%'),('sanofi%'),('boehringer%'),('amgen%'),('pfizer%'),('%roche%'),('genentech%'),
+                  ('merck sharp%'),('msd %'),('innovent%'),('%hengrui%'),('%hansoh%'),('viking%'),
+                  ('zealand pharma%'),('altimmune%'),('%huadong%')) m(pattern) WHERE LOWER(c.name) LIKE m.pattern)
+GROUP BY 1;
