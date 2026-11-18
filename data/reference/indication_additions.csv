@@ -348,3 +348,15 @@ NCT07741604,Drug study,unlabelled review 03e (17 Nov): auto: conditions say heal
 NCT06742762,Drug study,unlabelled review 03e (17 Nov): auto: conditions say healthy / PK / bioequivalence / impairment / insufficiency; reviewed 17 Nov
 NCT05793450,Drug study,unlabelled review 03e (17 Nov): auto: conditions say healthy / PK / bioequivalence / impairment / insufficiency; reviewed 17 Nov
 NCT03235375,Drug study,unlabelled review 03e (17 Nov): auto: conditions say healthy / PK / bioequivalence / impairment / insufficiency; reviewed 17 Nov
+NCT07861100,ASCVD,"keyword pass 03c v3 (18 Nov, sanity check C01): zenagamtide MACE trial in established ASCVD + obesity (same as SELECT)"
+NCT06820099,Heart failure,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS-7535 Ph2 in HFpEF/HFmrEF + obesity; primary = weight (weight loss in a disease population rule)"
+NCT06862908,Heart failure,"keyword pass 03c v3 (18 Nov, sanity check C01): IBI362 Ph2 in HFpEF/HFmrEF + obesity; primary = KCCQ"
+NCT07469800,Hypertension,"keyword pass 03c v3 (18 Nov, sanity check C01): IBI362 Ph3 in hypertension + obesity; primary = sitting SBP"
+NCT07528027,Hypertension,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS-7535 Ph3 for hypertension + obesity; primary = SBP"
+NCT06884293,MASLD,"keyword pass 03c v3 (18 Nov, sanity check C01): GLORY-3: IBI362 vs semaglutide in MAFLD + obesity; primary = weight and liver fat"
+NCT06565871,Obstructive sleep apnoea,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS9531 Ph2 in obese OSA; primary = weight (weight loss in a disease population rule)"
+NCT06994650,Obstructive sleep apnoea,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS9531 Ph3 in OSA + obesity on PAP; primary = AHI"
+NCT07830329,Hidradenitis suppurativa,"keyword pass 03c v3 (18 Nov, sanity check C01): olatorepatide Ph2 in HS with obesity; primary = AN count (new label; MeSH term untagged)"
+NCT06595797,PCOS,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS9531 Ph2 in obese PCOS; primary = weight (weight loss in a disease population rule); industry-led (C02)"
+NCT01250834,Drug study,"recall fix (18 Nov, sanity check C06): dulaglutide (LY2189265) effect on atorvastatin PK in healthy volunteers, as the 03e rule (conditions say healthy)"
+NCT02641990,Drug study,"recall fix (18 Nov, sanity check C06): ITCA 650 crossover PK study in healthy premenopausal volunteers, as the 03e rule (conditions say healthy)"

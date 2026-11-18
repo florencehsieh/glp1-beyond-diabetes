@@ -378,6 +378,23 @@ use disorder each gained an industry-led trial of Lilly's brenipatide (LY3537031
 missed (`docs/so_what.md`). PCOS is still the only white space. After 02d only Home base (1,832 → 1,866) and MASLD
 (65 → 67) moved.
 
+## Review 12: fixes from three independent sanity checks (18 Nov 2026)
+
+Three reviewers checked Phases 1–4 against `docs/sanity_checks/prompt.md`; their findings are in
+`docs/sanity_checks/2026-11-17_reviewer_A.csv`, `2026-11-18_reviewer_B.csv` and `2026-11-18_reviewer_C.csv`.
+Each fix and its reason is a row in `docs/decisions.md` (18 Nov).
+
+| Fix | File | Finding | Result |
+|---|---|---|---|
+| Title keyword pass on the trials the recall fix added | `03c_keyword_hits_v3.csv` · `03c_keyword_hits_v3_decided.csv` | A C01, C B02: 20 unreviewed hits on new trials | 10 labels added (PCOS 1, sleep apnoea 2, heart failure 2, hypertension 2, MASLD 1, ASCVD 1, new label hidradenitis suppurativa 1); no verdict change |
+| Condition rule blocks PCOS and sleep apnoea words | `sql/pipeline/03` | A C03, C B03 | 2 trials no longer Home base by that rule |
+| Label removals (stroke split) | `data/reference/indication_removals.csv` | B A01, C B01 | 3 Stroke labels removed; Stroke becomes white space (5 trials, 0 industry) |
+| Old codes, IcoSema, code-named copies | `data/reference/glp1_name_additions.csv` | A C06, B A03, C B04–B06 | 2,357 → **2,390** trials, all Home base or Drug study |
+
+Check (18 Nov, after the 2,390 rebuild): `sql/review/03c_keyword_pass.sql` finds no undecided hit on any trial added since
+the 1,809 list, including the 33 old-code trials. Pass 1's ASCVD "look" hits on old trials were reviewed on 11 Nov
+but aren't all in `03c_keyword_hits_decided.csv`, so they still show in a rerun.
+
 ## Merge and split log (Phase 3)
 
 Every indication that joins or splits MeSH terms or trials. The plan's rule: write down every merge.

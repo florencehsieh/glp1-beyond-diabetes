@@ -1,5 +1,6 @@
 -- sql/pipeline/07_q2_drug_split.sql  (Phase 4, Q2 add-on: generic vs branded GLP-1 in academic trials, 12 Nov)
--- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05).
+-- Needs glp1.trials (sql/pipeline/02), glp1.trial_indications (sql/pipeline/03), glp1.q2_white_space (sql/pipeline/05),
+-- glp1.q2_watchlist (sql/pipeline/06).
 -- Run from the repo root:  psql -d aact -f sql/pipeline/07_q2_drug_split.sql
 -- Window 2023-2025, like Q2. Watchlist rows left out since 14 Nov: the watchlist counts 2023-2026 (sql/pipeline/06),
 -- so a 2023-2025 count here would misstate them (e.g. 0 trials for an area whose trials all start in 2026).
@@ -81,6 +82,7 @@ SELECT a.indication,
 FROM academic_recent a
 LEFT JOIN trial_drug_type d USING (nct_id)
 LEFT JOIN glp1.q2_white_space w USING (indication)
+WHERE a.indication NOT IN (SELECT indication FROM glp1.q2_watchlist WHERE on_watchlist)   -- 14 Nov (c); filter added 18 Nov (sanity check A05)
 GROUP BY a.indication, w.verdict
 ORDER BY academic_recent DESC, a.indication;
 

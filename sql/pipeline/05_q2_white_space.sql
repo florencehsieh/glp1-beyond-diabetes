@@ -170,7 +170,7 @@ ORDER BY (v.verdict = 'too early to call'), s.recent_trials DESC, s.indication;
 \copy (SELECT * FROM glp1.q2_white_space) TO 'data/results/05_q2_white_space.csv' WITH (FORMAT csv, HEADER)
 
 -- Checks
--- 1. The baseline and the field windows (expect 163 recent trials, 30.1% industry-led on 12 Nov)
+-- 1. The baseline and the field windows (18 Nov: 185 recent trials, baseline 38.9%; 163 and 30.1% on 12 Nov)
 WITH t AS (
     SELECT DISTINCT i.nct_id FROM glp1.trial_indications i
     WHERE i.indication NOT IN ('Home base', 'Drug study')

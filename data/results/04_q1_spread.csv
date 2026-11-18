@@ -1,21 +1,21 @@
 indication,first_year,first_nct_id,first_lead_group,first_academic_year,first_industry_year,industry_lag_years,trials_all_years,industry_led_all_years
-Home base,1999,NCT01507272,industry-led,2006,1999,-7,1869,1235
+Home base,1999,NCT01507272,industry-led,2006,1999,-7,1898,1264
 Type 1 diabetes,2003,NCT00064714,industry-led,2004,2003,-1,80,14
-MASLD,2006,NCT00650546,academic-led,2006,2016,10,70,36
+MASLD,2006,NCT00650546,academic-led,2006,2016,10,71,37
 Prader-Willi syndrome,2007,NCT00551343,academic-led,2007,2015,8,5,1
 Antipsychotic-induced weight gain,2008,NCT00845507,academic-led,2008,2025,17,17,2
-ASCVD,2008,NCT00736229,academic-led,2008,2018,10,42,10
-Heart failure,2009,NCT00766857,academic-led,2009,2010,1,26,8
+ASCVD,2008,NCT00736229,academic-led,2008,2018,10,43,11
+Heart failure,2009,NCT00766857,academic-led,2009,2010,1,28,10
 Alzheimer's,2010,NCT01255163,academic-led,2010,2021,11,10,3
 Hypothalamic obesity,2010,NCT01061775,academic-led,2010,,,8,0
 Irritable bowel syndrome,2010,NCT01056107,academic-led,2010,2026,16,3,2
-Obstructive sleep apnoea,2010,NCT01136798,academic-led,2010,2012,2,26,21
+Obstructive sleep apnoea,2010,NCT01136798,academic-led,2010,2012,2,28,23
 Parkinson's,2010,NCT01174810,academic-led,2010,2020,10,10,2
-PCOS,2011,NCT01899430,academic-led,2011,,,33,0
+PCOS,2011,NCT01899430,academic-led,2011,2024,13,34,1
 Psoriasis,2011,NCT01451905,academic-led,2011,2024,13,8,2
 Binge eating disorder,2012,NCT01739049,academic-led,2012,,,3,0
 CKD,2012,NCT01621178,industry-led,2012,2012,0,52,18
-Hypertension,2012,NCT01499108,academic-led,2012,2025,13,12,4
+Hypertension,2012,NCT01499108,academic-led,2012,2025,13,14,6
 Cardiac arrest (neuroprotection),2014,NCT02442791,academic-led,2014,,,1,0
 Cocaine use disorder,2014,NCT02302976,academic-led,2014,,,4,0
 Infertility,2014,NCT03034941,academic-led,2014,,,12,0
@@ -29,7 +29,7 @@ Smoking cessation,2015,NCT02690987,academic-led,2015,2025,10,13,1
 Cognitive impairment in diabetes,2016,NCT02847403,academic-led,2016,,,3,0
 Osteoarthritis,2016,NCT02905864,academic-led,2016,2021,5,16,9
 Primary polydipsia,2016,NCT02770885,academic-led,2016,,,1,0
-Stroke,2016,NCT02673931,academic-led,2016,2025,9,14,1
+Stroke,2016,NCT02673931,academic-led,2016,,,12,0
 Atrial fibrillation,2019,NCT03856632,academic-led,2019,,,12,0
 Bile acid malabsorption,2019,NCT03955575,academic-led,2019,,,1,0
 Diabetic neuropathy,2019,NCT04137328,academic-led,2019,,,1,0
@@ -62,6 +62,7 @@ Cannabis use disorder,2026,NCT07523633,academic-led,2026,,,5,0
 COPD,2026,NCT07759245,industry-led,,2026,,1,1
 Diabetic foot ulcer,2026,NCT07581145,academic-led,2026,,,1,0
 GI cancers (metastatic),2026,NCT07627191,academic-led,2026,,,1,0
+Hidradenitis suppurativa,2026,NCT07830329,industry-led,,2026,,1,1
 Hypertriglyceridaemic pancreatitis,2026,NCT07617155,academic-led,2026,,,1,0
 Mild autonomous cortisol secretion,2026,NCT07573163,academic-led,2026,,,1,0
 Multiple sclerosis,2026,NCT07497399,academic-led,2026,,,1,0

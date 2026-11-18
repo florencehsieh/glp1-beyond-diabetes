@@ -4,7 +4,7 @@
 -- Saves glp1.q2_arm_sensitivity and exports data/results/09_q2_arm_sensitivity.csv.
 --
 -- The question: does the shortlist hold when only trials with the GLP-1 in an EXPERIMENTAL arm
--- count (arm_rule = 'experimental arm'), dropping the 275 Option B trials with no EXPERIMENTAL arm?
+-- count (arm_rule = 'experimental arm'), dropping the 278 Option B trials (18 Nov) with no EXPERIMENTAL arm?
 -- The whole Q2 test is rerun on the smaller list: baseline, share, Phase 3 block, heating up.
 -- Same rules as sql/pipeline/05 (threshold 5, bar = half the baseline, industry PHASE3 active or completed).
 -- Each indication is scored under both rules: 'option B' must reproduce sql/pipeline/05 (check 1).

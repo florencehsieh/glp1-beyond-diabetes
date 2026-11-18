@@ -13,7 +13,7 @@ Files in `data/external/gbd/`. US = United States of America; EU-27 = sum of the
 
 **The line:** About 5 M women in the US and 6 M in the EU-27 have PCOS (GBD 2023). That's the size of
 Alzheimer's, where Novo ran a large Phase 3, and close to CKD in type 2 diabetes, where a GLP-1 is approved.
-No drug is approved for PCOS itself, and no company has ever led a GLP-1 trial in it.
+No drug is approved for PCOS itself, and only one company has led a GLP-1 trial in it: a Phase 2 started in 2024.
 
 ### 1. How many patients
 
@@ -61,9 +61,12 @@ clash: they're stopped before trying to conceive.
 
 ### 4. What the trial data adds
 
-PCOS is the only white space in Q2: 10 trials started 2023–2025, 9 different lead sponsors, and no
-industry-led trial ever. It has been academic since 2011, about 15 years with no industry entry, against a
-9-year median lag in areas industry did enter. It holds under the strict arm rule (8 trials, 0 industry).
+PCOS is the stronger of Q2's two white spaces (the other is stroke): 11 trials started 2023–2025, 10
+different lead sponsors, 1 of them industry (9.1%, against a 19.5% bar), and no industry Phase 3. That one is
+Hengrui's HRS9531 Phase 2 (lead Fujian Shengdi, NCT06595797, started 2024, status unknown, primary outcome
+body weight). PCOS was academic only from 2011 to 2024, 13 years before the first industry trial, against a
+9-year median lag across the areas industry entered. It holds under the strict arm rule (9 trials, 1 industry,
+11.1%) and without its 4 UNKNOWN-status trials (7 trials, 0 industry).
 Two academic Phase 3s were positive, though both come from one group and were small.
 
 ### 5. Limitations
@@ -119,12 +122,12 @@ whole disease, while the trials study a subgroup.
 | Indication | Trials 2023–26 | Patients US / EU-27 / UK (GBD 2023) | FDA approved | EMA (centrally authorised) | One line |
 |---|---|---|---|---|---|
 | Methamphetamine use disorder | 4 | 1.09 M / 0.63 M / 0.20 M (Amphetamine use disorders) | None | None | No approved drug; GBD's group is wider than methamphetamine |
-| Cannabis use disorder | 3 | 2.91 M / 1.70 M / 0.52 M | None | None | No approved drug; PP-01 in Phase 3 (Fast Track) for withdrawal |
+| Cannabis use disorder | 3 | 2.91 M / 1.70 M / 0.51 M | None | None | No approved drug; PP-01 in Phase 3 (Fast Track) for withdrawal |
 | Cancer therapy-induced metabolic toxicity | 3 | Not in GBD | None | None | No approved drug; side effects of ADT and lorlatinib |
 | Endometrial cancer and atypical hyperplasia | 8 | 0.79 M / 0.71 M / 0.11 M (Uterine cancer), upper bound | Advanced disease only | Advanced disease only | Nothing approved for fertility-sparing treatment |
 | Atrial fibrillation | 10 | 7.51 M / 8.32 M / 1.36 M | Many (anticoagulants, rate and rhythm drugs) | 23 products | Approved drugs exist; none aimed at weight-driven AF |
 | Infertility | 7 | 1.54 M / 3.17 M / 0.47 M (Female infertility), upper bound | Clomiphene, gonadotropins, bromocriptine | 12 fertility drugs | Approved drugs exist; trials are weight loss before IVF |
-| Breast cancer | 5 | 2.96 M / 3.93 M / 0.59 M, upper bound | Many cancer drugs | Many | None for weight or metabolism in breast cancer |
+| Breast cancer | 5 | 2.96 M / 3.92 M / 0.59 M, upper bound | Many cancer drugs | Many | None for weight or metabolism in breast cancer |
 
 Rows sorted: no approved drug first, then by how close the approved drugs come to what the trials test.
 
@@ -156,9 +159,9 @@ Rows sorted: no approved drug first, then by how close the approved drugs come t
   for obesity, so the value for a sponsor is the disease result, not the weight loss (not sourced here; cite
   the Wegovy and Zepbound labels if used in the write-up).
 
-### Dropped after Review 10 (16 Nov)
+### Dropped after Review 11 (16 Nov)
 
-Review 10's recall fix found 4 Lilly Phase 2 trials of brenipatide (LY3537031, a GIP/GLP-1 agonist) that the
+Review 11's recall fix found 4 Lilly Phase 2 trials of brenipatide (LY3537031, a GIP/GLP-1 agonist) that the
 old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (schizophrenia,
 tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse). Each row now has an industry-led
 trial, so it fails the "no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide

@@ -5,15 +5,11 @@ MASLD,11,1,8,1,2,1,89,not white space
 PCOS,10,3,7,0,0,0,70,white space
 Alcohol use disorder,7,0,7,0,0,0,100,not white space
 Heart failure,6,0,5,0,1,1,100,not white space
-Stroke,6,0,6,0,0,1,100,not white space
 ASCVD,5,0,5,0,0,1,100,not white space
-Atrial fibrillation,4,0,4,0,0,0,100,too early to call
-Infertility,4,2,2,0,0,0,50,too early to call
+Stroke,5,0,5,0,0,0,100,white space
 Antipsychotic-induced weight gain,3,0,3,0,0,0,100,too early to call
 Smoking cessation,3,0,2,0,1,0,100,too early to call
 Alzheimer's,2,0,2,0,0,0,100,too early to call
-Breast cancer,2,0,2,0,0,0,100,too early to call
-Cancer therapy-induced metabolic toxicity,2,0,2,0,0,0,100,too early to call
 Hypertension,2,0,1,0,1,0,100,not white space
 Inflammatory bowel disease,2,0,2,0,0,0,100,too early to call
 Opioid use disorder,2,0,2,0,0,0,100,too early to call
@@ -24,14 +20,12 @@ Binge eating disorder,1,0,1,0,0,1,100,too early to call
 Chemotherapy toxicity,1,0,1,0,0,1,100,too early to call
 Cocaine use disorder,1,0,1,0,0,0,100,too early to call
 Cognitive impairment in diabetes,1,0,1,0,0,0,100,too early to call
-Endometrial cancer and atypical hyperplasia,1,0,1,0,0,0,100,too early to call
 Glaucoma,1,0,1,0,0,0,100,too early to call
 Hypothalamic obesity,1,0,1,0,0,0,100,too early to call
 Idiopathic intracranial hypertension,1,0,1,0,0,0,100,too early to call
 Long COVID,1,0,1,0,0,0,100,too early to call
 Lymphoedema,1,0,0,0,1,0,,too early to call
 Major depressive disorder,1,0,1,0,0,0,100,too early to call
-Methamphetamine use disorder,1,0,1,0,0,0,100,too early to call
 Obstructive sleep apnoea,1,0,0,0,1,0,,not white space
 Partial lipodystrophy,1,0,1,0,0,0,100,too early to call
 Perioperative myocardial injury,1,0,1,0,0,0,100,too early to call

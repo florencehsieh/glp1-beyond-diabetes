@@ -4,9 +4,10 @@
 -- Saved as a table so Phases 3-4 read one list instead of copying these CTEs (decided 11 Nov).
 -- Rerun after every snapshot or edit to the reference CSVs: 01 first, then this file.
 --   psql -d aact -f sql/pipeline/01_load_reference.sql && psql -d aact -f sql/pipeline/02_trials.sql
---   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,142 trials)
+--   Steps 1-2  glp1_interventions: GLP-1 interventions from names, other names, overrides (2,657 trials, 18 Nov)
 --   Step 3     glp1_arm_check: arm rule Option B (decided 9 Nov), one row per trial + arm_rule label
---   Step 4     glp1_trials: interventional, WITHDRAWN dropped; headline count 1,809
+--   Step 4     glp1_trials: interventional, WITHDRAWN dropped; headline count 2,390 (18 Nov; 1,809 on 11 Nov,
+--              history in docs/decisions.md "How the headline count was built")
 --              (1,848 before the WITHDRAWN filter; 10 Nov: 1,845 after the 02b review,
 --              +3 from BMS-686117 and the 2 "group a" trials)
 --   Step 5     glp1_backbone: is_backbone flag (Option C, drug add-ons only), a limitation count

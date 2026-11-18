@@ -1,70 +1,71 @@
 indication,recent_b,recent_strict,share_b,share_strict,baseline_b,baseline_strict,ph3_block_b,ph3_block_strict,verdict_b,verdict_strict,shortlist_b,shortlist_strict
-MASLD,24,20,54.2,65.0,36.7,43.0,6,6,not white space,not white space,f,f
-Type 1 diabetes,23,15,21.7,33.3,36.7,43.0,5,5,not white space,not white space,f,f
-CKD,21,19,47.6,52.6,36.7,43.0,9,9,not white space,not white space,f,f
-Alcohol use disorder,12,11,41.7,45.5,36.7,43.0,2,2,not white space,not white space,f,f
-ASCVD,11,10,54.5,60.0,36.7,43.0,9,9,not white space,not white space,f,f
-PCOS,10,8,0.0,0.0,36.7,43.0,0,0,white space,white space,t,t
-Heart failure,8,7,25.0,28.6,36.7,43.0,6,6,not white space,not white space,f,f
-Obstructive sleep apnoea,8,7,87.5,100.0,36.7,43.0,21,21,not white space,not white space,f,f
-Stroke,7,4,14.3,25.0,36.7,43.0,1,1,not white space,too early to call,f,f
-Hypertension,6,5,66.7,80.0,36.7,43.0,3,3,not white space,not white space,f,f
-Osteoarthritis,6,6,66.7,66.7,36.7,43.0,8,8,not white space,not white space,f,f
-Antipsychotic-induced weight gain,4,4,25.0,25.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Atrial fibrillation,4,2,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Infertility,4,4,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Inflammatory bowel disease,4,4,50.0,50.0,36.7,43.0,2,2,too early to call,too early to call,f,f
-Psoriasis,4,4,50.0,50.0,36.7,43.0,1,1,too early to call,too early to call,f,f
-Smoking cessation,4,3,25.0,33.3,36.7,43.0,0,0,too early to call,too early to call,f,f
-Alzheimer's,3,3,33.3,33.3,36.7,43.0,3,3,too early to call,too early to call,f,f
-Alcohol-related liver disease,2,1,100.0,100.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Breast cancer,2,2,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Cancer therapy-induced metabolic toxicity,2,2,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Opioid use disorder,2,2,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Osteoporosis,2,2,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Psoriatic arthritis,2,2,100.0,100.0,36.7,43.0,1,1,too early to call,too early to call,f,f
-Asthma,1,1,100.0,100.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Binge eating disorder,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Chemotherapy toxicity,1,0,0.0,,36.7,,0,,too early to call,too early to call,f,f
-Cocaine use disorder,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Cognitive impairment in diabetes,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Endometrial cancer and atypical hyperplasia,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Glaucoma,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Hypothalamic obesity,1,0,0.0,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Idiopathic inflammatory myopathy,1,1,100.0,100.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Idiopathic intracranial hypertension,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Long COVID,1,0,0.0,,36.7,,0,,too early to call,too early to call,f,f
-Lymphoedema,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Major depressive disorder,1,1,0.0,0.0,36.7,43.0,2,2,too early to call,too early to call,f,f
-Methamphetamine use disorder,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Partial lipodystrophy,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Perioperative myocardial injury,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Postoperative delirium,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Prader-Willi syndrome,1,0,0.0,,36.7,43.0,1,1,too early to call,too early to call,f,f
-Stress urinary incontinence,1,1,100.0,100.0,36.7,43.0,1,1,too early to call,too early to call,f,f
-Systemic sclerosis,1,1,0.0,0.0,36.7,43.0,0,0,too early to call,too early to call,f,f
-Acute brain injury,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Alopecia (CCCA),0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Bile acid malabsorption,0,0,,,36.7,,0,,too early to call,too early to call,f,f
-Cannabis use disorder,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Cardiac arrest (neuroprotection),0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Cerebral small vessel disease,0,0,,,36.7,,0,,too early to call,too early to call,f,f
-COPD,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-COVID-19 myocardial injury,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Diabetic foot ulcer,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Diabetic neuropathy,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-GI cancers (metastatic),0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Hypertriglyceridaemic pancreatitis,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Irritable bowel syndrome,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Male hypogonadism,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Mild autonomous cortisol secretion,0,0,,,36.7,,0,,too early to call,too early to call,f,f
-Multiple sclerosis,0,0,,,36.7,,0,,too early to call,too early to call,f,f
-Multiple system atrophy,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Parkinson's,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Post-bariatric hypoglycemia,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Primary polydipsia,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Prostate cancer,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Pulmonary arterial hypertension,0,0,,,36.7,,0,,too early to call,too early to call,f,f
-Short bowel syndrome,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Stimulant use disorder,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
-Trichotillomania,0,0,,,36.7,43.0,0,0,too early to call,too early to call,f,f
+MASLD,25,21,56.0,66.7,38.9,45.2,7,7,not white space,not white space,f,f
+Type 1 diabetes,23,15,21.7,33.3,38.9,45.2,5,5,not white space,not white space,f,f
+CKD,21,19,47.6,52.6,38.9,45.2,9,9,not white space,not white space,f,f
+Alcohol use disorder,12,11,41.7,45.5,38.9,45.2,2,2,not white space,not white space,f,f
+ASCVD,11,10,54.5,60.0,38.9,45.2,10,10,not white space,not white space,f,f
+PCOS,11,9,9.1,11.1,38.9,45.2,0,0,white space,white space,t,t
+Heart failure,10,9,40.0,44.4,38.9,45.2,6,6,not white space,not white space,f,f
+Obstructive sleep apnoea,10,9,90.0,100.0,38.9,45.2,22,22,not white space,not white space,f,f
+Hypertension,6,5,66.7,80.0,38.9,45.2,5,5,not white space,not white space,f,f
+Osteoarthritis,6,6,66.7,66.7,38.9,45.2,8,8,not white space,not white space,f,f
+Stroke,5,3,0.0,0.0,38.9,45.2,0,0,white space,too early to call,t,f
+Antipsychotic-induced weight gain,4,4,25.0,25.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Atrial fibrillation,4,2,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Infertility,4,4,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Inflammatory bowel disease,4,4,50.0,50.0,38.9,45.2,2,2,too early to call,too early to call,f,f
+Psoriasis,4,4,50.0,50.0,38.9,45.2,1,1,too early to call,too early to call,f,f
+Smoking cessation,4,3,25.0,33.3,38.9,45.2,0,0,too early to call,too early to call,f,f
+Alzheimer's,3,3,33.3,33.3,38.9,45.2,3,3,too early to call,too early to call,f,f
+Alcohol-related liver disease,2,1,100.0,100.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Breast cancer,2,2,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Cancer therapy-induced metabolic toxicity,2,2,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Opioid use disorder,2,2,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Osteoporosis,2,2,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Psoriatic arthritis,2,2,100.0,100.0,38.9,45.2,1,1,too early to call,too early to call,f,f
+Asthma,1,1,100.0,100.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Binge eating disorder,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Chemotherapy toxicity,1,0,0.0,,38.9,,0,,too early to call,too early to call,f,f
+Cocaine use disorder,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Cognitive impairment in diabetes,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Endometrial cancer and atypical hyperplasia,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Glaucoma,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Hypothalamic obesity,1,0,0.0,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Idiopathic inflammatory myopathy,1,1,100.0,100.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Idiopathic intracranial hypertension,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Long COVID,1,0,0.0,,38.9,,0,,too early to call,too early to call,f,f
+Lymphoedema,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Major depressive disorder,1,1,0.0,0.0,38.9,45.2,2,2,too early to call,too early to call,f,f
+Methamphetamine use disorder,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Partial lipodystrophy,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Perioperative myocardial injury,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Postoperative delirium,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Prader-Willi syndrome,1,0,0.0,,38.9,45.2,1,1,too early to call,too early to call,f,f
+Stress urinary incontinence,1,1,100.0,100.0,38.9,45.2,1,1,too early to call,too early to call,f,f
+Systemic sclerosis,1,1,0.0,0.0,38.9,45.2,0,0,too early to call,too early to call,f,f
+Acute brain injury,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Alopecia (CCCA),0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Bile acid malabsorption,0,0,,,38.9,,0,,too early to call,too early to call,f,f
+Cannabis use disorder,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Cardiac arrest (neuroprotection),0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Cerebral small vessel disease,0,0,,,38.9,,0,,too early to call,too early to call,f,f
+COPD,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+COVID-19 myocardial injury,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Diabetic foot ulcer,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Diabetic neuropathy,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+GI cancers (metastatic),0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Hidradenitis suppurativa,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Hypertriglyceridaemic pancreatitis,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Irritable bowel syndrome,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Male hypogonadism,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Mild autonomous cortisol secretion,0,0,,,38.9,,0,,too early to call,too early to call,f,f
+Multiple sclerosis,0,0,,,38.9,,0,,too early to call,too early to call,f,f
+Multiple system atrophy,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Parkinson's,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Post-bariatric hypoglycemia,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Primary polydipsia,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Prostate cancer,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Pulmonary arterial hypertension,0,0,,,38.9,,0,,too early to call,too early to call,f,f
+Short bowel syndrome,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Stimulant use disorder,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f
+Trichotillomania,0,0,,,38.9,45.2,0,0,too early to call,too early to call,f,f

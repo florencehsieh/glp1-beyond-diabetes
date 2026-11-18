@@ -35,7 +35,7 @@ CREATE TABLE glp1.trial_overrides (
 );
 \copy glp1.trial_overrides FROM 'data/reference/glp1_trial_overrides.csv' WITH (FORMAT csv, HEADER true)
 
--- Checks: 980 names (938 + 42 additions; 764 keep, 216 exclude); 18 overrides, 16 trials
+-- Checks (18 Nov): 1,389 names (938 + 451 additions; 1,173 keep, 216 exclude); 18 overrides, 16 trials
 SELECT decision, COUNT(*) FROM glp1.name_map GROUP BY decision;
 SELECT COUNT(*) AS n_overrides, COUNT(DISTINCT nct_id) AS n_trials FROM glp1.trial_overrides;
 -- Every override must match exactly one intervention row in its trial (0 rows = a typo)
@@ -66,7 +66,7 @@ SELECT downcase_mesh_term, NULLIF(tag, ''), NULLIF(indication, ''), NULLIF(note,
 FROM mesh_tags_raw;
 
 -- One row per trial x indication added by hand: title keyword hits and single-trial
--- fixes that MeSH tags miss. Adds only; never removes a tag (Decided, 11 Nov).
+-- fixes that MeSH tags miss. Adds only; removals have their own file (below, 18 Nov).
 DROP TABLE IF EXISTS glp1.indication_additions;
 CREATE TABLE glp1.indication_additions (
     nct_id     text NOT NULL,
@@ -75,6 +75,19 @@ CREATE TABLE glp1.indication_additions (
     PRIMARY KEY (nct_id, indication)
 );
 \copy glp1.indication_additions FROM 'data/reference/indication_additions.csv' WITH (FORMAT csv, HEADER true)
+
+-- One row per trial x indication removed by hand (18 Nov, sanity check A01/B01): a MeSH tag
+-- that breaks a written rule for one trial, e.g. a heart-outcome (MACE) trial tagged 'stroke'
+-- against the stroke split. Narrow exception to "adds only": every row names the rule it
+-- applies, and the check in sql/pipeline/03 fails if a removal matches no label.
+DROP TABLE IF EXISTS glp1.indication_removals;
+CREATE TABLE glp1.indication_removals (
+    nct_id     text NOT NULL,
+    indication text NOT NULL,
+    reason     text NOT NULL,
+    PRIMARY KEY (nct_id, indication)
+);
+\copy glp1.indication_removals FROM 'data/reference/indication_removals.csv' WITH (FORMAT csv, HEADER true)
 
 -- Checks: tag counts (76 terms, 1 untagged: renal insufficiency); every real term has an
 -- indication (0 rows). The "every addition is a trial in glp1.trials" check lives at the end of

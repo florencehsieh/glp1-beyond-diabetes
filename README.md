@@ -10,7 +10,7 @@ everything this project builds sits in `glp1`.
 
 | Table | One row per | What it is |
 |---|---|---|
-| `trials` | trial | 1,809 interventional trials that give a GLP-1 in a tested arm (`02`) |
+| `trials` | trial | 2,390 interventional trials that give a GLP-1 in a tested arm (`02`) |
 | `trial_indications` | trial × indication | Which disease(s) each trial targets (`03`) |
 | `q1_spread` | indication | Q1: when GLP-1s reached each indication, academia or industry first (`04`) |
 | `q2_white_space` | indication | Q2: where academia is active and industry isn't (`05`) |

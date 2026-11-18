@@ -9,9 +9,13 @@
 --               diabetes or obesity spelled in a way MeSH didn't match ("type2 diabetes", "t2dm",
 --               "non-diabetic obesity") -> 'Home base'. Words that change the target are excluded
 --               (healthy, type 1, kidney/renal, neuropathy, steroid, double): those go to hand review.
+--               PCOS and sleep apnoea words added 18 Nov (sanity check C03): "obese subjects with
+--               PCOS" / "OSA and obesity" are disease trials, labelled by the keyword pass instead.
 --   'addition'  a hand decision in data/reference/indication_additions.csv
 --               (title keyword hits, single-trial fixes, the drug-study bucket).
--- Additions only add; they never remove a MeSH tag (Decided, 11 Nov).
+-- Additions only add (Decided, 11 Nov). A label that breaks a written rule for one trial is
+-- taken out through data/reference/indication_removals.csv (18 Nov, sanity check A01/B01),
+-- applied last, after all three sources; each row names the rule.
 -- A trial can have several indications: count it in each, never sum across indications.
 -- Trials with no row here are unmapped: the coverage check below lists them.
 
@@ -37,7 +41,7 @@ from_condition AS (
     JOIN ctgov.conditions c ON c.nct_id = n.nct_id
     GROUP BY n.nct_id
     HAVING STRING_AGG(LOWER(c.name), ' | ') ~ '(type ?2|t2d|obes|weight management)'
-       AND STRING_AGG(LOWER(c.name), ' | ') !~ '(healthy|type ?1|renal|kidney|neuropath|double|steroid|glucocorticoid|pancreatectomy)'
+       AND STRING_AGG(LOWER(c.name), ' | ') !~ '(healthy|type ?1|renal|kidney|neuropath|double|steroid|glucocorticoid|pancreatectomy|polycystic|pcos|apn(o)?ea|\mosa\M)'
 ),
 from_additions AS (
     SELECT a.nct_id, a.indication
@@ -54,9 +58,19 @@ FROM (
 ) s
 GROUP BY nct_id, indication;               -- one row per trial x indication; source shows both if both
 
+-- Check 0: every removal must match a label (0 rows = all matched; a row here is a typo or a
+-- label that has already gone, so fix the CSV)
+SELECT r.nct_id, r.indication FROM glp1.indication_removals r
+WHERE NOT EXISTS (SELECT 1 FROM glp1.trial_indications i
+                  WHERE i.nct_id = r.nct_id AND i.indication = r.indication);
+
+DELETE FROM glp1.trial_indications i
+USING glp1.indication_removals r
+WHERE i.nct_id = r.nct_id AND i.indication = r.indication;
+
 ALTER TABLE glp1.trial_indications ADD PRIMARY KEY (nct_id, indication);
 
--- Check 1: rows, trials mapped, trials unmapped (mapped + unmapped = 1,809)
+-- Check 1: rows, trials mapped, trials unmapped (mapped + unmapped = all of glp1.trials: 2,390 on 18 Nov)
 SELECT COUNT(*)                                    AS n_rows,
        COUNT(DISTINCT nct_id)                      AS n_trials_mapped,
        (SELECT COUNT(*) FROM glp1.trials) - COUNT(DISTINCT nct_id) AS n_trials_unmapped

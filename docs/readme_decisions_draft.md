@@ -1,17 +1,18 @@
 # Key decisions: README draft
 
-Draft, 17 Nov 2026. Flo picked these five from `docs/decisions.md` for the README; each has the full
-shape (options · choice · why · cost · check). Numbers are from the 17 Nov rerun (2,357 trials, all
-labelled). Recheck every number before Phase 6.
+Draft, 17 Nov 2026; numbers and headline updated 18 Nov after the three sanity checks (2,390 trials, all
+labelled; stroke split applied, so stroke is a second white space). Flo picked these five from
+`docs/decisions.md` for the README; each has the full shape (options · choice · why · cost · check).
+Recheck every number before Phase 6.
 
 Note: the headline's "most of them with a Phase 3" became "all with an industry Phase 3": after the
-recall fix all 10 non-white-space areas have one (active or completed).
+recall fix all 9 non-white-space areas among the 11 busiest have one (active or completed).
 
 ## 1. What counts as white space
 
 - **Options:** zero industry trials; a fixed share (e.g. under 10%); a share anchored to the field.
 - **Choice:** an indication is white space when industry leads less than half the baseline share of its
-  2023–2025 trial starts (baseline 36.7%, bar 18.3%), no industry Phase 3 is active or completed in any
+  2023–2025 trial starts (baseline 38.9%, bar 19.5%), no industry Phase 3 is active or completed in any
   year, and it has at least 5 trial starts. Below 5 it's "too early to call".
 - **Why:** zero is too strict: 3 industry vs 50 academic is still an opening. A fixed % is arbitrary, so
   anchor it to the field. An industry Phase 3 means a competitor is already close. With "active" alone,
@@ -19,19 +20,21 @@ recall fix all 10 non-white-space areas have one (active or completed).
 - **Cost:** atrial fibrillation misses the cut at 4 trials despite 4 different academic leads (it goes on
   the watchlist). An area a company tried long ago and left no longer counts (the "old block only" flag
   catches that case).
-- **Check:** PCOS holds at one third and two thirds of baseline, and under the strict arm rule (8 trials,
-  still 0 industry).
+- **Check:** PCOS holds at one third and two thirds of baseline, and under the strict arm rule (9 trials,
+  1 industry, 11.1%). Stroke holds at both bars but not under the strict arm rule (3 trials: too early to
+  call).
 
 ## 2. Reframing the headline instead of the rules
 
 - **Options:** loosen the rules to get more white-space names, or keep them and reframe the headline.
-- **Choice:** keep every rule. Headline: "Industry has already followed academia into 10 of the 11 busiest
-  new GLP-1 areas, all with an industry Phase 3. PCOS is the one big exception. The next openings are
-  early."
+- **Choice:** keep every rule. Headline: "Industry has already entered 9 of the 11 busiest new GLP-1
+  areas, each with an industry Phase 3. The two still open are PCOS, the stronger lead, and stroke, a
+  thinner one. The next openings are early."
 - **Why:** "industry is already there" is valuable news for a BD team: it stops them chasing a crowded area
   thinking they're early. Loosening the rules after seeing the answer would be tuning them to the result.
-- **Cost:** a one-item shortlist rests heavily on PCOS, including its 3 UNKNOWN-status trials (at 7 trials
-  it still passes).
+- **Cost:** a two-item shortlist. PCOS is defended (every check, and without its 4 UNKNOWN-status trials it
+  still passes at 7). Stroke rests on 5 trials and fails the strict arm rule, and it only became white space
+  once a heart-outcome trial was moved to ASCVD by the stroke split (18 Nov).
 - **Check:** the rules were written before the results, and the watchlist rule for early signals was
   written before looking.
 
@@ -44,7 +47,9 @@ recall fix all 10 non-white-space areas have one (active or completed).
 - **Cost:** drugs with a code but no INN yet are outside it; WHO's mechanism text is largely supplied by
   the manufacturer.
 - **Check:** the list went 1,809 → 2,357 trials across three passes (INN check +22, code leads +16). PCOS
-  held; the watchlist dropped from 10 to 7 once Lilly's brenipatide trials were found.
+  held; the watchlist dropped from 10 to 7 once Lilly's brenipatide trials were found. Three independent
+  sanity checks (18 Nov) then found old pre-2015 codes of known GLP-1s the code search had skipped:
+  +33 trials to 2,390, all type 2 diabetes, obesity or drug studies, no verdict change.
 
 ## 4. Completed doesn't mean it worked
 
@@ -68,4 +73,4 @@ recall fix all 10 non-white-space areas have one (active or completed).
 - **Cost:** each "being scouted" label rests on one trial, and Novo and Lilly supply drug to academic trials
   as routine support.
 - **Check:** the count per company sits next to each label; check 3 (`sql/pipeline/08`) finds makers
-  missing from the list, and it caught Huadong. PCOS is "open": no GLP-1 maker backs any of its 10 trials.
+  missing from the list, and it caught Huadong. PCOS is "open": no GLP-1 maker backs any of its 10 academic trials. Stroke is open too (0 of 5).

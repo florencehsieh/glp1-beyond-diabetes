@@ -1,4 +1,9 @@
 nct_id,indication,source
+NCT00035984,Home base,mesh
+NCT00039013,Home base,mesh
+NCT00039026,Home base,mesh
+NCT00044668,Home base,mesh
+NCT00044694,Home base,mesh
 NCT00064714,Home base,mesh
 NCT00064714,Type 1 diabetes,mesh
 NCT00082381,Home base,mesh
@@ -45,6 +50,7 @@ NCT00517283,Home base,mesh
 NCT00518882,Home base,mesh
 NCT00529204,Home base,mesh
 NCT00529204,MASLD,mesh
+NCT00530309,Home base,mesh
 NCT00537719,Home base,mesh
 NCT00546728,Home base,mesh
 NCT00551343,Prader-Willi syndrome,addition+mesh
@@ -57,11 +63,13 @@ NCT00620282,Home base,mesh
 NCT00623545,Home base,mesh
 NCT00630825,Home base,mesh
 NCT00637273,Home base,mesh
+NCT00638716,Home base,mesh
 NCT00641056,Home base,mesh
 NCT00650546,MASLD,mesh
 NCT00658021,Home base,mesh
 NCT00667732,Home base,mesh
 NCT00672399,Drug study,addition
+NCT00674466,Home base,mesh
 NCT00676338,Home base,mesh
 NCT00679042,Type 1 diabetes,mesh
 NCT00688701,Home base,mesh
@@ -96,6 +104,7 @@ NCT00782418,Drug study,addition
 NCT00791479,Home base,mesh
 NCT00799435,Heart failure,addition
 NCT00799435,Home base,mesh
+NCT00804986,Home base,mesh
 NCT00809705,Home base,mesh
 NCT00811460,Home base,mesh
 NCT00813020,Home base,mesh
@@ -111,6 +120,7 @@ NCT00845507,Antipsychotic-induced weight gain,addition
 NCT00849017,Home base,mesh
 NCT00849056,Home base,mesh
 NCT00851773,Home base,mesh
+NCT00853151,Home base,mesh
 NCT00855439,Home base,mesh
 NCT00856609,Home base,mesh
 NCT00856986,Home base,mesh
@@ -143,12 +153,14 @@ NCT00983021,Home base,mesh
 NCT00993304,Home base,mesh
 NCT00993720,Home base,mesh
 NCT00993720,Type 1 diabetes,addition
+NCT01001104,Home base,mesh
 NCT01003184,Home base,mesh
 NCT01006889,Home base,mesh
 NCT01006889,MASLD,mesh
 NCT01018173,Home base,mesh
 NCT01021527,Drug study,addition
 NCT01029886,Home base,mesh
+NCT01037582,Home base,mesh
 NCT01046721,Home base,mesh
 NCT01051011,Home base,mesh
 NCT01056107,Irritable bowel syndrome,addition
@@ -190,12 +202,14 @@ NCT01206101,Home base,mesh
 NCT01206101,Type 1 diabetes,mesh
 NCT01208012,Home base,mesh
 NCT01208649,MASLD,mesh
+NCT01215968,Home base,mesh
 NCT01232946,Home base,mesh
 NCT01234649,Home base,mesh
 NCT01235819,Type 1 diabetes,mesh
 NCT01236404,Home base,mesh
 NCT01237119,MASLD,mesh
 NCT01237197,Home base,mesh
+NCT01250834,Drug study,addition
 NCT01253304,Home base,mesh
 NCT01254123,ASCVD,mesh
 NCT01255163,Alzheimer's,mesh
@@ -211,6 +225,7 @@ NCT01272973,Home base,mesh
 NCT01281228,Home base,mesh
 NCT01297062,Home base,mesh
 NCT01300260,Home base,mesh
+NCT01301092,Home base,mesh
 NCT01319240,Home base,mesh
 NCT01324388,Home base,mesh
 NCT01324505,Home base,mesh
@@ -230,6 +245,7 @@ NCT01394341,Home base,mesh
 NCT01394952,Home base,mesh
 NCT01399645,Home base,mesh
 NCT01399645,MASLD,mesh
+NCT01405261,Home base,mesh
 NCT01406262,Home base,mesh
 NCT01408888,Home base,mesh
 NCT01425580,Heart failure,mesh
@@ -284,6 +300,7 @@ NCT01511198,Home base,mesh
 NCT01511692,Home base,mesh
 NCT01512108,Home base,mesh
 NCT01513525,Home base,mesh
+NCT01514149,Home base,mesh
 NCT01514487,Home base,mesh
 NCT01515553,Home base,mesh
 NCT01515579,Home base,mesh
@@ -352,6 +369,7 @@ NCT01677104,Home base,mesh
 NCT01686945,Home base,mesh
 NCT01687582,Home base,mesh
 NCT01687582,Psoriasis,mesh
+NCT01690169,Home base,mesh
 NCT01695109,Home base,mesh
 NCT01720446,Home base,mesh
 NCT01722240,Type 1 diabetes,mesh
@@ -432,11 +450,13 @@ NCT01960179,Home base,mesh
 NCT01965496,Home base,mesh
 NCT01965509,Home base,mesh
 NCT01966978,Home base,mesh
+NCT01967589,Home base,mesh
 NCT01969149,Home base,addition
 NCT01971242,Parkinson's,mesh
 NCT01972893,Home base,mesh
 NCT01973231,Home base,mesh
 NCT01976858,Home base,mesh
+NCT01978613,Home base,mesh
 NCT01982630,Home base,mesh
 NCT02001363,ASCVD,addition
 NCT02008682,Home base,mesh
@@ -478,6 +498,7 @@ NCT02092597,Home base,mesh
 NCT02092896,Home base,mesh
 NCT02092896,Type 1 diabetes,mesh
 NCT02094183,Home base,mesh
+NCT02094521,Home base,mesh
 NCT02098395,Home base,mesh
 NCT02098395,Type 1 diabetes,mesh
 NCT02100475,Home base,mesh
@@ -622,6 +643,7 @@ NCT02635386,PCOS,mesh
 NCT02638805,Home base,mesh
 NCT02640118,Home base,addition
 NCT02641899,Drug study,addition
+NCT02641990,Drug study,addition
 NCT02647944,Home base,mesh
 NCT02648204,Home base,mesh
 NCT02650206,Home base,mesh
@@ -674,7 +696,6 @@ NCT02827708,Home base,mesh
 NCT02829502,Stroke,mesh
 NCT02832999,Home base,mesh
 NCT02838589,Drug study,addition
-NCT02838589,Stroke,mesh
 NCT02845219,Home base,mesh
 NCT02846233,Home base,mesh
 NCT02847403,Cognitive impairment in diabetes,addition
@@ -771,6 +792,7 @@ NCT03175120,Home base,mesh
 NCT03175211,Drug study,addition
 NCT03182426,Type 1 diabetes,mesh
 NCT03191396,Home base,mesh
+NCT03199261,Home base,mesh
 NCT03204396,Home base,mesh
 NCT03204396,Smoking cessation,mesh
 NCT03232112,Alcohol use disorder,mesh
@@ -1017,6 +1039,7 @@ NCT04314622,Home base,mesh
 NCT04324229,Home base,mesh
 NCT04325581,Home base,mesh
 NCT04354090,Home base,mesh
+NCT04373967,Home base,mesh
 NCT04379856,Short bowel syndrome,mesh
 NCT04383197,Home base,mesh
 NCT04384081,Drug study,addition
@@ -1164,6 +1187,7 @@ NCT04998136,Home base,mesh
 NCT05005741,Home base,mesh
 NCT05006885,Home base,mesh
 NCT05006885,MASLD,mesh
+NCT05013229,Home base,mesh
 NCT05016882,MASLD,mesh
 NCT05024032,Home base,mesh
 NCT05029076,Home base,mesh
@@ -1264,6 +1288,7 @@ NCT05340868,Home base,mesh
 NCT05341089,Drug study,addition
 NCT05347758,Drug study,addition
 NCT05348122,Home base,mesh
+NCT05352815,Home base,mesh
 NCT05356104,Cerebral small vessel disease,addition
 NCT05360147,Home base,mesh
 NCT05360537,Home base,mesh
@@ -1391,7 +1416,6 @@ NCT05767255,Home base,mesh
 NCT05779644,Home base,mesh
 NCT05779644,MASLD,mesh
 NCT05780905,Home base,mesh
-NCT05780905,Stroke,mesh
 NCT05784402,Drug study,addition
 NCT05786521,Home base,mesh
 NCT05788328,Drug study,addition
@@ -1583,6 +1607,7 @@ NCT06258148,Home base,mesh
 NCT06260722,Home base,mesh
 NCT06267092,Home base,mesh
 NCT06268145,Home base,mesh
+NCT06269107,Home base,mesh
 NCT06277934,Home base,mesh
 NCT06282458,Home base,mesh
 NCT06287307,Home base,mesh
@@ -1725,6 +1750,7 @@ NCT06564441,Home base,mesh
 NCT06564753,Home base,mesh
 NCT06565611,Home base,mesh
 NCT06565871,Home base,condition
+NCT06565871,Obstructive sleep apnoea,addition
 NCT06567041,Home base,mesh
 NCT06567327,Home base,mesh
 NCT06568731,Home base,mesh
@@ -1744,7 +1770,7 @@ NCT06588283,Psoriasis,mesh
 NCT06588296,Home base,mesh
 NCT06588296,Psoriatic arthritis,addition
 NCT06589765,Home base,mesh
-NCT06595797,Home base,condition
+NCT06595797,PCOS,addition
 NCT06601517,Drug study,addition
 NCT06603571,Home base,mesh
 NCT06604624,Home base,condition
@@ -1760,6 +1786,7 @@ NCT06613763,Drug study,addition
 NCT06613854,Home base,mesh
 NCT06615700,Home base,mesh
 NCT06616961,Home base,mesh
+NCT06621017,Home base,mesh
 NCT06621316,Home base,mesh
 NCT06628362,Home base,mesh
 NCT06629688,Home base,mesh
@@ -1877,6 +1904,7 @@ NCT06814938,Home base,mesh
 NCT06817356,Alcohol use disorder,mesh
 NCT06818292,Drug study,addition
 NCT06819488,Home base,mesh
+NCT06820099,Heart failure,addition
 NCT06820099,Home base,mesh
 NCT06820281,Home base,mesh
 NCT06820281,Type 1 diabetes,mesh
@@ -1904,6 +1932,7 @@ NCT06858878,Home base,mesh
 NCT06859268,Home base,mesh
 NCT06861439,Home base,mesh
 NCT06862791,Home base,mesh
+NCT06862908,Heart failure,addition
 NCT06862908,Home base,mesh
 NCT06863363,Home base,condition
 NCT06864026,Home base,mesh
@@ -1914,6 +1943,7 @@ NCT06869018,Home base,mesh
 NCT06871761,Home base,condition
 NCT06881264,Home base,condition
 NCT06884293,Home base,mesh
+NCT06884293,MASLD,addition
 NCT06885021,Home base,mesh
 NCT06886126,Home base,mesh
 NCT06890611,Drug study,addition
@@ -2008,7 +2038,7 @@ NCT06989203,Home base,mesh
 NCT06993792,Home base,mesh
 NCT06994338,Alcohol use disorder,mesh
 NCT06994338,Home base,mesh
-NCT06994650,Home base,condition
+NCT06994650,Obstructive sleep apnoea,addition
 NCT06996886,Home base,mesh
 NCT07000955,Home base,mesh
 NCT07002905,Home base,condition
@@ -2029,6 +2059,7 @@ NCT07029009,Home base,mesh
 NCT07030621,Stroke,mesh
 NCT07030868,Home base,mesh
 NCT07035093,Home base,mesh
+NCT07036172,Home base,condition
 NCT07036601,Home base,mesh
 NCT07037433,ASCVD,mesh
 NCT07037433,Home base,mesh
@@ -2036,12 +2067,15 @@ NCT07037459,Heart failure,mesh
 NCT07037459,Home base,mesh
 NCT07040592,Alcohol use disorder,mesh
 NCT07044401,Home base,mesh
+NCT07046273,Home base,mesh
 NCT07046819,Alcohol use disorder,mesh
 NCT07046819,Alcohol-related liver disease,addition
 NCT07046819,Home base,mesh
 NCT07055386,Home base,mesh
+NCT07057271,Home base,condition
 NCT07057310,Home base,mesh
 NCT07057674,Home base,mesh
+NCT07058545,Home base,condition
 NCT07059377,Home base,mesh
 NCT07059377,Smoking cessation,addition
 NCT07060456,Home base,mesh
@@ -2094,6 +2128,7 @@ NCT07135245,Alzheimer's,mesh
 NCT07136714,Major depressive disorder,mesh
 NCT07139535,Home base,condition
 NCT07139548,Home base,condition
+NCT07140055,Home base,mesh
 NCT07141030,Home base,mesh
 NCT07143227,Home base,mesh
 NCT07144098,Home base,mesh
@@ -2170,7 +2205,6 @@ NCT07239570,CKD,mesh
 NCT07239973,Home base,mesh
 NCT07241390,ASCVD,addition
 NCT07241390,CKD,mesh
-NCT07241390,Stroke,mesh
 NCT07242534,Home base,mesh
 NCT07242534,Infertility,mesh
 NCT07243171,Home base,mesh
@@ -2315,6 +2349,7 @@ NCT07466017,MASLD,addition
 NCT07467447,Home base,mesh
 NCT07468552,Cannabis use disorder,mesh
 NCT07469800,Home base,mesh
+NCT07469800,Hypertension,addition
 NCT07476118,Home base,mesh
 NCT07481630,Home base,mesh
 NCT07481630,Osteoarthritis,mesh
@@ -2349,6 +2384,7 @@ NCT07527195,Home base,mesh
 NCT07527650,Home base,mesh
 NCT07527910,MASLD,mesh
 NCT07528027,Home base,mesh
+NCT07528027,Hypertension,addition
 NCT07532655,Home base,mesh
 NCT07533175,Home base,mesh
 NCT07534592,Home base,mesh
@@ -2592,6 +2628,7 @@ NCT07825857,Methamphetamine use disorder,addition
 NCT07827027,Drug study,addition
 NCT07828197,Drug study,addition
 NCT07829198,Home base,mesh
+NCT07830329,Hidradenitis suppurativa,addition
 NCT07830329,Home base,mesh
 NCT07832084,Home base,mesh
 NCT07832799,Home base,mesh
@@ -2626,6 +2663,7 @@ NCT07859150,Home base,mesh
 NCT07859163,Home base,mesh
 NCT07859176,Home base,mesh
 NCT07859189,Home base,mesh
+NCT07861100,ASCVD,addition
 NCT07861100,Home base,mesh
 NCT07866066,Home base,mesh
 NCT07866183,Home base,mesh

@@ -1,0 +1,276 @@
+indication,start_year,trials,planned,hollow,first_year_of_area
+Acute brain injury,2015,1,0,f,t
+Alcohol use disorder,2015,1,0,f,t
+Alcohol use disorder,2017,1,0,f,f
+Alcohol use disorder,2019,1,0,f,f
+Alcohol use disorder,2022,1,0,f,f
+Alcohol use disorder,2023,3,0,f,f
+Alcohol use disorder,2024,2,0,f,f
+Alcohol use disorder,2025,7,0,f,f
+Alcohol use disorder,2026,10,4,t,f
+Alcohol-related liver disease,2024,1,0,f,t
+Alcohol-related liver disease,2025,1,0,f,f
+Alcohol-related liver disease,2026,1,0,t,f
+Alopecia (CCCA),2026,1,1,t,t
+Alzheimer's,2010,1,0,f,t
+Alzheimer's,2012,1,0,f,f
+Alzheimer's,2014,1,0,f,f
+Alzheimer's,2021,2,0,f,f
+Alzheimer's,2023,1,0,f,f
+Alzheimer's,2024,1,0,f,f
+Alzheimer's,2025,1,1,f,f
+Alzheimer's,2026,2,1,t,f
+Antipsychotic-induced weight gain,2008,1,0,f,t
+Antipsychotic-induced weight gain,2013,2,0,f,f
+Antipsychotic-induced weight gain,2014,1,0,f,f
+Antipsychotic-induced weight gain,2015,1,0,f,f
+Antipsychotic-induced weight gain,2017,1,0,f,f
+Antipsychotic-induced weight gain,2021,1,0,f,f
+Antipsychotic-induced weight gain,2022,2,0,f,f
+Antipsychotic-induced weight gain,2023,1,0,f,f
+Antipsychotic-induced weight gain,2025,3,0,f,f
+Antipsychotic-induced weight gain,2026,3,1,t,f
+ASCVD,2008,1,0,f,t
+ASCVD,2009,3,0,f,f
+ASCVD,2011,1,0,f,f
+ASCVD,2012,1,0,f,f
+ASCVD,2013,1,0,f,f
+ASCVD,2014,3,0,f,f
+ASCVD,2015,6,0,f,f
+ASCVD,2016,2,0,f,f
+ASCVD,2018,2,0,f,f
+ASCVD,2019,3,0,f,f
+ASCVD,2020,2,0,f,f
+ASCVD,2021,2,1,f,f
+ASCVD,2022,2,0,f,f
+ASCVD,2023,3,0,f,f
+ASCVD,2024,3,0,f,f
+ASCVD,2025,5,1,f,f
+ASCVD,2026,3,2,t,f
+Asthma,2025,1,0,f,t
+Atrial fibrillation,2019,1,0,f,t
+Atrial fibrillation,2021,1,0,f,f
+Atrial fibrillation,2023,1,1,f,f
+Atrial fibrillation,2024,1,0,f,f
+Atrial fibrillation,2025,2,0,f,f
+Atrial fibrillation,2026,6,5,t,f
+Bile acid malabsorption,2019,1,0,f,t
+Binge eating disorder,2012,1,0,f,t
+Binge eating disorder,2017,1,0,f,f
+Binge eating disorder,2025,1,0,f,f
+Breast cancer,2024,2,0,f,t
+Breast cancer,2026,3,2,t,f
+Cancer therapy-induced metabolic toxicity,2025,2,0,f,t
+Cancer therapy-induced metabolic toxicity,2026,1,0,t,f
+Cannabis use disorder,2026,3,2,t,t
+Cardiac arrest (neuroprotection),2014,1,0,f,t
+Cerebral small vessel disease,2022,1,0,f,t
+Chemotherapy toxicity,2024,1,1,f,t
+CKD,2012,2,0,f,t
+CKD,2013,1,0,f,f
+CKD,2014,1,0,f,f
+CKD,2015,2,0,f,f
+CKD,2016,1,0,f,f
+CKD,2017,1,0,f,f
+CKD,2018,1,0,f,f
+CKD,2019,2,1,f,f
+CKD,2020,1,0,f,f
+CKD,2021,4,0,f,f
+CKD,2022,5,0,f,f
+CKD,2023,6,0,f,f
+CKD,2024,9,1,f,f
+CKD,2025,6,0,f,f
+CKD,2026,9,6,t,f
+Cocaine use disorder,2014,1,0,f,t
+Cocaine use disorder,2021,1,0,f,f
+Cocaine use disorder,2025,1,0,f,f
+Cocaine use disorder,2026,1,0,t,f
+Cognitive impairment in diabetes,2016,1,0,f,t
+Cognitive impairment in diabetes,2022,1,0,f,f
+Cognitive impairment in diabetes,2025,1,0,f,f
+COPD,2026,1,0,t,t
+COVID-19 myocardial injury,2021,1,0,f,t
+Diabetic foot ulcer,2026,1,0,t,t
+Diabetic neuropathy,2019,1,1,f,t
+Endometrial cancer and atypical hyperplasia,2022,1,0,f,t
+Endometrial cancer and atypical hyperplasia,2024,1,0,f,f
+Endometrial cancer and atypical hyperplasia,2026,7,4,t,f
+GI cancers (metastatic),2026,1,1,t,t
+Glaucoma,2025,1,1,f,t
+Heart failure,2009,2,0,f,t
+Heart failure,2010,1,0,f,f
+Heart failure,2011,1,0,f,f
+Heart failure,2012,1,0,f,f
+Heart failure,2013,1,0,f,f
+Heart failure,2015,2,0,f,f
+Heart failure,2016,1,0,f,f
+Heart failure,2021,3,0,f,f
+Heart failure,2022,1,0,f,f
+Heart failure,2024,5,0,f,f
+Heart failure,2025,5,0,f,f
+Heart failure,2026,5,2,t,f
+Hidradenitis suppurativa,2026,1,1,t,t
+Hypertension,2012,1,0,f,t
+Hypertension,2013,1,0,f,f
+Hypertension,2014,1,0,f,f
+Hypertension,2015,1,0,f,f
+Hypertension,2024,2,0,f,f
+Hypertension,2025,4,0,f,f
+Hypertension,2026,4,2,t,f
+Hypertriglyceridaemic pancreatitis,2026,1,1,t,t
+Hypothalamic obesity,2010,1,0,f,t
+Hypothalamic obesity,2012,2,0,f,f
+Hypothalamic obesity,2016,1,0,f,f
+Hypothalamic obesity,2017,1,0,f,f
+Hypothalamic obesity,2022,1,0,f,f
+Hypothalamic obesity,2025,1,0,f,f
+Hypothalamic obesity,2026,1,1,t,f
+Idiopathic inflammatory myopathy,2023,1,0,f,t
+Idiopathic intracranial hypertension,2022,1,0,f,t
+Idiopathic intracranial hypertension,2024,1,1,f,f
+Idiopathic intracranial hypertension,2026,1,0,t,f
+Infertility,2014,2,0,f,t
+Infertility,2018,1,1,f,f
+Infertility,2020,1,0,f,f
+Infertility,2022,1,0,f,f
+Infertility,2023,3,1,f,f
+Infertility,2025,1,0,f,f
+Infertility,2026,3,2,t,f
+Inflammatory bowel disease,2022,2,0,f,t
+Inflammatory bowel disease,2025,4,0,f,f
+Inflammatory bowel disease,2026,1,1,t,f
+Irritable bowel syndrome,2010,1,0,f,t
+Irritable bowel syndrome,2026,2,0,t,f
+Long COVID,2025,1,0,f,t
+Lymphoedema,2025,1,0,f,t
+Major depressive disorder,2015,1,0,f,t
+Major depressive disorder,2021,1,0,f,f
+Major depressive disorder,2025,1,0,f,f
+Major depressive disorder,2026,2,0,t,f
+Male hypogonadism,2014,1,0,f,t
+Male hypogonadism,2020,1,0,f,f
+MASLD,2006,1,0,f,t
+MASLD,2007,1,0,f,f
+MASLD,2008,2,0,f,f
+MASLD,2010,1,0,f,f
+MASLD,2011,1,0,f,f
+MASLD,2012,1,0,f,f
+MASLD,2014,2,0,f,f
+MASLD,2015,1,0,f,f
+MASLD,2016,1,0,f,f
+MASLD,2017,1,0,f,f
+MASLD,2018,1,0,f,f
+MASLD,2019,8,1,f,f
+MASLD,2020,3,0,f,f
+MASLD,2021,10,0,f,f
+MASLD,2022,4,0,f,f
+MASLD,2023,10,0,f,f
+MASLD,2024,9,0,f,f
+MASLD,2025,6,1,f,f
+MASLD,2026,8,3,t,f
+Methamphetamine use disorder,2025,1,0,f,t
+Methamphetamine use disorder,2026,3,1,t,f
+Mild autonomous cortisol secretion,2026,1,0,t,t
+Multiple sclerosis,2026,1,0,t,t
+Multiple system atrophy,2020,1,0,f,t
+Obstructive sleep apnoea,2010,1,0,f,t
+Obstructive sleep apnoea,2012,1,0,f,f
+Obstructive sleep apnoea,2013,1,0,f,f
+Obstructive sleep apnoea,2019,1,0,f,f
+Obstructive sleep apnoea,2022,1,0,f,f
+Obstructive sleep apnoea,2023,2,0,f,f
+Obstructive sleep apnoea,2024,3,1,f,f
+Obstructive sleep apnoea,2025,5,0,f,f
+Obstructive sleep apnoea,2026,13,8,t,f
+Opioid use disorder,2021,1,0,f,t
+Opioid use disorder,2025,2,0,f,f
+Opioid use disorder,2026,2,0,t,f
+Osteoarthritis,2016,5,0,f,t
+Osteoarthritis,2021,1,0,f,f
+Osteoarthritis,2023,2,0,f,f
+Osteoarthritis,2024,1,0,f,f
+Osteoarthritis,2025,3,0,f,f
+Osteoarthritis,2026,4,1,t,f
+Osteoporosis,2015,1,0,f,t
+Osteoporosis,2021,1,0,f,f
+Osteoporosis,2025,2,1,f,f
+Parkinson's,2010,1,0,f,t
+Parkinson's,2014,1,0,f,f
+Parkinson's,2017,1,0,f,f
+Parkinson's,2018,2,0,f,f
+Parkinson's,2019,1,1,f,f
+Parkinson's,2020,4,0,f,f
+Partial lipodystrophy,2025,1,0,f,t
+PCOS,2011,2,0,f,t
+PCOS,2014,6,0,f,f
+PCOS,2015,2,0,f,f
+PCOS,2016,1,0,f,f
+PCOS,2017,2,0,f,f
+PCOS,2018,2,1,f,f
+PCOS,2019,4,1,f,f
+PCOS,2021,2,0,f,f
+PCOS,2023,3,1,f,f
+PCOS,2024,3,1,f,f
+PCOS,2025,5,2,f,f
+PCOS,2026,2,2,t,f
+Perioperative myocardial injury,2024,1,0,f,t
+Post-bariatric hypoglycemia,2015,1,0,f,t
+Post-bariatric hypoglycemia,2016,1,0,f,f
+Post-bariatric hypoglycemia,2026,1,1,t,f
+Postoperative delirium,2024,1,0,f,t
+Prader-Willi syndrome,2007,1,0,f,t
+Prader-Willi syndrome,2012,2,0,f,f
+Prader-Willi syndrome,2015,1,0,f,f
+Prader-Willi syndrome,2025,1,0,f,f
+Primary polydipsia,2016,1,0,f,t
+Prostate cancer,2026,1,1,t,t
+Psoriasis,2011,2,0,f,t
+Psoriasis,2012,1,0,f,f
+Psoriasis,2023,1,0,f,f
+Psoriasis,2024,1,0,f,f
+Psoriasis,2025,2,0,f,f
+Psoriasis,2026,1,0,t,f
+Psoriatic arthritis,2024,1,0,f,t
+Psoriatic arthritis,2025,1,0,f,f
+Psoriatic arthritis,2026,2,0,t,f
+Pulmonary arterial hypertension,2026,1,1,t,t
+Short bowel syndrome,2020,1,0,f,t
+Short bowel syndrome,2021,1,0,f,f
+Short bowel syndrome,2026,1,0,t,f
+Smoking cessation,2015,1,0,f,t
+Smoking cessation,2016,1,0,f,f
+Smoking cessation,2017,1,0,f,f
+Smoking cessation,2018,1,0,f,f
+Smoking cessation,2022,2,0,f,f
+Smoking cessation,2024,2,0,f,f
+Smoking cessation,2025,2,1,f,f
+Smoking cessation,2026,3,0,t,f
+Stimulant use disorder,2026,1,0,t,t
+Stress urinary incontinence,2025,1,0,f,t
+Stroke,2016,2,0,f,t
+Stroke,2017,1,0,f,f
+Stroke,2019,1,0,f,f
+Stroke,2023,2,0,f,f
+Stroke,2025,3,2,f,f
+Stroke,2026,3,3,t,f
+Systemic sclerosis,2024,1,0,f,t
+Trichotillomania,2026,1,1,t,t
+Type 1 diabetes,2003,1,0,f,t
+Type 1 diabetes,2004,1,0,f,f
+Type 1 diabetes,2007,2,0,f,f
+Type 1 diabetes,2009,2,0,f,f
+Type 1 diabetes,2010,2,0,f,f
+Type 1 diabetes,2012,10,0,f,f
+Type 1 diabetes,2013,6,0,f,f
+Type 1 diabetes,2014,4,0,f,f
+Type 1 diabetes,2015,7,0,f,f
+Type 1 diabetes,2016,5,0,f,f
+Type 1 diabetes,2017,4,0,f,f
+Type 1 diabetes,2018,1,0,f,f
+Type 1 diabetes,2019,2,0,f,f
+Type 1 diabetes,2021,1,0,f,f
+Type 1 diabetes,2022,2,0,f,f
+Type 1 diabetes,2023,7,0,f,f
+Type 1 diabetes,2024,6,1,f,f
+Type 1 diabetes,2025,10,2,f,f
+Type 1 diabetes,2026,5,2,t,f

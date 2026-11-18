@@ -10,10 +10,14 @@
 --   Phase rule   main: only pure PHASE3 is Phase 3; PHASE2/PHASE3 counts as Phase 2; PHASE1/PHASE2
 --                as Phase 1 (4 Nov). Sensitivity: PHASE2/PHASE3 counted as Phase 3.
 --   NA, PHASE4   counted and reported, left out of both phase measures (top and bottom, 9 Nov).
---   Speed (main) years from the first trial of any phase to the first Phase 3 (changed 12 Nov:
+--   Speed (main) years from the first phased trial to the first Phase 3 (changed 12 Nov:
 --                GLP-1s are approved drugs, so Phase 3 often comes before any Phase 2 and the
 --                4 Nov Phase 2 -> 3 gap goes negative; kept as a side column). NULL = no Phase 3 yet.
 --                Shown with who ran that first Phase 3.
+--                Start year (18 Nov, sanity check A06): the first trial with a real phase label
+--                (EARLY_PHASE1 to PHASE3), so NA and PHASE4 are out of the start as well as the
+--                end, the 9 Nov rule. first_trial_year (any kind, incl. NA and PHASE4) stays as a
+--                context column: the gap between the two is early work the speed measure leaves out.
 --   Status       active = RECRUITING, NOT_YET_RECRUITING, ACTIVE_NOT_RECRUITING, ENROLLING_BY_INVITATION;
 --                completed = COMPLETED; stopped = TERMINATED, SUSPENDED; unknown = UNKNOWN (9 Nov).
 --   Completed    a failed trial that ran to its end shows as COMPLETED (EVOKE, Exenatide-PD3), so
@@ -71,7 +75,8 @@ first_ph3 AS (
 per_ind AS (
     SELECT indication,
            COUNT(DISTINCT nct_id) AS trials_all_years,
-           MIN(start_year) AS first_trial_year,
+           MIN(start_year) AS first_trial_year,                                -- context: any kind
+           MIN(start_year) FILTER (WHERE phase NOT IN ('NA','PHASE4'))          AS first_phased_year,
            -- main rule
            MIN(start_year) FILTER (WHERE phase IN ('PHASE2','PHASE2/PHASE3')) AS first_ph2_year,
            MIN(start_year) FILTER (WHERE phase = 'PHASE3')                    AS first_ph3_year,
@@ -110,10 +115,10 @@ SELECT p.indication,
        COALESCE(ws.shortlist, FALSE) AS on_shortlist,
        COALESCE(wl.on_watchlist, FALSE) AS on_watchlist,
        p.trials_all_years,
-       p.first_trial_year, p.first_ph3_year,
-       p.first_ph3_year - p.first_trial_year AS years_to_ph3,
+       p.first_trial_year, p.first_phased_year, p.first_ph3_year,
+       p.first_ph3_year - p.first_phased_year AS years_to_ph3,
        f.first_ph3_trial, f.first_ph3_lead,
-       p.first_ph3_year_sens - p.first_trial_year AS years_to_ph3_sens,
+       p.first_ph3_year_sens - p.first_phased_year AS years_to_ph3_sens,
        p.first_ph2_year,
        p.first_ph3_year - p.first_ph2_year AS years_ph2_to_ph3,              -- side column (4 Nov measure)
        p.ph3_trials, p.ph3_industry, p.ph3_active, p.ph3_completed, p.ph3_stopped, p.ph3_unknown,

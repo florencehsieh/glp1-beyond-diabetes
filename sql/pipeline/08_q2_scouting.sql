@@ -1,5 +1,5 @@
 -- sql/pipeline/08_q2_scouting.sql  (Phase 4, Q2 add-on: scouting label, 12 Nov)
--- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/pipeline/05).
+-- Needs glp1.trials, glp1.trial_indications, glp1.q2_white_space (sql/pipeline/05), glp1.q2_watchlist (sql/pipeline/06).
 -- Window 2023-2025, like Q2. Watchlist rows left out since 14 Nov (the watchlist counts 2023-2026, sql/pipeline/06).
 -- Run from the repo root:  psql -d aact -f sql/pipeline/08_q2_scouting.sql
 -- Saves glp1.q2_scouting (one row per indication) and exports data/results/08_q2_scouting.csv.
@@ -87,6 +87,7 @@ FROM per p
 CROSS JOIN baseline b
 JOIN glp1.q2_white_space w USING (indication)
 LEFT JOIN breakdown bd USING (indication)
+WHERE p.indication NOT IN (SELECT indication FROM glp1.q2_watchlist WHERE on_watchlist)   -- 14 Nov (c); filter added 18 Nov (A05); baseline still uses all rows
 ORDER BY (w.recent_trials < 5), p.academic_recent DESC, p.indication;
 
 \copy (SELECT * FROM glp1.q2_scouting) TO 'data/results/08_q2_scouting.csv' WITH (FORMAT csv, HEADER)
