@@ -1,5 +1,5 @@
 indication,on_shortlist,on_watchlist,trials_all_years,first_trial_year,first_phased_year,first_ph3_year,years_to_ph3,first_ph3_trial,first_ph3_lead,years_to_ph3_sens,first_ph2_year,years_ph2_to_ph3,ph3_trials,ph3_industry,ph3_active,ph3_completed,ph3_stopped,ph3_unknown,ph2_3_trials,ph2_trials,ph2_completed,ph2_completed_with_results,ph2_stopped,stopped_bad_news,stopped_good_news,stopped_noise,na_trials,ph4_trials,recent_ph2_plus,recent_phased,recent_ph2_plus_pct
-Antipsychotic-induced weight gain,f,f,17,2008,2013,2013,0,NCT01794429,academic-led,0,2013,0,3,0,1,2,0,0,0,6,2,1,0,0,0,0,3,5,2,2,100
+Antipsychotic-induced weight gain,f,f,14,2008,2013,2013,0,NCT01794429,academic-led,0,2013,0,2,0,1,1,0,0,0,4,2,1,0,0,0,0,3,5,0,0,
 ASCVD,f,f,43,2008,2009,2009,0,NCT01254123,academic-led,0,2014,-5,16,10,8,6,0,2,0,2,1,0,0,0,0,0,7,17,6,6,100
 Atrial fibrillation,f,t,12,2019,2025,2025,0,NCT06499857,academic-led,0,2025,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,3,7,2,2,100
 Binge eating disorder,f,f,3,2012,2017,2017,0,NCT03279731,academic-led,0,2025,-8,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,1,100
@@ -33,6 +33,7 @@ MASLD,f,f,71,2006,2006,2021,15,NCT04822181,industry-led,0,2006,15,7,7,6,1,0,0,2,
 Alcohol-related liver disease,f,f,3,2024,2024,,,,,,2024,,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,2,2,100
 Alopecia (CCCA),f,f,1,2026,2026,,,,,,2026,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
 Asthma,f,f,1,2025,2025,,,,,,2025,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,100
+Bipolar disorder,f,f,1,2025,2025,,,,,,2025,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,100
 Breast cancer,f,t,6,2024,2024,,,,,,2024,,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,2,2,100
 Cancer therapy-induced metabolic toxicity,f,t,3,2025,2025,,,,,,2025,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,100
 Cerebral small vessel disease,f,f,1,2022,2022,,,,,,2022,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,

@@ -360,3 +360,4 @@ NCT07830329,Hidradenitis suppurativa,"keyword pass 03c v3 (18 Nov, sanity check 
 NCT06595797,PCOS,"keyword pass 03c v3 (18 Nov, sanity check C01): HRS9531 Ph2 in obese PCOS; primary = weight (weight loss in a disease population rule); industry-led (C02)"
 NCT01250834,Drug study,"recall fix (18 Nov, sanity check C06): dulaglutide (LY2189265) effect on atorvastatin PK in healthy volunteers, as the 03e rule (conditions say healthy)"
 NCT02641990,Drug study,"recall fix (18 Nov, sanity check C06): ITCA 650 crossover PK study in healthy premenopausal volunteers, as the 03e rule (conditions say healthy)"
+NCT07286175,Bipolar disorder,"bipolar MeSH rule fix (21 Nov): Lilly brenipatide relapse-prevention trial in bipolar disorder, primary outcome time to relapse; the Antipsychotic-induced weight gain label is removed in indication_removals.csv, so it needs its own"

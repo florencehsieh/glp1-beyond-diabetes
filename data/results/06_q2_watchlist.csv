@@ -6,9 +6,9 @@ Breast cancer,2,5,1,5,0,0,0,0,3,2,0,"PHASE2, PHASE4",t,t,t,t,t,t,4,4,0,t
 Methamphetamine use disorder,1,4,0,3,0,0,0,0,3,1,0,PHASE2,t,t,t,t,t,t,4,3,0,t
 Cancer therapy-induced metabolic toxicity,2,3,0,3,0,0,0,0,3,0,0,"PHASE1, PHASE2, PHASE4",t,t,t,t,t,t,3,3,0,t
 Cannabis use disorder,0,3,2,3,0,0,0,0,1,2,0,"PHASE2, PHASE3",t,t,t,t,t,t,3,3,0,t
-Antipsychotic-induced weight gain,4,7,1,6,2,0,0,0,6,1,1,"NA, PHASE2, PHASE3, PHASE4",t,t,f,t,t,f,7,6,2,f
 Smoking cessation,4,7,0,7,1,0,0,0,6,1,0,"NA, PHASE2, PHASE3, PHASE4",t,t,f,t,t,f,6,6,1,f
 Alzheimer's,3,5,0,5,1,0,3,0,3,2,0,"PHASE1/PHASE2, PHASE2, PHASE3",t,t,f,f,t,f,4,4,1,f
+Antipsychotic-induced weight gain,2,5,1,5,1,0,0,0,4,1,1,"NA, PHASE2, PHASE3, PHASE4",t,t,f,t,t,f,5,5,1,f
 Inflammatory bowel disease,4,5,0,4,2,2,0,0,4,1,0,"PHASE2, PHASE3, PHASE4",t,t,f,f,t,f,5,4,2,f
 Psoriasis,4,5,0,4,2,0,1,0,5,0,0,"PHASE3, PHASE4",t,t,f,f,t,f,4,3,2,f
 Opioid use disorder,2,4,0,4,1,0,0,0,4,0,0,PHASE2,t,t,f,t,t,f,4,4,1,f

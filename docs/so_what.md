@@ -257,13 +257,14 @@ Rows sorted: no approved drug first, then by how close the approved drugs come t
 ### Dropped after Review 11 (16 Nov)
 
 Review 11's recall fix found 4 Lilly Phase 2 trials of brenipatide (LY3537031, a GIP/GLP-1 agonist) that the
-old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (schizophrenia,
-tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse). Each row now has an industry-led
-trial, so it fails the "no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide
+old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (weight in
+schizophrenia, tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse; its own Bipolar
+disorder label since 21 Nov). Each of the three rows below now has an industry-led trial, so it fails the
+"no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide
 Phase 3 trials in alcohol use disorder (NCT07219966, NCT07219953) and major depressive disorder (NCT07412756,
 NCT07775300): a big sponsor is moving into psychiatry and addiction, which is a signal in itself.
 
-- **Antipsychotic-induced weight gain** (7 trials 2023–26, 2 industry-led): no approved drug; metformin used
+- **Antipsychotic-induced weight gain** (5 trials 2023–26, 1 industry-led): no approved drug; metformin used
   off-label (meta-analysis, 2016).
 - **Smoking cessation** (7, 1 industry-led): NRT, varenicline and bupropion approved; cytisinicline may follow
   in 2027 after the FDA's Jun 2026 refusal over manufacturing.
@@ -275,9 +276,10 @@ NCT07775300): a big sponsor is moving into psychiatry and addiction, which is a 
 Same as PCOS: patients, not market size; GBD only, so like for like; EU-27 has no uncertainty range. 1 of 7
 rows has no count. Upper-bound rows overstate the size of what the trials test. The EMA list covers central
 authorisations only: medicines authorised country by country (e.g. NRT, methadone, metformin, clomiphene)
-don't show. Some watchlist signals rest on planned 2026 starts. NCT07286175 (bipolar relapse) is tagged
-antipsychotic-induced weight gain by the bipolar MeSH rule, which is wrong; the row still drops on its other
-industry-led trial (NCT07410507).
+don't show. Some watchlist signals rest on planned 2026 starts. Fixed 21 Nov: the schizophrenia/bipolar
+MeSH rule had put 3 trials that measure no weight or metabolic outcome under antipsychotic-induced weight
+gain (NCT07286175 bipolar relapse, NCT06939088 drinking, NCT02423824 cognition); removed in
+`data/reference/indication_removals.csv`. The row still drops on its industry-led weight trial (NCT07410507).
 
 ### Sources
 
