@@ -1,4 +1,4 @@
--- sql/pipeline/11_hero_timeline.sql  (Phase 5: data for the hero chart, chart 1; 18 Nov)
+-- sql/pipeline/11_hero_timeline.sql  (Phase 5: data for the spread timeline, chart 2 (chart 1 until 21 Nov); 18 Nov)
 -- Needs glp1.trials (sql/pipeline/02) and glp1.trial_indications (sql/pipeline/03).
 -- Run from the repo root:  psql -d aact -f sql/pipeline/11_hero_timeline.sql
 -- Saves glp1.hero_timeline (one row per indication x start year) and exports
