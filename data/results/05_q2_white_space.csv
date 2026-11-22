@@ -10,7 +10,6 @@ Obstructive sleep apnoea,10,9,0,1,0,90.0,38.9,19.5,0,1,t,17,5,0,f,not white spac
 Hypertension,6,4,0,2,0,66.7,38.9,19.5,0,2,t,5,0,0,f,not white space,f,not white space,not white space,346.5,4,0
 Osteoarthritis,6,4,1,1,0,66.7,38.9,19.5,0,2,t,5,3,0,f,not white space,f,not white space,not white space,398.5,4,0
 Stroke,5,0,0,5,0,0.0,38.9,19.5,0,5,t,0,0,0,f,white space,t,white space,white space,380,5,0
-Antipsychotic-induced weight gain,4,1,0,3,0,25.0,38.9,19.5,3,3,f,0,0,0,f,too early to call,f,too early to call,too early to call,84,4,1
 Atrial fibrillation,4,0,0,4,0,0.0,38.9,19.5,1,4,t,0,0,0,f,too early to call,f,too early to call,too early to call,166,4,0
 Infertility,4,0,0,4,0,0.0,38.9,19.5,2,4,f,0,0,0,f,too early to call,f,too early to call,too early to call,169,4,2
 Inflammatory bowel disease,4,2,0,2,0,50.0,38.9,19.5,2,2,f,2,0,0,f,too early to call,f,too early to call,too early to call,175,3,0
@@ -18,6 +17,7 @@ Psoriasis,4,2,0,2,0,50.0,38.9,19.5,0,2,t,0,1,0,f,too early to call,f,too early t
 Smoking cessation,4,1,0,3,0,25.0,38.9,19.5,2,3,f,0,0,0,f,too early to call,f,too early to call,too early to call,121.5,4,0
 Alzheimer's,3,1,0,2,0,33.3,38.9,19.5,0,2,t,0,3,0,f,too early to call,f,too early to call,too early to call,60,3,0
 Alcohol-related liver disease,2,2,0,0,0,100.0,38.9,19.5,0,0,f,0,0,0,f,too early to call,f,too early to call,too early to call,195.5,2,0
+Antipsychotic-induced weight gain,2,0,0,2,0,0.0,38.9,19.5,3,2,f,0,0,0,f,too early to call,f,too early to call,too early to call,40,2,1
 Breast cancer,2,0,0,2,0,0.0,38.9,19.5,0,2,t,0,0,0,f,too early to call,f,too early to call,too early to call,44,2,0
 Cancer therapy-induced metabolic toxicity,2,0,0,2,0,0.0,38.9,19.5,0,2,t,0,0,0,f,too early to call,f,too early to call,too early to call,40,2,0
 Opioid use disorder,2,0,0,2,0,0.0,38.9,19.5,1,2,f,0,0,0,f,too early to call,f,too early to call,too early to call,123,2,0
@@ -25,6 +25,7 @@ Osteoporosis,2,0,0,2,0,0.0,38.9,19.5,1,2,f,0,0,0,f,too early to call,f,too early
 Psoriatic arthritis,2,2,0,0,0,100.0,38.9,19.5,0,0,f,0,1,0,f,too early to call,f,too early to call,too early to call,239.5,1,0
 Asthma,1,1,0,0,0,100.0,38.9,19.5,0,0,f,0,0,0,f,too early to call,f,too early to call,too early to call,531,1,0
 Binge eating disorder,1,0,1,0,0,0.0,38.9,19.5,0,1,t,0,0,0,f,too early to call,f,too early to call,too early to call,105,1,0
+Bipolar disorder,1,1,0,0,0,100.0,38.9,19.5,0,0,f,0,0,0,f,too early to call,f,too early to call,too early to call,400,1,0
 Chemotherapy toxicity,1,0,1,0,0,0.0,38.9,19.5,0,1,t,0,0,0,f,too early to call,f,too early to call,too early to call,40,1,0
 Cocaine use disorder,1,0,0,1,0,0.0,38.9,19.5,1,1,f,0,0,0,f,too early to call,f,too early to call,too early to call,40,1,0
 Cognitive impairment in diabetes,1,0,0,1,0,0.0,38.9,19.5,1,1,f,0,0,0,f,too early to call,f,too early to call,too early to call,420,1,0

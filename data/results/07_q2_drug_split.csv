@@ -7,9 +7,9 @@ Alcohol use disorder,7,0,7,0,0,0,100,not white space
 Heart failure,6,0,5,0,1,1,100,not white space
 ASCVD,5,0,5,0,0,1,100,not white space
 Stroke,5,0,5,0,0,0,100,white space
-Antipsychotic-induced weight gain,3,0,3,0,0,0,100,too early to call
 Smoking cessation,3,0,2,0,1,0,100,too early to call
 Alzheimer's,2,0,2,0,0,0,100,too early to call
+Antipsychotic-induced weight gain,2,0,2,0,0,0,100,too early to call
 Hypertension,2,0,1,0,1,0,100,not white space
 Inflammatory bowel disease,2,0,2,0,0,0,100,too early to call
 Opioid use disorder,2,0,2,0,0,0,100,too early to call

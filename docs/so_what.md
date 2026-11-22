@@ -106,6 +106,101 @@ uncertainty range, because summing 27 ranges isn't valid. Trial counts come from
   may be considered as in general-population guidelines. Evidence rated low to moderate quality.
   ([Guideline summary, Monash](https://assets.monashivf.com/assets/Summary-International-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome-2023.pdf))
 
+## Stroke
+
+Lean version of the PCOS section (decided 21 Nov: same 5 parts, shorter; stroke is the thinner lead).
+**Patients are counted as incidence, not prevalence** (decided 21 Nov): the trials give a GLP-1 in the first
+days after a stroke, so the market is new strokes per year, not people living after one. This doesn't
+compare like for like with PCOS's prevalence.
+
+**The line:** About 390,000 new ischemic strokes a year in the US and 700,000 in the EU-27 (GBD 2023). No drug
+is approved in the US or EU to protect the brain after a stroke, only to dissolve or remove the clot. No
+company has ever led a GLP-1 stroke trial; universities now run 2 Phase 3s in China. But both finished
+Phase 2s missed their main goal, so the case rests on subgroup signals.
+
+### 1. How many patients
+
+GBD 2023 puts new ischemic strokes (incidence, all ages, both sexes) at 388,155 a year in the US (range
+354,280–425,615), 703,915 in the EU-27 and 66,322 in the UK. Rates per 100,000: US 115.7, EU-27 155.1, UK
+95.9; these are crude all-age rates, so the EU-27's higher rate likely reflects its older population. The EU-27 figure is the sum of the 27 countries
+(rate = summed number ÷ summed population, as for PCOS). This is an upper bound: 3 of the 4 acute trials
+enrol only large-vessel strokes treated by clot removal (thrombectomy). A US estimate puts large-vessel
+occlusions at 77,569 a year (95% CI 65,835–91,091, 2015 population; Rai et al. 2017), about 1 in 5 of
+GBD's US count, and only 10,284 thrombectomies were done in 2015. Thrombectomy has grown since; no current
+US or EU total was found.
+
+### 2. Is it big enough?
+
+- **Floor:** far above any rare-disease line (that line is set on prevalence, so this is a rough check).
+- **The real market is the subgroup:** roughly 78,000 large-vessel strokes a year in the US, fewer of them
+  treated by thrombectomy. That is small next to PCOS's 5 M women, but an acute drug is given to every
+  eligible patient, in hospital, at a high price per case.
+- **Takeaway:** size is not the problem; evidence is (part 4).
+- **Caveat:** no benchmarks pulled for incidence; PCOS's benchmarks are prevalence and don't apply.
+
+### 3. Existing treatment
+
+Approved for acute ischemic stroke, US and EU: only drugs that dissolve the clot. FDA: alteplase (Activase)
+and tenecteplase (TNKase, approved Mar 2025, the first new stroke drug in about 30 years). EMA: tenecteplase
+(Metalyse; stroke indication within 4.5 h, CHMP opinion Dec 2023, now in the authorised indication); alteplase is authorised nationally, so it doesn't
+appear in the EMA list. Clot removal (thrombectomy) is a device procedure, not a drug. Other labels that
+name stroke are for preventing the next one (clopidogrel, ticagrelor; asundexian, FDA Nov 2026).
+
+**No brain-protection (neuroprotective) drug is approved by the FDA or EMA.** A GLP-1 would sit on top of
+clot removal, not compete with it. The closest rival: edaravone dexborneol (Sanbexin, Simcere), approved in
+China in 2020 and given FDA breakthrough designation in 2024. It matters here because both GLP-1 Phase 3s
+are in China, where it is already on the market.
+
+### 4. What the trial data adds
+
+Stroke is the thinner of Q2's two white spaces: 5 trials started 2023–2025, 5 different lead sponsors, 0
+industry, and no company has led a GLP-1 stroke trial in any year (12 trials since 2016). It fails the strict
+arm rule (3 trials, too early to call), so it is a weaker finding than PCOS.
+
+The evidence so far is negative on the main goal:
+- **TEXAIS** (exenatide, Australia, NCT03287076, Phase 2, 350 patients): no benefit on neurological recovery
+  at 7 days (61.2% vs 56.7%, p = .38); it did lower blood sugar safely (*Stroke*, Dec 2023).
+- **GALLOP** (semaglutide after clot removal, CUHK, NCT05920889, Phase 2, 140 patients): no benefit on
+  90-day recovery (56.5% vs 54.9%); a signal only in patients not given a clot-buster, a subgroup
+  (*Nature Communications*, Dec 2025).
+
+The two Phase 3s (NCT06788626, 390 patients; NCT07030621, 436 patients, both after clot removal in China,
+both not yet recruiting) follow those signals. Three more academic trials are planned for 2026, including
+tirzepatide after clot removal (NCT07734792, Phase 2/3).
+
+### 5. Limitations
+
+Patients, not market size. The incidence count covers all ischemic strokes, much more than the trials'
+subgroup. The large-vessel figure is a 2015-based US model; no EU equivalent. Two older trials in the Stroke
+row look like they break the stroke split and should be checked: NCT03948347 (2019, new strokes at 90 days,
+closer to prevention) and NCT02673931 (2016, organ protection in heart surgery). Both started before 2023, so
+the verdict doesn't change. Trial counts come from the AACT snapshot of 3 Nov 2026.
+
+### Sources
+
+- GBD 2023 Results tool (IHME), downloaded 21 Nov 2026, incidence, ischemic stroke, all ages, both sexes,
+  2023, Number and Rate, US + UK + EU-27 countries:
+  `data/external/gbd/gbd_ischemic_stroke_incidence_2023_eu27_uk_us_2026-11-21.csv`
+- Rai AT, et al. A population-based incidence of acute large vessel occlusions and thrombectomy eligible
+  patients indicates significant potential for growth of endovascular stroke therapy in the USA.
+  *J NeuroIntervent Surg* 2017;9(8):722–726. [PMC5583675](https://pmc.ncbi.nlm.nih.gov/articles/PMC5583675)
+- openFDA drug label search, run 21 Nov 2026: `indications_and_usage:"acute ischemic stroke"` → 40 labels:
+  ticagrelor (38, prevention), Activase (alteplase), TNKase (tenecteplase); no neuroprotectant
+- EMA medicines list (JSON report), downloaded 21 Nov 2026, 1,568 authorised human medicines, regex on
+  therapeutic indication (ischaemic/acute stroke, cerebral infarct, neuroprotect): Metalyse (acute
+  treatment) and 14 clopidogrel products (prevention); no neuroprotectant
+- FDA approval of TNKase for acute ischemic stroke, 3 Mar 2025:
+  [NeurologyLive](https://www.neurologylive.com/view/fda-approves-tenecteplase-acute-ischemic-stroke)
+- [Metalyse EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/metalyse) (stroke indication)
+- Asundexian approval, Nov 2026: [AJMC](https://www.ajmc.com/view/fda-approves-asundexian-first-fxia-inhibitor-to-prevent-repeat-stroke)
+- No FDA-approved neuroprotectant: [Endovascular Today, Jun 2025](https://evtoday.com/articles/2025-june/neuroprotection-where-do-we-stand)
+- Sanbexin: [NMPA approval of sublingual tablets, Simcere, Nov 2024](https://www.biospace.com/press-releases/china-nmpa-approves-simceres-sanbexin-sublingual-tablets-for-the-treatment-of-acute-ischemic-stroke)
+  (injection approved 2020, per Simcere); [FDA breakthrough designation, Sep 2024](https://neurologylive.com/view/fda-grants-breakthrough-therapy-designation-edaravone-dexborneol-combination-therapy-ais)
+- TEXAIS: Management of poststroke hyperglycemia: results of the TEXAIS randomized clinical trial.
+  *Stroke* 2023. [Griffith repository](https://research-repository.griffith.edu.au/items/070735c0-279f-4520-ac26-50c168123778)
+- GALLOP: Nature Communications 2025, [doi:10.1038/s41467-025-66167-z](https://doi.org/10.1038/s41467-025-66167-z);
+  [PMC12717234](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12717234/)
+
 ## Watchlist
 
 **The line:** 3 of the 7 watchlist indications have no approved drug at all: methamphetamine use disorder,
@@ -162,13 +257,14 @@ Rows sorted: no approved drug first, then by how close the approved drugs come t
 ### Dropped after Review 11 (16 Nov)
 
 Review 11's recall fix found 4 Lilly Phase 2 trials of brenipatide (LY3537031, a GIP/GLP-1 agonist) that the
-old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (schizophrenia,
-tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse). Each row now has an industry-led
-trial, so it fails the "no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide
+old name list missed: NCT07223840 (smoking), NCT07420283 (opioid use disorder), NCT07410507 (weight in
+schizophrenia, tagged antipsychotic-induced weight gain) and NCT07286175 (bipolar relapse; its own Bipolar
+disorder label since 21 Nov). Each of the three rows below now has an industry-led trial, so it fails the
+"no industry" test (`data/results/06_q2_watchlist.csv`). Lilly also runs brenipatide
 Phase 3 trials in alcohol use disorder (NCT07219966, NCT07219953) and major depressive disorder (NCT07412756,
 NCT07775300): a big sponsor is moving into psychiatry and addiction, which is a signal in itself.
 
-- **Antipsychotic-induced weight gain** (7 trials 2023–26, 2 industry-led): no approved drug; metformin used
+- **Antipsychotic-induced weight gain** (5 trials 2023–26, 1 industry-led): no approved drug; metformin used
   off-label (meta-analysis, 2016).
 - **Smoking cessation** (7, 1 industry-led): NRT, varenicline and bupropion approved; cytisinicline may follow
   in 2027 after the FDA's Jun 2026 refusal over manufacturing.
@@ -180,9 +276,10 @@ NCT07775300): a big sponsor is moving into psychiatry and addiction, which is a 
 Same as PCOS: patients, not market size; GBD only, so like for like; EU-27 has no uncertainty range. 1 of 7
 rows has no count. Upper-bound rows overstate the size of what the trials test. The EMA list covers central
 authorisations only: medicines authorised country by country (e.g. NRT, methadone, metformin, clomiphene)
-don't show. Some watchlist signals rest on planned 2026 starts. NCT07286175 (bipolar relapse) is tagged
-antipsychotic-induced weight gain by the bipolar MeSH rule, which is wrong; the row still drops on its other
-industry-led trial (NCT07410507).
+don't show. Some watchlist signals rest on planned 2026 starts. Fixed 21 Nov: the schizophrenia/bipolar
+MeSH rule had put 3 trials that measure no weight or metabolic outcome under antipsychotic-induced weight
+gain (NCT07286175 bipolar relapse, NCT06939088 drinking, NCT02423824 cognition); removed in
+`data/reference/indication_removals.csv`. The row still drops on its industry-led weight trial (NCT07410507).
 
 ### Sources
 

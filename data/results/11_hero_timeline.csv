@@ -23,12 +23,11 @@ Alzheimer's,2026,2,1,t,f
 Antipsychotic-induced weight gain,2008,1,0,f,t
 Antipsychotic-induced weight gain,2013,2,0,f,f
 Antipsychotic-induced weight gain,2014,1,0,f,f
-Antipsychotic-induced weight gain,2015,1,0,f,f
 Antipsychotic-induced weight gain,2017,1,0,f,f
 Antipsychotic-induced weight gain,2021,1,0,f,f
 Antipsychotic-induced weight gain,2022,2,0,f,f
 Antipsychotic-induced weight gain,2023,1,0,f,f
-Antipsychotic-induced weight gain,2025,3,0,f,f
+Antipsychotic-induced weight gain,2025,1,0,f,f
 Antipsychotic-induced weight gain,2026,3,1,t,f
 ASCVD,2008,1,0,f,t
 ASCVD,2009,3,0,f,f
@@ -58,6 +57,7 @@ Bile acid malabsorption,2019,1,0,f,t
 Binge eating disorder,2012,1,0,f,t
 Binge eating disorder,2017,1,0,f,f
 Binge eating disorder,2025,1,0,f,f
+Bipolar disorder,2025,1,0,f,t
 Breast cancer,2024,2,0,f,t
 Breast cancer,2026,3,2,t,f
 Cancer therapy-induced metabolic toxicity,2025,2,0,f,t
