@@ -53,17 +53,14 @@ loosen the bar, and when I drop the 4 trials with unknown status.
 
 ### Stroke is the thinner lead
 
-<!-- DRAFT (22 Nov, not yet approved). Open: is "a stricter count of which trials really test a GLP-1"
-     an accurate plain version of the strict arm rule? Patient numbers (incidence, ~390,000 US/yr) go
-     in Recommendations, not here.
+<!-- Patient numbers (incidence, ~390,000 US/yr) go in Recommendations, not here. -->
 
 All 5 stroke trials started in 2023–2025 are doctor-led, by 5 different sponsors, and no company has led
-a GLP-1 stroke trial in any year (12 trials since 2016). The trials give a GLP-1 in the first days after
-a stroke, mostly to protect the brain after clot removal, and no drug is approved in the US or EU to do
-that. But the case is thinner than PCOS: the two finished Phase 2s both missed their main goal, the two
-Phase 3s (both in China) chase a subgroup signal, and with a stricter count of which trials really test
-a GLP-1 it drops to 3 trials, *too early to call*.
--->
+a GLP-1 stroke trial in any year (12 trials since 2016). Most give a GLP-1 in the first days after a
+stroke, to protect the brain after clot removal, and no drug is approved in the US or EU to do that. But
+the case is thinner than PCOS. The two finished Phase 2s both missed their main goal, and the two Phase 3s
+(both in China) chase a subgroup signal. If I count only trials that label the GLP-1 arm "experimental" in
+the registry, a stricter check, it drops to 3 trials, *too early to call*.
 
 ### Brenipatide and the watchlist
 
