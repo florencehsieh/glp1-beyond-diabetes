@@ -89,7 +89,7 @@ a GLP-1 it drops to 3 trials, *too early to call*.
 - PCOS: size isn't why industry stays out; no approved drug; possible route via a dual endpoint
   (ovulation + weight), like Lilly's psoriasis/IBD trials
 - Stroke: a lead to watch, not yet to act on
-- The 9 entered areas: don't chase them thinking you're early —>
+- The 9 entered areas: don't chase them thinking you're early -->
 
 <details>
 <summary><b>Key queries</b></summary>
