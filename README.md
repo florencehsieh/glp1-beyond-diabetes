@@ -53,22 +53,42 @@ loosen the bar, and when I drop the 4 trials with unknown status.
 
 ### Stroke is the thinner lead
 
-<!-- DRAFT (22 Nov, not yet approved). Open: is "a stricter count of which trials really test a GLP-1"
-     an accurate plain version of the strict arm rule? Patient numbers (incidence, ~390,000 US/yr) go
-     in Recommendations, not here.
-
 All 5 stroke trials started in 2023–2025 are doctor-led, by 5 different sponsors, and no company has led
 a GLP-1 stroke trial in any year (12 trials since 2016). The trials give a GLP-1 in the first days after
 a stroke, mostly to protect the brain after clot removal, and no drug is approved in the US or EU to do
 that. But the case is thinner than PCOS: the two finished Phase 2s both missed their main goal, the two
-Phase 3s (both in China) chase a subgroup signal, and with a stricter count of which trials really test
-a GLP-1 it drops to 3 trials, *too early to call*.
--->
+Phase 3s (both in China) chase a subgroup signal, and if I count only trials where the GLP-1 sits in an
+arm labelled experimental, it drops to 3 trials, *too early to call*.
 
 ### Brenipatide and the watchlist
 
-<!-- TODO: the recall check found Lilly's brenipatide trials, and the watchlist dropped from 10 to 7.
-     Short watchlist table: data/results/06_q2_watchlist.csv -->
+<!-- DRAFT (23 Nov, not yet approved) -->
+
+The next openings are early, and one company is already moving into them. Since October 2025, Lilly has
+started 12 trials of brenipatide, its new GIP/GLP-1 drug, in 9 diseases outside diabetes and obesity:
+addiction (alcohol, opioids, smoking), mental health (depression, bipolar disorder, weight gain from
+antipsychotics), asthma, COPD and IBS. Four are already Phase 3: two in alcohol use disorder and two in
+depression. Brenipatide is registered mostly under its code (LY3537031), so my first trial list missed
+it; finding it closed three of the ten early signals below.
+
+The watchlist holds diseases too small for the white-space test (under 5 trial starts in 2023–2025) but
+with at least 3 trial starts in 2023–2026, 3 or more different lead sponsors, and no company-led trial.
+These are early signals, not recommendations: there is no growth test, and some rest on trials that are
+planned but not yet started.
+
+| Disease | Trials 2023–26 | Lead sponsors | Of which planned |
+|---|---:|---:|---:|
+| Atrial fibrillation | 10 | 9 | 6 |
+| Endometrial cancer and atypical hyperplasia | 8 | 8 | 4 |
+| Infertility | 7 | 7 | 3 |
+| Breast cancer | 5 | 5 | 2 |
+| Methamphetamine use disorder | 4 | 3 | 1 |
+| Cancer therapy-induced metabolic toxicity | 3 | 3 | 0 |
+| Cannabis use disorder | 3 | 3 | 2 |
+
+Three of the seven have no approved drug in the US or EU (methamphetamine use disorder, cannabis use
+disorder, cancer therapy-induced metabolic toxicity). Endometrial cancer has none for the
+fertility-sparing treatment its trials test.
 
 ### Q3: how fast each area reaches Phase 3
 
