@@ -92,8 +92,32 @@ fertility-sparing treatment its trials test.
 
 ### Q3: how fast each area reaches Phase 3
 
-<!-- TODO: small table from data/results/10_q3_momentum.csv (shortlist + watchlist rows).
-     Chart 3 is deferred. -->
+<!-- DRAFT (23 Nov, not yet approved). Chart 3 is deferred; this table stands in for it. -->
+
+Reaching Phase 3 shows how far a disease has come, but not that the drug works there: Alzheimer's and
+Parkinson's both reached Phase 3 and failed. So the table also shows where each Phase 3 stands.
+
+| Disease | First phased trial | First Phase 3 | Years to Phase 3 | Phase 3s: active / completed / unknown |
+|---|---:|---|---:|---|
+| **PCOS** | 2014 | 2016, doctor-led | 2 | 5: 1 / 3 / 1 |
+| **Stroke** | 2016 | 2025, doctor-led | 9 | 2: 2 / 0 / 0 |
+| Atrial fibrillation | 2025 | 2025, doctor-led | 0 | 1: 1 / 0 / 0 |
+| Infertility | 2020 | 2020, doctor-led | 0 | 3: 1 / 1 / 1 |
+| Cannabis use disorder | 2026 | 2026, doctor-led | 0 | 1: 1 / 0 / 0 |
+| Endometrial cancer and atypical hyperplasia | 2022 | none yet | – | – |
+| Breast cancer | 2024 | none yet | – | – |
+| Methamphetamine use disorder | 2025 | none yet | – | – |
+| Cancer therapy-induced metabolic toxicity | 2025 | none yet | – | – |
+
+*Bold: the two white spaces; the rest are the watchlist. "First phased trial" leaves out trials
+labelled NA or Phase 4. Only a pure Phase 3 counts as Phase 3, not Phase 2/3. No Phase 3 in this
+table has stopped.*
+
+PCOS moved fastest: a Phase 3 two years after its first phased trial, and of the three completed,
+the two with results both met their main goal (small, and from one research group). Stroke took nine
+years, and both its Phase 3s are still running. In the watchlist, a 0 means a Phase 3 started in the
+same year as the first phased trial, which happens when doctors test an approved GLP-1 straight in a
+new disease; it doesn't mean the disease is far along. Four of the seven have no Phase 3 yet.
 
 ## Limitations
 
