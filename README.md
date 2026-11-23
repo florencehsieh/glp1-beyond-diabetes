@@ -121,11 +121,27 @@ new disease; it doesn't mean the disease is far along. Four of the seven have no
 
 ## Limitations
 
-<!-- TODO:
-- A registry isn't a pipeline: unregistered programmes and other registries are missing
-- Patient counts aren't market sizing (GBD only, no price or uptake)
-- Stroke rests on 5 trials; each "being scouted" label rests on one trial
-- Single AACT snapshot (3 Nov 2026); 2026 starts are partial -->
+<!-- DRAFT (23 Nov, not yet approved) -->
+
+- **A registry isn't a pipeline.** ClinicalTrials.gov only shows what sponsors register there.
+  Programmes that haven't reached the clinic yet are missing, and so are trials registered only in other
+  registries, such as China's ChiCTR. Many new GLP-1 makers are Chinese, so a disease can look open
+  when a company is already working in it.
+- **Drugs known only by a code can be missed.** I found GLP-1s by name, code and WHO drug-name lists,
+  but a new drug with no GLP-1 wording in its record can still slip through. Lilly's brenipatide did
+  until the recall check. About 380 codes used by one trial each weren't reviewed, and 11 codes stay
+  unclear (no public source says how they work).
+- **Small numbers.** Stroke rests on 5 recent trials, and on 3 under the strict arm rule. The
+  watchlist rows rest on 3 to 10, some only planned.
+- **Disease labels are judgement calls.** They come from registry tags, a title keyword search and
+  hand review. The full mapping is in [`data/reference/`](data/reference/) so you can check it.
+- **Patient numbers aren't market size.** They come from one source (GBD 2023) so they compare like
+  for like, but they run below clinical estimates (PCOS: about 3% of women, against the 6–13% that
+  clinicians quote) and say nothing about price or uptake.
+- **One snapshot.** AACT on 3 Nov 2026. Doctor-led trials are often registered late, so recent years
+  undercount them, and 2026 is a partial year.
+
+Every rule, the options I weighed and what each costs: [`docs/decisions.md`](docs/decisions.md).
 
 ## Recommendations for a BD team
 
